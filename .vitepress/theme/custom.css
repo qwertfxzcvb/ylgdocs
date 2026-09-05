@@ -1,0 +1,460 @@
+/* ===========================================================
+   YLG Docs — Apple Liquid Glass Design System
+   =========================================================== */
+
+/* ---------- 0. 基础 & 全局 ---------- */
+:root {
+  /* 玻璃色 */
+  --glass-bg: rgba(255, 255, 255, 0.55);
+  --glass-bg-hover: rgba(255, 255, 255, 0.72);
+  --glass-border: rgba(255, 255, 255, 0.65);
+  --glass-border-hover: rgba(255, 255, 255, 0.9);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.06);
+  --glass-shadow-hover: 0 20px 60px rgba(0, 0, 0, 0.12);
+  --glass-blur: blur(28px) saturate(180%) brightness(1.06);
+
+  /* 正文内容区描边（代码块 / 表格等，白底上需要偏深的线才看得见） */
+  --content-border: rgba(0, 0, 0, 0.1);
+  --content-border-strong: rgba(0, 0, 0, 0.16);
+
+  /* Apple 弹簧曲线 */
+  --spring: cubic-bezier(0.22, 1, 0.36, 1);
+  --spring-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* 基础色 */
+  --accent-glow: rgba(66, 133, 244, 0.25);
+}
+
+.dark {
+  --glass-bg: rgba(30, 30, 30, 0.55);
+  --glass-bg-hover: rgba(40, 40, 40, 0.72);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-border-hover: rgba(255, 255, 255, 0.16);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  --glass-shadow-hover: 0 20px 60px rgba(0, 0, 0, 0.45);
+  --glass-blur: blur(28px) saturate(160%) brightness(0.95);
+  --content-border: rgba(255, 255, 255, 0.12);
+  --content-border-strong: rgba(255, 255, 255, 0.2);
+  --accent-glow: rgba(100, 160, 255, 0.18);
+}
+
+/* 丝滑滚动 */
+* {
+  scroll-behavior: smooth;
+}
+
+html {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ---------- 1. Nav 导航栏 ---------- */
+.VPNav,
+.VPNavBar,
+.VPNavBar .container {
+  background: var(--glass-bg) !important;
+  backdrop-filter: var(--glass-blur) !important;
+  -webkit-backdrop-filter: var(--glass-blur) !important;
+  border-bottom: 1px solid var(--glass-border) !important;
+  background-image: none !important;
+  box-shadow: 0 1px 24px rgba(0, 0, 0, 0.05) !important;
+  transition: background 0.5s var(--spring), box-shadow 0.5s var(--spring) !important;
+}
+
+/* Nav 链接悬浮微动 */
+.VPNavBarMenuLink .VPLink,
+.VPNavBarMenuGroup .text {
+  transition: color 0.3s var(--spring), opacity 0.3s var(--spring) !important;
+  position: relative;
+}
+
+.VPNavBarMenuLink .VPLink::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--vp-c-brand-1);
+  border-radius: 1px;
+  transition: width 0.35s var(--spring), left 0.35s var(--spring);
+}
+
+.VPNavBarMenuLink .VPLink:hover::after {
+  width: 60%;
+  left: 20%;
+}
+
+/* ---------- 2. Hero 主视觉区 ---------- */
+.VPHero .name,
+.VPHero .text,
+.VPHero .tagline {
+  animation: heroFadeUp 0.9s var(--spring) both !important;
+}
+
+.VPHero .text {
+  animation-delay: 0.08s !important;
+}
+
+.VPHero .tagline {
+  animation-delay: 0.16s !important;
+}
+
+.VPHero .actions {
+  animation: heroFadeUp 0.9s var(--spring) 0.24s both !important;
+}
+
+@keyframes heroFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Logo 呼吸光晕 + 悬浮效果 */
+.VPHero .image-container {
+  animation: heroFadeUp 1s var(--spring) 0.1s both !important;
+}
+
+.VPHero .image-src {
+  border-radius: 24px !important;
+  filter: drop-shadow(0 0 40px var(--accent-glow));
+  animation: breatheGlow 4s ease-in-out infinite alternate !important;
+  transition: transform 0.6s var(--spring), filter 0.6s var(--spring) !important;
+}
+
+@keyframes breatheGlow {
+  0% {
+    filter: drop-shadow(0 0 30px var(--accent-glow));
+  }
+
+  100% {
+    filter: drop-shadow(0 0 55px var(--accent-glow));
+  }
+}
+
+/* ---------- 3. 按钮 ---------- */
+.VPButton {
+  border-radius: 14px !important;
+  position: relative;
+  overflow: hidden;
+  transition:
+    transform 0.4s var(--spring-bounce),
+    box-shadow 0.4s var(--spring),
+    background 0.35s var(--spring) !important;
+}
+
+.VPButton::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at var(--x, 50%) var(--y, 50%), rgba(255, 255, 255, 0.25), transparent 60%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.VPButton:hover {
+  transform: translateY(-3px) scale(1.04) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.14) !important;
+}
+
+.VPButton:hover::before {
+  opacity: 1;
+}
+
+.VPButton:active {
+  transform: translateY(0) scale(0.98) !important;
+  transition-duration: 0.1s !important;
+}
+
+/* ---------- 4. Feature 卡片 ---------- */
+.VPFeatures .VPFeature {
+  background: var(--glass-bg) !important;
+  backdrop-filter: var(--glass-blur) !important;
+  -webkit-backdrop-filter: var(--glass-blur) !important;
+  border: 1px solid var(--glass-border) !important;
+  border-radius: 22px !important;
+  box-shadow: var(--glass-shadow) !important;
+  animation: cardReveal 0.8s var(--spring) both !important;
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.5s var(--spring), background 0.5s var(--spring), border-color 0.5s var(--spring) !important;
+}
+
+/* hover transform 放在 .box 上避免与 cardReveal 动画冲突 */
+.VPFeatures .VPFeature .box {
+  transition: transform 0.5s var(--spring) !important;
+}
+
+/* 彩虹折射边框 */
+.VPFeatures .VPFeature::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.1) 40%,
+      rgba(200, 220, 255, 0.2) 60%,
+      rgba(255, 255, 255, 0.4));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.5s var(--spring);
+}
+
+/* 交错入场 */
+.VPFeatures .VPFeature:nth-child(1) {
+  animation-delay: 0.05s !important;
+}
+
+.VPFeatures .VPFeature:nth-child(2) {
+  animation-delay: 0.12s !important;
+}
+
+.VPFeatures .VPFeature:nth-child(3) {
+  animation-delay: 0.19s !important;
+}
+
+.VPFeatures .VPFeature:nth-child(4) {
+  animation-delay: 0.26s !important;
+}
+
+.VPFeatures .VPFeature:nth-child(5) {
+  animation-delay: 0.33s !important;
+}
+
+.VPFeatures .VPFeature:nth-child(6) {
+  animation-delay: 0.40s !important;
+}
+
+@keyframes cardReveal {
+  from {
+    opacity: 0;
+    transform: translateY(36px) scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.VPFeatures .VPFeature:hover {
+  box-shadow: var(--glass-shadow-hover) !important;
+  background: var(--glass-bg-hover) !important;
+  border-color: var(--glass-border-hover) !important;
+}
+
+.VPFeatures .VPFeature:hover .box {
+  transform: translateY(-8px) scale(1.02) !important;
+}
+
+.VPFeatures .VPFeature:hover::before {
+  opacity: 1;
+}
+
+.VPFeatures .VPFeature:active .box {
+  transform: translateY(-2px) scale(0.99) !important;
+  transition-duration: 0.15s !important;
+}
+
+/* Feature 图标微弹 */
+.VPFeatures .VPFeature .icon {
+  transition: transform 0.45s var(--spring-bounce) !important;
+}
+
+.VPFeatures .VPFeature:hover .icon {
+  transform: scale(1.18) !important;
+}
+
+/* ---------- 5. Sidebar 侧边栏 ---------- */
+.VPSidebar {
+  background: var(--glass-bg) !important;
+  backdrop-filter: var(--glass-blur) !important;
+  -webkit-backdrop-filter: var(--glass-blur) !important;
+  border-right: 1px solid var(--glass-border) !important;
+  background-image: none !important;
+  transition: background 0.5s var(--spring) !important;
+}
+
+.VPSidebarItem .item .text,
+.VPSidebarItem .item .indicator {
+  transition: color 0.3s var(--spring), transform 0.3s var(--spring) !important;
+}
+
+.VPSidebarItem .item:hover .text {
+  transform: translateX(3px);
+}
+
+/* ---------- 6. Footer 页脚 ---------- */
+.VPFooter {
+  background: var(--glass-bg) !important;
+  backdrop-filter: var(--glass-blur) !important;
+  -webkit-backdrop-filter: var(--glass-blur) !important;
+  border-top: 1px solid var(--glass-border) !important;
+  background-image: none !important;
+  box-shadow: 0 -2px 24px rgba(0, 0, 0, 0.04) !important;
+  transition: background 0.5s var(--spring) !important;
+}
+
+/* ---------- 7. 内容区域 ---------- */
+/* 文档页面渐入 */
+.VPDoc .container {
+  animation: contentFadeIn 0.6s var(--spring) both !important;
+}
+
+@keyframes contentFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 代码块玻璃化 */
+.vp-doc div[class*='language-'] {
+  border-radius: 16px !important;
+  border: 1px solid var(--content-border) !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05) !important;
+  transition: box-shadow 0.4s var(--spring), border-color 0.4s var(--spring) !important;
+}
+
+.vp-doc div[class*='language-']:hover {
+  border-color: var(--content-border-strong) !important;
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.09) !important;
+}
+
+/* 行内代码描边，避免与正文糊成一片 */
+.vp-doc :not(pre) > code {
+  border: 1px solid var(--content-border) !important;
+}
+
+/* 表格玻璃化 */
+/* VitePress 默认 table 为 display:block，表格内容不足时单元格只占内容宽度，
+   而外层边框仍占满正文宽度，导致右侧出现大片空白。改为 display:table + 100% 宽度。 */
+.vp-doc table {
+  display: table !important;
+  width: 100% !important;
+  table-layout: auto;
+  border-radius: 14px !important;
+  overflow: hidden;
+  border: 1px solid var(--content-border) !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* 单元格内长内容自动换行，避免窄屏溢出 */
+.vp-doc table th,
+.vp-doc table td {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  vertical-align: middle;
+}
+
+/* 首列（一般是项目名/命令名）不换行，保持紧凑 */
+.vp-doc table td:first-child,
+.vp-doc table th:first-child {
+  white-space: nowrap;
+  width: 1%;
+}
+
+/* 命令类单元格整体不断行，列宽自动按最长命令撑开，剩余空间留给说明列 */
+.vp-doc table :not(pre) > code {
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .vp-doc table th,
+  .vp-doc table td {
+    padding: 8px 10px !important;
+  }
+
+  .vp-doc table td:first-child,
+  .vp-doc table th:first-child {
+    white-space: normal;
+    width: auto;
+  }
+
+  /* 窄屏优先保证不溢出，允许命令换行 */
+  .vp-doc table :not(pre) > code {
+    white-space: normal;
+  }
+}
+
+/* 自定义容器（tip / warning / danger 等）玻璃化 */
+.vp-doc .custom-block {
+  border-radius: 16px !important;
+  backdrop-filter: blur(12px) saturate(140%) !important;
+  -webkit-backdrop-filter: blur(12px) saturate(140%) !important;
+  transition: transform 0.4s var(--spring), box-shadow 0.4s var(--spring) !important;
+}
+
+.vp-doc .custom-block:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: var(--glass-shadow) !important;
+}
+
+/* ---------- 8. 搜索框 ---------- */
+.DocSearch-Button {
+  border-radius: 12px !important;
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid var(--glass-border) !important;
+  transition: box-shadow 0.35s var(--spring), border-color 0.35s var(--spring) !important;
+}
+
+.DocSearch-Button:hover {
+  box-shadow: var(--glass-shadow) !important;
+  border-color: var(--glass-border-hover) !important;
+}
+
+/* ---------- 9. 滚动条苹果化（Webkit） ---------- */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.28);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* ---------- 10. 选中高亮 ---------- */
+::selection {
+  background: rgba(66, 133, 244, 0.22);
+  color: inherit;
+}
+
+.dark ::selection {
+  background: rgba(100, 160, 255, 0.25);
+}
