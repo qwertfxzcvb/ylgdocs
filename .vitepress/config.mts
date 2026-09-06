@@ -85,27 +85,55 @@ export default defineConfig({
     commitActivity,
     //Moe-Counter
     counterUrl: 'https://count.ylg.net.cn/get/@ylg-docs?theme=rule34',
+    // Algolia DocSearch（apiKey 是只读的搜索密钥，可以公开）
     search: {
-      provider: 'local',
+      provider: 'algolia',
       options: {
+        appId: 'ZALX2ETUI6',
+        apiKey: '779d413e7c230441e1d2d00e59d07ab0',
+        indexName: 'YLG Documents',
+        placeholder: '搜索文档',
         translations: {
           button: {
             buttonText: '搜索文档',
             buttonAriaLabel: '搜索文档'
           },
           modal: {
-            displayDetails: '显示详细列表',
-            resetButtonTitle: '清除查询条件',
-            backButtonTitle: '关闭搜索',
-            noResultsText: '无法找到相关结果',
+            searchBox: {
+              clearButtonTitle: '清除查询条件',
+              clearButtonAriaLabel: '清除查询条件',
+              closeButtonText: '关闭',
+              closeButtonAriaLabel: '关闭',
+              placeholderText: '搜索文档',
+              searchInputLabel: '搜索'
+            },
+            startScreen: {
+              recentSearchesTitle: '搜索历史',
+              noRecentSearchesText: '没有搜索历史',
+              saveRecentSearchButtonTitle: '保存至搜索历史',
+              removeRecentSearchButtonTitle: '从搜索历史中移除',
+              favoriteSearchesTitle: '收藏',
+              removeFavoriteSearchButtonTitle: '从收藏中移除'
+            },
+            errorScreen: {
+              titleText: '无法获取结果',
+              helpText: '你可能需要检查你的网络连接'
+            },
+            noResultsScreen: {
+              noResultsText: '无法找到相关结果',
+              suggestedQueryText: '你可以尝试查询',
+              reportMissingResultsText: '你认为该查询应该有结果？',
+              reportMissingResultsLinkText: '点击反馈'
+            },
             footer: {
               selectText: '选择',
-              selectKeyAriaLabel: '回车',
+              selectKeyAriaLabel: '回车键',
               navigateText: '切换',
               navigateUpKeyAriaLabel: '上箭头',
               navigateDownKeyAriaLabel: '下箭头',
               closeText: '关闭',
-              closeKeyAriaLabel: 'esc'
+              closeKeyAriaLabel: 'Esc 键',
+              poweredByText: '搜索提供者'
             }
           }
         }
