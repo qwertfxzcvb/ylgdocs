@@ -38,11 +38,9 @@
   --accent-glow: rgba(100, 160, 255, 0.18);
 }
 
-/* 丝滑滚动 */
-* {
-  scroll-behavior: smooth;
-}
-
+/* 注意：这里不要加 scroll-behavior: smooth
+   它会和 VitePress 自己的滚动处理打架，导致页面滚不动、往下翻会被弹回顶部。
+   目录锚点跳转的平滑效果 VitePress 已经内置（outline.js 里用的 behavior: 'smooth'）。 */
 html {
   -webkit-overflow-scrolling: touch;
 }
