@@ -71,6 +71,7 @@ const commitActivity = getCommitActivity(docsDir)
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'zh-CN',
   lastUpdated: true,
   srcExclude: ['drafts/**', 'README.md'],
   title: "YLG 文档",
@@ -82,14 +83,70 @@ export default defineConfig({
   themeConfig: {
     wordCounts,
     commitActivity,
-    // 自建 Moe-Counter 的计数图地址（换服务器/主题只改这一行）
+    //Moe-Counter
     counterUrl: 'https://count.ylg.net.cn/get/@ylg-docs?theme=rule34',
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        translations: {
+          button: {
+            buttonText: '搜索文档',
+            buttonAriaLabel: '搜索文档'
+          },
+          modal: {
+            displayDetails: '显示详细列表',
+            resetButtonTitle: '清除查询条件',
+            backButtonTitle: '关闭搜索',
+            noResultsText: '无法找到相关结果',
+            footer: {
+              selectText: '选择',
+              selectKeyAriaLabel: '回车',
+              navigateText: '切换',
+              navigateUpKeyAriaLabel: '上箭头',
+              navigateDownKeyAriaLabel: '下箭头',
+              closeText: '关闭',
+              closeKeyAriaLabel: 'esc'
+            }
+          }
+        }
+      }
     },
     // https://vitepress.dev/reference/default-theme-config
     footer: {
       copyright: 'Copyright © 2026 ylg.net.cn All Rights Reserved.'
+    },
+    // 时间取自 git 提交记录
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'short',
+        timeStyle: 'short',
+        forceLocale: true
+      }
+    },
+    editLink: {
+      pattern: 'https://github.com/qwertfxzcvb/ylgdocs/edit/master/:path',
+      text: '在 GitHub 上编辑此页'
+    },
+    // 默认主题自带的界面文案
+    outline: {
+      label: '页面导航'
+    },
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+    darkModeSwitchLabel: '主题',
+    lightModeSwitchTitle: '切换到浅色模式',
+    darkModeSwitchTitle: '切换到深色模式',
+    sidebarMenuLabel: '菜单',
+    returnToTopLabel: '回到顶部',
+    skipToContentLabel: '跳转到内容',
+    notFound: {
+      title: '页面未找到',
+      quote: '你要找的页面可能被移动、删除了，或者从来就不存在。',
+      linkLabel: '返回首页',
+      linkText: '带我回首页'
     },
     nav: [
       { text: '主页', link: '/' },
