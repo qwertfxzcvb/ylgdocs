@@ -305,7 +305,12 @@ html {
 }
 
 /* ---------- 7. 内容区域 ---------- */
-/* 文档页面渐入 */
+/* 文档页面渐入
+   注意：这里只能动画 opacity，千万不要加 transform。
+   animation-fill-mode: both 会让最后一帧的 transform 永久保留（计算值变成 matrix 而不是 none），
+   而带 transform 的元素会成为内部 position: fixed 元素的包含块，
+   导致右侧目录 .aside-container 不再固定于视口、跟着页面滚走，
+   VitePress 高亮章节时调用的 scrollIntoView 就会把整个页面反复往回拽。 */
 .VPDoc .container {
   animation: contentFadeIn 0.6s var(--spring) both !important;
 }
@@ -313,12 +318,10 @@ html {
 @keyframes contentFadeIn {
   from {
     opacity: 0;
-    transform: translateY(16px);
   }
 
   to {
     opacity: 1;
-    transform: translateY(0);
   }
 }
 
