@@ -93,6 +93,44 @@ export default defineConfig({
         apiKey: '779d413e7c230441e1d2d00e59d07ab0',
         indexName: 'YLG Documents',
         placeholder: '搜索文档',
+        askAi: {
+          assistantId: '947ac40e-4a75-49a6-aca2-e8da7507418b',
+          agentStudio: true,
+          sidePanel: {
+            button: {
+              translations: {
+                buttonAriaLabel: '询问 AI'
+              }
+            },
+            panel: {
+              variant: 'floating',
+              side: 'right',
+              width: '360px',
+              expandedWidth: '580px',
+              suggestedQuestions: true,
+              translations: {
+                header: {
+                  title: 'YLG 文档助手',
+                  conversationHistoryTitle: '历史对话',
+                  newConversationText: '开始新对话',
+                  viewConversationHistoryText: '查看历史对话'
+                },
+                newConversationScreen: {
+                  titleText: '有什么可以帮你的？',
+                  introductionText: '我会检索 YLG 文档，帮你快速找到入服、账号、玩法和插件相关的说明。'
+                },
+                promptForm: {
+                  promptPlaceholderText: '输入你的问题…',
+                  promptAnsweringText: '正在回答…',
+                  promptAskAnotherQuestionText: '继续提问…',
+                  promptDisclaimerText: '答案由 AI 生成，可能出错，请以文档为准。',
+                  promptLabelText: '提问',
+                  promptAriaLabelText: '向文档助手提问'
+                }
+              }
+            }
+          }
+        },
         translations: {
           button: {
             buttonText: '搜索文档',
