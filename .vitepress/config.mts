@@ -296,6 +296,7 @@ export default defineConfig({
           // { text: '系统商店', link: '/economy/shop' },
           { text: '箱子商店', link: '/economy/chestshop' },
           { text: '市场交易', link: '/economy/market' },
+          { text: '捐赠教程', link: '/economy/donation' },
         ]
       },
       {
