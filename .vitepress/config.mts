@@ -303,17 +303,17 @@ export default defineConfig({
         text: '魔法插件',
         collapsed: true,
         items: [
-          { text: '首页', link: '/linsmagic/home' }
+          { text: '首页', link: '/linsmagic/home' },
+		  { text: '芸集知识之书', link: '/linsmagic/book' },
+		  { text: '异界行商联络器', link: '/linsmagic/merchant' },
+		  { text: '次元枢纽传送单元', link: '/linsmagic/hub' },
+		  { text: '魔法附魔', link: '/linsmagic/enchant' },
+		  { text: '公会', link: '/linsmagic/guild' },
+		  { text: '特殊事件', link: '/linsmagic/special' },
+		  { text: '夜晚', link: '/linsmagic/night' },
+		  { text: '工业矿机组', link: '/linsmagic/mineral' },
         ]
       },
-      // {
-      //   text: '副本',
-      //   collapsed: true,
-      //   items: [
-      //     { text: '副本介绍', link: '/dungeon/lobby' },
-      //     { text: '僵尸之爷', link: '/dungeon/zombie' },
-      //   ]
-      // },
       {
         text: '其他',
         collapsed: true,
