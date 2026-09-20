@@ -265,6 +265,7 @@ export default defineConfig({
           { text: '个人仓库', link: '/gameplay/inventory' },
           { text: '每日签到', link: '/gameplay/signin' },
           { text: '地标传送', link: '/gameplay/landmark' },
+          { text: '公益性领地', link: '/gameplay/residence' },
           { text: '技能系统', link: '/gameplay/ylgmmo' },
         ]
       },
