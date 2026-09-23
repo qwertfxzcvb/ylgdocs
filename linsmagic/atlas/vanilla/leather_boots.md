@@ -1,0 +1,10 @@
+---
+title: "皮革靴子 - LinsMagic 魔法百科"
+editLink: false
+prev: false
+next: false
+---
+
+# 皮革靴子
+
+<LinsMagicEntry id="minecraft:leather_boots" />

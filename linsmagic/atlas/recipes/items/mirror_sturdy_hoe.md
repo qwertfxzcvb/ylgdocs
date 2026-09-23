@@ -1,0 +1,10 @@
+---
+title: "坚固铁锄合成 - LinsMagic 魔法百科"
+editLink: false
+prev: false
+next: false
+---
+
+# 坚固铁锄合成
+
+<LinsMagicRecipePage id="mirror_sturdy_hoe" />

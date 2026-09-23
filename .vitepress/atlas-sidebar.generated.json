@@ -1,0 +1,244 @@
+[
+  {
+    "text": "魔法百科",
+    "link": "/linsmagic/atlas",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "新手教程",
+        "link": "/linsmagic/atlas/tutorials/new-player"
+      },
+      {
+        "text": "系统教程",
+        "link": "/linsmagic/atlas/tutorials/systems/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "管道系统",
+            "link": "/linsmagic/atlas/tutorials/systems/pipeline"
+          },
+          {
+            "text": "多方块机器",
+            "link": "/linsmagic/atlas/tutorials/systems/multiblock"
+          },
+          {
+            "text": "附魔体系",
+            "link": "/linsmagic/atlas/tutorials/systems/enchanting"
+          },
+          {
+            "text": "夜间事件与首领",
+            "link": "/linsmagic/atlas/tutorials/systems/events-bosses"
+          },
+          {
+            "text": "网页机器",
+            "link": "/linsmagic/atlas/tutorials/systems/web-machines"
+          }
+        ]
+      },
+      {
+        "text": "玩法指南",
+        "link": "/linsmagic/atlas/guide/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "芸集知识之书",
+            "link": "/linsmagic/atlas/guide/book"
+          },
+          {
+            "text": "异界行商联络器",
+            "link": "/linsmagic/atlas/guide/merchant"
+          },
+          {
+            "text": "次元枢纽传送单元",
+            "link": "/linsmagic/atlas/guide/hub"
+          },
+          {
+            "text": "魔法附魔玩法",
+            "link": "/linsmagic/atlas/guide/enchant"
+          },
+          {
+            "text": "公会",
+            "link": "/linsmagic/atlas/guide/guild"
+          },
+          {
+            "text": "特殊事件指南",
+            "link": "/linsmagic/atlas/guide/special"
+          },
+          {
+            "text": "特殊夜晚指南",
+            "link": "/linsmagic/atlas/guide/night"
+          },
+          {
+            "text": "工业矿机组指南",
+            "link": "/linsmagic/atlas/guide/mineral"
+          }
+        ]
+      },
+      {
+        "text": "配方",
+        "link": "/linsmagic/atlas/recipes/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "机器合成",
+            "link": "/linsmagic/atlas/recipes/machines/"
+          },
+          {
+            "text": "武器装备合成",
+            "link": "/linsmagic/atlas/recipes/weapons/"
+          },
+          {
+            "text": "材料合成",
+            "link": "/linsmagic/atlas/recipes/materials/"
+          },
+          {
+            "text": "功能物品合成",
+            "link": "/linsmagic/atlas/recipes/items/"
+          },
+          {
+            "text": "机器加工",
+            "link": "/linsmagic/atlas/recipes/processing/"
+          },
+          {
+            "text": "其他配方",
+            "link": "/linsmagic/atlas/recipes/other/"
+          }
+        ]
+      },
+      {
+        "text": "多方块机器",
+        "link": "/linsmagic/atlas/machines/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "多方块结构",
+            "link": "/linsmagic/atlas/machines/structures/"
+          },
+          {
+            "text": "其他机器",
+            "link": "/linsmagic/atlas/machines/other/"
+          }
+        ]
+      },
+      {
+        "text": "武器装备",
+        "link": "/linsmagic/atlas/weapons/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "武器",
+            "link": "/linsmagic/atlas/weapons/weapons/"
+          },
+          {
+            "text": "装备",
+            "link": "/linsmagic/atlas/weapons/armor/"
+          }
+        ]
+      },
+      {
+        "text": "功能物品",
+        "link": "/linsmagic/atlas/items/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "功能性工具",
+            "link": "/linsmagic/atlas/items/tools/"
+          },
+          {
+            "text": "饰品",
+            "link": "/linsmagic/atlas/items/accessories/"
+          },
+          {
+            "text": "食物与药剂",
+            "link": "/linsmagic/atlas/items/food/"
+          },
+          {
+            "text": "其他物品",
+            "link": "/linsmagic/atlas/items/other/"
+          }
+        ]
+      },
+      {
+        "text": "材料",
+        "link": "/linsmagic/atlas/materials/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "基础材料",
+            "link": "/linsmagic/atlas/materials/basic/"
+          },
+          {
+            "text": "高级材料",
+            "link": "/linsmagic/atlas/materials/advanced/"
+          },
+          {
+            "text": "顶级材料",
+            "link": "/linsmagic/atlas/materials/ultimate/"
+          }
+        ]
+      },
+      {
+        "text": "附魔",
+        "link": "/linsmagic/atlas/enchants/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "普通",
+            "link": "/linsmagic/atlas/enchants/普通/"
+          },
+          {
+            "text": "罕见",
+            "link": "/linsmagic/atlas/enchants/罕见/"
+          },
+          {
+            "text": "精良",
+            "link": "/linsmagic/atlas/enchants/精良/"
+          },
+          {
+            "text": "史诗",
+            "link": "/linsmagic/atlas/enchants/史诗/"
+          },
+          {
+            "text": "传奇",
+            "link": "/linsmagic/atlas/enchants/传奇/"
+          },
+          {
+            "text": "注魔附魔",
+            "link": "/linsmagic/atlas/enchants/infuse/"
+          },
+          {
+            "text": "原版附魔适配",
+            "link": "/linsmagic/atlas/enchants/vanilla/"
+          }
+        ]
+      },
+      {
+        "text": "事件",
+        "link": "/linsmagic/atlas/events/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "特殊夜晚",
+            "link": "/linsmagic/atlas/events/nights/"
+          },
+          {
+            "text": "服务器事件",
+            "link": "/linsmagic/atlas/events/special/"
+          }
+        ]
+      },
+      {
+        "text": "首领",
+        "link": "/linsmagic/atlas/bosses/",
+        "collapsed": true,
+        "items": []
+      },
+      {
+        "text": "原版材料",
+        "link": "/linsmagic/atlas/vanilla/",
+        "collapsed": true,
+        "items": []
+      }
+    ]
+  }
+]
