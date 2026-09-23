@@ -40,7 +40,14 @@ function collapsibleItems(): Element[] {
 function restore() {
   const state = readState()
   for (const el of collapsibleItems()) {
-    const want = state[keyOf(el)]
+    const key = keyOf(el)
+    let want = state[key]
+    if (want === undefined && location.pathname.startsWith('/linsmagic/atlas/')) {
+      const atlasPath = location.pathname
+      const href = el.querySelector(':scope > .item a')?.getAttribute('href') ?? ''
+      if (key === '魔法插件' || key === '魔法插件 / 魔法百科' ||
+          (href.startsWith('/linsmagic/atlas/') && atlasPath.startsWith(href))) want = false
+    }
     if (want === undefined) continue
     // 含当前页面的分组保持展开，否则刷新后会看不到自己在哪
     if (el.classList.contains('has-active')) continue

@@ -3,6 +3,9 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { execSync } from 'node:child_process'
+const atlasSidebar = JSON.parse(
+  fs.readFileSync(new URL('./atlas-sidebar.generated.json', import.meta.url), 'utf-8')
+) as DefaultTheme.SidebarItem[]
 
 // 统计 markdown 文件字数（中文字符 + 英文单词）
 function countWords(content: string): number {
@@ -73,7 +76,7 @@ const commitActivity = getCommitActivity(docsDir)
 export default defineConfig({
   lang: 'zh-CN',
   lastUpdated: true,
-  srcExclude: ['drafts/**', 'README.md'],
+  srcExclude: ['drafts/**', '.atlas-maintenance/**', 'README.md', '**/AGENTS.md', 'linsmagic/tutorials/**'],
   title: "YLG 文档",
   description: "YLG服务器教程",
   head: [
@@ -305,14 +308,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: '首页', link: '/linsmagic/home' },
-		  { text: '芸集知识之书', link: '/linsmagic/book' },
-		  { text: '异界行商联络器', link: '/linsmagic/merchant' },
-		  { text: '次元枢纽传送单元', link: '/linsmagic/hub' },
-		  { text: '魔法附魔', link: '/linsmagic/enchant' },
-		  { text: '公会', link: '/linsmagic/guild' },
-		  { text: '特殊事件', link: '/linsmagic/special' },
-		  { text: '夜晚', link: '/linsmagic/night' },
-		  { text: '工业矿机组', link: '/linsmagic/mineral' },
+		  ...atlasSidebar,
         ]
       },
       {
