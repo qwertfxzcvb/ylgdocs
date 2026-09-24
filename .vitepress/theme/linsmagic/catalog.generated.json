@@ -26506,19 +26506,6 @@
       "href": "/linsmagic/atlas/vanilla/hopper"
     },
     {
-      "id": "minecraft:yellow_wool",
-      "name": "黄色羊毛",
-      "kind": "vanilla",
-      "category": "原版材料",
-      "group": "vanilla",
-      "icon": "item/yellow_wool",
-      "description": "Minecraft 原版材料。",
-      "details": [],
-      "obtain": "",
-      "glint": false,
-      "href": "/linsmagic/atlas/vanilla/yellow_wool"
-    },
-    {
       "id": "minecraft:obsidian",
       "name": "黑曜石",
       "kind": "vanilla",
@@ -26738,19 +26725,6 @@
       "obtain": "",
       "glint": false,
       "href": "/linsmagic/atlas/vanilla/blue_ice"
-    },
-    {
-      "id": "minecraft:soul_campfire",
-      "name": "灵魂营火",
-      "kind": "vanilla",
-      "category": "原版材料",
-      "group": "vanilla",
-      "icon": "item/soul_campfire",
-      "description": "Minecraft 原版材料。",
-      "details": [],
-      "obtain": "",
-      "glint": false,
-      "href": "/linsmagic/atlas/vanilla/soul_campfire"
     },
     {
       "id": "minecraft:netherrack",
@@ -27481,32 +27455,6 @@
       "href": "/linsmagic/atlas/vanilla/prismarine_crystals"
     },
     {
-      "id": "minecraft:glow_ink_sac",
-      "name": "荧光墨囊",
-      "kind": "vanilla",
-      "category": "原版材料",
-      "group": "vanilla",
-      "icon": "item/glow_ink_sac",
-      "description": "Minecraft 原版材料。",
-      "details": [],
-      "obtain": "",
-      "glint": false,
-      "href": "/linsmagic/atlas/vanilla/glow_ink_sac"
-    },
-    {
-      "id": "minecraft:bowl",
-      "name": "碗",
-      "kind": "vanilla",
-      "category": "原版材料",
-      "group": "vanilla",
-      "icon": "item/bowl",
-      "description": "Minecraft 原版材料。",
-      "details": [],
-      "obtain": "",
-      "glint": false,
-      "href": "/linsmagic/atlas/vanilla/bowl"
-    },
-    {
       "id": "minecraft:blaze_rod",
       "name": "烈焰棒",
       "kind": "vanilla",
@@ -27544,19 +27492,6 @@
       "obtain": "",
       "glint": false,
       "href": "/linsmagic/atlas/vanilla/emerald"
-    },
-    {
-      "id": "minecraft:magma_cream",
-      "name": "岩浆膏",
-      "kind": "vanilla",
-      "category": "原版材料",
-      "group": "vanilla",
-      "icon": "item/magma_cream",
-      "description": "Minecraft 原版材料。",
-      "details": [],
-      "obtain": "",
-      "glint": false,
-      "href": "/linsmagic/atlas/vanilla/magma_cream"
     },
     {
       "id": "minecraft:copper_ingot",
@@ -27650,6 +27585,19 @@
       "href": "/linsmagic/atlas/vanilla/ghast_tear"
     },
     {
+      "id": "minecraft:magma_cream",
+      "name": "岩浆膏",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/magma_cream",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/magma_cream"
+    },
+    {
       "id": "minecraft:heart_of_the_sea",
       "name": "海洋之心",
       "kind": "vanilla",
@@ -27687,6 +27635,19 @@
       "obtain": "",
       "glint": false,
       "href": "/linsmagic/atlas/vanilla/nautilus_shell"
+    },
+    {
+      "id": "minecraft:bowl",
+      "name": "碗",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/bowl",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/bowl"
     },
     {
       "id": "minecraft:sweet_berries",
@@ -28779,6 +28740,19 @@
       "obtain": "",
       "glint": false,
       "href": "/linsmagic/atlas/vanilla/experience_bottle"
+    },
+    {
+      "id": "minecraft:glow_ink_sac",
+      "name": "荧光墨囊",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/glow_ink_sac",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/glow_ink_sac"
     },
     {
       "id": "minecraft:blue_dye",
@@ -29962,6 +29936,19 @@
       "obtain": "",
       "glint": false,
       "href": "/linsmagic/atlas/vanilla/trapped_chest"
+    },
+    {
+      "id": "minecraft:soul_campfire",
+      "name": "灵魂营火",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/soul_campfire",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/soul_campfire"
     },
     {
       "id": "minecraft:flowering_azalea_leaves",
@@ -37578,7 +37565,7 @@
       ],
       "slots": [
         {
-          "id": "minecraft:yellow_wool",
+          "id": "金丝羊毛块",
           "count": 1
         },
         {
@@ -37586,7 +37573,7 @@
           "count": 1
         },
         {
-          "id": "minecraft:yellow_wool",
+          "id": "金丝羊毛块",
           "count": 1
         },
         {
@@ -37602,7 +37589,7 @@
           "count": 1
         },
         {
-          "id": "minecraft:yellow_wool",
+          "id": "金丝羊毛块",
           "count": 1
         },
         {
@@ -37610,7 +37597,7 @@
           "count": 1
         },
         {
-          "id": "minecraft:yellow_wool",
+          "id": "金丝羊毛块",
           "count": 1
         }
       ],
@@ -38893,7 +38880,7 @@
           "count": 1
         },
         {
-          "id": "minecraft:blue_ice",
+          "id": "寒冰冷凝腔",
           "count": 1
         },
         {
@@ -38947,7 +38934,7 @@
           "count": 1
         },
         {
-          "id": "minecraft:soul_campfire",
+          "id": "灵魂熔炼炉",
           "count": 1
         },
         {
@@ -39811,7 +39798,7 @@
           "count": 1
         },
         {
-          "id": "minecraft:clay_ball",
+          "id": "魂石",
           "count": 1
         },
         {
@@ -42705,11 +42692,11 @@
         null,
         null,
         {
-          "id": "minecraft:string",
+          "id": "灵丝",
           "count": 1
         },
         {
-          "id": "minecraft:glow_ink_sac",
+          "id": "魔法墨水",
           "count": 1
         },
         null,
@@ -42738,11 +42725,11 @@
         null,
         null,
         {
-          "id": "minecraft:glowstone_dust",
+          "id": "辉光石粉",
           "count": 1
         },
         {
-          "id": "minecraft:amethyst_shard",
+          "id": "凝华水晶",
           "count": 1
         },
         null,
@@ -42771,11 +42758,11 @@
         null,
         null,
         {
-          "id": "minecraft:gunpowder",
+          "id": "暗影粉末",
           "count": 1
         },
         {
-          "id": "minecraft:soul_sand",
+          "id": "碎魂沙",
           "count": 1
         },
         null,
@@ -42804,11 +42791,11 @@
         null,
         null,
         {
-          "id": "minecraft:honeycomb",
+          "id": "琥珀树脂",
           "count": 1
         },
         {
-          "id": "minecraft:slime_ball",
+          "id": "魔力油脂",
           "count": 1
         },
         null,
@@ -42837,11 +42824,11 @@
         null,
         null,
         {
-          "id": "minecraft:prismarine_shard",
+          "id": "星辉碎片",
           "count": 1
         },
         {
-          "id": "minecraft:prismarine_crystals",
+          "id": "幻彩鳞粉",
           "count": 1
         },
         null,
@@ -42904,13 +42891,13 @@
       "slots": [
         null,
         {
-          "id": "minecraft:stick",
+          "id": "竹条",
           "count": 1
         },
         null,
         null,
         {
-          "id": "minecraft:amethyst_shard",
+          "id": "辉耀结晶",
           "count": 1
         },
         null,
@@ -42937,13 +42924,13 @@
       "slots": [
         null,
         {
-          "id": "minecraft:flint",
+          "id": "石刀片",
           "count": 1
         },
         null,
         null,
         {
-          "id": "minecraft:glowstone_dust",
+          "id": "魔力粉末",
           "count": 1
         },
         null,
@@ -42970,13 +42957,13 @@
       "slots": [
         null,
         {
-          "id": "minecraft:oak_planks",
+          "id": "钉板",
           "count": 1
         },
         null,
         null,
         {
-          "id": "minecraft:slime_ball",
+          "id": "魔力油脂",
           "count": 1
         },
         null,
@@ -43003,13 +42990,13 @@
       "slots": [
         null,
         {
-          "id": "minecraft:vine",
+          "id": "藤条",
           "count": 1
         },
         null,
         null,
         {
-          "id": "minecraft:glow_ink_sac",
+          "id": "魔法墨水",
           "count": 1
         },
         null,
@@ -43036,13 +43023,13 @@
       "slots": [
         null,
         {
-          "id": "minecraft:bone",
+          "id": "骨哨",
           "count": 1
         },
         null,
         null,
         {
-          "id": "minecraft:amethyst_shard",
+          "id": "符石碎片",
           "count": 1
         },
         null,
@@ -43069,13 +43056,13 @@
       "slots": [
         null,
         {
-          "id": "minecraft:bowl",
+          "id": "粗陶碗",
           "count": 1
         },
         null,
         null,
         {
-          "id": "minecraft:oak_planks",
+          "id": "封魔匣板",
           "count": 1
         },
         null,
@@ -43102,13 +43089,13 @@
       "slots": [
         null,
         {
-          "id": "minecraft:string",
+          "id": "麻绳",
           "count": 1
         },
         null,
         null,
         {
-          "id": "minecraft:slime_ball",
+          "id": "琥珀灵胶",
           "count": 1
         },
         null,
@@ -43135,13 +43122,13 @@
       "slots": [
         null,
         {
-          "id": "minecraft:iron_nugget",
+          "id": "铁皮",
           "count": 1
         },
         null,
         null,
         {
-          "id": "minecraft:flint",
+          "id": "符文刻刀",
           "count": 1
         },
         null,
@@ -43168,13 +43155,13 @@
       "slots": [
         null,
         {
-          "id": "minecraft:prismarine_shard",
+          "id": "黯魂晶",
           "count": 1
         },
         null,
         null,
         {
-          "id": "minecraft:glow_ink_sac",
+          "id": "魔法墨水",
           "count": 1
         },
         null,
@@ -43207,7 +43194,7 @@
         null,
         null,
         {
-          "id": "minecraft:stick",
+          "id": "木钉",
           "count": 1
         },
         null,
@@ -43234,13 +43221,13 @@
       "slots": [
         null,
         {
-          "id": "minecraft:stick",
+          "id": "木钉",
           "count": 1
         },
         null,
         null,
         {
-          "id": "minecraft:charcoal",
+          "id": "炭条",
           "count": 1
         },
         null,
@@ -43267,13 +43254,13 @@
       "slots": [
         null,
         {
-          "id": "minecraft:stick",
+          "id": "木钉",
           "count": 1
         },
         null,
         null,
         {
-          "id": "minecraft:flint",
+          "id": "石刀片",
           "count": 1
         },
         null,
@@ -43300,13 +43287,13 @@
       "slots": [
         null,
         {
-          "id": "minecraft:cobblestone",
+          "id": "石锤头",
           "count": 1
         },
         null,
         null,
         {
-          "id": "minecraft:stick",
+          "id": "握柄",
           "count": 1
         },
         null,
@@ -43335,11 +43322,11 @@
         null,
         null,
         {
-          "id": "minecraft:stick",
+          "id": "竹条",
           "count": 1
         },
         {
-          "id": "minecraft:charcoal",
+          "id": "炭条",
           "count": 1
         },
         null,
@@ -43368,15 +43355,15 @@
         null,
         null,
         {
-          "id": "minecraft:prismarine_shard",
+          "id": "深渊碎片",
           "count": 1
         },
         {
-          "id": "minecraft:glowstone_dust",
+          "id": "幻梦尘",
           "count": 1
         },
         {
-          "id": "minecraft:prismarine_shard",
+          "id": "深渊碎片",
           "count": 1
         },
         null,
@@ -43402,7 +43389,7 @@
       "slots": [
         null,
         {
-          "id": "minecraft:amethyst_shard",
+          "id": "辉耀结晶",
           "count": 1
         },
         null,
@@ -43414,7 +43401,7 @@
         null,
         null,
         {
-          "id": "minecraft:prismarine_shard",
+          "id": "黯魂晶",
           "count": 1
         },
         null
@@ -43444,13 +43431,13 @@
         null,
         null,
         {
-          "id": "minecraft:blaze_powder",
+          "id": "熔火粉尘",
           "count": 1
         },
         null,
         null,
         {
-          "id": "minecraft:glowstone_dust",
+          "id": "辉光石粉",
           "count": 1
         },
         null
@@ -43486,7 +43473,7 @@
         null,
         null,
         {
-          "id": "minecraft:soul_sand",
+          "id": "碎魂沙",
           "count": 1
         },
         null
@@ -43509,20 +43496,20 @@
       ],
       "slots": [
         {
-          "id": "minecraft:string",
+          "id": "魔力丝",
           "count": 1
         },
         {
-          "id": "minecraft:string",
+          "id": "灵丝",
           "count": 1
         },
         null,
         {
-          "id": "minecraft:glowstone_dust",
+          "id": "辉光石粉",
           "count": 1
         },
         {
-          "id": "minecraft:prismarine_crystals",
+          "id": "幻彩鳞粉",
           "count": 1
         },
         null,
@@ -43549,7 +43536,7 @@
       "slots": [
         null,
         {
-          "id": "minecraft:diamond",
+          "id": "魔力灌注钻石",
           "count": 1
         },
         null,
@@ -43582,13 +43569,13 @@
       "slots": [
         null,
         {
-          "id": "minecraft:diamond",
+          "id": "魔力灌注钻石",
           "count": 1
         },
         null,
         null,
         {
-          "id": "minecraft:obsidian",
+          "id": "虚空之心",
           "count": 1
         },
         null,
@@ -43618,13 +43605,13 @@
       "slots": [
         null,
         {
-          "id": "minecraft:blaze_rod",
+          "id": "永恒之火",
           "count": 1
         },
         null,
         null,
         {
-          "id": "minecraft:netherite_scrap",
+          "id": "源质核心",
           "count": 1
         },
         null,
@@ -43651,13 +43638,13 @@
       "slots": [
         null,
         {
-          "id": "minecraft:string",
+          "id": "星界丝绸",
           "count": 1
         },
         null,
         null,
         {
-          "id": "minecraft:glow_ink_sac",
+          "id": "黯光墨水",
           "count": 1
         },
         null,
@@ -43683,20 +43670,20 @@
       ],
       "slots": [
         {
-          "id": "minecraft:netherite_scrap",
+          "id": "源质核心",
           "count": 1
         },
         {
-          "id": "minecraft:blaze_rod",
+          "id": "永恒燃料",
           "count": 1
         },
         null,
         {
-          "id": "minecraft:string",
+          "id": "虚空丝绸",
           "count": 1
         },
         {
-          "id": "minecraft:emerald",
+          "id": "魔力源石",
           "count": 1
         },
         null,
@@ -43723,13 +43710,13 @@
       "slots": [
         null,
         {
-          "id": "minecraft:netherite_ingot",
+          "id": "创世之核",
           "count": 1
         },
         null,
         null,
         {
-          "id": "minecraft:magma_cream",
+          "id": "生命核心",
           "count": 1
         },
         null,
@@ -43756,7 +43743,7 @@
       "slots": [
         null,
         {
-          "id": "minecraft:netherite_ingot",
+          "id": "创世之核",
           "count": 1
         },
         null,
@@ -83164,7 +83151,7 @@
   },
   "stats": {
     "items": 1498,
-    "vanilla": 307,
+    "vanilla": 306,
     "recipes": 932,
     "structures": 42,
     "enchants": 242,
