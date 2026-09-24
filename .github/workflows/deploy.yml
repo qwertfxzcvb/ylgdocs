@@ -1,0 +1,137 @@
+name: 构建并部署文档
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ylgdocs-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: 拉取源码和完整提交历史
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: 安装 Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: 安装依赖
+        run: npm ci --no-audit --no-fund
+
+      - name: 构建文档
+        env:
+          NODE_OPTIONS: --max-old-space-size=4096
+        run: |
+          npm run docs:build
+          test -s .vitepress/dist/index.html
+
+      - name: 配置 SSH
+        env:
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+          SSH_USER: ${{ secrets.SSH_USER }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_KNOWN_HOSTS: ${{ secrets.SSH_KNOWN_HOSTS }}
+        run: |
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/ylgdocs_key
+          printf '%s\n' "$SSH_KNOWN_HOSTS" | tr -d '\r' > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/ylgdocs_key ~/.ssh/known_hosts
+
+          cat > ~/.ssh/config <<EOF
+          Host ylgdocs-server
+            HostName ${SSH_HOST}
+            Port ${SSH_PORT}
+            User ${SSH_USER}
+            IdentityFile ~/.ssh/ylgdocs_key
+            IdentitiesOnly yes
+            BatchMode yes
+            StrictHostKeyChecking yes
+            UserKnownHostsFile ~/.ssh/known_hosts
+            ConnectTimeout 20
+            ServerAliveInterval 30
+            ServerAliveCountMax 6
+          EOF
+          chmod 600 ~/.ssh/config
+
+      - name: 检查服务器并准备暂存目录
+        run: |
+          ssh ylgdocs-server 'bash -se' <<'REMOTE'
+          set -euo pipefail
+          command -v rsync
+          command -v flock
+          test -d /www/wwwroot/docs.ylg.net.cn
+          id www
+          mkdir -p /www/wwwroot/ylgdocs-actions-stage
+          REMOTE
+
+      - name: 上传构建结果
+        run: |
+          rsync -az --checksum --delete \
+            --exclude='.user.ini' \
+            --exclude='.well-known/' \
+            .vitepress/dist/ \
+            ylgdocs-server:/www/wwwroot/ylgdocs-actions-stage/
+
+      - name: 发布网站并更新搜索索引
+        run: |
+          ssh ylgdocs-server 'bash -se' <<'REMOTE'
+          set -euo pipefail
+
+          exec 9>/var/lock/ylgdocs-deploy.lock
+          flock -w 600 9
+
+          STAGE=/www/wwwroot/ylgdocs-actions-stage
+          WEB=/www/wwwroot/docs.ylg.net.cn
+
+          test -s "$STAGE/index.html"
+          test -d "$WEB"
+
+          rsync -a --checksum --delete-delay --delay-updates \
+            --chown=www:www \
+            --chmod=D755,F644 \
+            --exclude='.user.ini' \
+            --exclude='.well-known/' \
+            "$STAGE/" "$WEB/"
+
+          echo "网站发布成功 $(date)"
+
+          if [ -f /root/.algolia_crawler.env ]; then
+            if (
+              source /root/.algolia_crawler.env &&
+              curl --fail --silent --show-error \
+                --connect-timeout 15 --max-time 60 \
+                -X POST \
+                -u "${CRAWLER_USER_ID:?}:${CRAWLER_API_KEY:?}" \
+                "https://crawler.algolia.com/api/1/crawlers/a0785997-d1bb-4c85-b26e-f8b64c1e0373/reindex" \
+                > /dev/null
+            ); then
+              echo "已触发 Algolia 重新索引"
+            else
+              echo "警告：Algolia 触发失败，网站已发布，请检查爬虫配置"
+            fi
+          else
+            echo "警告：未找到 Algolia 环境文件，跳过索引更新"
+          fi
+          REMOTE
+
+      - name: 清理部署私钥
+        if: always()
+        run: rm -f ~/.ssh/ylgdocs_key
