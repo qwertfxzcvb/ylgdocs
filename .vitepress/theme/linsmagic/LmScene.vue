@@ -106,10 +106,12 @@ function faceStyle(block: SceneBlock, face: string) {
   const style: Record<string, string> = { backgroundImage: `url(${faceTexture(block, face)})` }
   const m = material(block).match(/^(.*)_stained_glass$/)
   if (m && glassTint[m[1]]) style.backgroundColor = glassTint[m[1]]
+  // 栏杆类（ME线缆）贴图大部分透明，不垫底色会露出方块的白底
+  else if (/_bars$/.test(material(block))) style.backgroundColor = 'transparent'
   return style
 }
 function isChest(block: SceneBlock) { return /^minecraft:(chest|trapped_chest)$/.test(block.id) }
-function isGlass(block: SceneBlock) { return /stained_glass$/.test(material(block)) }
+function isGlass(block: SceneBlock) { return /stained_glass$|_bars$/.test(material(block)) }
 
 // ---------- 流动的物品 ----------
 interface FlowSprite { key: string; x: number; y: number; z: number; icon: string }

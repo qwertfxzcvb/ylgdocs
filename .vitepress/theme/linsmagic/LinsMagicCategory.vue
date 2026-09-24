@@ -31,11 +31,12 @@ const homeResults = computed(() => {
     ['enchant', '魔法附魔玩法'], ['guild', '公会'], ['special', '特殊事件指南'], ['night', '特殊夜晚指南'], ['mineral', '工业矿机组指南']]
   for (const [id, name] of guideNames) groups.push({ key: `guide:${id}`, name, detail: '玩法指南', href: `/linsmagic/atlas/guide/${id}`, icon: 'item/book' })
   const systemNames = [['pipeline', '管道系统'], ['multiblock', '多方块机器搭建'], ['enchanting', '附魔体系'],
-    ['events-bosses', '夜间事件与首领'], ['web-machines', '网页机器']]
+    ['events-bosses', '夜间事件与首领'], ['web-machines', '网页机器'],
+    ['applied-energistics', '应用能源（入门）'], ['ae-autocrafting', '应用能源（自动合成）']]
   for (const [id, name] of systemNames) groups.push({ key: `system:${id}`, name, detail: '系统教程',
     href: `/linsmagic/atlas/tutorials/systems/${id}`, icon: 'block/piston_top' })
   const pages = [...categoryEntries('machines'), ...categoryEntries('weapons'), ...categoryEntries('items'),
-    ...categoryEntries('materials'), ...categoryEntries('enchants'), ...categoryEntries('events'),
+    ...categoryEntries('materials'), ...categoryEntries('ae'), ...categoryEntries('enchants'), ...categoryEntries('events'),
     ...categoryEntries('bosses'), ...categoryEntries('vanilla')]
     .map(row => ({ key: `entry:${row.id}`, name: row.name, detail: row.category, href: row.href, icon: row.icon, itemId: row.id }))
   const recipePages = recipes.map(row => ({ key: `recipe:${row.id}`, name: row.name, detail: row.station,
@@ -91,6 +92,7 @@ function subgroupIcon(id: string, category = props.category) {
   if (category === 'materials') return id === 'ultimate' ? 'item/nether_star' : id === 'advanced' ? 'item/diamond' : 'item/iron_ingot'
   if (category === 'weapons') return id === 'armor' ? 'item/diamond_chestplate' : 'item/diamond_sword'
   if (category === 'machines') return id === 'structures' ? 'block/piston_top' : 'block/furnace_front'
+  if (category === 'ae') return id === 'blocks' ? 'item/white_glazed_terracotta' : 'item/quartz'
   if (category === 'enchants') return 'item/enchanted_book'
   if (category === 'events') return id === 'nights' ? 'item/nether_star' : 'item/ender_eye'
   return id === 'food' ? 'item/golden_apple' : id === 'accessories' ? 'item/ender_eye' : 'item/compass'
@@ -120,7 +122,7 @@ function subgroupIcon(id: string, category = props.category) {
         </a>
         <a href="/linsmagic/atlas/tutorials/systems/" class="lm-folder lm-tutorial-choice">
           <AtlasIcon texture="block/piston_top" :size="56" />
-          <span><strong>系统教程</strong><small>已经知道要做什么，却不知道怎么搭？从最小例子学会管道、多方块机器、附魔与网页机器。</small><em>按系统找教程 →</em></span>
+          <span><strong>系统教程</strong><small>已经知道要做什么，却不知道怎么搭？从最小例子学会管道、多方块机器、附魔、网页机器与应用能源。</small><em>按系统找教程 →</em></span>
           <span class="lm-folder-arrow" aria-hidden="true">↗</span>
         </a>
         <a href="/linsmagic/atlas/guide/" class="lm-folder"><AtlasIcon texture="item/book" :size="48" />

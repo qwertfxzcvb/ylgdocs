@@ -33,6 +33,7 @@ const guide = computed(() => {
   if (name === '芸集知识之书') return { title: '芸集知识之书使用指南', href: '/linsmagic/atlas/guide/book' }
   if (name === '异界行商联络器') return { title: '异界行商交易指南', href: '/linsmagic/atlas/guide/merchant' }
   if (name === '次元枢纽传送单元') return { title: '次元枢纽使用指南', href: '/linsmagic/atlas/guide/hub' }
+  if (entry.value?.category === '应用能源') return { title: '应用能源教程', href: '/linsmagic/atlas/tutorials/systems/applied-energistics' }
   if (entry.value?.structureId === 'mining_rig') return { title: '工业矿机组使用指南', href: '/linsmagic/atlas/guide/mineral' }
   if (name?.startsWith('附魔注魔器-')) return { title: '查看附魔注魔器组结构', href: '/linsmagic/atlas/machines/infuser-array' }
   if (name?.startsWith('填充机输出口')) {

@@ -1,7 +1,7 @@
 import catalog from './catalog.generated.json'
 
 export type AtlasKind = 'machine' | 'weapon' | 'tool' | 'material' | 'enchant' | 'event' | 'boss' | 'vanilla'
-export type AtlasCategoryId = 'recipes' | 'machines' | 'weapons' | 'items' | 'materials' | 'enchants' | 'events' | 'bosses' | 'vanilla'
+export type AtlasCategoryId = 'recipes' | 'machines' | 'weapons' | 'items' | 'materials' | 'ae' | 'enchants' | 'events' | 'bosses' | 'vanilla'
 
 export interface AtlasEntry {
   id: string
@@ -144,6 +144,14 @@ const textureAliases: Record<string, string[]> = {
   'item/sunflower': ['block/sunflower_front'],
   'item/tnt': ['block/tnt_side'],
   'item/copper_bulb': ['block/copper_bulb'],
+  // 应用能源方块的外观
+  'item/polished_blackstone_pressure_plate': ['block/polished_blackstone'],
+  'item/stone_pressure_plate': ['block/stone'],
+  'item/copper_bars': ['block/copper_bars'],
+  'item/target': ['block/target_side'],
+  'item/verdant_froglight': ['block/verdant_froglight_side'],
+  'item/ochre_froglight': ['block/ochre_froglight_side'],
+  'item/pearlescent_froglight': ['block/pearlescent_froglight_side'],
   'item/oxidized_lightning_rod': ['block/lightning_rod'],
   'item/skeleton_skull': ['item/bone'],
   'item/wither_skeleton_skull': ['item/coal'],
@@ -157,8 +165,12 @@ function unwaxed(texture: string): string {
   return texture.replace(/\/waxed_/, '/')
 }
 
+/** 1.21.5 之后才加入的方块贴图，从较新的资源版本取 */
+const newerTextures = new Set(['block/copper_bars'])
+
 export function textureUrl(texture: string): string {
-  return `https://assets.mcasset.cloud/1.21.5/assets/minecraft/textures/${texture}.png`
+  const version = newerTextures.has(texture) ? '1.21.10' : '1.21.5'
+  return `https://assets.mcasset.cloud/${version}/assets/minecraft/textures/${texture}.png`
 }
 
 export function textureCandidates(texture: string): string[] {
@@ -186,7 +198,9 @@ const cubeTextureAliases: Record<string, string> = {
   crafting_table: 'block/crafting_table_front', smithing_table: 'block/smithing_table_front',
   polished_basalt: 'block/polished_basalt_side', piston: 'block/piston_side', sticky_piston: 'block/piston_side',
   snow_block: 'block/snow', oxidized_lightning_rod: 'block/oxidized_copper', lightning_rod: 'block/copper_block',
-  sculk_catalyst: 'block/sculk_catalyst_side', honey_block: 'block/honey_block_side', lectern: 'block/lectern_front'
+  sculk_catalyst: 'block/sculk_catalyst_side', honey_block: 'block/honey_block_side', lectern: 'block/lectern_front',
+  target: 'block/target_side', verdant_froglight: 'block/verdant_froglight_side', ochre_froglight: 'block/ochre_froglight_side',
+  pearlescent_froglight: 'block/pearlescent_froglight_side'
 }
 
 export function blockTextureUrl(block: AtlasBlock): string {

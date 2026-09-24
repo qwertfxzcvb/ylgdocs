@@ -32,6 +32,14 @@
           {
             "text": "网页机器",
             "link": "/linsmagic/atlas/tutorials/systems/web-machines"
+          },
+          {
+            "text": "应用能源（入门）",
+            "link": "/linsmagic/atlas/tutorials/systems/applied-energistics"
+          },
+          {
+            "text": "应用能源（自动合成）",
+            "link": "/linsmagic/atlas/tutorials/systems/ae-autocrafting"
           }
         ]
       },
@@ -94,6 +102,10 @@
           {
             "text": "功能物品合成",
             "link": "/linsmagic/atlas/recipes/items/"
+          },
+          {
+            "text": "应用能源合成",
+            "link": "/linsmagic/atlas/recipes/ae/"
           },
           {
             "text": "机器加工",
@@ -174,6 +186,21 @@
           {
             "text": "顶级材料",
             "link": "/linsmagic/atlas/materials/ultimate/"
+          }
+        ]
+      },
+      {
+        "text": "应用能源",
+        "link": "/linsmagic/atlas/ae/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "材料与物品",
+            "link": "/linsmagic/atlas/ae/items/"
+          },
+          {
+            "text": "AE 方块",
+            "link": "/linsmagic/atlas/ae/blocks/"
           }
         ]
       },
