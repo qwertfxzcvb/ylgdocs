@@ -5478,6 +5478,28 @@
       "href": "/linsmagic/atlas/machines/machines/i-bc97223d3572"
     },
     {
+      "id": "高级排列器",
+      "name": "高级排列器",
+      "kind": "machine",
+      "category": "功能性机器方块",
+      "group": "machines",
+      "icon": "item/resin_block",
+      "description": "排列器的强化版，暂存上限 10 万件",
+      "details": [
+        "排列器的强化版，暂存上限 10 万件",
+        "├ 右键配置最多 9 种物品的组合",
+        "├ 每种物品最多存「组合数量 × 倍数」件（倍数 1~64 可调）",
+        "├ 超出的部分可选：放行 / 弹出 / 销毁",
+        "├ 不在组合里的物品可选：弹出 / 放行",
+        "├ 可固定输出方向",
+        "└ 可开启红石暂停：有信号时只收不放"
+      ],
+      "obtain": "配方合成：排列器 + 钻石块 + 动能活塞 + 漏斗",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/machines/machines/i-b9c744b09237"
+    },
+    {
       "id": "潜影盒接收器",
       "name": "潜影盒接收器",
       "kind": "machine",
@@ -5834,7 +5856,7 @@
       "details": [
         "以薄翼机构与红石充能驱动的凌月飞行器",
         "└ 必须放在快捷栏第 8 格（背包索引 7）生效：",
-        "└ 效果: 允许飞行，每秒消耗 72 点能量",
+        "└ 效果: 允许飞行，每秒消耗 5 点能量",
         "└ 充能: 使用 [红石充能桩-V1]，1 红石块 = 4 点",
         "[██████████] 200/200"
       ],
@@ -5854,7 +5876,7 @@
       "details": [
         "II 级凌月飞行器，能量储备更高",
         "└ 必须放在快捷栏第 8 格（背包索引 7）生效：",
-        "└ 效果: 允许飞行，每秒消耗 68 点能量",
+        "└ 效果: 允许飞行，每秒消耗 4.5 点能量",
         "└ 充能: 使用 [红石充能桩-V1]，1 红石块 = 4 点",
         "[██████████] 350/350"
       ],
@@ -5874,7 +5896,7 @@
       "details": [
         "III 级凌月飞行器，以薄翼机构-V2 强化",
         "└ 必须放在快捷栏第 8 格（背包索引 7）生效：",
-        "└ 效果: 允许飞行，每秒消耗 64 点能量",
+        "└ 效果: 允许飞行，每秒消耗 4 点能量",
         "└ 充能: 使用 [红石充能桩-V2]，1 红石块 = 5 点",
         "[██████████] 470/470"
       ],
@@ -5894,7 +5916,7 @@
       "details": [
         "IV 级凌月飞行器，融入龙鳞之力的巅峰之作",
         "└ 必须放在快捷栏第 8 格（背包索引 7）生效：",
-        "└ 效果: 允许飞行，每秒消耗 64 点能量",
+        "└ 效果: 允许飞行，每秒消耗 3.5 点能量",
         "└ 充能: 使用 [红石充能桩-V3]，1 红石块 = 6 点",
         "[██████████] 600/600"
       ],
@@ -6183,7 +6205,7 @@
       "details": [
         "V 级凌月飞行器，以薄翼机构-V4 强化",
         "└ 必须放在快捷栏第 8 格（背包索引 7）生效：",
-        "└ 效果: 允许飞行，每秒消耗 64 点能量",
+        "└ 效果: 允许飞行，每秒消耗 3 点能量",
         "└ 充能: 使用 [红石充能桩]，1 红石块 = 对应等级能量",
         "[██████████] 780/780"
       ],
@@ -6203,7 +6225,7 @@
       "details": [
         "VI 级凌月飞行器，致密下界合金锻造",
         "└ 必须放在快捷栏第 8 格（背包索引 7）生效：",
-        "└ 效果: 允许飞行，每秒消耗 64 点能量",
+        "└ 效果: 允许飞行，每秒消耗 2.5 点能量",
         "└ 充能: 使用 [红石充能桩]，1 红石块 = 对应等级能量",
         "[██████████] 1260/1260"
       ],
@@ -6223,7 +6245,7 @@
       "details": [
         "VII 级凌月飞行器，动能活塞暴力推进",
         "└ 必须放在快捷栏第 8 格（背包索引 7）生效：",
-        "└ 效果: 允许飞行，每秒消耗 62 点能量",
+        "└ 效果: 允许飞行，每秒消耗 2 点能量",
         "└ 充能: 使用 [红石充能桩]，1 红石块 = 对应等级能量",
         "[██████████] 1580/1580"
       ],
@@ -6243,7 +6265,7 @@
       "details": [
         "VIII 级凌月飞行器，A2 致密合金锻造",
         "└ 必须放在快捷栏第 8 格（背包索引 7）生效：",
-        "└ 效果: 允许飞行，每秒消耗 58 点能量",
+        "└ 效果: 允许飞行，每秒消耗 1.5 点能量",
         "└ 充能: 使用 [红石充能桩]，1 红石块 = 对应等级能量",
         "[██████████] 1980/1980"
       ],
@@ -6263,7 +6285,7 @@
       "details": [
         "IX 级凌月飞行器，融入龙血与节肢魂魄",
         "└ 必须放在快捷栏第 8 格（背包索引 7）生效：",
-        "└ 效果: 允许飞行，每秒消耗 47 点能量",
+        "└ 效果: 允许飞行，每秒消耗 1 点能量",
         "└ 充能: 使用 [红石充能桩]，1 红石块 = 对应等级能量",
         "[██████████] 10680/10680"
       ],
@@ -6283,7 +6305,7 @@
       "details": [
         "X 级凌月飞行器，以终焉薄翼机构 V8 驱动的巅峰之作",
         "└ 必须放在快捷栏第 8 格（背包索引 7）生效：",
-        "└ 效果: 允许飞行，每秒消耗 16 点能量",
+        "└ 效果: 允许飞行，每秒消耗 0.5 点能量",
         "└ 充能: 使用 [红石充能桩]，1 红石块 = 对应等级能量",
         "[██████████] 47480/47480"
       ],
@@ -25856,6 +25878,90 @@
       "structureId": "diagram_49a4f1fce5f0"
     },
     {
+      "id": "装备回收机",
+      "name": "装备回收机",
+      "kind": "machine",
+      "category": "功能性机器方块",
+      "group": "structures",
+      "icon": "item/stonecutter",
+      "description": "把用不上的装备拆回一点点材料",
+      "details": [
+        "把用不上的装备拆回一点点材料",
+        "├ 结构: 本方块正下方放一个木桶",
+        "├ 每 5 秒拆木桶里的一件装备 / 武器，产物放回木桶",
+        "├ 插件装备：配方里每个材料各有 25% 概率返还（再乘剩余耐久比例）",
+        "├ 原版铁 / 金装备 → 1 个粒；钻石、下界合金 10% 返还 1 个",
+        "└ 附魔不返还；木、石装备拆了什么都不给"
+      ],
+      "obtain": "配方合成，把装备 / 武器拆回少量材料的机器",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/machines/machines/i-2e847582a2a9",
+      "structureId": "diagram_2e847582a2a9"
+    },
+    {
+      "id": "宁夜灯",
+      "name": "宁夜灯",
+      "kind": "machine",
+      "category": "功能性机器方块",
+      "group": "machines",
+      "icon": "item/jack_o_lantern",
+      "description": "南瓜里燃着幻翼膜熬的灯油，幻翼闻到就绕着走",
+      "details": [
+        "南瓜里燃着幻翼膜熬的灯油，幻翼闻到就绕着走",
+        "├ 半径 64 格内不再自然生成幻翼",
+        "├ 不需要燃料，任何时候都有效",
+        "└ 每个区块只能放一盏"
+      ],
+      "obtain": "配方合成，阻止周围 64 格自然生成幻翼",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/machines/machines/i-17fbe9f44b41"
+    },
+    {
+      "id": "驱魔灯核心",
+      "name": "驱魔灯核心",
+      "kind": "machine",
+      "category": "功能性机器方块",
+      "group": "structures",
+      "icon": "item/vault",
+      "description": "用亡灵的魔素反向点燃的灯，怪物不愿在它的光里成形",
+      "details": [
+        "用亡灵的魔素反向点燃的灯，怪物不愿在它的光里成形",
+        "├ 结构: 本方块正下方放一个木桶，放入萤石块作燃料",
+        "├ 1 个萤石块 = 工作 1 小时（区块加载时才消耗）",
+        "├ 半径 48 格内不再自然生成敌对生物和幻翼",
+        "├ 刷怪笼、精英怪、首领、召唤类不受影响",
+        "├ 血月、金耀之月等特殊夜晚期间只拦幻翼",
+        "└ 每个区块只能放一盏；右键查看剩余燃料"
+      ],
+      "obtain": "配方合成：宁夜灯 + 积聚的魔素：亡 + 金块，烧萤石块阻止周围自然生成敌对生物",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/machines/machines/i-fb25288d881d",
+      "structureId": "diagram_fb25288d881d"
+    },
+    {
+      "id": "精英怪追踪器",
+      "name": "精英怪追踪器",
+      "kind": "tool",
+      "category": "功能性工具",
+      "group": "tools",
+      "icon": "item/compass",
+      "description": "饵料的腥味让指针总偏向精英怪的方向",
+      "details": [
+        "饵料的腥味让指针总偏向精英怪的方向",
+        "├ 右键：指向同一世界 1000 格内最近的精英怪",
+        "├ 聊天栏显示距离、方向和高度",
+        "├ 精英怪所在区块没加载时，指向它最后出现的位置",
+        "└ 冷却 10 秒，不消耗"
+      ],
+      "obtain": "配方合成：罗盘 + 精英怪异饵料 + 磁素污泥",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/items/tools/i-d1f839266f2e"
+    },
+    {
       "id": "词条刻刀",
       "name": "词条刻刀",
       "kind": "tool",
@@ -30119,6 +30225,45 @@
       "href": "/linsmagic/atlas/vanilla/emerald_block"
     },
     {
+      "id": "minecraft:grindstone",
+      "name": "砂轮",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/grindstone",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/grindstone"
+    },
+    {
+      "id": "minecraft:stonecutter",
+      "name": "切石机",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/stonecutter",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/stonecutter"
+    },
+    {
+      "id": "minecraft:jack_o_lantern",
+      "name": "南瓜灯",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/jack_o_lantern",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/jack_o_lantern"
+    },
+    {
       "id": "minecraft:experience_bottle",
       "name": "附魔之瓶",
       "kind": "vanilla",
@@ -30442,19 +30587,6 @@
       "obtain": "",
       "glint": false,
       "href": "/linsmagic/atlas/vanilla/iron_hoe"
-    },
-    {
-      "id": "minecraft:grindstone",
-      "name": "砂轮",
-      "kind": "vanilla",
-      "category": "原版材料",
-      "group": "vanilla",
-      "icon": "item/grindstone",
-      "description": "Minecraft 原版材料。",
-      "details": [],
-      "obtain": "",
-      "glint": false,
-      "href": "/linsmagic/atlas/vanilla/grindstone"
     },
     {
       "id": "minecraft:chiseled_stone_bricks",
@@ -36917,7 +37049,8 @@
         "剧毒核心",
         "狂风核心",
         "霜冻核心",
-        "凋零核心"
+        "凋零核心",
+        "精英怪追踪器"
       ]
     },
     {
@@ -73740,6 +73873,60 @@
       "guiOnly": false
     },
     {
+      "id": "advanced_arranger",
+      "name": "高级排列器合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "高级排列器",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:diamond_block",
+          "count": 1
+        },
+        {
+          "id": "动能活塞",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond_block",
+          "count": 1
+        },
+        {
+          "id": "minecraft:hopper",
+          "count": 1
+        },
+        {
+          "id": "排列器",
+          "count": 1
+        },
+        {
+          "id": "minecraft:hopper",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond_block",
+          "count": 1
+        },
+        {
+          "id": "动能活塞",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond_block",
+          "count": 1
+        }
+      ],
+      "group": "machines",
+      "href": "/linsmagic/atlas/recipes/machines/advanced_arranger",
+      "note": "",
+      "guiOnly": false
+    },
+    {
       "id": "shulker_receiver",
       "name": "潜影盒接收器合成",
       "station": "工作台",
@@ -76274,6 +76461,210 @@
       ],
       "group": "machines",
       "href": "/linsmagic/atlas/recipes/machines/auto_farm_pro",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "gear_recycler",
+      "name": "装备回收机合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "装备回收机",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:grindstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:stonecutter",
+          "count": 1
+        },
+        {
+          "id": "minecraft:grindstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:barrel",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        }
+      ],
+      "group": "machines",
+      "href": "/linsmagic/atlas/recipes/machines/gear_recycler",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "night_lamp",
+      "name": "宁夜灯合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "宁夜灯",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:phantom_membrane",
+          "count": 1
+        },
+        {
+          "id": "流光萤粉",
+          "count": 1
+        },
+        {
+          "id": "minecraft:phantom_membrane",
+          "count": 1
+        },
+        {
+          "id": "流光萤粉",
+          "count": 1
+        },
+        {
+          "id": "minecraft:jack_o_lantern",
+          "count": 1
+        },
+        {
+          "id": "流光萤粉",
+          "count": 1
+        },
+        {
+          "id": "minecraft:phantom_membrane",
+          "count": 1
+        },
+        {
+          "id": "流光萤粉",
+          "count": 1
+        },
+        {
+          "id": "minecraft:phantom_membrane",
+          "count": 1
+        }
+      ],
+      "group": "machines",
+      "href": "/linsmagic/atlas/recipes/machines/night_lamp",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ward_core",
+      "name": "驱魔灯核心合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "驱魔灯核心",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:gold_block",
+          "count": 1
+        },
+        {
+          "id": "积聚的魔素：亡",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_block",
+          "count": 1
+        },
+        {
+          "id": "积聚的魔素：亡",
+          "count": 1
+        },
+        {
+          "id": "宁夜灯",
+          "count": 1
+        },
+        {
+          "id": "积聚的魔素：亡",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_block",
+          "count": 1
+        },
+        {
+          "id": "积聚的魔素：亡",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_block",
+          "count": 1
+        }
+      ],
+      "group": "machines",
+      "href": "/linsmagic/atlas/recipes/machines/ward_core",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "elite_tracker",
+      "name": "精英怪追踪器合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "精英怪追踪器",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "精英怪异饵料",
+          "count": 1
+        },
+        null,
+        {
+          "id": "磁素污泥",
+          "count": 1
+        },
+        {
+          "id": "minecraft:compass",
+          "count": 1
+        },
+        {
+          "id": "磁素污泥",
+          "count": 1
+        },
+        null,
+        {
+          "id": "精英怪异饵料",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/elite_tracker",
       "note": "",
       "guiOnly": false
     },
@@ -86024,6 +86415,60 @@
       "note": "核心正下方放置木桶，桶中投入同种元素碎屑。"
     },
     {
+      "id": "diagram_2e847582a2a9",
+      "name": "装备回收机",
+      "variants": [
+        [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "id": "装备回收机",
+            "name": "装备回收机",
+            "texture": "item/stonecutter",
+            "description": "回收核心"
+          },
+          {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "id": "minecraft:barrel",
+            "name": "木桶",
+            "texture": "item/barrel",
+            "description": "装备与产物木桶"
+          }
+        ]
+      ],
+      "note": "核心正下方放置木桶，桶中放入要拆的装备 / 武器，产物放回同一个木桶。"
+    },
+    {
+      "id": "diagram_fb25288d881d",
+      "name": "驱魔灯核心",
+      "variants": [
+        [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "id": "驱魔灯核心",
+            "name": "驱魔灯核心",
+            "texture": "item/vault",
+            "description": "驱魔灯核心"
+          },
+          {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "id": "minecraft:barrel",
+            "name": "木桶",
+            "texture": "item/barrel",
+            "description": "萤石块燃料木桶"
+          }
+        ]
+      ],
+      "note": "核心正下方放置木桶，桶中放入萤石块作燃料（1 个工作 1 小时）。"
+    },
+    {
       "id": "diagram_29f1428156f7",
       "name": "自动石厂核心",
       "variants": [
@@ -87421,10 +87866,10 @@
     ]
   },
   "stats": {
-    "items": 1573,
-    "vanilla": 306,
-    "recipes": 1007,
-    "structures": 42,
+    "items": 1578,
+    "vanilla": 308,
+    "recipes": 1012,
+    "structures": 44,
     "enchants": 242,
     "events": 11,
     "bosses": 18
