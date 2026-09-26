@@ -9215,6 +9215,26 @@
       "href": "/linsmagic/atlas/items/tools/i-5bfb831d4afd"
     },
     {
+      "id": "容器远程连接器",
+      "name": "容器远程连接器",
+      "kind": "tool",
+      "category": "功能性工具",
+      "group": "tools",
+      "icon": "item/flower_pot",
+      "description": "与容器建立时空链接，远程操控其内部空间",
+      "details": [
+        "与容器建立时空链接，远程操控其内部空间",
+        "右键箱子：绑定该容器（支持大箱子）",
+        "右键其它位置：打开绑定的容器",
+        "一次性：每次远程打开消耗 1 个",
+        "绑定状态：未绑定"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/items/tools/i-ce4ac9895a96"
+    },
+    {
       "id": "冰霜弓",
       "name": "冰霜弓",
       "kind": "weapon",
@@ -79588,6 +79608,60 @@
       "guiOnly": false
     },
     {
+      "id": "container_remote_link",
+      "name": "容器远程连接器合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "容器远程连接器",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "id": "空岛浮尘",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone_block",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "id": "空岛浮尘",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/container_remote_link",
+      "note": "",
+      "guiOnly": false
+    },
+    {
       "id": "magic_infuser_sea",
       "name": "附魔注魔器-海合成",
       "station": "工作台",
@@ -87866,9 +87940,9 @@
     ]
   },
   "stats": {
-    "items": 1578,
+    "items": 1579,
     "vanilla": 308,
-    "recipes": 1012,
+    "recipes": 1013,
     "structures": 44,
     "enchants": 242,
     "events": 11,
