@@ -19222,7 +19222,7 @@
         "在地核高温中锻造的熔岩钢铁",
         "炽热而坚固，足以承受极端环境"
       ],
-      "obtain": "由 熔核碎片 + 炎烬残渣 合成获得",
+      "obtain": "由 熔核碎片 + 炎烬残渣 合成获得，也可由 1 个熔炎钢块 拆回 9 个",
       "enchantments": [],
       "glint": true,
       "href": "/linsmagic/atlas/materials/basic/i-8c4b7fe435a0"
@@ -50315,6 +50315,36 @@
       ],
       "group": "materials",
       "href": "/linsmagic/atlas/recipes/materials/lava_steel_block",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "lava_steel_block_unpack",
+      "name": "熔炎钢锭合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "熔炎钢锭",
+          "count": 9
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "熔炎钢块",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/lava_steel_block_unpack",
       "note": "",
       "guiOnly": false
     },
@@ -87942,7 +87972,7 @@
   "stats": {
     "items": 1579,
     "vanilla": 308,
-    "recipes": 1013,
+    "recipes": 1014,
     "structures": 44,
     "enchants": 242,
     "events": 11,
