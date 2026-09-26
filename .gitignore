@@ -7,4 +7,5 @@ drafts/
 .atlas-maintenance/
 scripts/generate-linsmagic-atlas.mjs
 scripts/check-tutorials.mjs
+scripts/sync-linsmagic-textures.mjs
 linsmagic/AGENTS.md

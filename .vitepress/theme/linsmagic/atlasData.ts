@@ -1,4 +1,5 @@
 import catalog from './catalog.generated.json'
+import localTextureList from './textures.generated.json'
 
 export type AtlasKind = 'machine' | 'weapon' | 'tool' | 'material' | 'enchant' | 'event' | 'boss' | 'vanilla'
 export type AtlasCategoryId = 'recipes' | 'machines' | 'weapons' | 'items' | 'materials' | 'ae' | 'enchants' | 'events' | 'bosses' | 'vanilla'
@@ -168,9 +169,15 @@ function unwaxed(texture: string): string {
 /** 1.21.5 之后才加入的方块贴图，从较新的资源版本取 */
 const newerTextures = new Set(['block/copper_bars'])
 
-export function textureUrl(texture: string): string {
-  const version = newerTextures.has(texture) ? '1.21.10' : '1.21.5'
+/** 已下载到 public/textures/ 的贴图（scripts/sync-linsmagic-textures.mjs 生成）；本地有就不走外部图库 */
+const localTextures = new Set<string>(localTextureList as string[])
+
+function remoteTextureUrl(texture: string, version = newerTextures.has(texture) ? '1.21.10' : '1.21.5'): string {
   return `https://assets.mcasset.cloud/${version}/assets/minecraft/textures/${texture}.png`
+}
+
+export function textureUrl(texture: string): string {
+  return localTextures.has(texture) ? `/textures/${texture}.png` : remoteTextureUrl(texture)
 }
 
 /** 默认资源版本里找不到时再试的新版本（服务器所用版本），新加入原版的物品（铜马铠、鹦鹉螺铠甲等）从这里取 */
@@ -182,9 +189,11 @@ export function textureCandidates(texture: string): string[] {
   if (plain.startsWith('item/')) base.push(`block/${plain.slice(5)}`)
   if (plain.startsWith('block/')) base.push(`item/${plain.slice(6)}`)
   const names = [...new Set(base)]
-  // 先按默认版本逐个试，全部失败再到新版本里找同一批名字，最后才退回书本
-  const latest = names.map(name => `https://assets.mcasset.cloud/${LATEST_ASSET_VERSION}/assets/minecraft/textures/${name}.png`)
-  return [...new Set([...names.map(textureUrl), ...latest, textureUrl('item/book')])]
+  // 本地已有的排最前；本地没有的才去外部图库（先默认版本、再新版本），最后退回书本
+  const local = names.filter(name => localTextures.has(name)).map(name => `/textures/${name}.png`)
+  const remote = names.filter(name => !localTextures.has(name))
+  return [...new Set([...local, ...remote.map(name => remoteTextureUrl(name)),
+    ...remote.map(name => remoteTextureUrl(name, LATEST_ASSET_VERSION)), textureUrl('item/book')])]
 }
 
 const cubeTextureAliases: Record<string, string> = {
