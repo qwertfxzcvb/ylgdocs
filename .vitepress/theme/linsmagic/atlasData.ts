@@ -173,13 +173,18 @@ export function textureUrl(texture: string): string {
   return `https://assets.mcasset.cloud/${version}/assets/minecraft/textures/${texture}.png`
 }
 
+/** 默认资源版本里找不到时再试的新版本（服务器所用版本），新加入原版的物品（铜马铠、鹦鹉螺铠甲等）从这里取 */
+const LATEST_ASSET_VERSION = '26.1'
+
 export function textureCandidates(texture: string): string[] {
   const plain = unwaxed(texture)
   const base = [plain, ...(textureAliases[plain] ?? [])]
   if (plain.startsWith('item/')) base.push(`block/${plain.slice(5)}`)
   if (plain.startsWith('block/')) base.push(`item/${plain.slice(6)}`)
-  base.push('item/book')
-  return [...new Set(base)].map(textureUrl)
+  const names = [...new Set(base)]
+  // 先按默认版本逐个试，全部失败再到新版本里找同一批名字，最后才退回书本
+  const latest = names.map(name => `https://assets.mcasset.cloud/${LATEST_ASSET_VERSION}/assets/minecraft/textures/${name}.png`)
+  return [...new Set([...names.map(textureUrl), ...latest, textureUrl('item/book')])]
 }
 
 const cubeTextureAliases: Record<string, string> = {

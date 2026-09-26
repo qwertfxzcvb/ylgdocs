@@ -5459,6 +5459,26 @@
       "href": "/linsmagic/atlas/machines/machines/i-4bd9cc31049e"
     },
     {
+      "id": "简易排列器",
+      "name": "简易排列器",
+      "kind": "machine",
+      "category": "功能性机器方块",
+      "group": "machines",
+      "icon": "item/bamboo_mosaic",
+      "description": "新手用的排列器，暂存上限 2,000 件",
+      "details": [
+        "新手用的排列器，暂存上限 2,000 件",
+        "└ 右键配置最多 5 种物品的组合（数量=所需数）",
+        "└ 只收菜单里的种类，其它种类直接崩出",
+        "└ 暂存满足组合后，一次放行一个组合到其它方向",
+        "└ 可升级为排列器（暂存 1 万件）"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/machines/machines/i-bec7c2c338e6"
+    },
+    {
       "id": "排列器",
       "name": "排列器",
       "kind": "machine",
@@ -5494,7 +5514,7 @@
         "├ 可固定输出方向",
         "└ 可开启红石暂停：有信号时只收不放"
       ],
-      "obtain": "配方合成：排列器 + 钻石块 + 动能活塞 + 漏斗",
+      "obtain": "配方合成：排列器 + 下界合金锭 + 动能活塞 + 能源矩阵",
       "enchantments": [],
       "glint": true,
       "href": "/linsmagic/atlas/machines/machines/i-b9c744b09237"
@@ -27280,7 +27300,7 @@
       "description": "容量 1,024 字节的存储核心",
       "details": [
         "容量 1,024 字节的存储核心",
-        "├ 与 ME 存储外壳合成 ME 存储元件",
+        "├ 与 ME 存储外壳 / ME 多类存储外壳合成存储元件",
         "└ 与合成单元合成1k合成存储器"
       ],
       "obtain": "配方合成（应用能源）",
@@ -27298,7 +27318,7 @@
       "description": "容量 4,096 字节的存储核心",
       "details": [
         "容量 4,096 字节的存储核心",
-        "├ 与 ME 存储外壳合成 ME 存储元件",
+        "├ 与 ME 存储外壳 / ME 多类存储外壳合成存储元件",
         "└ 与合成单元合成4k合成存储器"
       ],
       "obtain": "配方合成（应用能源）",
@@ -27316,7 +27336,7 @@
       "description": "容量 16,384 字节的存储核心",
       "details": [
         "容量 16,384 字节的存储核心",
-        "├ 与 ME 存储外壳合成 ME 存储元件",
+        "├ 与 ME 存储外壳 / ME 多类存储外壳合成存储元件",
         "└ 与合成单元合成16k合成存储器"
       ],
       "obtain": "配方合成（应用能源）",
@@ -27334,7 +27354,7 @@
       "description": "容量 65,536 字节的存储核心",
       "details": [
         "容量 65,536 字节的存储核心",
-        "├ 与 ME 存储外壳合成 ME 存储元件",
+        "├ 与 ME 存储外壳 / ME 多类存储外壳合成存储元件",
         "└ 与合成单元合成64k合成存储器"
       ],
       "obtain": "配方合成（应用能源）",
@@ -27352,7 +27372,7 @@
       "description": "容量 262,144 字节的存储核心",
       "details": [
         "容量 262,144 字节的存储核心",
-        "├ 与 ME 存储外壳合成 ME 存储元件",
+        "├ 与 ME 存储外壳 / ME 多类存储外壳合成存储元件",
         "└ 与合成单元合成（无对应合成存储器）"
       ],
       "obtain": "配方合成（应用能源）",
@@ -27459,6 +27479,199 @@
       "enchantments": [],
       "glint": true,
       "href": "/linsmagic/atlas/ae/items/i-86e040ccad4b"
+    },
+    {
+      "id": "1M存储组件",
+      "name": "1M存储组件",
+      "kind": "material",
+      "category": "应用能源",
+      "group": "items",
+      "icon": "item/snort_pottery_sherd",
+      "description": "容量 1,048,576 字节的存储核心",
+      "details": [
+        "容量 1,048,576 字节的存储核心",
+        "├ 与 ME 存储外壳合成 ME 存储元件",
+        "└ 与合成单元合成（无对应合成存储器）"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/items/i-0ff09774fa7f"
+    },
+    {
+      "id": "4M存储组件",
+      "name": "4M存储组件",
+      "kind": "material",
+      "category": "应用能源",
+      "group": "items",
+      "icon": "item/skull_pottery_sherd",
+      "description": "容量 4,194,304 字节的存储核心",
+      "details": [
+        "容量 4,194,304 字节的存储核心",
+        "├ 与 ME 存储外壳合成 ME 存储元件",
+        "└ 与合成单元合成（无对应合成存储器）"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/items/i-7b6405231f98"
+    },
+    {
+      "id": "ME存储元件-1M",
+      "name": "ME存储元件-1M",
+      "kind": "material",
+      "category": "应用能源",
+      "group": "items",
+      "icon": "item/copper_horse_armor",
+      "description": "放进 ME 驱动器 / ME 箱子，接入网络存储物品",
+      "details": [
+        "放进 ME 驱动器 / ME 箱子，接入网络存储物品",
+        "├ 容量: 1,048,576 字节，最多 63 种物品",
+        "├ 每种物品占 8192 字节，每 8 个物品占 1 字节",
+        "├ 手持潜行右键空气：设置分区（只存指定物品）",
+        "└ 空元件手持潜行左键空气：拆回外壳与组件"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/items/i-eab9dcbf14f2"
+    },
+    {
+      "id": "ME存储元件-4M",
+      "name": "ME存储元件-4M",
+      "kind": "material",
+      "category": "应用能源",
+      "group": "items",
+      "icon": "item/netherite_horse_armor",
+      "description": "放进 ME 驱动器 / ME 箱子，接入网络存储物品",
+      "details": [
+        "放进 ME 驱动器 / ME 箱子，接入网络存储物品",
+        "├ 容量: 4,194,304 字节，最多 63 种物品",
+        "├ 每种物品占 32768 字节，每 8 个物品占 1 字节",
+        "├ 手持潜行右键空气：设置分区（只存指定物品）",
+        "└ 空元件手持潜行左键空气：拆回外壳与组件"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/items/i-0241a00fa85a"
+    },
+    {
+      "id": "ME多类存储外壳",
+      "name": "ME多类存储外壳",
+      "kind": "material",
+      "category": "应用能源",
+      "group": "items",
+      "icon": "item/resin_brick",
+      "description": "能容纳上千种物品的存储元件外壳",
+      "details": [
+        "能容纳上千种物品的存储元件外壳",
+        "└ 与 1k～256k 存储组件合成对应容量的 ME 多类存储元件"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/items/i-b1d78732e4e1"
+    },
+    {
+      "id": "ME多类存储元件-1k",
+      "name": "ME多类存储元件-1k",
+      "kind": "material",
+      "category": "应用能源",
+      "group": "items",
+      "icon": "item/copper_nautilus_armor",
+      "description": "放进 ME 驱动器 / ME 箱子，适合存放种类繁多的杂物",
+      "details": [
+        "放进 ME 驱动器 / ME 箱子，适合存放种类繁多的杂物",
+        "├ 容量: 1,024 字节，最多 1024 种物品",
+        "├ 每种物品占 0.5 字节，每 8 个物品占 1 字节",
+        "├ 手持潜行右键空气：设置分区（最多 63 种）",
+        "└ 空元件手持潜行左键空气：拆回多类外壳与组件"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/items/i-c213ffa5f859"
+    },
+    {
+      "id": "ME多类存储元件-4k",
+      "name": "ME多类存储元件-4k",
+      "kind": "material",
+      "category": "应用能源",
+      "group": "items",
+      "icon": "item/iron_nautilus_armor",
+      "description": "放进 ME 驱动器 / ME 箱子，适合存放种类繁多的杂物",
+      "details": [
+        "放进 ME 驱动器 / ME 箱子，适合存放种类繁多的杂物",
+        "├ 容量: 4,096 字节，最多 1024 种物品",
+        "├ 每种物品占 2 字节，每 8 个物品占 1 字节",
+        "├ 手持潜行右键空气：设置分区（最多 63 种）",
+        "└ 空元件手持潜行左键空气：拆回多类外壳与组件"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/items/i-8023d9f584e5"
+    },
+    {
+      "id": "ME多类存储元件-16k",
+      "name": "ME多类存储元件-16k",
+      "kind": "material",
+      "category": "应用能源",
+      "group": "items",
+      "icon": "item/golden_nautilus_armor",
+      "description": "放进 ME 驱动器 / ME 箱子，适合存放种类繁多的杂物",
+      "details": [
+        "放进 ME 驱动器 / ME 箱子，适合存放种类繁多的杂物",
+        "├ 容量: 16,384 字节，最多 1024 种物品",
+        "├ 每种物品占 8 字节，每 8 个物品占 1 字节",
+        "├ 手持潜行右键空气：设置分区（最多 63 种）",
+        "└ 空元件手持潜行左键空气：拆回多类外壳与组件"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/items/i-7977ed16afd2"
+    },
+    {
+      "id": "ME多类存储元件-64k",
+      "name": "ME多类存储元件-64k",
+      "kind": "material",
+      "category": "应用能源",
+      "group": "items",
+      "icon": "item/diamond_nautilus_armor",
+      "description": "放进 ME 驱动器 / ME 箱子，适合存放种类繁多的杂物",
+      "details": [
+        "放进 ME 驱动器 / ME 箱子，适合存放种类繁多的杂物",
+        "├ 容量: 65,536 字节，最多 1024 种物品",
+        "├ 每种物品占 32 字节，每 8 个物品占 1 字节",
+        "├ 手持潜行右键空气：设置分区（最多 63 种）",
+        "└ 空元件手持潜行左键空气：拆回多类外壳与组件"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/items/i-e9af3eacfca8"
+    },
+    {
+      "id": "ME多类存储元件-256k",
+      "name": "ME多类存储元件-256k",
+      "kind": "material",
+      "category": "应用能源",
+      "group": "items",
+      "icon": "item/netherite_nautilus_armor",
+      "description": "放进 ME 驱动器 / ME 箱子，适合存放种类繁多的杂物",
+      "details": [
+        "放进 ME 驱动器 / ME 箱子，适合存放种类繁多的杂物",
+        "├ 容量: 262,144 字节，最多 1024 种物品",
+        "├ 每种物品占 128 字节，每 8 个物品占 1 字节",
+        "├ 手持潜行右键空气：设置分区（最多 63 种）",
+        "└ 空元件手持潜行左键空气：拆回多类外壳与组件"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/items/i-363b0c776e39"
     },
     {
       "id": "1k合成存储器",
@@ -73875,6 +74088,60 @@
       "guiOnly": false
     },
     {
+      "id": "simple_arranger",
+      "name": "简易排列器合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "简易排列器",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:hopper",
+          "count": 1
+        },
+        {
+          "id": "minecraft:observer",
+          "count": 1
+        },
+        {
+          "id": "minecraft:hopper",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        }
+      ],
+      "group": "machines",
+      "href": "/linsmagic/atlas/recipes/machines/simple_arranger",
+      "note": "",
+      "guiOnly": false
+    },
+    {
       "id": "arranger",
       "name": "排列器合成",
       "station": "工作台",
@@ -73887,33 +74154,39 @@
       ],
       "slots": [
         {
-          "id": "minecraft:iron_block",
-          "count": 1
-        },
-        null,
-        {
-          "id": "minecraft:redstone_block",
+          "id": "铁皮",
           "count": 1
         },
         {
-          "id": "minecraft:observer",
+          "id": "红石能量回路",
           "count": 1
         },
         {
-          "id": "minecraft:redstone",
+          "id": "铁皮",
           "count": 1
         },
         {
-          "id": "minecraft:redstone_torch",
+          "id": "6向分流器",
           "count": 1
         },
         {
-          "id": "minecraft:iron_block",
+          "id": "简易排列器",
           "count": 1
         },
-        null,
         {
-          "id": "minecraft:redstone_block",
+          "id": "6向分流器",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "红石能量回路",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
           "count": 1
         }
       ],
@@ -73935,7 +74208,7 @@
       ],
       "slots": [
         {
-          "id": "minecraft:diamond_block",
+          "id": "minecraft:netherite_ingot",
           "count": 1
         },
         {
@@ -73943,11 +74216,11 @@
           "count": 1
         },
         {
-          "id": "minecraft:diamond_block",
+          "id": "minecraft:netherite_ingot",
           "count": 1
         },
         {
-          "id": "minecraft:hopper",
+          "id": "能源矩阵",
           "count": 1
         },
         {
@@ -73955,11 +74228,11 @@
           "count": 1
         },
         {
-          "id": "minecraft:hopper",
+          "id": "能源矩阵",
           "count": 1
         },
         {
-          "id": "minecraft:diamond_block",
+          "id": "minecraft:netherite_ingot",
           "count": 1
         },
         {
@@ -73967,7 +74240,7 @@
           "count": 1
         },
         {
-          "id": "minecraft:diamond_block",
+          "id": "minecraft:netherite_ingot",
           "count": 1
         }
       ],
@@ -78026,6 +78299,399 @@
       ],
       "group": "ae",
       "href": "/linsmagic/atlas/recipes/ae/ae_cell_256k",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_component_1m",
+      "name": "1M存储组件合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "1M存储组件",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "虚空晶核块",
+          "count": 1
+        },
+        {
+          "id": "工程处理器",
+          "count": 1
+        },
+        {
+          "id": "虚空晶核块",
+          "count": 1
+        },
+        {
+          "id": "256k存储组件",
+          "count": 1
+        },
+        {
+          "id": "福鲁伊克斯珍珠",
+          "count": 1
+        },
+        {
+          "id": "256k存储组件",
+          "count": 1
+        },
+        {
+          "id": "虚空晶核块",
+          "count": 1
+        },
+        {
+          "id": "256k存储组件",
+          "count": 1
+        },
+        {
+          "id": "虚空晶核块",
+          "count": 1
+        }
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_component_1m",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_component_4m",
+      "name": "4M存储组件合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "4M存储组件",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "凋零源核",
+          "count": 1
+        },
+        {
+          "id": "工程处理器",
+          "count": 1
+        },
+        {
+          "id": "凋零源核",
+          "count": 1
+        },
+        {
+          "id": "1M存储组件",
+          "count": 1
+        },
+        {
+          "id": "福鲁伊克斯珍珠",
+          "count": 1
+        },
+        {
+          "id": "1M存储组件",
+          "count": 1
+        },
+        {
+          "id": "凋零源核",
+          "count": 1
+        },
+        {
+          "id": "1M存储组件",
+          "count": 1
+        },
+        {
+          "id": "凋零源核",
+          "count": 1
+        }
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_component_4m",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_cell_1m",
+      "name": "ME存储元件-1M合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "ME存储元件-1M",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "ME存储外壳",
+          "count": 1
+        },
+        null,
+        null,
+        {
+          "id": "1M存储组件",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_cell_1m",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_cell_4m",
+      "name": "ME存储元件-4M合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "ME存储元件-4M",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "ME存储外壳",
+          "count": 1
+        },
+        null,
+        null,
+        {
+          "id": "4M存储组件",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_cell_4m",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_wide_cell_housing",
+      "name": "ME多类存储外壳合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "ME多类存储外壳",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "福鲁伊克斯珍珠",
+          "count": 1
+        },
+        {
+          "id": "工程处理器",
+          "count": 1
+        },
+        {
+          "id": "福鲁伊克斯珍珠",
+          "count": 1
+        },
+        {
+          "id": "深岩钢玉",
+          "count": 1
+        },
+        {
+          "id": "ME存储外壳",
+          "count": 1
+        },
+        {
+          "id": "深岩钢玉",
+          "count": 1
+        },
+        {
+          "id": "福鲁伊克斯珍珠",
+          "count": 1
+        },
+        {
+          "id": "工程处理器",
+          "count": 1
+        },
+        {
+          "id": "福鲁伊克斯珍珠",
+          "count": 1
+        }
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_wide_cell_housing",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_wide_cell_1k",
+      "name": "ME多类存储元件-1k合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "ME多类存储元件-1k",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "ME多类存储外壳",
+          "count": 1
+        },
+        null,
+        null,
+        {
+          "id": "1k存储组件",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_wide_cell_1k",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_wide_cell_4k",
+      "name": "ME多类存储元件-4k合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "ME多类存储元件-4k",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "ME多类存储外壳",
+          "count": 1
+        },
+        null,
+        null,
+        {
+          "id": "4k存储组件",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_wide_cell_4k",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_wide_cell_16k",
+      "name": "ME多类存储元件-16k合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "ME多类存储元件-16k",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "ME多类存储外壳",
+          "count": 1
+        },
+        null,
+        null,
+        {
+          "id": "16k存储组件",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_wide_cell_16k",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_wide_cell_64k",
+      "name": "ME多类存储元件-64k合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "ME多类存储元件-64k",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "ME多类存储外壳",
+          "count": 1
+        },
+        null,
+        null,
+        {
+          "id": "64k存储组件",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_wide_cell_64k",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_wide_cell_256k",
+      "name": "ME多类存储元件-256k合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "ME多类存储元件-256k",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "ME多类存储外壳",
+          "count": 1
+        },
+        null,
+        null,
+        {
+          "id": "256k存储组件",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_wide_cell_256k",
       "note": "",
       "guiOnly": false
     },
@@ -87970,9 +88636,9 @@
     ]
   },
   "stats": {
-    "items": 1579,
+    "items": 1590,
     "vanilla": 308,
-    "recipes": 1014,
+    "recipes": 1025,
     "structures": 44,
     "enchants": 242,
     "events": 11,
