@@ -32,7 +32,7 @@ const homeResults = computed(() => {
   for (const [id, name] of guideNames) groups.push({ key: `guide:${id}`, name, detail: '玩法指南', href: `/linsmagic/atlas/guide/${id}`, icon: 'item/book' })
   const systemNames = [['pipeline', '管道系统'], ['multiblock', '多方块机器搭建'], ['enchanting', '附魔体系'],
     ['events-bosses', '夜间事件与首领'], ['web-machines', '网页机器'],
-    ['applied-energistics', '应用能源（入门）'], ['ae-autocrafting', '应用能源（自动合成）']]
+    ['applied-energistics', '应用能源（入门）'], ['ae-autocrafting', '应用能源（自动合成）'], ['power', '发电系统']]
   for (const [id, name] of systemNames) groups.push({ key: `system:${id}`, name, detail: '系统教程',
     href: `/linsmagic/atlas/tutorials/systems/${id}`, icon: 'block/piston_top' })
   const pages = [...categoryEntries('machines'), ...categoryEntries('weapons'), ...categoryEntries('items'),

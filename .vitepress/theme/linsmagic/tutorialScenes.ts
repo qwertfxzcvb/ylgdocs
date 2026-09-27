@@ -41,11 +41,20 @@ export interface SceneFlow {
   count?: number
 }
 
+/** 风力发电机的转子（轮毂 + 三片扇叶），按游戏里展示实体的尺寸画，并随动画转动 */
+export interface SceneRotor {
+  /** 机舱方块坐标 */
+  x: number; y: number; z: number
+  /** 扇叶所在的一面 */
+  facing: 'north' | 'south' | 'east' | 'west'
+}
+
 export interface TutorialScene {
   title?: string
   height?: number
   view?: { rx: number; rz: number }
   blocks: SceneBlock[]
+  rotors?: SceneRotor[]
   flows?: SceneFlow[]
   notes?: Array<{ tag: string; text: string; bad?: boolean }>
   hideCounts?: boolean
@@ -67,6 +76,90 @@ function run(id: string, a: [number, number, number], b: [number, number, number
 }
 
 export const tutorialScenes: Record<string, TutorialScene> = {
+  'power-overview': {
+    title: '发电方块接入网络：屋顶的光伏板用线缆连到驱动器，多出的电存进能源元件',
+    height: 380,
+    blocks: [
+      ...run('minecraft:oak_planks', [0, 3, 0], [3, 3, 0], { decor: true }),
+      { x: 0, y: 4, z: 0, id: 'ME光伏板', tag: '1', note: '正上方露天，白天发电' },
+      { x: 1, y: 4, z: 0, id: 'ME光伏板' },
+      { x: 2, y: 4, z: 0, id: 'ME光伏板' },
+      ...run('ME线缆', [3, 4, 0], [3, 4, 0]),
+      ...run('ME线缆', [4, 4, 0], [4, 1, 0]),
+      { x: 4, y: 0, z: 0, id: 'ME驱动器', tag: '2', note: '网络本体' },
+      { x: 5, y: 0, z: 0, id: '能源元件', tag: '3', note: '存下白天多出来的电' },
+      { x: 4, y: 1, z: 1, id: 'ME终端' }
+    ],
+    flows: [{ path: [[1, 4, 0], [4, 4, 0], [4, 0, 0], [5, 0, 0]], item: 'item/glowstone_dust', speed: 2.5, count: 3 }],
+    notes: [
+      { tag: '1', text: '<b>发电方块</b>和其他 AE 方块一样，<b>相邻即接入网络</b>，隔开时用 ME线缆连接。发电方块不占设备名额、自身不耗电。' },
+      { tag: '2', text: '<b>任意 AE 方块</b>都能作为连接点，发电方块不必贴着驱动器或能源接收器。' },
+      { tag: '3', text: '<b>能源元件</b>：网络的电池。发电量超过耗电时存进来，夜晚或发电不足时放出来。' }
+    ]
+  },
+
+  'power-geothermal': {
+    title: '地热发电机：四周和下方共 5 格岩浆源，发电 15 AE/秒',
+    height: 330,
+    blocks: [
+      { x: 0, y: 0, z: 0, id: 'ME地热发电机', tag: '1', note: '上方接线缆，其余五面贴岩浆源' },
+      { x: 1, y: 0, z: 0, id: 'minecraft:lava', label: '岩浆源', texture: 'block/lava_still', tag: '2' },
+      { x: -1, y: 0, z: 0, id: 'minecraft:lava', label: '岩浆源', texture: 'block/lava_still' },
+      { x: 0, y: 0, z: 1, id: 'minecraft:lava', label: '岩浆源', texture: 'block/lava_still' },
+      { x: 0, y: 0, z: -1, id: 'minecraft:lava', label: '岩浆源', texture: 'block/lava_still' },
+      { x: 0, y: -1, z: 0, id: 'minecraft:lava', label: '岩浆源', texture: 'block/lava_still' },
+      ...run('ME线缆', [0, 1, 0], [0, 3, 0]),
+      { x: 0, y: 4, z: 0, id: 'ME驱动器', tag: '3', note: '网络的其余部分' }
+    ],
+    notes: [
+      { tag: '1', text: '<b>ME地热发电机</b>：六个面每贴一格岩浆源 +3 AE/秒，最多计 5 格（15 AE/秒）。第六面留给线缆。' },
+      { tag: '2', text: '<b>岩浆源</b>：必须是源方块，流动的岩浆不算；岩浆不会被消耗。可直接放在下界岩浆海边，或用桶倒岩浆。' },
+      { tag: '3', text: '<b>线缆</b>：把发电机接回网络。线缆和岩浆相邻不会有任何问题。' }
+    ]
+  },
+
+  'power-wind': {
+    title: '风力发电机：用 ME线缆搭塔，离地 12 格；扇叶半径 3 格，前方留空',
+    height: 480,
+    view: { rx: 70, rz: -30 },
+    rotors: [{ x: 0, y: 12, z: 0, facing: 'south' }],
+    blocks: [
+      ...run('minecraft:grass_block', [-3, 0, 0], [3, 0, 0], { decor: true, texture: 'block/grass_block_top' }),
+      ...run('minecraft:grass_block', [-3, 0, -1], [3, 0, -1], { decor: true, texture: 'block/grass_block_top' }),
+      ...run('minecraft:grass_block', [-3, 0, 1], [3, 0, 1], { decor: true, texture: 'block/grass_block_top' }),
+      ...run('ME线缆', [0, 1, 0], [0, 11, 0]),
+      { x: 0, y: 12, z: 0, id: 'ME风力发电机', tag: '1', note: '扇叶朝南（面对放置者的一侧）' },
+      { x: 1, y: 1, z: 0, id: 'ME驱动器', tag: '3', note: '塔底接网络' }
+    ],
+    notes: [
+      { tag: '1', text: '<b>离地高度</b>按风机周围 5 格一圈的地面平均高度计算，线缆塔身不算地面。离地 8 格起发电（4 AE/秒），32 格以上 16 AE/秒。' },
+      { tag: '2', text: '<b>扇叶</b>在机舱正前方一格，半径 3 格。这个圆面里有方块（树叶、墙、另一台风机）扇叶就停转；草、花、雪层不影响。' },
+      { tag: '3', text: '<b>用 ME线缆当塔身</b>：既把风机撑高，又顺便把它连进地面的网络。8 格内再放一台风机会互相挡风，发电减半。' }
+    ]
+  },
+
+  'power-reactor': {
+    title: '核反应堆：主机 + 仓室，拉杆控制启停，线缆接入网络',
+    height: 380,
+    blocks: [
+      { x: 0, y: 0, z: 0, id: 'ME核反应堆', tag: '1', note: '右键打开元件格' },
+      { x: 1, y: 0, z: 0, id: '反应堆仓室', tag: '2', note: '每个多解锁 1 列' },
+      { x: -1, y: 0, z: 0, id: '反应堆仓室' },
+      { x: 0, y: 0, z: -1, id: '反应堆仓室' },
+      { x: 0, y: 1, z: 0, id: '反应堆仓室' },
+      { x: 0, y: 0, z: 1, id: 'ME线缆', tag: '3' },
+      ...run('ME线缆', [0, 0, 2], [0, 0, 4]),
+      { x: 0, y: 0, z: 5, id: 'ME驱动器' },
+      { x: 1, y: 0, z: 5, id: '致密能源元件' },
+      { x: 2, y: 0, z: 0, id: 'minecraft:lever', label: '拉杆', texture: 'block/lever', facing: 'east', tag: '4', note: '拉下 = 运行，拉起 = 停机' }
+    ],
+    notes: [
+      { tag: '1', text: '<b>ME核反应堆</b>：基础 3 列 × 6 行元件格，界面标题实时显示运行状态、堆温和发电量。' },
+      { tag: '2', text: '<b>反应堆仓室</b>：贴在反应堆的任意一面（包括上下），每个多 1 列，最多 6 个（9 × 6）。图中 4 个仓室 = 7 列。' },
+      { tag: '3', text: '反应堆和仓室都是 AE 方块，<b>任意一个贴着线缆或其他 AE 方块</b>就能接入网络，发出的电直接进网络。' },
+      { tag: '4', text: '<b>红石开关</b>：给反应堆或任意一个仓室红石信号才会运行。<b>一定要留一个随手能关的开关</b>，堆温上涨时立刻断开。' }
+    ]
+  },
   'pipe-basic': {
     title: '最小链路：箱子 → 传出阀 → 管道 → 传入阀 → 箱子',
     blocks: [

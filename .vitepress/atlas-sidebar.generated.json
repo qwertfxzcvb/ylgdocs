@@ -40,6 +40,10 @@
           {
             "text": "应用能源（自动合成）",
             "link": "/linsmagic/atlas/tutorials/systems/ae-autocrafting"
+          },
+          {
+            "text": "发电系统",
+            "link": "/linsmagic/atlas/tutorials/systems/power"
           }
         ]
       },

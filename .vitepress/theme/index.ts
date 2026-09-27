@@ -25,6 +25,7 @@ export default {
         // 教程页用：行内物品、3D 示意场景、路线图，以及直接嵌入百科的配方和多方块结构
         app.component('LmItem', defineAsyncComponent(() => import('./linsmagic/LmItem.vue')))
         app.component('LmScene', defineAsyncComponent(() => import('./linsmagic/LmScene.vue')))
+        app.component('LmReactorGui', defineAsyncComponent(() => import('./linsmagic/LmReactorGui.vue')))
         app.component('LmRoadmap', defineAsyncComponent(() => import('./linsmagic/LmRoadmap.vue')))
         app.component('AtlasRecipe', defineAsyncComponent(() => import('./linsmagic/AtlasRecipe.vue')))
         app.component('AtlasStructure', defineAsyncComponent(() => import('./linsmagic/AtlasStructure.vue')))

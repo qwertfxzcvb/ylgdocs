@@ -67,3 +67,21 @@
 .lm-shot-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:12px;margin:18px 0}
 .lm-shot-row .lm-shot{margin:0}
 .lm-shot-narrow{max-width:460px}
+
+/* 栏杆（ME线缆）：两片交叉的竖直贴片 */
+.lm-tscene-bars{position:absolute;inset:-5px;background-size:100% 100%;background-repeat:no-repeat;image-rendering:pixelated;backface-visibility:visible}
+.lm-tscene-bars-x{transform:rotateX(90deg)}
+.lm-tscene-bars-y{transform:rotateZ(90deg) rotateX(90deg)}
+.lm-cube:hover .lm-tscene-bars{filter:drop-shadow(0 0 4px var(--vp-c-brand-1)) brightness(1.2)}
+/* 风力发电机转子：任意尺寸的长方体 */
+.lm-tscene-box{position:absolute;left:0;top:0;width:0;height:0;transform-style:preserve-3d;pointer-events:none}
+.lm-tscene-box-face{position:absolute;left:0;top:0;background-size:100% 100%;image-rendering:pixelated;backface-visibility:hidden;border:1px solid rgba(0,0,0,.12)}
+.lm-tscene-box-face-0{filter:brightness(1)}
+.lm-tscene-box-face-1{filter:brightness(.55)}
+.lm-tscene-box-face-2{filter:brightness(.85)}
+.lm-tscene-box-face-3{filter:brightness(.7)}
+.lm-tscene-box-face-4{filter:brightness(.95)}
+.lm-tscene-box-face-5{filter:brightness(.65)}
+/* 全屏 */
+.lm-tscene-full{position:fixed!important;inset:0;z-index:200;background:var(--vp-c-bg);margin:0!important;padding:12px;overflow:auto;max-width:none!important;border-radius:0!important}
+.lm-tscene-full .lm-tscene-view{height:calc(100vh - 110px)!important}

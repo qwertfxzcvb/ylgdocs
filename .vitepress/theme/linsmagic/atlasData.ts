@@ -83,6 +83,8 @@ const textureAliases: Record<string, string[]> = {
   'item/crafting_table': ['block/crafting_table_front'],
   'item/grass_block': ['block/grass_block_top'],
   'item/knowledge_book': ['item/book'],
+  'item/daylight_detector': ['block/daylight_detector_top'],
+  'item/smooth_red_sandstone': ['block/red_sandstone_top'],
   'item/iron_block': ['block/iron_block'],
   'item/piston': ['block/piston_top'],
   'item/piston_top': ['block/piston_top'],
@@ -100,6 +102,7 @@ const textureAliases: Record<string, string[]> = {
   'item/ancient_debris': ['block/ancient_debris_side'],
   'item/big_dripleaf': ['block/big_dripleaf_top'],
   'item/black_stained_glass_pane': ['block/black_stained_glass'],
+  'item/gray_stained_glass_pane': ['block/gray_stained_glass'],
   'item/blackstone_slab': ['block/blackstone'],
   'item/bone_block': ['block/bone_block_side'],
   'item/cartography_table': ['block/cartography_table_top'],
@@ -214,7 +217,8 @@ const cubeTextureAliases: Record<string, string> = {
   snow_block: 'block/snow', oxidized_lightning_rod: 'block/oxidized_copper', lightning_rod: 'block/copper_block',
   sculk_catalyst: 'block/sculk_catalyst_side', honey_block: 'block/honey_block_side', lectern: 'block/lectern_front',
   target: 'block/target_side', verdant_froglight: 'block/verdant_froglight_side', ochre_froglight: 'block/ochre_froglight_side',
-  pearlescent_froglight: 'block/pearlescent_froglight_side'
+  pearlescent_froglight: 'block/pearlescent_froglight_side',
+  daylight_detector: 'block/daylight_detector_top', smooth_red_sandstone: 'block/red_sandstone_top'
 }
 
 export function blockTextureUrl(block: AtlasBlock): string {
