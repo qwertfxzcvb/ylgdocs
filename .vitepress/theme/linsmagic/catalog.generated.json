@@ -27490,6 +27490,26 @@
       "href": "/linsmagic/atlas/ae/blocks/i-d4cf5c0f9fc3"
     },
     {
+      "id": "ME量子终端",
+      "name": "ME量子终端",
+      "kind": "material",
+      "category": "应用能源",
+      "group": "items",
+      "icon": "item/recovery_compass",
+      "description": "不受距离与维度限制的 ME 终端",
+      "details": [
+        "不受距离与维度限制的 ME 终端",
+        "├ 右键 ME 无线访问点完成绑定",
+        "├ 在任何地方、任何维度右键空气打开终端",
+        "├ 潜行右键空气：切换普通 / 合成模式",
+        "└ 用红石充能桩或充能器充能"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/items/i-76d487f855a1"
+    },
+    {
       "id": "合成单元",
       "name": "合成单元",
       "kind": "machine",
@@ -80812,6 +80832,60 @@
       "guiOnly": false
     },
     {
+      "id": "ae_quantum_terminal",
+      "name": "ME量子终端合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "ME量子终端",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "凋零源核",
+          "count": 1
+        },
+        {
+          "id": "能源矩阵",
+          "count": 1
+        },
+        {
+          "id": "凋零源核",
+          "count": 1
+        },
+        {
+          "id": "虚空晶核块",
+          "count": 1
+        },
+        {
+          "id": "ME无线终端",
+          "count": 1
+        },
+        {
+          "id": "虚空晶核块",
+          "count": 1
+        },
+        {
+          "id": "凋零源核",
+          "count": 1
+        },
+        {
+          "id": "能源矩阵",
+          "count": 1
+        },
+        {
+          "id": "凋零源核",
+          "count": 1
+        }
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_quantum_terminal",
+      "note": "",
+      "guiOnly": false
+    },
+    {
       "id": "ae_stocker",
       "name": "ME自动合成器合成",
       "station": "工作台",
@@ -89681,9 +89755,9 @@
     ]
   },
   "stats": {
-    "items": 1607,
+    "items": 1608,
     "vanilla": 308,
-    "recipes": 1040,
+    "recipes": 1041,
     "structures": 44,
     "enchants": 242,
     "events": 11,
