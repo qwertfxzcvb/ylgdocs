@@ -26879,12 +26879,12 @@
       "category": "应用能源",
       "group": "blocks",
       "icon": "item/waxed_exposed_chiseled_copper",
-      "description": "把燃料转化为少量 AE 能量，只够开荒和应急",
+      "description": "只收电、不发电：给网络加 4,000 AE 储能，当电池用",
       "details": [
-        "把燃料转化为少量 AE 能量，只够开荒和应急",
-        "右键放入燃料；传入阀可用管道自动补燃料",
-        "红石 / 煤炭 / 烈焰棒 / 积聚的魔素 / 熔火能源核心 / 能源矩阵",
-        "正经供电请用光伏板、地热、风力、魔素反应堆、核反应堆",
+        "只收电、不发电：给网络加 4,000 AE 储能，当电池用",
+        "发电方块多出来的电先存进来，不够用时再放出来",
+        "拆下时这块分到的电写进物品，装回去接着用",
+        "要发电请用 魔素反应堆 / 核反应堆 / 风车·太阳能透平机·蒸汽机（接切削发电机）",
         "放置后与相邻 AE 方块自动组网"
       ],
       "obtain": "配方合成（应用能源）",
@@ -26893,56 +26893,17 @@
       "href": "/linsmagic/atlas/ae/blocks/i-f27528d9a82e"
     },
     {
-      "id": "ME光伏板",
-      "name": "ME光伏板",
-      "kind": "machine",
-      "category": "应用能源",
-      "group": "blocks",
-      "icon": "item/daylight_detector",
-      "description": "白天把阳光转化为 AE 能量",
-      "details": [
-        "白天把阳光转化为 AE 能量",
-        "主世界、正上方露天时：晴天 4 AE/秒，下雨减半，夜晚不发电",
-        "不消耗任何东西，不占设备名额",
-        "放置后与相邻 AE 方块自动组网"
-      ],
-      "obtain": "配方合成（应用能源）",
-      "enchantments": [],
-      "glint": true,
-      "href": "/linsmagic/atlas/ae/blocks/i-b8ef951baca6"
-    },
-    {
-      "id": "ME地热发电机",
-      "name": "ME地热发电机",
-      "kind": "machine",
-      "category": "应用能源",
-      "group": "blocks",
-      "icon": "item/smooth_red_sandstone",
-      "description": "利用岩浆的热量发电，岩浆不会被消耗",
-      "details": [
-        "利用岩浆的热量发电，岩浆不会被消耗",
-        "六个面每贴一格岩浆源 +3 AE/秒，最多计 5 格（15 AE/秒）",
-        "不占设备名额",
-        "放置后与相邻 AE 方块自动组网"
-      ],
-      "obtain": "配方合成（应用能源）",
-      "enchantments": [],
-      "glint": true,
-      "href": "/linsmagic/atlas/ae/blocks/i-98f9e91fade4"
-    },
-    {
       "id": "ME魔素反应堆",
       "name": "ME魔素反应堆",
       "kind": "machine",
       "category": "应用能源",
       "group": "blocks",
       "icon": "item/tuff_bricks",
-      "description": "缓慢燃烧积聚的魔素，稳定输出大量能量",
+      "description": "缓慢燃烧积聚的魔素，稳定供电",
       "details": [
-        "缓慢燃烧积聚的魔素，稳定输出大量能量",
-        "右键放入积聚的魔素（八种都可以）：60 AE/秒，一个烧 90 分钟",
-        "总发电量约为直接放进能源接收器的 20 倍；网络电满时暂停燃烧",
-        "不占设备名额",
+        "缓慢燃烧积聚的魔素，稳定供电",
+        "右键放入积聚的魔素（八种都可以）：10 AE/秒，一个烧 90 分钟",
+        "网络电满时暂停燃烧，不浪费；不占设备名额",
         "放置后与相邻 AE 方块自动组网"
       ],
       "obtain": "配方合成（应用能源）",
@@ -26951,24 +26912,123 @@
       "href": "/linsmagic/atlas/ae/blocks/i-845a8d15b8f6"
     },
     {
-      "id": "ME风力发电机",
-      "name": "ME风力发电机",
+      "id": "ME风车",
+      "name": "ME风车",
       "kind": "machine",
       "category": "应用能源",
       "group": "blocks",
       "icon": "item/white_concrete",
-      "description": "高处的风力发电机，扇叶朝向放置时面对你的一侧",
+      "description": "高处的风车，扇叶朝向放置时面对你的一侧",
       "details": [
-        "高处的风力发电机，扇叶朝向放置时面对你的一侧",
-        "离地 8 格起发电：4 AE/秒，离地 32 格以上 16 AE/秒",
+        "高处的风车，扇叶朝向放置时面对你的一侧",
+        "转动时产生机械动力：离地 8 格起 4，离地 32 格及以上 16",
         "下雨 ×1.25、雷暴 ×1.5；扇叶半径 3 格，范围内有方块会停转",
-        "8 格内有别的风力发电机互相挡风，发电减半；不占设备名额",
+        "8 格内有别的风车互相挡风，动力减半；不占设备名额",
+        "不产 AE 电；动力用机械传动器 接走",
         "放置后与相邻 AE 方块自动组网"
       ],
       "obtain": "配方合成（应用能源）",
       "enchantments": [],
       "glint": true,
-      "href": "/linsmagic/atlas/ae/blocks/i-b7e7c85ad0d3"
+      "href": "/linsmagic/atlas/ae/blocks/i-add437759533"
+    },
+    {
+      "id": "ME切削发电机",
+      "name": "ME切削发电机",
+      "kind": "machine",
+      "category": "应用能源",
+      "group": "blocks",
+      "icon": "item/cracked_deepslate_tiles",
+      "description": "刀头切削正下方的红石块，把机械动力变成 AE 电",
+      "details": [
+        "刀头切削正下方的红石块，把机械动力变成 AE 电",
+        "正下方放红石块：刀头随动力来回磨，红石块一点点被磨平（1.0 → 0.7 → 0.4 → 0.1）",
+        "磨完一块碎裂消失，要再放一块；动力越大磨得越快，每块的总发电量不变",
+        "除下方外的五个方向都能接入动力（机械传动器 / 风车）",
+        "发出的电经 ME线缆 送进网络，给别的机器用；不占设备名额",
+        "放置后与相邻 AE 方块自动组网"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/blocks/i-0404130820dd"
+    },
+    {
+      "id": "机械传动器",
+      "name": "机械传动器",
+      "kind": "tool",
+      "category": "应用能源",
+      "group": "other",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/other/i-83b2018b622e"
+    },
+    {
+      "id": "太阳能聚光镜",
+      "name": "太阳能聚光镜",
+      "kind": "machine",
+      "category": "应用能源",
+      "group": "blocks",
+      "icon": "item/polished_blackstone_wall",
+      "description": "镜子顺着法线射出一道光，打到 太阳能透平机 上给它加热",
+      "details": [
+        "镜子顺着法线射出一道光，打到 太阳能透平机 上给它加热",
+        "右键打开界面：水平 / 仰角 两排按钮转镜面（每下 5° / 15°，仰角最低 -45°）",
+        "光不看太阳在哪，只看白天 / 天气；界面里的提示会算出该对着哪儿",
+        "光路最远 24 格，中途被方块挡住就作废；离得越远送到的热越少",
+        "只有白天、不下雨才有阳光；不占设备名额",
+        "放置后与相邻 AE 方块自动组网"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/blocks/i-f67c45609933"
+    },
+    {
+      "id": "太阳能透平机",
+      "name": "太阳能透平机",
+      "kind": "machine",
+      "category": "应用能源",
+      "group": "blocks",
+      "icon": "item/heavy_core",
+      "description": "被聚光镜烤热后转动，输出机械动力",
+      "details": [
+        "被聚光镜烤热后转动，输出机械动力",
+        "温度升到 150 °C 才转起来，越高转得越快（最多 16 动力）",
+        "没有光就靠自身散热慢慢降温；过热（800 °C）会排气暂停吸热",
+        "动力用 机械传动器 接走，接到 ME切削发电机 就变成 AE 电",
+        "不占设备名额",
+        "放置后与相邻 AE 方块自动组网"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/blocks/i-93fd6e89898c"
+    },
+    {
+      "id": "ME蒸汽机",
+      "name": "ME蒸汽机",
+      "kind": "machine",
+      "category": "应用能源",
+      "group": "blocks",
+      "icon": "item/deepslate_bricks",
+      "description": "烧煤把锅炉里的水蒸成汽，游梁一上一下带着飞轮转，输出机械动力",
+      "details": [
+        "烧煤把锅炉里的水蒸成汽，游梁一上一下带着飞轮转，输出机械动力",
+        "右键打开界面放燃料：煤炭 / 木炭 / 煤炭块，也能用管道、ME 输出总线投喂",
+        "贴着水才烧得动（水方块 / 装满水的炼药锅 / 含水方块）：没水就停下不烧，也不费煤",
+        "出力恒定 12 动力（比风车稳、比烤热的透平机低）",
+        "动力用 机械传动器 接走，接到 ME切削发电机 就变成 AE 电；不占设备名额",
+        "放置后与相邻 AE 方块自动组网"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/blocks/i-54281aae11b1"
     },
     {
       "id": "ME核反应堆",
@@ -27049,9 +27109,9 @@
       "category": "应用能源",
       "group": "items",
       "icon": "item/breeze_rod",
-      "description": "单根铀燃料：5 AE/秒，产热 4/秒（单独放置时）",
+      "description": "单根铀燃料：50 AE/秒，产热 4/秒（单独放置时）",
       "details": [
-        "单根铀燃料：5 AE/秒，产热 4/秒（单独放置时）",
+        "单根铀燃料：50 AE/秒，产热 4/秒（单独放置时）",
         "├ 相邻的燃料棒、中子反射板会激发它，发电和产热都更高",
         "├ 热量平分给相邻的散热 / 储热元件，没有就进堆壳",
         "└ 寿命 20,000 秒（约 5.5 小时），耐久条显示剩余寿命"
@@ -27068,9 +27128,9 @@
       "category": "应用能源",
       "group": "items",
       "icon": "item/echo_shard",
-      "description": "两根燃料并联：20 AE/秒，产热 24/秒（单独放置时）",
+      "description": "两根燃料并联：200 AE/秒，产热 24/秒（单独放置时）",
       "details": [
-        "两根燃料并联：20 AE/秒，产热 24/秒（单独放置时）",
+        "两根燃料并联：200 AE/秒，产热 24/秒（单独放置时）",
         "└ 寿命 20,000 秒"
       ],
       "obtain": "配方合成（应用能源）",
@@ -27085,9 +27145,9 @@
       "category": "应用能源",
       "group": "items",
       "icon": "item/nether_star",
-      "description": "四根燃料并联：60 AE/秒，产热 96/秒（单独放置时）",
+      "description": "四根燃料并联：600 AE/秒，产热 96/秒（单独放置时）",
       "details": [
-        "四根燃料并联：60 AE/秒，产热 96/秒（单独放置时）",
+        "四根燃料并联：600 AE/秒，产热 96/秒（单独放置时）",
         "└ 寿命 20,000 秒；产热极高，必须配足散热"
       ],
       "obtain": "配方合成（应用能源）",
@@ -27490,6 +27550,27 @@
       "href": "/linsmagic/atlas/ae/blocks/i-d4cf5c0f9fc3"
     },
     {
+      "id": "能源导线",
+      "name": "能源导线",
+      "kind": "machine",
+      "category": "应用能源",
+      "group": "blocks",
+      "icon": "item/waxed_oxidized_copper_bars",
+      "description": "只传电、不导通 AE，把发电和储能方块连成独立电网",
+      "details": [
+        "只传电、不导通 AE，把发电和储能方块连成独立电网",
+        "贴着导线的发电方块、能源元件、能源接收器都接入电网",
+        "电网连着的所有网络共用电量，一座发电站可供多个网络",
+        "用能源接收器把电网接到 ME 网络上；没有传输损耗",
+        "不占设备名额",
+        "放置后与相邻 AE 方块自动组网"
+      ],
+      "obtain": "配方合成（应用能源），一次合成 12 个",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/blocks/i-8b8ec22c936a"
+    },
+    {
       "id": "ME量子终端",
       "name": "ME量子终端",
       "kind": "material",
@@ -27573,7 +27654,7 @@
       "description": "用压印模板压制电路板、组装处理器、研磨粉末",
       "details": [
         "用压印模板压制电路板、组装处理器、研磨粉末",
-        "需要接入有电的网络（能源接收器 + 线缆即可）",
+        "需要接入有电的网络（发电方块 + 线缆即可）",
         "接入网络时产物直接存进网络；否则留在输出格",
         "可装加速卡；传入阀可用管道送料",
         "放置后与相邻 AE 方块自动组网"
@@ -79545,121 +79626,13 @@
       "guiOnly": false
     },
     {
-      "id": "ae_solar_panel",
-      "name": "ME光伏板合成",
-      "station": "工作台",
-      "type": "crafting",
-      "result": [
-        {
-          "id": "ME光伏板",
-          "count": 1
-        }
-      ],
-      "slots": [
-        {
-          "id": "石英玻璃",
-          "count": 1
-        },
-        {
-          "id": "石英玻璃",
-          "count": 1
-        },
-        {
-          "id": "石英玻璃",
-          "count": 1
-        },
-        {
-          "id": "赛特斯石英水晶",
-          "count": 1
-        },
-        {
-          "id": "逻辑处理器",
-          "count": 1
-        },
-        {
-          "id": "赛特斯石英水晶",
-          "count": 1
-        },
-        {
-          "id": "铁皮",
-          "count": 1
-        },
-        {
-          "id": "铁皮",
-          "count": 1
-        },
-        {
-          "id": "铁皮",
-          "count": 1
-        }
-      ],
-      "group": "ae",
-      "href": "/linsmagic/atlas/recipes/ae/ae_solar_panel",
-      "note": "",
-      "guiOnly": false
-    },
-    {
-      "id": "ae_geothermal_generator",
-      "name": "ME地热发电机合成",
-      "station": "工作台",
-      "type": "crafting",
-      "result": [
-        {
-          "id": "ME地热发电机",
-          "count": 1
-        }
-      ],
-      "slots": [
-        {
-          "id": "熔炎钢锭",
-          "count": 1
-        },
-        {
-          "id": "工程处理器",
-          "count": 1
-        },
-        {
-          "id": "熔炎钢锭",
-          "count": 1
-        },
-        {
-          "id": "minecraft:magma_block",
-          "count": 1
-        },
-        {
-          "id": "ME能源接收器",
-          "count": 1
-        },
-        {
-          "id": "minecraft:magma_block",
-          "count": 1
-        },
-        {
-          "id": "熔炎钢锭",
-          "count": 1
-        },
-        {
-          "id": "工程处理器",
-          "count": 1
-        },
-        {
-          "id": "熔炎钢锭",
-          "count": 1
-        }
-      ],
-      "group": "ae",
-      "href": "/linsmagic/atlas/recipes/ae/ae_geothermal_generator",
-      "note": "",
-      "guiOnly": false
-    },
-    {
       "id": "ae_wind_turbine",
-      "name": "ME风力发电机合成",
+      "name": "ME风车合成",
       "station": "工作台",
       "type": "crafting",
       "result": [
         {
-          "id": "ME风力发电机",
+          "id": "ME风车",
           "count": 1
         }
       ],
@@ -79703,6 +79676,264 @@
       ],
       "group": "ae",
       "href": "/linsmagic/atlas/recipes/ae/ae_wind_turbine",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_cutter_generator",
+      "name": "ME切削发电机合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "ME切削发电机",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "风霜合金",
+          "count": 1
+        },
+        {
+          "id": "深岩钢玉",
+          "count": 1
+        },
+        {
+          "id": "风霜合金",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_block",
+          "count": 1
+        },
+        {
+          "id": "ME能源接收器",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_block",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone_block",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        }
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_cutter_generator",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_solar_mirror",
+      "name": "太阳能聚光镜合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "太阳能聚光镜",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "石英玻璃",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "石英玻璃",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        }
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_solar_mirror",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_solar_turbine",
+      "name": "太阳能透平机合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "太阳能透平机",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "风霜合金",
+          "count": 1
+        },
+        {
+          "id": "石英玻璃",
+          "count": 1
+        },
+        {
+          "id": "风霜合金",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_block",
+          "count": 1
+        },
+        {
+          "id": "ME能源接收器",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_block",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "minecraft:magma_block",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        }
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_solar_turbine",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_steam_engine",
+      "name": "ME蒸汽机合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "ME蒸汽机",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "风霜合金",
+          "count": 1
+        },
+        {
+          "id": "minecraft:cauldron",
+          "count": 1
+        },
+        {
+          "id": "风霜合金",
+          "count": 1
+        },
+        {
+          "id": "minecraft:piston",
+          "count": 1
+        },
+        {
+          "id": "ME能源接收器",
+          "count": 1
+        },
+        {
+          "id": "minecraft:piston",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_block",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        }
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_steam_engine",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_kinetic_shaft",
+      "name": "机械传动器合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "机械传动器",
+          "count": 8
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        null,
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "风霜合金",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        null,
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        null
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_kinetic_shaft",
       "note": "",
       "guiOnly": false
     },
@@ -80882,6 +81113,60 @@
       ],
       "group": "ae",
       "href": "/linsmagic/atlas/recipes/ae/ae_quantum_terminal",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_power_cable",
+      "name": "能源导线合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "能源导线",
+          "count": 12
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        }
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_power_cable",
       "note": "",
       "guiOnly": false
     },
@@ -89755,9 +90040,9 @@
     ]
   },
   "stats": {
-    "items": 1608,
+    "items": 1612,
     "vanilla": 308,
-    "recipes": 1041,
+    "recipes": 1045,
     "structures": 44,
     "enchants": 242,
     "events": 11,

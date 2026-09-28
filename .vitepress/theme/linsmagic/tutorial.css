@@ -85,3 +85,12 @@
 /* 全屏 */
 .lm-tscene-full{position:fixed!important;inset:0;z-index:200;background:var(--vp-c-bg);margin:0!important;padding:12px;overflow:auto;max-width:none!important;border-radius:0!important}
 .lm-tscene-full .lm-tscene-view{height:calc(100vh - 110px)!important}
+/* 发电方块的展示实体零件：100px 立方体，用 matrix3d 摆到位置（见 displayParts.ts） */
+.lm-tscene-part{position:absolute;left:0;top:0;width:0;height:0;transform-style:preserve-3d;transform-origin:0 0 0;pointer-events:none}
+.lm-tscene-part-face{position:absolute;left:0;top:0;width:100px;height:100px;transform-origin:0 0 0;background-size:100% 100%;image-rendering:pixelated;backface-visibility:visible}
+.lm-tscene-part-face-0,.lm-tscene-part-face-1{filter:brightness(.8)}
+.lm-tscene-part-face-2,.lm-tscene-part-face-3{filter:brightness(.65)}
+.lm-tscene-part-face-4{filter:brightness(.5)}
+.lm-tscene-part-face-5{filter:brightness(1.1)}
+.lm-tscene-invisible .lm-cube-face{opacity:0}
+.lm-tscene-invisible:hover .lm-cube-face{opacity:.25}

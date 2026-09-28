@@ -99,7 +99,7 @@ export function simulate(rows, cols, seconds = 3600) {
         }
         if (STORES_HEAT.has(q.kind)) acceptors.push(n)
       }
-      energy += cells * pulse * 5
+      energy += cells * pulse * 50
       const heat = cells * 2 * pulse * (pulse + 1)
       if (!acceptors.length) st.hull += heat
       else {

@@ -3,6 +3,7 @@ import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { entryById, entryHref, textureUrl } from './atlasData'
 import AtlasIcon from './AtlasIcon.vue'
 import { tutorialScenes, type SceneBlock } from './tutorialScenes'
+import { aimAt, cutter, grindstoneModel, mirror, mul, shaft, steamEngine, turbine, windmill, type Face, type Part } from './displayParts'
 
 /**
  * 教程用的 3D 示意场景：场景数据写在 tutorialScenes.ts，正文里 <LmScene id="pipe-basic" /> 引用。
@@ -12,6 +13,7 @@ import { tutorialScenes, type SceneBlock } from './tutorialScenes'
  *  - tag：方块上方的编号气泡，对应下方的步骤说明
  *  - bad：标红的错误示范
  *  - flows：沿路径移动的物品，演示运输过程
+ *  - 发电方块（风车、传动器、切削发电机、聚光镜、透平机、蒸汽机）按插件的展示实体画出外形和动画，见 displayParts.ts
  */
 const props = defineProps<{ id: string }>()
 const scene = computed(() => tutorialScenes[props.id])
@@ -96,7 +98,9 @@ const special: Record<string, string> = {
   hopper: 'block/hopper_outside', comparator: 'block/smooth_stone', lever: 'block/cobblestone',
   furnace: 'block/furnace_front', composter: 'block/composter_side', dispenser: 'block/dispenser_front',
   dropper: 'block/dropper_front', observer: 'block/observer_front', loom: 'block/loom_front',
-  daylight_detector: 'block/daylight_detector_top', smooth_red_sandstone: 'block/red_sandstone_top'
+  daylight_detector: 'block/daylight_detector_top', smooth_red_sandstone: 'block/red_sandstone_top',
+  // 太阳能透平机：方块是沉重核心，游戏里外面罩着一层宝库外壳的展示实体
+  heavy_core: 'block/vault_side_off', polished_blackstone_wall: 'block/polished_blackstone'
 }
 const LOG_LIKE = /(_log|_stem|pillar|basalt|bone_block|hay_block|chiseled_tuff_bricks|quartz_pillar)$/
 function material(block: SceneBlock) {
@@ -113,6 +117,7 @@ function endTexture(block: SceneBlock) {
   if (block.endTexture) return textureUrl(block.endTexture)
   if (m === 'barrel') return textureUrl('block/barrel_top')
   if (m === 'piston') return textureUrl('block/piston_top')
+  if (m === 'heavy_core') return textureUrl('block/vault_top')
   if (LOG_LIKE.test(m)) return textureUrl(`block/${m}_top`)
   return sideTexture(block)
 }
@@ -122,7 +127,7 @@ function endTexture(block: SceneBlock) {
  */
 function faceTexture(block: SceneBlock, face: string) {
   const m = material(block)
-  const axis = block.axis ?? (LOG_LIKE.test(m) || m === 'barrel' || m === 'piston' ? 'y' : null)
+  const axis = block.axis ?? (LOG_LIKE.test(m) || m === 'barrel' || m === 'piston' || m === 'heavy_core' ? 'y' : null)
   const endFaces = axis === 'x' ? ['left', 'right'] : axis === 'z' ? ['top', 'bottom'] : axis === 'y' ? ['front', 'back'] : []
   return endFaces.includes(face) ? endTexture(block) : sideTexture(block)
 }
@@ -146,6 +151,12 @@ function faceStyle(block: SceneBlock, face: string) {
   // 栏杆类（ME线缆）贴图大部分透明，不垫底色会露出方块的白底
   else if (/_bars$/.test(material(block))) style.backgroundColor = 'transparent'
   // 草方块顶面贴图是灰度的，游戏里按生物群系染绿，这里用平原的草色
+  // 水的贴图是灰度的，游戏里按生物群系染蓝
+  else if (material(block) === 'water' || block.texture === 'block/water_still') {
+    style.backgroundColor = '#3f76e4'
+    style.backgroundBlendMode = 'multiply'
+    style.backgroundSize = '100% auto'
+  }
   else if (material(block) === 'grass_block' || block.texture === 'block/grass_block_top') {
     style.backgroundColor = '#79c05a'
     style.backgroundBlendMode = 'multiply'
@@ -183,28 +194,66 @@ function plateFaceStyle(block: SceneBlock, face: string) {
   return { backgroundImage: `url(${textureUrl('block/daylight_detector_side')})`, backgroundSize: '100% 100%' }
 }
 
-// ---------- 风力发电机转子（与游戏里的展示实体同尺寸：扇叶长 3.1 格、宽 0.34、厚 0.07） ----------
-const ROTOR_YAW: Record<string, number> = { south: 0, west: 90, north: 180, east: -90 }
 interface Box { key: string; transform: string; w: number; d: number; h: number; texture: string }
-const rotorBoxes = computed<Box[]>(() => {
-  const out: Box[] = []
-  for (const [ri, r] of (scene.value?.rotors ?? []).entries()) {
-    const f = { south: [0, 1], north: [0, -1], east: [1, 0], west: [-1, 0] }[r.facing]
-    // 轮毂在机舱正前方 0.75 格
-    const hub = place(r.x + f[0] * 0.75, r.y, r.z + f[1] * 0.75)
-    const yaw = `rotateZ(${ROTOR_YAW[r.facing]}deg)`
-    out.push({ key: `hub-${ri}`, transform: `${hub} ${yaw}`, w: 0.44 * CELL, d: 0.5 * CELL, h: 0.44 * CELL, texture: textureUrl('block/iron_block') })
-    const spin = clock.value * 70
-    for (let i = 0; i < 3; i++) {
-      const angle = spin + i * 120
-      const len = 3.1 * CELL
-      // 绕转子轴（CSS 的 Y）转到当前角度，再沿半径方向（CSS 的 Z）推出去；rotateZ(12deg) 是桨叶扭角
-      out.push({ key: `blade-${ri}-${i}`, transform: `${hub} ${yaw} rotateY(${angle}deg) translateZ(${0.15 * CELL + len / 2}px) rotateZ(12deg)`,
-        w: 0.34 * CELL, d: 0.07 * CELL, h: len, texture: textureUrl('block/white_concrete') })
+
+// ---------- 发电方块的展示实体（外形与动画移植自插件，见 displayParts.ts） ----------
+const PART_UNIT = 60 // 零件按方块的实际画法（60px 一格）缩放
+/** 插件坐标（x 东、y 上、z 南）→ 场景 CSS（X、Y = z、Z = 高度），再把 100px 的立方体缩成单位立方体 */
+const TO_CSS = [PART_UNIT, 0, 0, 0, 0, 0, PART_UNIT, 0, 0, PART_UNIT, 0, 0, 0, 0, 0, 1]
+const FROM_BOX = [0.01, 0, 0, 0, 0, 0.01, 0, 0, 0, 0, 0.01, 0, 0, 0, 0, 1]
+const KINETIC_POWER: Record<string, number> = { 'ME蒸汽机': 12, '太阳能透平机': 16 }
+function isPartBlock(block: SceneBlock) {
+  return ['机械传动器', 'ME切削发电机', '太阳能聚光镜', '太阳能透平机', 'ME蒸汽机'].includes(block.id)
+}
+/** 切削发电机正下方的红石块由零件画（会被磨矮），方块本身不画 */
+function hiddenCube(block: SceneBlock) {
+  if (block.id !== 'minecraft:redstone_block') return false
+  return (scene.value?.blocks ?? []).some(b => b.id === 'ME切削发电机' && b.x === block.x && b.y === block.y + 1 && b.z === block.z)
+}
+const parts = computed<Array<Part & { transform: string }>>(() => {
+  const blocks = scene.value?.blocks ?? []
+  const rotors = scene.value?.rotors ?? []
+  const t = clock.value
+  // 场景里的动力源都接在同一个传动网上：总动力平分给切削发电机（和插件的 Kinetic.share 一样）
+  let total = 0
+  for (const b of blocks) total += b.power ?? KINETIC_POWER[b.id] ?? 0
+  for (const r of rotors) total += r.power ?? 16
+  const cutters = blocks.filter(b => b.id === 'ME切削发电机').length
+  const share = cutters ? total / cutters : 0
+  const turbines = blocks.filter(b => b.id === '太阳能透平机')
+  const out: Array<Part & { transform: string }> = []
+  const push = (prefix: string, list: Part[]) => {
+    for (const p of list) {
+      const m = mul(mul(TO_CSS, p.m), FROM_BOX)
+      out.push({ ...p, key: `${prefix}-${p.key}`, transform: `${place(p.anchor[0], p.anchor[1], p.anchor[2])} matrix3d(${m.join(',')})` })
     }
   }
+  for (const b of blocks) {
+    const id = `${b.x},${b.y},${b.z}`
+    const f = b.facing as Face | undefined
+    if (b.id === '机械传动器') push(id, [...grindstoneModel(b.x, b.y, b.z, f), ...shaft(b.x, b.y, b.z, f, total, t)])
+    else if (b.id === 'ME切削发电机') push(id, cutter(b.x, b.y, b.z, f, share, t))
+    else if (b.id === '太阳能透平机') push(id, turbine(b.x, b.y, b.z, f, b.power ?? 16, t))
+    else if (b.id === 'ME蒸汽机') push(id, steamEngine(b.x, b.y, b.z, f, b.power ?? 12, t))
+    else if (b.id === '太阳能聚光镜') {
+      // 镜面对准最近的透平机
+      const from: [number, number, number] = [b.x, b.y + 1.25, b.z]
+      let best: SceneBlock | null = null, bestD = Infinity
+      for (const tb of turbines) {
+        const d = Math.hypot(tb.x - b.x, tb.y - b.y, tb.z - b.z)
+        if (d < bestD) { bestD = d; best = tb }
+      }
+      const aim = best ? aimAt(from, [best.x, best.y, best.z]) : { yaw: 0, pitch: 30 }
+      push(id, mirror(b.x, b.y, b.z, aim.yaw, aim.pitch))
+    }
+  }
+  for (const [ri, r] of rotors.entries()) push(`rotor${ri}`, windmill(r.x, r.y, r.z, r.facing, r.power ?? 16, t))
   return out
 })
+const PART_FACES = ['translateZ(0)', 'translateZ(100px)', 'rotateY(-90deg)', 'translateX(100px) rotateY(-90deg)',
+  'rotateX(90deg)', 'translateY(100px) rotateX(90deg)']
+const hasMotion = computed(() => !!(scene.value?.flows?.length || scene.value?.rotors?.length || scene.value?.blocks.some(isPartBlock)))
+
 /**
  * 拉杆按游戏里的模型画：底座 6×8×3（像素，1 格 = 16 像素）贴在墙上，木柄 2×2×10 斜 45°。
  * facing 是拉杆朝外的方向（挂在对面那堵墙上），默认朝上（放在地上）。
@@ -292,7 +341,7 @@ let last = 0
 let visible = false
 function frame(now: number) {
   raf = 0
-  if (!visible || !playing.value || !(scene.value?.flows?.length || scene.value?.rotors?.length)) { last = 0; return }
+  if (!visible || !playing.value || !hasMotion.value) { last = 0; return }
   if (last) clock.value += Math.min(0.05, (now - last) / 1000)
   last = now
   raf = requestAnimationFrame(frame)
@@ -374,7 +423,7 @@ const counts = computed(() => {
       @pointerdown="pointerDown" @pointermove="pointerMove" @pointerup="pointerUp" @pointercancel="pointerUp" @wheel.prevent="onWheel">
       <div class="lm-world" :style="{ transform: `scale(${scale * zoom}) rotateX(${rotateX}deg) rotateZ(${rotateZ}deg)` }">
         <a v-for="block in scene.blocks" :key="`${block.x},${block.y},${block.z}`" class="lm-cube"
-          :class="{ 'lm-tscene-bad': block.bad, 'lm-tscene-ghost': block.ghost, 'lm-tscene-glass': isGlass(block), 'lm-tscene-chest': isChest(block), 'lm-tscene-lit': activeTag && block.tag === activeTag }"
+          :class="{ 'lm-tscene-invisible': block.id === '机械传动器', 'lm-tscene-bad': block.bad, 'lm-tscene-ghost': block.ghost, 'lm-tscene-glass': isGlass(block), 'lm-tscene-chest': isChest(block), 'lm-tscene-lit': activeTag && block.tag === activeTag }"
           :href="entryHref(block.id)" :data-lm-item-id="entryById[block.id] ? block.id : undefined"
           :style="{ transform: blockTransform(block) }" :aria-label="name(block)"
           @mouseenter="hovered = block; activeTag = block.tag ?? null" @mouseleave="hovered = null; activeTag = null" @click="blockClick">
@@ -382,15 +431,19 @@ const counts = computed(() => {
             <span v-for="plane in barsPlanes(block)" :key="plane" class="lm-tscene-bars" :class="`lm-tscene-bars-${plane}`"
               :style="{ backgroundImage: `url(${sideTexture(block)})` }"></span>
           </template>
-          <span v-for="face in (isBars(block) || isLever(block) ? [] : ['front', 'back', 'left', 'right', 'top', 'bottom'])" :key="face" class="lm-cube-face"
+          <span v-for="face in (isBars(block) || isLever(block) || hiddenCube(block) ? [] : ['front', 'back', 'left', 'right', 'top', 'bottom'])" :key="face" class="lm-cube-face"
             :class="`lm-face-${face}`" :style="isPlate(block) ? plateFaceStyle(block, face) : faceStyle(block, face)">
-            <i v-if="face === 'front' && block.facing && arrowAngle[block.facing] !== undefined" class="lm-tscene-arrow"
+            <i v-if="face === 'front' && block.facing && arrowAngle[block.facing] !== undefined && (!isPartBlock(block) || block.id === '机械传动器')" class="lm-tscene-arrow"
               :style="{ transform: `rotate(${arrowAngle[block.facing]}deg)` }">▲</i>
             <i v-else-if="face === 'front' && (block.facing === 'up' || block.facing === 'down')" class="lm-tscene-arrow">{{ block.facing === 'up' ? '⊙' : '⊗' }}</i>
           </span>
         </a>
-        <div v-for="box in [...rotorBoxes, ...leverBoxes]" :key="box.key" class="lm-tscene-box" :style="{ transform: box.transform }">
+        <div v-for="box in leverBoxes" :key="box.key" class="lm-tscene-box" :style="{ transform: box.transform }">
           <span v-for="(f, fi) in boxFaces(box)" :key="fi" class="lm-tscene-box-face" :class="`lm-tscene-box-face-${fi}`" :style="f"></span>
+        </div>
+        <div v-for="part in parts" :key="part.key" class="lm-tscene-part" :style="{ transform: part.transform }">
+          <span v-for="(ft, fi) in PART_FACES" :key="fi" class="lm-tscene-part-face" :class="`lm-tscene-part-face-${fi}`"
+            :style="{ transform: ft, backgroundImage: `url(${textureUrl(part.faces?.[fi] ?? part.texture)})` }"></span>
         </div>
         <img v-for="sprite in sprites" :key="sprite.key" class="lm-tscene-sprite" :src="spriteUrl(sprite.icon)" alt=""
           :style="{ transform: billboard(sprite.x, sprite.y, sprite.z, 0.62) }" />
@@ -399,7 +452,7 @@ const counts = computed(() => {
           :style="{ transform: billboard(block.x, block.y, block.z, 0.95) }">{{ block.bad ? '✗' : block.tag }}</span>
       </div>
       <div class="lm-tscene-controls" @pointerdown.stop>
-        <button v-if="scene.flows?.length || scene.rotors?.length" type="button" @click="playing = !playing">{{ playing ? '暂停' : '播放' }}</button>
+        <button v-if="hasMotion" type="button" @click="playing = !playing">{{ playing ? '暂停' : '播放' }}</button>
         <button type="button" @click="resetView">重置视角</button>
         <button type="button" @click="toggleFullscreen">{{ fullscreen ? '退出全屏' : '全屏' }}</button>
       </div>

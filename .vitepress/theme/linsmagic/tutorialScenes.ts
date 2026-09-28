@@ -28,6 +28,8 @@ export interface SceneBlock {
   decor?: boolean
   texture?: string
   endTexture?: string
+  /** 动力源（蒸汽机 / 透平机）的机械动力，决定动画转速；不写按满额算 */
+  power?: number
 }
 
 export interface SceneFlow {
@@ -41,12 +43,14 @@ export interface SceneFlow {
   count?: number
 }
 
-/** 风力发电机的转子（轮毂 + 三片扇叶），按游戏里展示实体的尺寸画，并随动画转动 */
+/** 风车的转子（轮毂 + 三片扇叶），按游戏里展示实体的尺寸画，并随动画转动 */
 export interface SceneRotor {
   /** 机舱方块坐标 */
   x: number; y: number; z: number
   /** 扇叶所在的一面 */
   facing: 'north' | 'south' | 'east' | 'west'
+  /** 机械动力（离地高度决定），决定转速；不写按 16 */
+  power?: number
 }
 
 export interface TutorialScene {
@@ -77,64 +81,116 @@ function run(id: string, a: [number, number, number], b: [number, number, number
 
 export const tutorialScenes: Record<string, TutorialScene> = {
   'power-overview': {
-    title: '发电方块接入网络：屋顶的光伏板用线缆连到驱动器，多出的电存进能源元件',
+    title: '机械动力发电：蒸汽机的动力经传动器送到切削发电机，切削发电机把电送进网络',
     height: 380,
+    view: { rx: 62, rz: -35 },
     blocks: [
-      ...run('minecraft:oak_planks', [0, 3, 0], [3, 3, 0], { decor: true }),
-      { x: 0, y: 4, z: 0, id: 'ME光伏板', tag: '1', note: '正上方露天，白天发电' },
-      { x: 1, y: 4, z: 0, id: 'ME光伏板' },
-      { x: 2, y: 4, z: 0, id: 'ME光伏板' },
-      ...run('ME线缆', [3, 4, 0], [3, 4, 0]),
-      ...run('ME线缆', [4, 4, 0], [4, 1, 0]),
-      { x: 4, y: 0, z: 0, id: 'ME驱动器', tag: '2', note: '网络本体' },
-      { x: 5, y: 0, z: 0, id: '能源元件', tag: '3', note: '存下白天多出来的电' },
-      { x: 4, y: 1, z: 1, id: 'ME终端' }
+      { x: -1, y: 0, z: 0, id: 'minecraft:water', label: '水', texture: 'block/water_still', tag: '1', note: '贴着水才烧得动，水不消耗' },
+      { x: 0, y: 0, z: 0, id: 'ME蒸汽机', facing: 'north', tag: '1', note: '烧煤，输出 12 动力；游梁和飞轮向北伸出' },
+      { x: 1, y: 0, z: 0, id: '机械传动器', facing: 'east', tag: '2', note: '轴沿东西方向' },
+      { x: 2, y: 0, z: 0, id: '机械传动器', facing: 'east' },
+      { x: 3, y: 0, z: 0, id: 'ME切削发电机', facing: 'east', tag: '3', note: '把动力变成 AE 电' },
+      { x: 3, y: -1, z: 0, id: 'minecraft:redstone_block', label: '红石块（被磨的料）', tag: '4' },
+      { x: 4, y: 0, z: 0, id: 'ME线缆' },
+      { x: 5, y: 0, z: 0, id: 'ME能源接收器', tag: '5', note: '网络的储能' },
+      { x: 5, y: 0, z: 1, id: '压印器' },
+      { x: 5, y: 1, z: 0, id: 'ME驱动器' }
     ],
-    flows: [{ path: [[1, 4, 0], [4, 4, 0], [4, 0, 0], [5, 0, 0]], item: 'item/glowstone_dust', speed: 2.5, count: 3 }],
+    flows: [{ path: [[3, 0, 0], [5, 0, 0], [5, 0, 1]], item: 'item/glowstone_dust', speed: 2.5, count: 3 }],
     notes: [
-      { tag: '1', text: '<b>发电方块</b>和其他 AE 方块一样，<b>相邻即接入网络</b>，隔开时用 ME线缆连接。发电方块不占设备名额、自身不耗电。' },
-      { tag: '2', text: '<b>任意 AE 方块</b>都能作为连接点，发电方块不必贴着驱动器或能源接收器。' },
-      { tag: '3', text: '<b>能源元件</b>：网络的电池。发电量超过耗电时存进来，夜晚或发电不足时放出来。' }
+      { tag: '1', text: '<b>ME蒸汽机</b>：燃料格放煤炭 / 木炭 / 煤炭块，贴着水就能持续输出 12 动力。没有机器在用动力时自动停火。' },
+      { tag: '2', text: '<b>机械传动器</b>：只传机械动力，不导通 AE。放下时轴沿你的视线方向；相邻两根只要有一根的轴对着它们之间的连线就会相连。' },
+      { tag: '3', text: '<b>ME切削发电机</b>：从除下方以外的五个面接收动力（传动器的轴要对准它），同时它本身是 AE 方块，贴着网络即可把电送进去。' },
+      { tag: '4', text: '<b>红石块</b>：放在切削发电机正下方，会被收进去慢慢磨平，一块共发 20,000 AE。磨完后需要再放一块。' },
+      { tag: '5', text: '<b>储能</b>：网络里要有能源接收器或能源元件存电，否则切削发电机无处送电。网络满电时切削发电机暂停，不消耗红石块。' }
     ]
   },
 
-  'power-geothermal': {
-    title: '地热发电机：四周和下方共 5 格岩浆源，发电 15 AE/秒',
-    height: 330,
+  'power-grid': {
+    title: '独立电网：远处的发电站用能源导线送电，同时供两个 ME 网络',
+    height: 400,
+    view: { rx: 60, rz: -30 },
     blocks: [
-      { x: 0, y: 0, z: 0, id: 'ME地热发电机', tag: '1', note: '上方接线缆，其余五面贴岩浆源' },
-      { x: 1, y: 0, z: 0, id: 'minecraft:lava', label: '岩浆源', texture: 'block/lava_still', tag: '2' },
-      { x: -1, y: 0, z: 0, id: 'minecraft:lava', label: '岩浆源', texture: 'block/lava_still' },
-      { x: 0, y: 0, z: 1, id: 'minecraft:lava', label: '岩浆源', texture: 'block/lava_still' },
-      { x: 0, y: 0, z: -1, id: 'minecraft:lava', label: '岩浆源', texture: 'block/lava_still' },
-      { x: 0, y: -1, z: 0, id: 'minecraft:lava', label: '岩浆源', texture: 'block/lava_still' },
-      ...run('ME线缆', [0, 1, 0], [0, 3, 0]),
-      { x: 0, y: 4, z: 0, id: 'ME驱动器', tag: '3', note: '网络的其余部分' }
+      { x: -1, y: 0, z: 0, id: 'minecraft:water', label: '水', texture: 'block/water_still' },
+      { x: 0, y: 0, z: 0, id: 'ME蒸汽机', facing: 'north' },
+      { x: 1, y: 0, z: 0, id: '机械传动器', facing: 'east' },
+      { x: 2, y: 0, z: 0, id: '机械传动器', facing: 'east' },
+      { x: 3, y: 0, z: 0, id: 'ME切削发电机', facing: 'east', tag: '1', note: '贴着导线，发的电送进电网' },
+      { x: 3, y: -1, z: 0, id: 'minecraft:redstone_block', label: '红石块' },
+      { x: 4, y: 0, z: 0, id: '能源导线' },
+      { x: 5, y: 0, z: 0, id: '能源导线', tag: '2', note: '只传电，不导通 AE' },
+      ...run('能源导线', [6, 0, 0], [8, 0, 0]),
+      { x: 6, y: 0, z: 1, id: '能源元件', tag: '3', note: '电网的电池' },
+      { x: 9, y: 0, z: 0, id: 'ME能源接收器', tag: '4', note: '把电网接到网络 A' },
+      { x: 10, y: 0, z: 0, id: 'ME驱动器' },
+      { x: 10, y: 1, z: 0, id: 'ME终端' },
+      ...run('能源导线', [8, 0, 1], [8, 0, 2]),
+      { x: 8, y: 0, z: 3, id: 'ME能源接收器', note: '把电网接到网络 B' },
+      { x: 9, y: 0, z: 3, id: 'ME驱动器' }
+    ],
+    flows: [
+      { path: [[3, 0, 0], [8, 0, 0], [9, 0, 0]], item: 'item/glowstone_dust', speed: 2.5, count: 3 },
+      { path: [[8, 0, 0], [8, 0, 3]], item: 'item/glowstone_dust', speed: 2.5, count: 2 }
     ],
     notes: [
-      { tag: '1', text: '<b>ME地热发电机</b>：六个面每贴一格岩浆源 +3 AE/秒，最多计 5 格（15 AE/秒）。第六面留给线缆。' },
-      { tag: '2', text: '<b>岩浆源</b>：必须是源方块，流动的岩浆不算；岩浆不会被消耗。可直接放在下界岩浆海边，或用桶倒岩浆。' },
-      { tag: '3', text: '<b>线缆</b>：把发电机接回网络。线缆和岩浆相邻不会有任何问题。' }
+      { tag: '1', text: '<b>发电方块</b>贴着能源导线就接入电网。它不必再和仓库网络连在一起，发电站可以建在远处。' },
+      { tag: '2', text: '<b>能源导线</b>：只传电，不导通 AE，所以两端的网络不会合并。电网里没有传输损耗。' },
+      { tag: '3', text: '<b>能源元件</b>贴着导线就成为电网的电池，发电站多出来的电先存在这里。' },
+      { tag: '4', text: '<b>能源接收器</b>一面贴导线、一面贴 ME 网络，把电网的电送进这个网络。接几个接收器，就能同时给几个网络供电。' }
+    ]
+  },
+
+  'power-solar': {
+    title: '太阳能：四面聚光镜把光打到透平机上，透平机烤热后输出动力',
+    height: 400,
+    view: { rx: 60, rz: -30 },
+    blocks: [
+      { x: 0, y: 0, z: 0, id: '太阳能透平机', facing: 'south', tag: '2', note: '150 °C 起转，600 °C 满 16 动力' },
+      { x: -3, y: 0, z: -3, id: '太阳能聚光镜', tag: '1', note: '镜面对准透平机' },
+      { x: 3, y: 0, z: -3, id: '太阳能聚光镜' },
+      { x: -3, y: 0, z: 3, id: '太阳能聚光镜' },
+      { x: 0, y: 0, z: -4, id: '太阳能聚光镜' },
+      { x: 1, y: 0, z: 0, id: '机械传动器', facing: 'east', tag: '3' },
+      { x: 2, y: 0, z: 0, id: '机械传动器', facing: 'east' },
+      { x: 3, y: 0, z: 0, id: 'ME切削发电机' },
+      { x: 3, y: -1, z: 0, id: 'minecraft:redstone_block', label: '红石块' },
+      { x: 4, y: 0, z: 0, id: 'ME线缆' },
+      { x: 5, y: 0, z: 0, id: 'ME能源接收器' }
+    ],
+    flows: [
+      { path: [[-3, 1.25, -3], [0, 0.5, 0]], item: 'item/glowstone_dust', speed: 3, count: 2 },
+      { path: [[3, 1.25, -3], [0, 0.5, 0]], item: 'item/glowstone_dust', speed: 3, count: 2 },
+      { path: [[-3, 1.25, 3], [0, 0.5, 0]], item: 'item/glowstone_dust', speed: 3, count: 2 },
+      { path: [[0, 1.25, -4], [0, 0.5, 0]], item: 'item/glowstone_dust', speed: 3, count: 2 }
+    ],
+    notes: [
+      { tag: '1', text: '<b>太阳能聚光镜</b>：光从镜板中心沿镜面法线射出，最远 24 格，中途被方块挡住就作废。右键打开界面用按钮转动镜面，界面会提示该对准哪里。' },
+      { tag: '2', text: '<b>太阳能透平机</b>：被照热后才转动。离镜子 4 格左右时，4 面镜子即可把它烤到 600 °C 以上，输出满额 16 动力。' },
+      { tag: '3', text: '<b>接到切削发电机</b>：透平机是动力源，贴哪一面都能接传动器，后面的接法与蒸汽机相同。只有主世界白天、不下雨时有阳光。' }
     ]
   },
 
   'power-wind': {
-    title: '风力发电机：用 ME线缆搭塔，离地 12 格；扇叶半径 3 格，前方留空',
+    title: '风车：用机械传动器竖成塔身，离地 12 格；动力沿塔身传到地面的切削发电机',
     height: 480,
     view: { rx: 70, rz: -30 },
-    rotors: [{ x: 0, y: 12, z: 0, facing: 'south' }],
+    rotors: [{ x: 0, y: 12, z: 0, facing: 'south', power: 6 }],
     blocks: [
-      ...run('minecraft:grass_block', [-3, 0, 0], [3, 0, 0], { decor: true, texture: 'block/grass_block_top' }),
       ...run('minecraft:grass_block', [-3, 0, -1], [3, 0, -1], { decor: true, texture: 'block/grass_block_top' }),
       ...run('minecraft:grass_block', [-3, 0, 1], [3, 0, 1], { decor: true, texture: 'block/grass_block_top' }),
-      ...run('ME线缆', [0, 1, 0], [0, 11, 0]),
-      { x: 0, y: 12, z: 0, id: 'ME风力发电机', tag: '1', note: '扇叶朝南（面对放置者的一侧）' },
-      { x: 1, y: 1, z: 0, id: 'ME驱动器', tag: '3', note: '塔底接网络' }
+      ...run('minecraft:grass_block', [-3, 0, 0], [-1, 0, 0], { decor: true, texture: 'block/grass_block_top' }),
+      ...run('minecraft:grass_block', [1, 0, 0], [3, 0, 0], { decor: true, texture: 'block/grass_block_top' }),
+      { x: 0, y: 0, z: 0, id: 'minecraft:redstone_block', label: '红石块' },
+      { x: 0, y: 1, z: 0, id: 'ME切削发电机', tag: '3', note: '从上方接收塔身传下来的动力' },
+      ...run('机械传动器', [0, 2, 0], [0, 11, 0], { facing: 'up' }),
+      { x: 0, y: 12, z: 0, id: 'ME风车', tag: '1', note: '扇叶朝南（面对放置者的一侧）' },
+      { x: 1, y: 1, z: 0, id: 'ME线缆' },
+      { x: 2, y: 1, z: 0, id: 'ME能源接收器' }
     ],
     notes: [
-      { tag: '1', text: '<b>离地高度</b>按风机周围 5 格一圈的地面平均高度计算，线缆塔身不算地面。离地 8 格起发电（4 AE/秒），32 格以上 16 AE/秒。' },
-      { tag: '2', text: '<b>扇叶</b>在机舱正前方一格，半径 3 格。这个圆面里有方块（树叶、墙、另一台风机）扇叶就停转；草、花、雪层不影响。' },
-      { tag: '3', text: '<b>用 ME线缆当塔身</b>：既把风机撑高，又顺便把它连进地面的网络。8 格内再放一台风机会互相挡风，发电减半。' }
+      { tag: '1', text: '<b>离地高度</b>按风车周围 5 格一圈的地面平均高度计算，塔身不算地面。离地 8 格起有动力（4），32 格以上 16。' },
+      { tag: '2', text: '<b>扇叶</b>在机舱正前方一格，半径 3 格。这个圆面里有方块扇叶就停转；8 格内另有风车时互相挡风，动力减半。' },
+      { tag: '3', text: '<b>塔身</b>：抬头放置的传动器轴朝上，一根接一根竖起来，把风车撑高的同时把动力传到地面。传动器不导通 AE，切削发电机旁边用线缆接网络。' }
     ]
   },
 
