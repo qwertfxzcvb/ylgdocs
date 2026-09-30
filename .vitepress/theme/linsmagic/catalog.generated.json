@@ -11858,6 +11858,680 @@
       "href": "/linsmagic/atlas/materials/basic/i-0e923bd79356"
     },
     {
+      "id": "虚空捕笼",
+      "name": "虚空捕笼",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/bucket",
+      "description": "以虚空丝绸织成的捕笼，能兜住虚空里凝出的质块",
+      "details": [
+        "以虚空丝绸织成的捕笼，能兜住虚空里凝出的质块",
+        "使用方法：",
+        "右键游荡的「虚质」，它会在原地散落成",
+        "掉落物「虚质」",
+        "捕笼不会消耗，可以反复使用"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-475c188b401b"
+    },
+    {
+      "id": "虚空垂钓者",
+      "name": "虚空垂钓者",
+      "kind": "tool",
+      "category": "功能性工具",
+      "group": "tools",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "配方合成：7 个虚空丝绸包住 1 根钓鱼竿，配 2 块虚质",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/tools/i-a056e0237649"
+    },
+    {
+      "id": "虚空猎手",
+      "name": "虚空猎手",
+      "kind": "tool",
+      "category": "功能性工具",
+      "group": "tools",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "配方合成：虚质×4 + 不灭虚空烬×2 + 虚空垂钓者×2 + 梦魇×1",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/tools/i-537b4ba859a9"
+    },
+    {
+      "id": "梦魇猎手",
+      "name": "梦魇猎手",
+      "kind": "tool",
+      "category": "功能性工具",
+      "group": "tools",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "配方合成：梦魇×5 + 不灭虚空烬×2 + 虚空猎手×2",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/tools/i-d34755f87f06"
+    },
+    {
+      "id": "虚空盲鳗",
+      "name": "虚空盲鳗",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/cod",
+      "description": "在虚空里退化掉眼睛的鳗形怪鱼",
+      "details": [
+        "在虚空里退化掉眼睛的鳗形怪鱼",
+        "靠水流和魔力的震动找食"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-610d6b1599cd"
+    },
+    {
+      "id": "星界水母",
+      "name": "星界水母",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/ghast_tear",
+      "description": "半透明的钟状躯体里飘着细碎的星光",
+      "details": [
+        "半透明的钟状躯体里飘着细碎的星光",
+        "被碰到就轻轻缩成一团"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-b8ba36a4db77"
+    },
+    {
+      "id": "噬光鳐",
+      "name": "噬光鳐",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/phantom_membrane",
+      "description": "像一片薄刃在暗里滑行的鳐",
+      "details": [
+        "像一片薄刃在暗里滑行的鳐",
+        "游过的地方，光会暗下去一截"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-d4ee2a019e2e"
+    },
+    {
+      "id": "时空裂隙幼体",
+      "name": "时空裂隙幼体",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/popped_chorus_fruit",
+      "description": "从裂隙里漏出来的幼体，身形忽远忽近",
+      "details": [
+        "从裂隙里漏出来的幼体，身形忽远忽近",
+        "盯着看久了会有点晕"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-aa1172663d04"
+    },
+    {
+      "id": "深渊骨鱼",
+      "name": "深渊骨鱼",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/bone",
+      "description": "只剩一副骨架还在游的鱼",
+      "details": [
+        "只剩一副骨架还在游的鱼",
+        "被虚空泡得发白发脆"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-18d645d5e302"
+    },
+    {
+      "id": "奇点河豚",
+      "name": "奇点河豚",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/pufferfish",
+      "description": "受惊时把自己绷成一个极小极重的点",
+      "details": [
+        "受惊时把自己绷成一个极小极重的点",
+        "别让它炸开"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-e6c62d407767"
+    },
+    {
+      "id": "末影浮游虫",
+      "name": "末影浮游虫",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/chorus_fruit",
+      "description": "成片漂在虚空里的微小虫群",
+      "details": [
+        "成片漂在虚空里的微小虫群",
+        "被惊动就瞬移出一小段"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-11b399f0e8a6"
+    },
+    {
+      "id": "暗物质小虾",
+      "name": "暗物质小虾",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/prismarine_shard",
+      "description": "壳上凝着看不真切的暗色",
+      "details": [
+        "壳上凝着看不真切的暗色",
+        "捏在手里比看上去沉得多"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-641391f99097"
+    },
+    {
+      "id": "游荡的虚空吸盘",
+      "name": "游荡的虚空吸盘",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/glow_ink_sac",
+      "description": "贴着虚空缓慢游荡的软体",
+      "details": [
+        "贴着虚空缓慢游荡的软体",
+        "碰到什么就吸住什么"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-3342905b8cc2"
+    },
+    {
+      "id": "磨损的遗失收纳袋",
+      "name": "磨损的遗失收纳袋",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/bundle",
+      "description": "某位冒险家丢下的收纳袋，绳结快磨断了",
+      "details": [
+        "某位冒险家丢下的收纳袋，绳结快磨断了",
+        "里面空空的，只剩一点虚空的气味"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-34bce357298e"
+    },
+    {
+      "id": "破损的潜影盒外壳",
+      "name": "破损的潜影盒外壳",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/shulker_shell",
+      "description": "被压扁过的潜影盒外壳",
+      "details": [
+        "被压扁过的潜影盒外壳",
+        "再也装不住任何东西"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-9e429c7a1779"
+    },
+    {
+      "id": "狂乱自旋的破损指南针",
+      "name": "狂乱自旋的破损指南针",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/compass",
+      "description": "指针疯了似的乱转，怎么也停不下来",
+      "details": [
+        "指针疯了似的乱转，怎么也停不下来",
+        "别拿它认路"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-48978b11e91e"
+    },
+    {
+      "id": "逆流时钟",
+      "name": "逆流时钟",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/clock",
+      "description": "指针在倒着走",
+      "details": [
+        "指针在倒着走",
+        "凑近能听见时间往回淌的声音"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-0a1fcea6fa05"
+    },
+    {
+      "id": "被腐蚀的基岩碎屑",
+      "name": "被腐蚀的基岩碎屑",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/flint",
+      "description": "从世界底部被啃下来的碎屑",
+      "details": [
+        "从世界底部被啃下来的碎屑",
+        "边缘还在缓慢地掉渣"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-d1fff4f7c6ab"
+    },
+    {
+      "id": "生锈的深渊重锚",
+      "name": "生锈的深渊重锚",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/anvil",
+      "description": "沉船拖上来的半截铁锚，锈得看不出原样",
+      "details": [
+        "沉船拖上来的半截铁锚，锈得看不出原样",
+        "沉得几乎抬不动"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-492c8a706653"
+    },
+    {
+      "id": "褪色的冒险家日记残页",
+      "name": "褪色的冒险家日记残页",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/paper",
+      "description": "字迹被泡得只剩零星几个词",
+      "details": [
+        "字迹被泡得只剩零星几个词",
+        "最后一行写着「别再下钩了」"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-896eff52354b"
+    },
+    {
+      "id": "断裂的合金钓线",
+      "name": "断裂的合金钓线",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/string",
+      "description": "绷断的钓线，断口还带着劲",
+      "details": [
+        "绷断的钓线，断口还带着劲",
+        "曾经钓上来过什么，没人知道"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-5d837e3c855c"
+    },
+    {
+      "id": "钙化的末影龙鳞片",
+      "name": "钙化的末影龙鳞片",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/armadillo_scute",
+      "description": "硬得像石头的龙鳞，表面结满白色的钙壳",
+      "details": [
+        "硬得像石头的龙鳞，表面结满白色的钙壳",
+        "敲一下会掉下粉末"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-cd526e91b4a2"
+    },
+    {
+      "id": "熄灭的末影之眼碎块",
+      "name": "熄灭的末影之眼碎块",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/ender_eye",
+      "description": "光散完了的眼，只剩一块冷掉的壳",
+      "details": [
+        "光散完了的眼，只剩一块冷掉的壳",
+        "握久了手心发凉"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-840ef1f7a210"
+    },
+    {
+      "id": "浸透虚空的腐肉",
+      "name": "浸透虚空的腐肉",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/rotten_flesh",
+      "description": "在虚空里泡得太久，已经不成样子",
+      "details": [
+        "在虚空里泡得太久，已经不成样子",
+        "闻起来比普通腐肉更糟"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-b419bd992f77"
+    },
+    {
+      "id": "奇点珍珠",
+      "name": "奇点珍珠",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/ender_pearl",
+      "description": "密度高得反常的珍珠，轻轻一碰就发烫",
+      "details": [
+        "密度高得反常的珍珠，轻轻一碰就发烫",
+        "据说它是被压扁的一小块星"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-9df8cc9c6373"
+    },
+    {
+      "id": "深渊星核",
+      "name": "深渊星核",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/nether_star",
+      "description": "深渊最深处凝出来的核，一直在缓慢旋转",
+      "details": [
+        "深渊最深处凝出来的核，一直在缓慢旋转",
+        "盯着它看，会觉得自己在往下掉"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-348b80f9d1e5"
+    },
+    {
+      "id": "永夜结晶",
+      "name": "永夜结晶",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/amethyst_shard",
+      "description": "一夜不化的黑色结晶，映不出任何光",
+      "details": [
+        "一夜不化的黑色结晶，映不出任何光",
+        "光照上去，就被它吞掉"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-2ab66b1e27ee"
+    },
+    {
+      "id": "重力凝核",
+      "name": "重力凝核",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/heavy_core",
+      "description": "攥住它的时候，手臂会莫名发酸",
+      "details": [
+        "攥住它的时候，手臂会莫名发酸",
+        "放在地上，周围的水都流得慢"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-231b34a7332b"
+    },
+    {
+      "id": "不灭虚空烬",
+      "name": "不灭虚空烬",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/blaze_powder",
+      "description": "永远温热的灰烬，虚空吞不掉它",
+      "details": [
+        "永远温热的灰烬，虚空吞不掉它",
+        "撒出去还会亮一小会儿"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-a00187982fb4"
+    },
+    {
+      "id": "时空编织针",
+      "name": "时空编织针",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/spectral_arrow",
+      "description": "针尖上挑着一段拧紧的时间",
+      "details": [
+        "针尖上挑着一段拧紧的时间",
+        "穿过哪儿，哪儿就慢半拍"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-1ab62382c60b"
+    },
+    {
+      "id": "封印着异界的漂流瓶",
+      "name": "封印着异界的漂流瓶",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/experience_bottle",
+      "description": "瓶里封着一小片陌生的世界",
+      "details": [
+        "瓶里封着一小片陌生的世界",
+        "塞子动过——千万别拔"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-e04d14a1baaf"
+    },
+    {
+      "id": "纯净反物质微粒",
+      "name": "纯净反物质微粒",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/prismarine_crystals",
+      "description": "亮得不像这个世界的碎粒",
+      "details": [
+        "亮得不像这个世界的碎粒",
+        "别让它碰到对应的物质"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-6b10aba61163"
+    },
+    {
+      "id": "附魔书：【深渊打捞】",
+      "name": "附魔书：【深渊打捞】",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/basic/i-42cdd1ba434c"
+    },
+    {
+      "id": "附魔书：【虚空步态】",
+      "name": "附魔书：【虚空步态】",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/basic/i-ab5aa8a2efc0"
+    },
+    {
+      "id": "附魔书：【引力锚定】",
+      "name": "附魔书：【引力锚定】",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/basic/i-06bea49be5e9"
+    },
+    {
+      "id": "附魔书：【坍缩打击】",
+      "name": "附魔书：【坍缩打击】",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/basic/i-44400d48aa21"
+    },
+    {
+      "id": "附魔书：【逆熵回溯】",
+      "name": "附魔书：【逆熵回溯】",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/basic/i-048a0d5645f0"
+    },
+    {
+      "id": "诅咒之书：【深渊渴求】",
+      "name": "诅咒之书：【深渊渴求】",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/book",
+      "description": "封皮渗着潮气，靠近就想往下看",
+      "details": [
+        "封皮渗着潮气，靠近就想往下看"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-c575027f792f"
+    },
+    {
+      "id": "诅咒之书：【失重诅咒】",
+      "name": "诅咒之书：【失重诅咒】",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/book",
+      "description": "翻页的时候，脚下好像空了一下",
+      "details": [
+        "翻页的时候，脚下好像空了一下"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-997476981ea8"
+    },
+    {
+      "id": "梦魇",
+      "name": "梦魇",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/red_concrete",
+      "description": "从虚空深处钓上来的一小块暗红凝块，凑近了仿佛能听见低低的哀嚎",
+      "details": [
+        "从虚空深处钓上来的一小块暗红凝块，凑近了仿佛能听见低低的哀嚎",
+        "它偶尔会轻轻搏动一下——像是还活着"
+      ],
+      "obtain": "用虚空鱼竿在虚空的浮漂上钓起，收杆要卡在它吸附的那一瞬",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-036d18974e28"
+    },
+    {
+      "id": "虚质",
+      "name": "虚质",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/black_concrete",
+      "description": "虚空里凝出的一小块质地不明的黑块",
+      "details": [
+        "虚空里凝出的一小块质地不明的黑块",
+        "凑近看时，它的边缘似乎在缓慢地渗入周围的空间"
+      ],
+      "obtain": "用虚空捕笼捕获游荡在玩家附近的「虚质」",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-54c9b9ecf571"
+    },
+    {
       "id": "注魔合金捕兽笼",
       "name": "注魔合金捕兽笼",
       "kind": "material",
@@ -26223,7 +26897,7 @@
         "├ 与沙子合成赛特斯石英种子",
         "└ 硅、石英玻璃等材料的原料"
       ],
-      "obtain": "原石粉碎机粉碎陨石碎块（1→2），或压印器研磨陨石碎块 / 赛特斯石英水晶",
+      "obtain": "原石粉碎机粉碎陨石碎块（1→2），或压印器、ME石磨 研磨陨石碎块 / 赛特斯石英水晶",
       "enchantments": [],
       "glint": true,
       "href": "/linsmagic/atlas/ae/items/i-6466d0e3dedf"
@@ -26311,7 +26985,7 @@
         "研磨后的福鲁伊克斯水晶",
         "└ 压印器中格（不放模板）：1 水晶 → 1 粉"
       ],
-      "obtain": "压印器研磨福鲁伊克斯水晶（中格，不放模板）",
+      "obtain": "压印器或 ME石磨 研磨福鲁伊克斯水晶（中格，不放模板）",
       "enchantments": [],
       "glint": true,
       "href": "/linsmagic/atlas/ae/items/i-05e0ae6ddd39"
@@ -26922,8 +27596,10 @@
       "details": [
         "高处的风车，扇叶朝向放置时面对你的一侧",
         "转动时产生机械动力：离地 8 格起 4，离地 32 格及以上 16",
-        "下雨 ×1.25、雷暴 ×1.5；扇叶半径 3 格，范围内有方块会停转",
-        "8 格内有别的风车互相挡风，动力减半；不占设备名额",
+        "风向风力每个世界各自算：风越大出力越高（0 级 ×0.35 ~ 6 级 ×1.6）",
+        "把扇叶转向风来的方向出力最高（背风也行），和风向垂直最差（×0.3）",
+        "下雨 / 雷暴把风力吹旺；界面里能看风况、把扇叶转 90°",
+        "扇叶半径 3 格，范围内有方块会停转；8 格内有别的风车动力减半；不占设备名额",
         "不产 AE 电；动力用机械传动器 接走",
         "放置后与相邻 AE 方块自动组网"
       ],
@@ -26931,6 +27607,28 @@
       "enchantments": [],
       "glint": true,
       "href": "/linsmagic/atlas/ae/blocks/i-add437759533"
+    },
+    {
+      "id": "ME巨型风车",
+      "name": "ME巨型风车",
+      "kind": "machine",
+      "category": "应用能源",
+      "group": "blocks",
+      "icon": "item/light_gray_concrete",
+      "description": "高处的巨型风车：整台是 ME风车 的三倍大，出力也大一档",
+      "details": [
+        "高处的巨型风车：整台是 ME风车 的三倍大，出力也大一档",
+        "转动时产生机械动力：离地 8 格起 10，离地 32 格及以上 40（默认值，config/ae.yml 可调）",
+        "规则和 ME风车 完全一样：风向风力、迎风、挡风、离地高度都照算，把扇叶转向风来的一边出力最高",
+        "扇叶半径 15 格（ME风车 3 格），扫过的圆面里有方块就停转；轮盘 30 格宽，塔要架够高",
+        "32 格内有别的风车 / 巨型风车动力减半；不占设备名额",
+        "不产 AE 电；动力用机械传动器 接走",
+        "放置后与相邻 AE 方块自动组网"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/blocks/i-82f070ee42fd"
     },
     {
       "id": "ME切削发电机",
@@ -27031,6 +27729,112 @@
       "href": "/linsmagic/atlas/ae/blocks/i-54281aae11b1"
     },
     {
+      "id": "ME水车",
+      "name": "ME水车",
+      "kind": "machine",
+      "category": "应用能源",
+      "group": "blocks",
+      "icon": "item/chiseled_copper",
+      "description": "叶轮立在水里，水流推着它转，输出机械动力（不占设备名额）",
+      "details": [
+        "叶轮立在水里，水流推着它转，输出机械动力（不占设备名额）",
+        "不烧燃料、不看天气，白天黑夜一直转；代价是出力最低",
+        "把叶轮最下面那排桨板砌进水渠：那几格泡在水里、水在流就转（一潭死水不转）",
+        "叶轮顺着水流的方向转：水往哪边流，桨板下半圈就往哪边扫",
+        "水越深出力越大：下缘刚好泡满 4、整个叶轮泡在水里 8",
+        "叶轮被方块挡住、或和别的叶轮交叉，都不转；叶轮装在放置时面对你的一侧",
+        "动力用 机械传动器 接走，接到 ME切削发电机 就变成 AE 电",
+        "放置后与相邻 AE 方块自动组网"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/blocks/i-8305e37c326d"
+    },
+    {
+      "id": "ME手摇曲柄",
+      "name": "ME手摇曲柄",
+      "kind": "machine",
+      "category": "应用能源",
+      "group": "blocks",
+      "icon": "item/crafter",
+      "description": "手摇的曲柄：右键摇一下，摇臂转 60°，动力送进传动网（不占设备名额）",
+      "details": [
+        "手摇的曲柄：右键摇一下，摇臂转 60°，动力送进传动网（不占设备名额）",
+        "一秒最多摇 6 下；摇着的时候才有 6 动力，手一停就断（不烧燃料、不看天气）",
+        "是几个动力源里最不挑地方的：池塘边、矿洞里、屋里都能摇",
+        "摇臂装在放置时面对你的一侧，动力从六个面都能接出去",
+        "动力用 机械传动器 接走，接到 ME切削发电机 就变成 AE 电",
+        "放置后与相邻 AE 方块自动组网"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/blocks/i-d5658c4430e4"
+    },
+    {
+      "id": "ME撞击发电机",
+      "name": "ME撞击发电机",
+      "kind": "machine",
+      "category": "应用能源",
+      "group": "blocks",
+      "icon": "item/polished_blackstone",
+      "description": "像打桩机一样把锤头砸在正下方的红石块上，把机械动力变成 AE 电",
+      "details": [
+        "像打桩机一样把锤头砸在正下方的红石块上，把机械动力变成 AE 电",
+        "机器正下方留一格空档给锤头上下，再下面一格放红石块当砧；放上去就被收走（不返还）",
+        "和切削发电机一样，一块红石块砸完发出来的电固定；砸成碎末后要再放一块",
+        "周期固定 3 秒：猛地砸下去、再慢慢抬上来；撞一下发一秒的电，最高 80 AE/秒",
+        "动力越大每次撞击的电越多；界面里能把这一撞往后延 0.5 秒一档（0 ~ 2 秒）",
+        "几台错开相位轮着撞，电流就稳了；除下方外的五个方向都能接动力；不占设备名额",
+        "放置后与相邻 AE 方块自动组网"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/blocks/i-745bdfd1bcca"
+    },
+    {
+      "id": "ME石磨",
+      "name": "ME石磨",
+      "kind": "machine",
+      "category": "应用能源",
+      "group": "blocks",
+      "icon": "item/cauldron",
+      "description": "石磨盘吃机械动力磨粉：唯一不用电的加工机器",
+      "details": [
+        "石磨盘吃机械动力磨粉：唯一不用电的加工机器",
+        "中格放原料：陨石碎块 / 赛特斯石英水晶 → 赛特斯石英粉，福鲁伊克斯水晶 → 福鲁伊克斯粉，铀矿碎块 → 浓缩铀",
+        "不接网络也能磨（磨出来的粉留在输出格，传出阀 / 单向运输器 能来抽走），接上网络就自动把粉送进网络",
+        "满动力（16）2 秒磨一份（可装加速卡×4），动力越小越慢；磨盘那面（上面）接不了动力",
+        "拆掉时会把中格和输出格里的东西一起掉出来；不占设备名额",
+        "放置后与相邻 AE 方块自动组网"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/blocks/i-47cd38459206"
+    },
+    {
+      "id": "酒壶",
+      "name": "酒壶",
+      "kind": "machine",
+      "category": "功能性机器方块",
+      "group": "machines",
+      "icon": "item/decorated_pot",
+      "description": "狐狸不知从哪个酒窖顺来的小陶壶，壶口还留着酒香",
+      "details": [
+        "狐狸不知从哪个酒窖顺来的小陶壶，壶口还留着酒香",
+        "└ 摆在 ME手摇曲柄 正前方第二格，这台曲柄会自己转起来",
+        "-.-",
+        "狗修金撒嘛！"
+      ],
+      "obtain": "击杀 狐狸 有 3% 概率",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/machines/machines/i-9acd9eed8134"
+    },
+    {
       "id": "ME核反应堆",
       "name": "ME核反应堆",
       "kind": "machine",
@@ -27078,7 +27882,7 @@
       "description": "深层岩石里罕见的放射性矿物",
       "details": [
         "深层岩石里罕见的放射性矿物",
-        "└ 压印器研磨（上下格空着）→ 浓缩铀"
+        "└ 压印器、ME石磨 研磨（上下格空着）→ 浓缩铀"
       ],
       "obtain": "主世界 y<0 挖掘深板岩或深板岩矿石时有 0.5% 概率掉落",
       "enchantments": [],
@@ -27097,7 +27901,7 @@
         "提纯后的核燃料",
         "└ 与铁皮合成铀燃料棒"
       ],
-      "obtain": "压印器研磨铀矿碎块（上下格空着）",
+      "obtain": "压印器或 ME石磨 研磨铀矿碎块（上下格空着）",
       "enchantments": [],
       "glint": true,
       "href": "/linsmagic/atlas/ae/items/i-ed0dc301f5f0"
@@ -30971,6 +31775,32 @@
       "obtain": "",
       "glint": false,
       "href": "/linsmagic/atlas/vanilla/white_concrete"
+    },
+    {
+      "id": "minecraft:oak_fence",
+      "name": "橡木栅栏",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/oak_fence",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/oak_fence"
+    },
+    {
+      "id": "minecraft:stone_bricks",
+      "name": "石砖",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/stone_bricks",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/stone_bricks"
     },
     {
       "id": "minecraft:blue_dye",
@@ -36959,6 +37789,106 @@
       ],
       "obtain": "高级附魔系统",
       "href": "/linsmagic/atlas/enchants/high/high_armor_magnet"
+    },
+    {
+      "id": "high_abyss_salvage",
+      "name": "深渊打捞",
+      "kind": "enchant",
+      "category": "高级附魔",
+      "group": "史诗",
+      "icon": "item/enchanted_book",
+      "glint": true,
+      "description": "钓上东西时有一半几率让捎带的杂物翻倍",
+      "levelEffects": [
+        "钓上东西时有一半几率让捎带的杂物翻倍"
+      ],
+      "details": [
+        "最高等级：1",
+        "稀有度：史诗",
+        "适用类型：ROD"
+      ],
+      "obtain": "高级附魔系统",
+      "href": "/linsmagic/atlas/enchants/high/high_abyss_salvage"
+    },
+    {
+      "id": "high_void_stride",
+      "name": "虚空步态",
+      "kind": "enchant",
+      "category": "高级附魔",
+      "group": "史诗",
+      "icon": "item/enchanted_book",
+      "glint": true,
+      "description": "穿着时可以在世界底部的虚空里行走",
+      "levelEffects": [
+        "穿着时可以在世界底部的虚空里行走"
+      ],
+      "details": [
+        "最高等级：1",
+        "稀有度：史诗",
+        "适用类型：BOOTS"
+      ],
+      "obtain": "高级附魔系统",
+      "href": "/linsmagic/atlas/enchants/high/high_void_stride"
+    },
+    {
+      "id": "high_gravity_anchor",
+      "name": "引力锚定",
+      "kind": "enchant",
+      "category": "高级附魔",
+      "group": "史诗",
+      "icon": "item/enchanted_book",
+      "glint": true,
+      "description": "免疫缓降，且有50%概率免疫弹射物的伤害",
+      "levelEffects": [
+        "免疫缓降，且有50%概率免疫弹射物的伤害"
+      ],
+      "details": [
+        "最高等级：1",
+        "稀有度：史诗",
+        "适用类型：护甲"
+      ],
+      "obtain": "高级附魔系统",
+      "href": "/linsmagic/atlas/enchants/high/high_gravity_anchor"
+    },
+    {
+      "id": "high_collapse_strike",
+      "name": "坍缩打击",
+      "kind": "enchant",
+      "category": "高级附魔",
+      "group": "史诗",
+      "icon": "item/enchanted_book",
+      "glint": true,
+      "description": "攻击时20%概率把目标往下按一格，并施加重度缓慢与虚弱",
+      "levelEffects": [
+        "攻击时20%概率把目标往下按一格，并施加重度缓慢与虚弱"
+      ],
+      "details": [
+        "最高等级：1",
+        "稀有度：史诗",
+        "适用类型：SWORD"
+      ],
+      "obtain": "高级附魔系统",
+      "href": "/linsmagic/atlas/enchants/high/high_collapse_strike"
+    },
+    {
+      "id": "high_negentropy_rewind",
+      "name": "逆熵回溯",
+      "kind": "enchant",
+      "category": "高级附魔",
+      "group": "史诗",
+      "icon": "item/enchanted_book",
+      "glint": true,
+      "description": "在铁砧上剔除物品最上面的一条高级附魔，本身不会附到物品上",
+      "levelEffects": [
+        "在铁砧上剔除物品最上面的一条高级附魔，本身不会附到物品上"
+      ],
+      "details": [
+        "最高等级：1",
+        "稀有度：史诗",
+        "适用类型：REWIND"
+      ],
+      "obtain": "高级附魔系统",
+      "href": "/linsmagic/atlas/enchants/high/high_negentropy_rewind"
     },
     {
       "id": "enchant_blood_urn",
@@ -79654,7 +80584,7 @@
           "count": 1
         },
         {
-          "id": "ME能源接收器",
+          "id": "minecraft:iron_block",
           "count": 1
         },
         {
@@ -79816,7 +80746,7 @@
           "count": 1
         },
         {
-          "id": "ME能源接收器",
+          "id": "minecraft:iron_block",
           "count": 1
         },
         {
@@ -79870,7 +80800,7 @@
           "count": 1
         },
         {
-          "id": "ME能源接收器",
+          "id": "minecraft:iron_block",
           "count": 1
         },
         {
@@ -79934,6 +80864,105 @@
       ],
       "group": "ae",
       "href": "/linsmagic/atlas/recipes/ae/ae_kinetic_shaft",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_water_wheel",
+      "name": "ME水车合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "ME水车",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "minecraft:oak_fence",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "minecraft:oak_fence",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_block",
+          "count": 1
+        },
+        {
+          "id": "minecraft:oak_fence",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "minecraft:oak_fence",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        }
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_water_wheel",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_hand_crank",
+      "name": "ME手摇曲柄合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "ME手摇曲柄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        null,
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "风霜合金",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:iron_block",
+          "count": 1
+        },
+        null
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_hand_crank",
       "note": "",
       "guiOnly": false
     },
@@ -81758,6 +82787,384 @@
       ],
       "group": "items",
       "href": "/linsmagic/atlas/recipes/items/container_remote_link",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_impact_generator",
+      "name": "ME撞击发电机合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "ME撞击发电机",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "风霜合金",
+          "count": 1
+        },
+        {
+          "id": "minecraft:anvil",
+          "count": 1
+        },
+        {
+          "id": "风霜合金",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_block",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_block",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone_block",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        }
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_impact_generator",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_mill",
+      "name": "ME石磨合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "ME石磨",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:stone_bricks",
+          "count": 1
+        },
+        {
+          "id": "minecraft:stone_bricks",
+          "count": 1
+        },
+        {
+          "id": "minecraft:stone_bricks",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "风霜合金",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "minecraft:stone_bricks",
+          "count": 1
+        },
+        {
+          "id": "minecraft:stone_bricks",
+          "count": 1
+        },
+        {
+          "id": "minecraft:stone_bricks",
+          "count": 1
+        }
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_mill",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_giant_wind_turbine",
+      "name": "ME巨型风车合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "ME巨型风车",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "风霜合金",
+          "count": 1
+        },
+        {
+          "id": "风霜合金",
+          "count": 1
+        },
+        {
+          "id": "风霜合金",
+          "count": 1
+        },
+        {
+          "id": "风霜合金",
+          "count": 1
+        },
+        {
+          "id": "ME风车",
+          "count": 1
+        },
+        {
+          "id": "风霜合金",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_block",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        }
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_giant_wind_turbine",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "void_cage",
+      "name": "虚空捕笼合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "虚空捕笼",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "虚空丝绸",
+          "count": 1
+        },
+        {
+          "id": "虚空丝绸",
+          "count": 1
+        },
+        {
+          "id": "虚空丝绸",
+          "count": 1
+        },
+        {
+          "id": "虚空丝绸",
+          "count": 1
+        },
+        {
+          "id": "金丝捕笼",
+          "count": 1
+        },
+        {
+          "id": "虚空丝绸",
+          "count": 1
+        },
+        {
+          "id": "虚空丝绸",
+          "count": 1
+        },
+        {
+          "id": "虚空丝绸",
+          "count": 1
+        },
+        {
+          "id": "虚空丝绸",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/void_cage",
+      "note": "此配方含自定义物品 ID 校验，不能用外观相同的原版物品替代。",
+      "guiOnly": false
+    },
+    {
+      "id": "void_rod",
+      "name": "虚空垂钓者合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "虚空垂钓者",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "虚空丝绸",
+          "count": 1
+        },
+        {
+          "id": "虚空丝绸",
+          "count": 1
+        },
+        {
+          "id": "虚空丝绸",
+          "count": 1
+        },
+        {
+          "id": "虚质",
+          "count": 1
+        },
+        {
+          "id": "minecraft:fishing_rod",
+          "count": 1
+        },
+        {
+          "id": "虚质",
+          "count": 1
+        },
+        {
+          "id": "虚空丝绸",
+          "count": 1
+        },
+        {
+          "id": "虚空丝绸",
+          "count": 1
+        },
+        {
+          "id": "虚空丝绸",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/void_rod",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "void_hunter_rod",
+      "name": "虚空猎手合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "虚空猎手",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "虚质",
+          "count": 1
+        },
+        {
+          "id": "不灭虚空烬",
+          "count": 1
+        },
+        {
+          "id": "虚质",
+          "count": 1
+        },
+        {
+          "id": "虚空垂钓者",
+          "count": 1
+        },
+        {
+          "id": "梦魇",
+          "count": 1
+        },
+        {
+          "id": "虚空垂钓者",
+          "count": 1
+        },
+        {
+          "id": "虚质",
+          "count": 1
+        },
+        {
+          "id": "不灭虚空烬",
+          "count": 1
+        },
+        {
+          "id": "虚质",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/void_hunter_rod",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "nightmare_hunter_rod",
+      "name": "梦魇猎手合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "梦魇猎手",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "梦魇",
+          "count": 1
+        },
+        {
+          "id": "不灭虚空烬",
+          "count": 1
+        },
+        {
+          "id": "梦魇",
+          "count": 1
+        },
+        {
+          "id": "虚空猎手",
+          "count": 1
+        },
+        {
+          "id": "梦魇",
+          "count": 1
+        },
+        {
+          "id": "虚空猎手",
+          "count": 1
+        },
+        {
+          "id": "梦魇",
+          "count": 1
+        },
+        {
+          "id": "不灭虚空烬",
+          "count": 1
+        },
+        {
+          "id": "梦魇",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/nightmare_hunter_rod",
       "note": "",
       "guiOnly": false
     },
@@ -90040,11 +91447,11 @@
     ]
   },
   "stats": {
-    "items": 1612,
-    "vanilla": 308,
-    "recipes": 1045,
+    "items": 1659,
+    "vanilla": 310,
+    "recipes": 1054,
     "structures": 44,
-    "enchants": 242,
+    "enchants": 247,
     "events": 11,
     "bosses": 18
   }
