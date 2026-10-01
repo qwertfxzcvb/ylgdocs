@@ -5789,7 +5789,7 @@
         "├ 上下(相对容器轴): [哭泣的黑曜石]",
         "├ 一侧: [箱子] (放入材料)",
         "└ 相对侧: [木桶] (收取产物)",
-        "└ 每次触发按比例消耗：64圆石+4金锭+4骨块+1远古残骸 → 2远古残骸+3金锭+12金粒+5煤炭+12石头"
+        "└ 每次触发按比例消耗：63圆石+4金锭+4骨块+1远古残骸 → 2远古残骸+3金锭+12金粒+5煤炭+12石头"
       ],
       "obtain": "配方合成",
       "enchantments": [],
@@ -12496,6 +12496,960 @@
       "enchantments": [],
       "glint": true,
       "href": "/linsmagic/atlas/materials/basic/i-997476981ea8"
+    },
+    {
+      "id": "虚空漂浮朽木",
+      "name": "虚空漂浮朽木",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/oak_log",
+      "description": "泡到朽烂了还浮在虚空里，不肯沉下去",
+      "details": [
+        "泡到朽烂了还浮在虚空里，不肯沉下去",
+        "一捏就掉渣，渣也跟着浮"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-56d6ffdfbf05"
+    },
+    {
+      "id": "被咬烂的皮靴",
+      "name": "被咬烂的皮靴",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/leather_boots",
+      "description": "靴筒上全是牙印，鞋底早不知去向",
+      "details": [
+        "靴筒上全是牙印，鞋底早不知去向",
+        "谁咬的、咬它的人去了哪儿，没人知道"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-170bc921b9ba"
+    },
+    {
+      "id": "风化的骨骸肋排",
+      "name": "风化的骨骸肋排",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/bone",
+      "description": "被虚空的风吹得发白的一排肋骨",
+      "details": [
+        "被虚空的风吹得发白的一排肋骨",
+        "断口整齐，像是被谁细细啃过的"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-749bcc2c90ac"
+    },
+    {
+      "id": "粉碎的黑胶唱片残片",
+      "name": "粉碎的黑胶唱片残片",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/disc_fragment_5",
+      "description": "碎成几瓣的黑色薄片，纹路密得像迷宫",
+      "details": [
+        "碎成几瓣的黑色薄片，纹路密得像迷宫",
+        "贴在耳边，只剩沙沙的虚空声"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-3549d7bc579e"
+    },
+    {
+      "id": "纠缠在一起的致密蛛网团",
+      "name": "纠缠在一起的致密蛛网团",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/cobweb",
+      "description": "缠成死结的蛛网，扯不断也拆不开",
+      "details": [
+        "缠成死结的蛛网，扯不断也拆不开",
+        "黏性早没了，只剩一身灰"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-b48795126d8c"
+    },
+    {
+      "id": "烧焦的紫珀果壳",
+      "name": "烧焦的紫珀果壳",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/popped_chorus_fruit",
+      "description": "烧得发黑卷边的果壳，一碰就裂",
+      "details": [
+        "烧得发黑卷边的果壳，一碰就裂",
+        "里面空空的，甜味早散干净了"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-1d5f8ba32811"
+    },
+    {
+      "id": "脱落的铁矿石碎屑",
+      "name": "脱落的铁矿石碎屑",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/raw_iron",
+      "description": "从某块矿上崩下来的碎屑，还带着石皮",
+      "details": [
+        "从某块矿上崩下来的碎屑，还带着石皮",
+        "炼一炼，兴许能出半粒铁"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-f4e0ef3c5302"
+    },
+    {
+      "id": "干瘪的荧光鱿鱼须",
+      "name": "干瘪的荧光鱿鱼须",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/glow_ink_sac",
+      "description": "风干发暗的须子，光早就漏光了",
+      "details": [
+        "风干发暗的须子，光早就漏光了",
+        "捏一下，指头上留一点荧光的印子"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-3105c8768535"
+    },
+    {
+      "id": "磨损严重的铅制配重坠",
+      "name": "磨损严重的铅制配重坠",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/iron_nugget",
+      "description": "绑着配重坠的铅块，边缘磨得圆亮",
+      "details": [
+        "绑着配重坠的铅块，边缘磨得圆亮",
+        "比看上去沉，缠过的钓线早断了"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-2eaabcfb871b"
+    },
+    {
+      "id": "空无一物的生锈铁桶",
+      "name": "空无一物的生锈铁桶",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/bucket",
+      "description": "桶底锈穿了个小洞，什么都装不住",
+      "details": [
+        "桶底锈穿了个小洞，什么都装不住",
+        "晃一晃，只有虚空在里头响"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-be02ede1325a"
+    },
+    {
+      "id": "结晶化的死寂泥土",
+      "name": "结晶化的死寂泥土",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/coarse_dirt",
+      "description": "干硬发白的泥块，缝里嵌着细碎的晶粒",
+      "details": [
+        "干硬发白的泥块，缝里嵌着细碎的晶粒",
+        "埋过什么，早就挖不出来了"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-4519c79d55b3"
+    },
+    {
+      "id": "暗影泥鳅",
+      "name": "暗影泥鳅",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/cod",
+      "description": "浑身裹着暗影的泥鳅，滑得捏不住",
+      "details": [
+        "浑身裹着暗影的泥鳅，滑得捏不住",
+        "一撒手，就钻回阴影里"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-9f2c278c7e6c"
+    },
+    {
+      "id": "虚空磷虾",
+      "name": "虚空磷虾",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/prismarine_shard",
+      "description": "成群的小虾，壳上泛着海一样的碎光",
+      "details": [
+        "成群的小虾，壳上泛着海一样的碎光",
+        "离了虚空的水，很快就瘪下去"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-c5bbd4a3368b"
+    },
+    {
+      "id": "星尘细鳞鱼",
+      "name": "星尘细鳞鱼",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/tropical_fish",
+      "description": "鳞片细得像撒上去的星屑",
+      "details": [
+        "鳞片细得像撒上去的星屑",
+        "在暗处会一闪一闪"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-8744415e711a"
+    },
+    {
+      "id": "黑曜石石斑鱼",
+      "name": "黑曜石石斑鱼",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/salmon",
+      "description": "黑得发亮的石斑鱼，鳍硬得像薄刃",
+      "details": [
+        "黑得发亮的石斑鱼，鳍硬得像薄刃",
+        "敲敲它的鳞，是石头的声音"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-dc8ce92b68b1"
+    },
+    {
+      "id": "深渊翻车鱼",
+      "name": "深渊翻车鱼",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/pufferfish",
+      "description": "扁扁一大片的翻车鱼，慢吞吞地漂",
+      "details": [
+        "扁扁一大片的翻车鱼，慢吞吞地漂",
+        "被它蹭过的地方，要凉很久"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-0e4396ef49d8"
+    },
+    {
+      "id": "紫珀寄居蟹",
+      "name": "紫珀寄居蟹",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/nautilus_shell",
+      "description": "把紫珀壳背在身上的寄居蟹",
+      "details": [
+        "把紫珀壳背在身上的寄居蟹",
+        "受了惊，就缩进壳里装石头"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-6a2271ad1741"
+    },
+    {
+      "id": "虚空泡泡鱼",
+      "name": "虚空泡泡鱼",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/ghast_tear",
+      "description": "把自己鼓成一串泡泡的小鱼",
+      "details": [
+        "把自己鼓成一串泡泡的小鱼",
+        "戳破一个，它再鼓一个"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-cdcf03b63a9e"
+    },
+    {
+      "id": "微光飞鱼",
+      "name": "微光飞鱼",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/phantom_membrane",
+      "description": "胸鳍大得像翅膀的飞鱼，浑身蒙着微光",
+      "details": [
+        "胸鳍大得像翅膀的飞鱼，浑身蒙着微光",
+        "滑过水面，光要过一会儿才落下来"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-a42eb62a657d"
+    },
+    {
+      "id": "凝固的虚空粘液球",
+      "name": "凝固的虚空粘液球",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/slime_ball",
+      "description": "虚空里凝住的一小团粘液",
+      "details": [
+        "虚空里凝住的一小团粘液",
+        "按下去，慢慢才弹回来"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-503ddf2d6144"
+    },
+    {
+      "id": "漂浮的细碎星尘团",
+      "name": "漂浮的细碎星尘团",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/firework_star",
+      "description": "一小团飘着的星尘，聚不拢也散不开",
+      "details": [
+        "一小团飘着的星尘，聚不拢也散不开",
+        "凑近看，里头像有极小的星星在转"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-30694b00a7fa"
+    },
+    {
+      "id": "深渊藤壶石",
+      "name": "深渊藤壶石",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/mossy_cobblestone",
+      "description": "爬满藤壶的石头，从深渊底下滚上来",
+      "details": [
+        "爬满藤壶的石头，从深渊底下滚上来",
+        "拿近点，能听见壳里空空的回响"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-bbb3b289195a"
+    },
+    {
+      "id": "深渊发光灯笼鱼",
+      "name": "深渊发光灯笼鱼",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/glowstone_dust",
+      "description": "额前挑着一盏小灯，一明一暗",
+      "details": [
+        "额前挑着一盏小灯，一明一暗",
+        "盯久了，会跟着它的节奏犯困"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-62a60757b136"
+    },
+    {
+      "id": "镜面带鱼",
+      "name": "镜面带鱼",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/quartz",
+      "description": "侧身亮得像镜子，照得出人脸",
+      "details": [
+        "侧身亮得像镜子，照得出人脸",
+        "它扭一下，镜里的脸就歪一下"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-e817f322dada"
+    },
+    {
+      "id": "相位电鳗",
+      "name": "相位电鳗",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/copper_ingot",
+      "description": "身形一阵一阵发虚的电鳗，碰一下手就麻",
+      "details": [
+        "身形一阵一阵发虚的电鳗，碰一下手就麻",
+        "只在电源头那一瞬，能看清全貌"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-6e1749c8c480"
+    },
+    {
+      "id": "反重力鲑鱼",
+      "name": "反重力鲑鱼",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/salmon",
+      "description": "肚皮朝上也能往上游的鲑鱼",
+      "details": [
+        "肚皮朝上也能往上游的鲑鱼",
+        "按住它，感觉得到一股往上提的劲"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-c337b8b5438e"
+    },
+    {
+      "id": "裂隙刺海胆",
+      "name": "裂隙刺海胆",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/pointed_dripstone",
+      "description": "刺尖上挂着细小的裂隙，扎手也扎眼",
+      "details": [
+        "刺尖上挂着细小的裂隙，扎手也扎眼",
+        "别使劲捏，刺会自己往里缩"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-817651f89ef8"
+    },
+    {
+      "id": "幽冥海马",
+      "name": "幽冥海马",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/turtle_scute",
+      "description": "青白半透的海马，贴着幽底慢慢立",
+      "details": [
+        "青白半透的海马，贴着幽底慢慢立",
+        "被光照到，就往后缩半格"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-04f56af96b4a"
+    },
+    {
+      "id": "回音小鲵",
+      "name": "回音小鲵",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/echo_shard",
+      "description": "你叫一声，它回你三声的透明小鲵",
+      "details": [
+        "你叫一声，它回你三声的透明小鲵",
+        "回的音里，有一条不是你的嗓子"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-bf9fb1a28b45"
+    },
+    {
+      "id": "附魔书：【深空钓者】",
+      "name": "附魔书：【深空钓者】",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/basic/i-250482897043"
+    },
+    {
+      "id": "附魔书：【反重力阻尼】",
+      "name": "附魔书：【反重力阻尼】",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/basic/i-0597927b5591"
+    },
+    {
+      "id": "附魔书：【事件视界】",
+      "name": "附魔书：【事件视界】",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/basic/i-26da046115f5"
+    },
+    {
+      "id": "附魔书：【深渊来信】",
+      "name": "附魔书：【深渊来信】",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/basic/i-3b802f73cf3e"
+    },
+    {
+      "id": "附魔书：【虚无】",
+      "name": "附魔书：【虚无】",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/basic/i-d9de64361b9d"
+    },
+    {
+      "id": "基岩冷苔藓团",
+      "name": "基岩冷苔藓团",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/moss_block",
+      "description": "长在世界底下的冷苔，摸上去冰手",
+      "details": [
+        "长在世界底下的冷苔，摸上去冰手",
+        "离了基岩，就开始蔫"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-a559eb4e297b"
+    },
+    {
+      "id": "古老陶罐碎片",
+      "name": "古老陶罐碎片",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/sheaf_pottery_sherd",
+      "description": "花纹磨得快认不出的陶片，边角包浆发亮",
+      "details": [
+        "花纹磨得快认不出的陶片，边角包浆发亮",
+        "拼了半天，也拼不出原本的样子"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-eee0ee91b196"
+    },
+    {
+      "id": "暗淡的末地烛芯",
+      "name": "暗淡的末地烛芯",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/end_rod",
+      "description": "火熄了千百年的烛芯，挑不出一点亮",
+      "details": [
+        "火熄了千百年的烛芯，挑不出一点亮",
+        "凑近了看，芯里还嵌着黑紫色的丝"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-dab01077ba07"
+    },
+    {
+      "id": "微型引力透镜",
+      "name": "微型引力透镜",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/spyglass",
+      "description": "指甲盖大的透镜，举起来能看见引力歪掉",
+      "details": [
+        "指甲盖大的透镜，举起来能看见引力歪掉",
+        "别对着自己看"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-73cb022991cc"
+    },
+    {
+      "id": "凝固的时间滴露",
+      "name": "凝固的时间滴露",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/ghast_tear",
+      "description": "一滴凝住的时间，悬在壳里不肯落",
+      "details": [
+        "一滴凝住的时间，悬在壳里不肯落",
+        "拿在手里，影子会慢半拍"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-c00214d3b538"
+    },
+    {
+      "id": "吞星古鲟",
+      "name": "吞星古鲟",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/cod",
+      "description": "背上刻着星图的古鲟，嘴大到能吞下光",
+      "details": [
+        "背上刻着星图的古鲟，嘴大到能吞下光",
+        "鳞下压着的星，还在慢慢转"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-cb2bcca08212"
+    },
+    {
+      "id": "深空幻影蝠鲼",
+      "name": "深空幻影蝠鲼",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/phantom_membrane",
+      "description": "游过的时候，像一片黑幕从头顶压过去",
+      "details": [
+        "游过的时候，像一片黑幕从头顶压过去",
+        "它飞过的地方，星空缺了一角"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-d74359e8e780"
+    },
+    {
+      "id": "凝滞的光子结晶",
+      "name": "凝滞的光子结晶",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/prismarine_crystals",
+      "description": "光凝在里面出不来，一直亮着",
+      "details": [
+        "光凝在里面出不来，一直亮着",
+        "贴在耳边，能听见嗡嗡的底噪"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-b8267c779b97"
+    },
+    {
+      "id": "遗失的远古信标底座",
+      "name": "遗失的远古信标底座",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/crying_obsidian",
+      "description": "黑得发亮的老底座，缝里渗着紫色的泪",
+      "details": [
+        "黑得发亮的老底座，缝里渗着紫色的泪",
+        "上面原本立着什么，没人说得清"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-f2492ce34500"
+    },
+    {
+      "id": "维度折叠收纳球",
+      "name": "维度折叠收纳球",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/ender_pearl",
+      "description": "掌心里的球，内部像折了好几层空间",
+      "details": [
+        "掌心里的球，内部像折了好几层空间",
+        "松开手，它悬在原地不落"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-5ab4e389c68e"
+    },
+    {
+      "id": "未受污染的纯净下界合金碎块",
+      "name": "未受污染的纯净下界合金碎块",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/netherite_scrap",
+      "description": "没被焦油浸过的碎块，还带着原色",
+      "details": [
+        "没被焦油浸过的碎块，还带着原色",
+        "掂一掂，比金子还沉"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-1e882a904b3e"
+    },
+    {
+      "id": "深渊领主的外层骨板",
+      "name": "深渊领主的外层骨板",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/armadillo_scute",
+      "description": "一片覆一片的老骨板，边缘磨得圆钝",
+      "details": [
+        "一片覆一片的老骨板，边缘磨得圆钝",
+        "上面布满挡过刀砍的浅痕"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-cd6280e3ade8"
+    },
+    {
+      "id": "虚空利维坦幼崽",
+      "name": "虚空利维坦幼崽",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/heart_of_the_sea",
+      "description": "蜷成一团的利维坦幼崽，睡得很沉",
+      "details": [
+        "蜷成一团的利维坦幼崽，睡得很沉",
+        "海一样沉的呼吸，一下一下顶着掌心"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-424987eeff8f"
+    },
+    {
+      "id": "创世原初余烬",
+      "name": "创世原初余烬",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/blaze_powder",
+      "description": "创世烧剩的那把火，到今天还热着",
+      "details": [
+        "创世烧剩的那把火，到今天还热着",
+        "撒在雪里，雪绕着它化开"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-05725ccce44b"
+    },
+    {
+      "id": "破碎的世界边界符文",
+      "name": "破碎的世界边界符文",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/barrier",
+      "description": "从世界边界上崩下来的符文，裂成几瓣",
+      "details": [
+        "从世界边界上崩下来的符文，裂成几瓣",
+        "拼回去，也拦不住任何东西了"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-d9c828f28769"
+    },
+    {
+      "id": "未孵化的虚空巨龙蛋",
+      "name": "未孵化的虚空巨龙蛋",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/dragon_egg",
+      "description": "壳里裹着虚空，从里面传来极慢的心跳",
+      "details": [
+        "壳里裹着虚空，从里面传来极慢的心跳",
+        "别在它旁边摔跤"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-8feeecd587bf"
+    },
+    {
+      "id": "囚禁微型黑洞的透镜瓶",
+      "name": "囚禁微型黑洞的透镜瓶",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/glass_bottle",
+      "description": "瓶底悬着一个黑点，光绕着它拐弯",
+      "details": [
+        "瓶底悬着一个黑点，光绕着它拐弯",
+        "塞子塞得死紧，别手痒"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-6bf5f6fd10b3"
+    },
+    {
+      "id": "锚",
+      "name": "锚",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/netherite_ingot",
+      "description": "沉得像把整个终局攥在手里",
+      "details": [
+        "沉得像把整个终局攥在手里",
+        "挂在腰边，脚步都会踏实些"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-24d4ff0f7036"
+    },
+    {
+      "id": "终焉全知之眼",
+      "name": "终焉全知之眼",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/ender_eye",
+      "description": "睁着的一只眼，映着所有终结的画面",
+      "details": [
+        "睁着的一只眼，映着所有终结的画面",
+        "被它看过的人，很久说不出话"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-e0321dbd1634"
+    },
+    {
+      "id": "基岩造物法杖",
+      "name": "基岩造物法杖",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/breeze_rod",
+      "description": "杖身砸不烂，杖头凝着一小块基岩",
+      "details": [
+        "杖身砸不烂，杖头凝着一小块基岩",
+        "挥一下，空气沉半度"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-06658c5c4bfa"
+    },
+    {
+      "id": "原初虚空之茧",
+      "name": "原初虚空之茧",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/shulker_shell",
+      "description": "第一缕虚空结成的茧，壳纹一圈套一圈",
+      "details": [
+        "第一缕虚空结成的茧，壳纹一圈套一圈",
+        "贴着听，里头有心跳似的回响"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-45b76eb52466"
+    },
+    {
+      "id": "倒流的天体星盘",
+      "name": "倒流的天体星盘",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/recovery_compass",
+      "description": "盘面刻满倒着走的星轨",
+      "details": [
+        "盘面刻满倒着走的星轨",
+        "指针不指南北，指着一个你想回去的时刻"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-30d115e2f91f"
+    },
+    {
+      "id": "绝对零度钓竿（基岩级）",
+      "name": "绝对零度钓竿（基岩级）",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/fishing_rod",
+      "description": "竿身挂着白霜，线一沾水就冻住",
+      "details": [
+        "竿身挂着白霜，线一沾水就冻住",
+        "甩出去之前，先想清楚"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-92031fb460f6"
     },
     {
       "id": "梦魇",
@@ -28982,6 +29936,1702 @@
       "href": "/linsmagic/atlas/ae/blocks/i-b861139d6688"
     },
     {
+      "id": "钝化燧石残渣",
+      "name": "钝化燧石残渣",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/flint",
+      "description": "敲剩的燧石渣，棱角全磨钝了",
+      "details": [
+        "敲剩的燧石渣，棱角全磨钝了",
+        "再磕也擦不出火星，只配压舱底"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-bcd2b3d3004c"
+    },
+    {
+      "id": "炭化石英颗粒",
+      "name": "炭化石英颗粒",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/gunpowder",
+      "description": "烧成炭黑的石英颗粒，捻开一手黑粉",
+      "details": [
+        "烧成炭黑的石英颗粒，捻开一手黑粉",
+        "别凑近火苗，说不准还有一口气"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-84c952c9fc29"
+    },
+    {
+      "id": "脆化骨粉沉淀块",
+      "name": "脆化骨粉沉淀块",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/quartz",
+      "description": "骨粉沉到杯底结成的硬块，一按就散",
+      "details": [
+        "骨粉沉到杯底结成的硬块，一按就散",
+        "凑近闻，是干燥到发苦的味道"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-9f24a4faa1b6"
+    },
+    {
+      "id": "剥落的远古铜锈皮",
+      "name": "剥落的远古铜锈皮",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/oxidized_copper",
+      "description": "从古铜器上一片片剥下的绿锈",
+      "details": [
+        "从古铜器上一片片剥下的绿锈",
+        "轻轻一碰就掉渣，指甲缝都染绿"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-786d5dc2b0f4"
+    },
+    {
+      "id": "碳化粘液胶块",
+      "name": "碳化粘液胶块",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/slime_ball",
+      "description": "黏性烧没了，只剩一块发脆的胶壳",
+      "details": [
+        "黏性烧没了，只剩一块发脆的胶壳",
+        "弹不起来了，反倒有点可惜"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-bd3ef8454113"
+    },
+    {
+      "id": "石化海晶砂砾",
+      "name": "石化海晶砂砾",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/gravel",
+      "description": "海晶风化成的砂砾，混着细碎的石粒",
+      "details": [
+        "海晶风化成的砂砾，混着细碎的石粒",
+        "筛上半天，兴许能挑出半颗亮的"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-3c6037bdd0e7"
+    },
+    {
+      "id": "钙质死珊瑚枯枝",
+      "name": "钙质死珊瑚枯枝",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/dead_brain_coral",
+      "description": "死透的珊瑚枝，白得发灰",
+      "details": [
+        "死透的珊瑚枝，白得发灰",
+        "枝杈里还卡着一粒没冲走的沙"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-19b223f1a0dc"
+    },
+    {
+      "id": "凝固的煤烟团",
+      "name": "凝固的煤烟团",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/coal",
+      "description": "烟囱口凝住的煤烟，揉一揉还掉黑",
+      "details": [
+        "烟囱口凝住的煤烟，揉一揉还掉黑",
+        "放在纸上，纸上就留个黑印"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-674db5dcbc63"
+    },
+    {
+      "id": "风化的粗糙玄武岩渣",
+      "name": "风化的粗糙玄武岩渣",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/basalt",
+      "description": "风蚀成蜂窝的玄武岩渣，轻得不像石头",
+      "details": [
+        "风蚀成蜂窝的玄武岩渣，轻得不像石头",
+        "对着光看，窟窿里能穿过去"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-7c6118a85d79"
+    },
+    {
+      "id": "发霉的干海带纤维束",
+      "name": "发霉的干海带纤维束",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/kelp",
+      "description": "受潮长毛的干海带，纤维一根根散开",
+      "details": [
+        "受潮长毛的干海带，纤维一根根散开",
+        "腥味混着霉味，谁捡谁后悔"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-701fac4425d8"
+    },
+    {
+      "id": "虚空蠕虫皮层",
+      "name": "虚空蠕虫皮层",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/leather",
+      "description": "从虚空蠕虫身上蜕下的皮层，韧得很",
+      "details": [
+        "从虚空蠕虫身上蜕下的皮层，韧得很",
+        "对着光看，纹路还在缓慢地动"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-bbe28b9fbcf1"
+    },
+    {
+      "id": "冷缩暗影凝胶",
+      "name": "冷缩暗影凝胶",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/ink_sac",
+      "description": "一离开暗处就缩成一团的凝胶",
+      "details": [
+        "一离开暗处就缩成一团的凝胶",
+        "捏破了，流出来的是更黑的影"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-0740fac30aba"
+    },
+    {
+      "id": "微量重力水银",
+      "name": "微量重力水银",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/iron_nugget",
+      "description": "沉甸甸的水银珠，压得袋底往下坠",
+      "details": [
+        "沉甸甸的水银珠，压得袋底往下坠",
+        "倒了半天，它一滴都不肯出来"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-c29bc0bc867d"
+    },
+    {
+      "id": "游离磁偏矿粒",
+      "name": "游离磁偏矿粒",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/raw_iron",
+      "description": "会自动躲开磁石的矿粒",
+      "details": [
+        "会自动躲开磁石的矿粒",
+        "罗盘靠近它，指针当场打转"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-505e36222f80"
+    },
+    {
+      "id": "深渊藤壶甲壳",
+      "name": "深渊藤壶甲壳",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/nautilus_shell",
+      "description": "从深渊船底刮下来的藤壶壳",
+      "details": [
+        "从深渊船底刮下来的藤壶壳",
+        "敲一敲，空腔里嗡地回一声"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-bc45f03568ec"
+    },
+    {
+      "id": "紫辉矿晶砂",
+      "name": "紫辉矿晶砂",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/amethyst_shard",
+      "description": "掺着紫色晶屑的砂，倒在纸上会自己聚堆",
+      "details": [
+        "掺着紫色晶屑的砂，倒在纸上会自己聚堆",
+        "吹口气，晶屑纹丝不动"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-64e6d2c177ec"
+    },
+    {
+      "id": "黑曜石化树脂",
+      "name": "黑曜石化树脂",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/obsidian",
+      "description": "树脂滴进熔岩里炼成的黑块，亮得照人",
+      "details": [
+        "树脂滴进熔岩里炼成的黑块，亮得照人",
+        "断口锋利，别徒手掰"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-91606ad6c1a5"
+    },
+    {
+      "id": "虚空孢子绒毛",
+      "name": "虚空孢子绒毛",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/feather",
+      "description": "虚空里飘荡的孢子绒，轻到手心感觉不到",
+      "details": [
+        "虚空里飘荡的孢子绒，轻到手心感觉不到",
+        "松开手指，它悬着不落"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-d5e0b0a6fc76"
+    },
+    {
+      "id": "发光深海棘刺",
+      "name": "发光深海棘刺",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/glow_lichen",
+      "description": "棘刺尖上挂着一点幽光，忽明忽暗",
+      "details": [
+        "棘刺尖上挂着一点幽光，忽明忽暗",
+        "离水久了，光就一点一点收回去"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-dec94b7fac1d"
+    },
+    {
+      "id": "冷铸深渊铁渣",
+      "name": "冷铸深渊铁渣",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/iron_ingot",
+      "description": "熔流冷却后敲下的铁渣，通体发哑光",
+      "details": [
+        "熔流冷却后敲下的铁渣，通体发哑光",
+        "砸在石头上，声音闷得像敲鼓"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-bb2ff9ebc89a"
+    },
+    {
+      "id": "粗制深渊皮革",
+      "name": "粗制深渊皮革",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/rabbit_hide",
+      "description": "硝制粗糙的皮革，边角还留着小块毛根",
+      "details": [
+        "硝制粗糙的皮革，边角还留着小块毛根",
+        "搓一搓，有股深渊特有的凉腥味"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-304d33ef7c48"
+    },
+    {
+      "id": "相位珍珠粉末",
+      "name": "相位珍珠粉末",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/ender_pearl",
+      "description": "珍珠在相位里碎成的粉，聚在手心才看得见",
+      "details": [
+        "珍珠在相位里碎成的粉，聚在手心才看得见",
+        "撒出去，粉会先你一步落地"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-7e4c0f2c6462"
+    },
+    {
+      "id": "深潜巨兽油脂",
+      "name": "深潜巨兽油脂",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/slime_ball",
+      "description": "从巨兽骨缝里刮出的油脂，常温也不凝",
+      "details": [
+        "从巨兽骨缝里刮出的油脂，常温也不凝",
+        "点燃它，火苗是冷的"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-59ce0d917541"
+    },
+    {
+      "id": "结晶化末影血液",
+      "name": "结晶化末影血液",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/nether_wart",
+      "description": "暗紫的血凝成一串结晶，内里像有裂纹",
+      "details": [
+        "暗紫的血凝成一串结晶，内里像有裂纹",
+        "裂纹自己长，也自己合"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-e5e67dda780a"
+    },
+    {
+      "id": "极寒虚空冰棱",
+      "name": "极寒虚空冰棱",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/ice",
+      "description": "结到极处反而烫手的那段冰棱",
+      "details": [
+        "结到极处反而烫手的那段冰棱",
+        "裹进布里，布上会洇出霜"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-b40c5c69eeb6"
+    },
+    {
+      "id": "空间扭曲腺体",
+      "name": "空间扭曲腺体",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/fermented_spider_eye",
+      "description": "腺体还在自己一阵一阵抽动",
+      "details": [
+        "腺体还在自己一阵一阵抽动",
+        "它抽一下，旁边的影子就歪一下"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-8d478351a27f"
+    },
+    {
+      "id": "畸变生物软骨板",
+      "name": "畸变生物软骨板",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/armadillo_scute",
+      "description": "韧得能弯成环的软骨板，弯完自己弹直",
+      "details": [
+        "韧得能弯成环的软骨板，弯完自己弹直",
+        "刻在上面的纹路，像是活的"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-57d730f86c75"
+    },
+    {
+      "id": "高密度基底碎矿",
+      "name": "高密度基底碎矿",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/raw_gold",
+      "description": "从世界基底剥离的碎矿，一枚顶一筐",
+      "details": [
+        "从世界基底剥离的碎矿，一枚顶一筐",
+        "搁在兜里，走路都沉"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-2c9af8331a1e"
+    },
+    {
+      "id": "暗能量沉淀物",
+      "name": "暗能量沉淀物",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/black_dye",
+      "description": "吸光的黑色细粉，摆在暗处就找不着",
+      "details": [
+        "吸光的黑色细粉，摆在暗处就找不着",
+        "光落进粉里，就不见了"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-37e30a1ae583"
+    },
+    {
+      "id": "完整发光器官",
+      "name": "完整发光器官",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/magma_cream",
+      "description": "一整颗还在发光的器官，捧在手里温温的",
+      "details": [
+        "一整颗还在发光的器官，捧在手里温温的",
+        "它一明一暗，节奏像是谁的呼吸"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-75148435febc"
+    },
+    {
+      "id": "回响声学石碎块",
+      "name": "回响声学石碎块",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/echo_shard",
+      "description": "敲碎的回响石，回声攒在断面里没散",
+      "details": [
+        "敲碎的回响石，回声攒在断面里没散",
+        "贴上石壁，能听全整道峡谷的动静"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-5251501d906e"
+    },
+    {
+      "id": "微光浮游油脂滴",
+      "name": "微光浮游油脂滴",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/glow_ink_sac",
+      "description": "浮游生物压出的油滴，漂在瓶里不下沉",
+      "details": [
+        "浮游生物压出的油滴，漂在瓶里不下沉",
+        "晃一晃，整瓶都亮起来"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-946a9b7bbcc8"
+    },
+    {
+      "id": "纯净暗物质液滴",
+      "name": "纯净暗物质液滴",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/ghast_tear",
+      "description": "提纯过的一滴暗物质，悬在瓶里不落",
+      "details": [
+        "提纯过的一滴暗物质，悬在瓶里不落",
+        "它周围的光，都往里凹"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-d480daaa067c"
+    },
+    {
+      "id": "深渊支配者触须肉块",
+      "name": "深渊支配者触须肉块",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/rotten_flesh",
+      "description": "从支配者触须上切下的一段，切面还在跳",
+      "details": [
+        "从支配者触须上切下的一段，切面还在跳",
+        "拿久了，手会自己攥紧"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-94bdcdc7a8d9"
+    },
+    {
+      "id": "坍缩中子星碎块",
+      "name": "坍缩中子星碎块",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/firework_star",
+      "description": "星核塌缩时崩下的一块，重得反常",
+      "details": [
+        "星核塌缩时崩下的一块，重得反常",
+        "它落过的地方，地上留个小坑"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-85e6a49f5be0"
+    },
+    {
+      "id": "永冻时空琥珀",
+      "name": "永冻时空琥珀",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/honey_block",
+      "description": "琥珀里冻结着一小段停住的时间",
+      "details": [
+        "琥珀里冻结着一小段停住的时间",
+        "对着光照，光也走得慢些"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-9afa162ccd5d"
+    },
+    {
+      "id": "裂隙共鸣晶核",
+      "name": "裂隙共鸣晶核",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/end_crystal",
+      "description": "与裂隙共振的晶核，靠近缝隙就嗡鸣",
+      "details": [
+        "与裂隙共振的晶核，靠近缝隙就嗡鸣",
+        "它一响，附近的裂隙就应一声"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-f76695c0e156"
+    },
+    {
+      "id": "不灭虚空纤维蚕丝",
+      "name": "不灭虚空纤维蚕丝",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/string",
+      "description": "抽自虚空茧的丝，剪不断也烧不着",
+      "details": [
+        "抽自虚空茧的丝，剪不断也烧不着",
+        "拉紧它，能听见极细的嗡声"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-85c5e1851670"
+    },
+    {
+      "id": "超密态重元素矿锭",
+      "name": "超密态重元素矿锭",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/netherite_scrap",
+      "description": "密度压得反常的矿锭，一小块压手得吓人",
+      "details": [
+        "密度压得反常的矿锭，一小块压手得吓人",
+        "想搬第二块，得先吃饱饭"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-734901792980"
+    },
+    {
+      "id": "高维折叠骨板",
+      "name": "高维折叠骨板",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/armadillo_scute",
+      "description": "从高维摊平的骨板，摸上去比看着厚",
+      "details": [
+        "从高维摊平的骨板，摸上去比看着厚",
+        "边沿永远有一道摸不到的棱"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-d3fb29fff712"
+    },
+    {
+      "id": "虚空荧光胶质核心",
+      "name": "虚空荧光胶质核心",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/slime_ball",
+      "description": "胶质里裹着一团荧光的核，缓慢地转",
+      "details": [
+        "胶质里裹着一团荧光的核，缓慢地转",
+        "把它摇停，它自己又转起来"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-cb99b906e744"
+    },
+    {
+      "id": "原初虚空活体组织",
+      "name": "原初虚空活体组织",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/sculk_vein",
+      "description": "第一缕虚空留下的活体组织，还在缓慢搏动",
+      "details": [
+        "第一缕虚空留下的活体组织，还在缓慢搏动",
+        "离了容器，它自己找方向缩"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-0857d4d944bc"
+    },
+    {
+      "id": "100%纯度奇点浓缩液",
+      "name": "100%纯度奇点浓缩液",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/glass_bottle",
+      "description": "瓶里浓缩着一点坍缩到极致的引力",
+      "details": [
+        "瓶里浓缩着一点坍缩到极致的引力",
+        "倒过来，液面纹丝不动，它不认重力"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-92c5f001c82e"
+    },
+    {
+      "id": "凝固的超新星残骸",
+      "name": "凝固的超新星残骸",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/magma_block",
+      "description": "一颗星的最后一瞬，凝成了这块残骸",
+      "details": [
+        "一颗星的最后一瞬，凝成了这块残骸",
+        "到现在还是烫的，一直都会是烫的"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-62756a0c4dc4"
+    },
+    {
+      "id": "终末巨兽的脊椎骨片",
+      "name": "终末巨兽的脊椎骨片",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/bone",
+      "description": "比门板还宽的脊椎骨片，髓腔贯到底",
+      "details": [
+        "比门板还宽的脊椎骨片，髓腔贯到底",
+        "骨缝里卡着别的东西的牙"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-e84fa7ea13f1"
+    },
+    {
+      "id": "不朽混沌之髓",
+      "name": "不朽混沌之髓",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/dragon_breath",
+      "description": "混沌巨兽的髓，瓶里还冒着一层暗红光",
+      "details": [
+        "混沌巨兽的髓，瓶里还冒着一层暗红光",
+        "瓶壁内侧结着一圈细小的混沌纹"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-aa8f6924542b"
+    },
+    {
+      "id": "世界底层编码晶片",
+      "name": "世界底层编码晶片",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/diamond",
+      "description": "从世界底层剥离的一枚晶片，读不出内容",
+      "details": [
+        "从世界底层剥离的一枚晶片，读不出内容",
+        "对着光，里面掠过一行极快的符号"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-46141e1538f2"
+    },
+    {
+      "id": "反引力致密核心",
+      "name": "反引力致密核心",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/heavy_core",
+      "description": "致密到压弯引力的核心，托在手里发飘",
+      "details": [
+        "致密到压弯引力的核心，托在手里发飘",
+        "松手也不落，得用力按着才留得住"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-ff21c1c7bc7a"
+    },
+    {
+      "id": "虚无原质",
+      "name": "虚无原质",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/sculk",
+      "description": "虚无自己凝出来的一小块原质",
+      "details": [
+        "虚无自己凝出来的一小块原质",
+        "盯着它看，会忘了刚才在想什么"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-fdda51c056ef"
+    },
+    {
+      "id": "基岩真髓",
+      "name": "基岩真髓",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/bedrock",
+      "description": "从基岩最深处压出来的一小段髓",
+      "details": [
+        "从基岩最深处压出来的一小段髓",
+        "它安静得让周围都跟着静下来"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-f1fb80fcea29"
+    },
+    {
+      "id": "奇点矿核",
+      "name": "奇点矿核",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/respawn_anchor",
+      "description": "矿脉深处结出的核，密度没有上限",
+      "details": [
+        "矿脉深处结出的核，密度没有上限",
+        "搁着不动，周围的尘土慢慢往它脚边聚"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-6e5224f197d7"
+    },
+    {
+      "id": "远古虚空神蜕",
+      "name": "远古虚空神蜕",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/shulker_shell",
+      "description": "上古虚空神蜕下的一层壳",
+      "details": [
+        "上古虚空神蜕下的一层壳",
+        "壳口一直朝着虚空的方向，没转过"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-dde5b3d1dbff"
+    },
+    {
+      "id": "焦木屑",
+      "name": "焦木屑",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/charcoal",
+      "description": "烧结成炭的木屑，一捻就碎成粉",
+      "details": [
+        "烧结成炭的木屑，一捻就碎成粉",
+        "埋在灰里太久了，连焦味都淡了"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-71a6860dcd93"
+    },
+    {
+      "id": "碎骨片",
+      "name": "碎骨片",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/bone",
+      "description": "碎成小片的骨头，边缘早磨圆了",
+      "details": [
+        "碎成小片的骨头，边缘早磨圆了",
+        "拼得再近，也认不出是谁的"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-3947a2766619"
+    },
+    {
+      "id": "锈铁皮",
+      "name": "锈铁皮",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/raw_iron",
+      "description": "卷了边的锈铁片，一掰哗啦啦掉锈",
+      "details": [
+        "卷了边的锈铁片，一掰哗啦啦掉锈",
+        "铁味早散光了，只剩一股土腥"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-526e5efd4bae"
+    },
+    {
+      "id": "煤渣",
+      "name": "煤渣",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/coal",
+      "description": "烧剩下的煤渣，捏一把满手黑",
+      "details": [
+        "烧剩下的煤渣，捏一把满手黑",
+        "再扔进炉子里，连火星都欠奉"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-8a29f9eea2bb"
+    },
+    {
+      "id": "烂皮条",
+      "name": "烂皮条",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/leather",
+      "description": "泡发了又风干的皮条，软塌塌一长条",
+      "details": [
+        "泡发了又风干的皮条，软塌塌一长条",
+        "扯不断，就是浑身透着股馊"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-a1adcf5b0cf5"
+    },
+    {
+      "id": "陶土渣",
+      "name": "陶土渣",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/clay_ball",
+      "description": "烧裂的陶土渣，断口还是细粉",
+      "details": [
+        "烧裂的陶土渣，断口还是细粉",
+        "拿水泡一泡，兴许还能捏出个样"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-aeda17ccb17a"
+    },
+    {
+      "id": "铅粒",
+      "name": "铅粒",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/iron_nugget",
+      "description": "沉甸甸的铅粒，手指一捻就沾一层灰",
+      "details": [
+        "沉甸甸的铅粒，手指一捻就沾一层灰",
+        "丢进水里，是笔直沉下去的"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-32bea5a8e163"
+    },
+    {
+      "id": "黑石皮",
+      "name": "黑石皮",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/blackstone",
+      "description": "从黑石上剥下来的一层皮",
+      "details": [
+        "从黑石上剥下来的一层皮",
+        "黑得发匀，连光都懒得反"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-db5a7de346bd"
+    },
+    {
+      "id": "死浮藻",
+      "name": "死浮藻",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/seagrass",
+      "description": "泡死在半途的浮藻，颜色褪得发灰",
+      "details": [
+        "泡死在半途的浮藻，颜色褪得发灰",
+        "拎起来，水滴半天不肯落"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-e687a28f5def"
+    },
+    {
+      "id": "灰砂",
+      "name": "灰砂",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/light_gray_concrete_powder",
+      "description": "细得发虚的灰砂，抓一把漏半把",
+      "details": [
+        "细得发虚的灰砂，抓一把漏半把",
+        "吹口气，砂面就换一副样子"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-10a290bd970c"
+    },
+    {
+      "id": "虚空丝",
+      "name": "虚空丝",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/string",
+      "description": "从虚空里抽出来的丝，比蛛丝还细",
+      "details": [
+        "从虚空里抽出来的丝，比蛛丝还细",
+        "打结比你想的难，解开更难"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-66d308645f3c"
+    },
+    {
+      "id": "暗晶",
+      "name": "暗晶",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/amethyst_shard",
+      "description": "吸光的小晶片，映不出任何东西",
+      "details": [
+        "吸光的小晶片，映不出任何东西",
+        "攥一会儿，掌心会发凉"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-e52fb418673f"
+    },
+    {
+      "id": "影流之脂",
+      "name": "影流之脂",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/slime_ball",
+      "description": "会自己缓缓流动的暗色油脂",
+      "details": [
+        "会自己缓缓流动的暗色油脂",
+        "抹在纸上，纸上洇开一小片夜"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-4611d8dc0faf"
+    },
+    {
+      "id": "冷岩",
+      "name": "冷岩",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/packed_ice",
+      "description": "摸上去比雪还冷的一块岩",
+      "details": [
+        "摸上去比雪还冷的一块岩",
+        "靠在它边上，酒凉得比往常快"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-5f469136c2ee"
+    },
+    {
+      "id": "黑鳞",
+      "name": "黑鳞",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/phantom_membrane",
+      "description": "乌黑一片鳞，软得能弯，硬得硌手",
+      "details": [
+        "乌黑一片鳞，软得能弯，硬得硌手",
+        "对着光看，鳞上浮着灰白的纹路"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-ec9a0a84df02"
+    },
+    {
+      "id": "紫珀砂",
+      "name": "紫珀砂",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/popped_chorus_fruit",
+      "description": "紫珀磨成的细砂，倒在手心会轻轻颤",
+      "details": [
+        "紫珀磨成的细砂，倒在手心会轻轻颤",
+        "搁在纸上，过一会儿纸会发紫"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-ff06fa32fb44"
+    },
+    {
+      "id": "蚀铁",
+      "name": "蚀铁",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/iron_ingot",
+      "description": "被虚空蚀出满身孔洞的铁",
+      "details": [
+        "被虚空蚀出满身孔洞的铁",
+        "敲上去，声音比空桶还空"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-ce5130a5de4e"
+    },
+    {
+      "id": "星屑",
+      "name": "星屑",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/glowstone_dust",
+      "description": "落下来的星尘碎屑，凑一堆才看得清",
+      "details": [
+        "落下来的星尘碎屑，凑一堆才看得清",
+        "越暗的地方，它越亮"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-ccb97bbe5e55"
+    },
+    {
+      "id": "幽骨",
+      "name": "幽骨",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/bone",
+      "description": "泛着幽白的一小截骨头",
+      "details": [
+        "泛着幽白的一小截骨头",
+        "握着它，指尖那点凉总也捂不热"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-1299187d38ba"
+    },
+    {
+      "id": "渊血",
+      "name": "渊血",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/nether_wart",
+      "description": "凝成暗紫块的渊血，凑近有股铁腥",
+      "details": [
+        "凝成暗紫块的渊血，凑近有股铁腥",
+        "滴进清水里，它会缓缓往下坠"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-9dbf90f42faa"
+    },
+    {
+      "id": "裂隙灰",
+      "name": "裂隙灰",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/gunpowder",
+      "description": "从裂隙口扒下来的灰，轻轻一碰就飞",
+      "details": [
+        "从裂隙口扒下来的灰，轻轻一碰就飞",
+        "呛人的味道里，掺着一点烧焦的甜"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-90e84003c533"
+    },
+    {
+      "id": "B6-相位角",
+      "name": "B6-相位角",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/goat_horn",
+      "description": "标号 B6 的相位角，翻个面形状就差一毫",
+      "details": [
+        "标号 B6 的相位角，翻个面形状就差一毫",
+        "贴在耳边，能听见极轻的错位嗡鸣"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-a422481a1d94"
+    },
+    {
+      "id": "引力之砂",
+      "name": "引力之砂",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/sand",
+      "description": "每一粒都在往下坠，再往下一寸",
+      "details": [
+        "每一粒都在往下坠，再往下一寸",
+        "把它堆起来，它自己会往低处流"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-b772d692acfa"
+    },
+    {
+      "id": "逆磁石",
+      "name": "逆磁石",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/lodestone",
+      "description": "把磁石反着炼出来的石头",
+      "details": [
+        "把磁石反着炼出来的石头",
+        "贴在铁上，会被自己弹开"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-fdb1fd228160"
+    },
+    {
+      "id": "空鳞",
+      "name": "空鳞",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/armadillo_scute",
+      "description": "薄得透光的鳞片，中间空着一层",
+      "details": [
+        "薄得透光的鳞片，中间空着一层",
+        "对着灯看，光能从鳞里游过去"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-ae030f015cbe"
+    },
+    {
+      "id": "星银矿",
+      "name": "星银矿",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/raw_iron",
+      "description": "泛着银星的矿石，断面像一小片夜空",
+      "details": [
+        "泛着银星的矿石，断面像一小片夜空",
+        "夜里贴身放着，它比你的手还凉"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-141fcecf56aa"
+    },
+    {
+      "id": "幽冥之胆",
+      "name": "幽冥之胆",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/fermented_spider_eye",
+      "description": "幽绿色的一小颗胆，攥着有弹性",
+      "details": [
+        "幽绿色的一小颗胆，攥着有弹性",
+        "越捏越缩，像是被吓的"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-3f613989a90f"
+    },
+    {
+      "id": "重水",
+      "name": "重水",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/glass_bottle",
+      "description": "瓶里的水沉得反常，晃一晃几乎不动",
+      "details": [
+        "瓶里的水沉得反常，晃一晃几乎不动",
+        "倒进普通水里，会静静沉底"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-c92db3b7c322"
+    },
+    {
+      "id": "冰髓",
+      "name": "冰髓",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/blue_ice",
+      "description": "冰心口那一点最冷的部分",
+      "details": [
+        "冰心口那一点最冷的部分",
+        "裹三层布里，布还是冻硬了"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-2a5f0416b2cd"
+    },
+    {
+      "id": "星核矿",
+      "name": "星核矿",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/ancient_debris",
+      "description": "星核崩开后露出的原矿",
+      "details": [
+        "星核崩开后露出的原矿",
+        "切开看，断面上还凝着星心的光"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-10114ad9600c"
+    },
+    {
+      "id": "界壳",
+      "name": "界壳",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/end_portal_frame",
+      "description": "从世界边界剥下的一层壳",
+      "details": [
+        "从世界边界剥下的一层壳",
+        "壳上的框，对着什么都框不住"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-b3aa8dd51cde"
+    },
+    {
+      "id": "乌德砂",
+      "name": "乌德砂",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/soul_sand",
+      "description": "颜色深得不正常的砂，摸着却像水",
+      "details": [
+        "颜色深得不正常的砂，摸着却像水",
+        "它在指缝里会自己往下流"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-f693def828ad"
+    },
+    {
+      "id": "暗金",
+      "name": "暗金",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/gilded_blackstone",
+      "description": "黑里掺金的暗色金料",
+      "details": [
+        "黑里掺金的暗色金料",
+        "拿近了看，金点是活的，会缓缓游"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-c78987610b7a"
+    },
+    {
+      "id": "乌德铁",
+      "name": "乌德铁",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/netherite_ingot",
+      "description": "沉甸甸一块乌德铁，边缘泛着暗紫",
+      "details": [
+        "沉甸甸一块乌德铁，边缘泛着暗紫",
+        "它不反光，光落上去就没影了"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-0068a03d4000"
+    },
+    {
+      "id": "虚空灵腺",
+      "name": "虚空灵腺",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/fermented_spider_eye",
+      "description": "还在鼓动的灵腺，半透着紫光",
+      "details": [
+        "还在鼓动的灵腺，半透着紫光",
+        "贴着手心，跳得和你心跳一般齐"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-38a9fea40fa1"
+    },
+    {
+      "id": "精密红石元件",
+      "name": "精密红石元件",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/comparator",
+      "description": "以石英基板与金线精修的高精度红石元件",
+      "details": [
+        "以石英基板与金线精修的高精度红石元件",
+        "微弱的信号在其中稳定地流转"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-248ae520046f"
+    },
+    {
+      "id": "Flow轮毂",
+      "name": "Flow轮毂",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/clock",
+      "description": "Flow 传动系统的核心轮毂",
+      "details": [
+        "Flow 传动系统的核心轮毂",
+        "自动机双轮的转轴承载结构"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-165ca72a7209"
+    },
+    {
+      "id": "可编程式指令内存A1",
+      "name": "可编程式指令内存A1",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/crafter",
+      "description": "LanT 系列自动机的可编程指令存储体",
+      "details": [
+        "LanT 系列自动机的可编程指令存储体",
+        "铜芯与红石阵列中写满了指令序列"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-df63225f11be"
+    },
+    {
+      "id": "LanT处理器",
+      "name": "LanT处理器",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/observer",
+      "description": "LanT 架构的指令解析与处理核心",
+      "details": [
+        "LanT 架构的指令解析与处理核心",
+        "读取内存中的指令并驱动自动机运转"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-effe26db88d8"
+    },
+    {
+      "id": "自动机遥控器",
+      "name": "自动机遥控器",
+      "kind": "tool",
+      "category": "功能性工具",
+      "group": "tools",
+      "icon": "item/recovery_compass",
+      "description": "与 LanT-Flow 系列机器配套的遥控终端",
+      "details": [
+        "与 LanT-Flow 系列机器配套的遥控终端",
+        "对机器方块右键：绑定该机器",
+        "绑定后对空右键：远程打开其程序面板"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/items/tools/i-cd2d301bdb79"
+    },
+    {
+      "id": "自动机程序卡",
+      "name": "自动机程序卡",
+      "kind": "tool",
+      "category": "功能性工具",
+      "group": "tools",
+      "icon": "item/paper",
+      "description": "可存放一份 LanT-Flow 自动机程序的存储卡",
+      "details": [
+        "可存放一份 LanT-Flow 自动机程序的存储卡",
+        "在程序面板点「写入程序卡」：把这台机器的程序存进卡里",
+        "在另一台机器点「读取程序卡」：把卡里的程序载入",
+        "使用主手中的卡；主手没有时使用背包里的第一张"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/items/tools/i-47dc0988077d"
+    },
+    {
+      "id": "自动机器-LanT-Flow-A1",
+      "name": "自动机器-LanT-Flow-A1",
+      "kind": "machine",
+      "category": "功能性机器方块",
+      "group": "machines",
+      "icon": "item/chiseled_copper",
+      "description": "LanT 系列初代双轮自动机",
+      "details": [
+        "LanT 系列初代双轮自动机",
+        "由可编程式指令内存与 Flow 轮毂驱动",
+        "摆放后作为机器方块，右键即可打开程序面板",
+        "手持 自动机遥控器 右键可以把它绑定到遥控器上"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/machines/machines/i-06a9be6b06c1"
+    },
+    {
+      "id": "自动机器-LanT-Flow-A2",
+      "name": "自动机器-LanT-Flow-A2",
+      "kind": "machine",
+      "category": "功能性机器方块",
+      "group": "machines",
+      "icon": "item/cut_copper",
+      "description": "LanT 系列第二代双轮自动机",
+      "details": [
+        "LanT 系列第二代双轮自动机",
+        "升级的指令内存：36 格程序",
+        "摆放后作为机器方块，右键即可打开程序面板",
+        "手持 自动机遥控器 右键可以把它绑定到遥控器上"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/machines/machines/i-ca01ac8b14ad"
+    },
+    {
+      "id": "自动机器-LanT-Flow-A3",
+      "name": "自动机器-LanT-Flow-A3",
+      "kind": "machine",
+      "category": "功能性机器方块",
+      "group": "machines",
+      "icon": "item/copper_grate",
+      "description": "LanT 系列第三代双轮自动机",
+      "details": [
+        "LanT 系列第三代双轮自动机",
+        "72 格程序，程序面板分两页翻看",
+        "摆放后作为机器方块，右键即可打开程序面板",
+        "手持 自动机遥控器 右键可以把它绑定到遥控器上"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/machines/machines/i-c4f41bb25f09"
+    },
+    {
+      "id": "自动机器-LanT-Flow-SA1",
+      "name": "自动机器-LanT-Flow-SA1",
+      "kind": "machine",
+      "category": "功能性机器方块",
+      "group": "machines",
+      "icon": "item/copper_bulb",
+      "description": "LanT 系列的分化型双轮自动机",
+      "details": [
+        "LanT 系列的分化型双轮自动机",
+        "36 格程序；特殊功能尚在开发中",
+        "摆放后作为机器方块，右键即可打开程序面板",
+        "手持 自动机遥控器 右键可以把它绑定到遥控器上"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/machines/machines/i-30fcd8bee61e"
+    },
+    {
+      "id": "加速元件",
+      "name": "加速元件",
+      "kind": "machine",
+      "category": "功能性机器方块",
+      "group": "machines",
+      "icon": "item/end_rod",
+      "description": "贴在自动机器上下左右前后任一面旁的提速元件",
+      "details": [
+        "贴在自动机器上下左右前后任一面旁的提速元件",
+        "每个元件让相邻的自动机器快 1 格/秒",
+        "一台机器最多吃到 3 个",
+        "安放后机器的走格、转身与行走都会随之变快"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/machines/machines/i-cb739e6f106c"
+    },
+    {
+      "id": "基石",
+      "name": "基石",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/reinforced_deepslate",
+      "description": "铺在世界最底下的那块基石",
+      "details": [
+        "铺在世界最底下的那块基石",
+        "所有东西都压在它上面，它一声不吭"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-5f3534459d4c"
+    },
+    {
       "id": "minecraft:bookshelf",
       "name": "书架",
       "kind": "vanilla",
@@ -31801,6 +34451,19 @@
       "obtain": "",
       "glint": false,
       "href": "/linsmagic/atlas/vanilla/stone_bricks"
+    },
+    {
+      "id": "minecraft:end_rod",
+      "name": "末地烛",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/end_rod",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/end_rod"
     },
     {
       "id": "minecraft:blue_dye",
@@ -37889,6 +40552,106 @@
       ],
       "obtain": "高级附魔系统",
       "href": "/linsmagic/atlas/enchants/high/high_negentropy_rewind"
+    },
+    {
+      "id": "high_deep_angler",
+      "name": "深空钓者",
+      "kind": "enchant",
+      "category": "高级附魔",
+      "group": "史诗",
+      "icon": "item/enchanted_book",
+      "glint": true,
+      "description": "手持时获得夜视与饱和效果，梦魇的收杆窗口延长0.05秒",
+      "levelEffects": [
+        "手持时获得夜视与饱和效果，梦魇的收杆窗口延长0.05秒"
+      ],
+      "details": [
+        "最高等级：1",
+        "稀有度：史诗",
+        "适用类型：ROD"
+      ],
+      "obtain": "高级附魔系统",
+      "href": "/linsmagic/atlas/enchants/high/high_deep_angler"
+    },
+    {
+      "id": "high_antigravity",
+      "name": "反重力阻尼",
+      "kind": "enchant",
+      "category": "高级附魔",
+      "group": "史诗",
+      "icon": "item/enchanted_book",
+      "glint": true,
+      "description": "右键获得漂浮V，再次右键解除",
+      "levelEffects": [
+        "右键获得漂浮V，再次右键解除"
+      ],
+      "details": [
+        "最高等级：1",
+        "稀有度：史诗",
+        "适用类型：手持/武器"
+      ],
+      "obtain": "高级附魔系统",
+      "href": "/linsmagic/atlas/enchants/high/high_antigravity"
+    },
+    {
+      "id": "high_event_horizon",
+      "name": "事件视界",
+      "kind": "enchant",
+      "category": "高级附魔",
+      "group": "史诗",
+      "icon": "item/enchanted_book",
+      "glint": true,
+      "description": "穿戴时身旁跟一只虚质宠物，在身周四格内漫无目的地飘荡",
+      "levelEffects": [
+        "穿戴时身旁跟一只虚质宠物，在身周四格内漫无目的地飘荡"
+      ],
+      "details": [
+        "最高等级：1",
+        "稀有度：史诗",
+        "适用类型：HELMET"
+      ],
+      "obtain": "高级附魔系统",
+      "href": "/linsmagic/atlas/enchants/high/high_event_horizon"
+    },
+    {
+      "id": "high_abyss_letter",
+      "name": "深渊来信",
+      "kind": "enchant",
+      "category": "高级附魔",
+      "group": "传奇",
+      "icon": "item/enchanted_book",
+      "glint": true,
+      "description": "命中时按60%/30%/10%额外造成8/12/16点真实伤害",
+      "levelEffects": [
+        "命中时按60%/30%/10%额外造成8/12/16点真实伤害"
+      ],
+      "details": [
+        "最高等级：1",
+        "稀有度：传奇",
+        "适用类型：三叉戟"
+      ],
+      "obtain": "高级附魔系统",
+      "href": "/linsmagic/atlas/enchants/high/high_abyss_letter"
+    },
+    {
+      "id": "high_nothingness",
+      "name": "虚无",
+      "kind": "enchant",
+      "category": "高级附魔",
+      "group": "传奇",
+      "icon": "item/enchanted_book",
+      "glint": true,
+      "description": "攻击时1%概率令最近的玩家真实死亡，5%概率反噬自己",
+      "levelEffects": [
+        "攻击时1%概率令最近的玩家真实死亡，5%概率反噬自己"
+      ],
+      "details": [
+        "最高等级：1",
+        "稀有度：传奇",
+        "适用类型：SWORD"
+      ],
+      "obtain": "高级附魔系统",
+      "href": "/linsmagic/atlas/enchants/high/high_nothingness"
     },
     {
       "id": "enchant_blood_urn",
@@ -83169,6 +85932,567 @@
       "guiOnly": false
     },
     {
+      "id": "lant_program_card",
+      "name": "自动机程序卡合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "自动机程序卡",
+          "count": 4
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        {
+          "id": "精密红石元件",
+          "count": 1
+        },
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/lant_program_card",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "lant_remote",
+      "name": "自动机遥控器合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "自动机遥控器",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        {
+          "id": "铁环",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_block",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        null,
+        null,
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/lant_remote",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "precision_redstone_component",
+      "name": "精密红石元件合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "精密红石元件",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:quartz",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:quartz",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:quartz",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:quartz",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/precision_redstone_component",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "programmable_memory_a1",
+      "name": "可编程式指令内存A1合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/programmable_memory_a1",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "lant_processor",
+      "name": "LanT处理器合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "LanT处理器",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:gold_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:quartz",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "精密红石元件",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:quartz",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/lant_processor",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "flow_hub",
+      "name": "Flow轮毂合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "Flow轮毂",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "id": "精密红石元件",
+          "count": 1
+        },
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/flow_hub",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "lant_flow_a1",
+      "name": "自动机器-LanT-Flow-A1合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "自动机器-LanT-Flow-A1",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "精密红石元件",
+          "count": 1
+        },
+        {
+          "id": "生命核心",
+          "count": 1
+        },
+        {
+          "id": "精密红石元件",
+          "count": 1
+        },
+        {
+          "id": "Flow轮毂",
+          "count": 1
+        },
+        null,
+        {
+          "id": "Flow轮毂",
+          "count": 1
+        }
+      ],
+      "group": "machines",
+      "href": "/linsmagic/atlas/recipes/machines/lant_flow_a1",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "lant_flow_a2",
+      "name": "自动机器-LanT-Flow-A2合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "自动机器-LanT-Flow-A2",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "自动机器-LanT-Flow-A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        }
+      ],
+      "group": "machines",
+      "href": "/linsmagic/atlas/recipes/machines/lant_flow_a2",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "lant_flow_a3",
+      "name": "自动机器-LanT-Flow-A3合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "自动机器-LanT-Flow-A3",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "自动机器-LanT-Flow-A2",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        }
+      ],
+      "group": "machines",
+      "href": "/linsmagic/atlas/recipes/machines/lant_flow_a3",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "lant_flow_sa1",
+      "name": "自动机器-LanT-Flow-SA1合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "自动机器-LanT-Flow-SA1",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "Flow轮毂",
+          "count": 1
+        },
+        {
+          "id": "Flow轮毂",
+          "count": 1
+        },
+        {
+          "id": "Flow轮毂",
+          "count": 1
+        },
+        {
+          "id": "Flow轮毂",
+          "count": 1
+        },
+        {
+          "id": "自动机器-LanT-Flow-A1",
+          "count": 1
+        },
+        {
+          "id": "Flow轮毂",
+          "count": 1
+        },
+        {
+          "id": "Flow轮毂",
+          "count": 1
+        },
+        {
+          "id": "Flow轮毂",
+          "count": 1
+        },
+        {
+          "id": "Flow轮毂",
+          "count": 1
+        }
+      ],
+      "group": "machines",
+      "href": "/linsmagic/atlas/recipes/machines/lant_flow_sa1",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "lant_accelerator",
+      "name": "加速元件合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "加速元件",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:end_rod",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:end_rod",
+          "count": 1
+        },
+        {
+          "id": "精密红石元件",
+          "count": 1
+        },
+        {
+          "id": "minecraft:end_rod",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:end_rod",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        }
+      ],
+      "group": "machines",
+      "href": "/linsmagic/atlas/recipes/machines/lant_accelerator",
+      "note": "",
+      "guiOnly": false
+    },
+    {
       "id": "magic_infuser_sea",
       "name": "附魔注魔器-海合成",
       "station": "工作台",
@@ -91447,11 +94771,11 @@
     ]
   },
   "stats": {
-    "items": 1659,
-    "vanilla": 310,
-    "recipes": 1054,
+    "items": 1815,
+    "vanilla": 311,
+    "recipes": 1065,
     "structures": 44,
-    "enchants": 247,
+    "enchants": 252,
     "events": 11,
     "bosses": 18
   }

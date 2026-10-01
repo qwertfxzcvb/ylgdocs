@@ -1,6 +1,6 @@
 ---
 title: 系统教程 - LinsMagic 魔法百科
-description: 管道、多方块机器、附魔、夜间事件与首领、网页机器、应用能源、发电系统，从搭建到排错
+description: 管道、多方块机器、附魔、夜间事件与首领、网页机器、自动机器、应用能源、发电系统，从搭建到排错
 editLink: false
 prev: false
 next: false
@@ -27,6 +27,7 @@ next: false
 | 附魔出高级词条、了解注魔器 | [附魔体系](/linsmagic/atlas/tutorials/systems/enchanting) |
 | 应对血月、召唤首领 | [夜间事件与首领](/linsmagic/atlas/tutorials/systems/events-bosses) |
 | 将图片制作成地图画 | [网页机器](/linsmagic/atlas/tutorials/systems/web-machines) |
+| 让机器人自动搬运、巡逻、往返送货 | [自动机器（LanT-Flow）](/linsmagic/atlas/tutorials/systems/automatons) |
 | 统一存取全部物品、搜索与分类存储 | [应用能源（入门）](/linsmagic/atlas/tutorials/systems/applied-energistics) |
 | 自动合成、缺货自动补充 | [应用能源（自动合成）](/linsmagic/atlas/tutorials/systems/ae-autocrafting) |
 | 给 ME 网络供电、建风场、设计核反应堆 | [发电系统](/linsmagic/atlas/tutorials/systems/power) |

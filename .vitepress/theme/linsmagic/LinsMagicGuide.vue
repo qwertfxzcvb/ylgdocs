@@ -20,6 +20,7 @@ const systems = [
   { id: 'enchanting', title: '附魔体系', icon: 'item/enchanted_book', detail: '30 级高阶附魔概率、6 系注魔器摆放、铁砧合并规则、词条刻刀与附魔结晶。' },
   { id: 'events-bosses', title: '夜间事件与首领', icon: 'item/nether_star', detail: '六种特殊夜晚的危险与收获、催化剂召唤、精英怪、召唤祭坛与 18 个首领。' },
   { id: 'web-machines', title: '网页机器', icon: 'item/map', detail: '使用绘制台-WE 将任意图片转换为地图画。' },
+  { id: 'automatons', title: '自动机器（LanT-Flow）', icon: 'block/chiseled_copper', detail: '可编程双轮自动机：格子程序、LanT 脚本、网页积木编辑器、程序卡与领地规则。' },
   { id: 'applied-energistics', title: '应用能源（入门）', icon: 'item/waxed_copper_bars', detail: '陨石与材料链、压印器、ME 网络组建、存储元件、终端、总线与管道对接。' },
   { id: 'ae-autocrafting', title: '应用能源（自动合成）', icon: 'item/flower_banner_pattern', detail: '样板编码、样板供应器、分子装配室、合成 CPU、下单与任务管理、无线终端。' },
   { id: 'power', title: '发电系统', icon: 'item/daylight_detector', detail: '燃料、光伏板、地热、风力、魔素反应堆、能源元件与核反应堆。' }

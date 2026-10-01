@@ -34,6 +34,10 @@
             "link": "/linsmagic/atlas/tutorials/systems/web-machines"
           },
           {
+            "text": "自动机器（LanT-Flow）",
+            "link": "/linsmagic/atlas/tutorials/systems/automatons"
+          },
+          {
             "text": "应用能源（入门）",
             "link": "/linsmagic/atlas/tutorials/systems/applied-energistics"
           },

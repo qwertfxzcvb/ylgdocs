@@ -4,6 +4,12 @@
 
 <ContributionHeatmap />
 
+## 2026-10-01
+
+### 📝 文档更新
+- 魔法百科新增[自动机器（LanT-Flow）](/linsmagic/atlas/tutorials/systems/automatons)教程：格子程序、LanT 脚本、网页积木编辑器、书与笔导入、程序卡与领地规则
+- 魔法百科收录 LanT-Flow 系列自动机、加速元件、自动机遥控器、自动机程序卡及其配方，以及五本新的虚空渔获附魔
+
 ## 2026-09-30
 
 ### 📝 文档更新
