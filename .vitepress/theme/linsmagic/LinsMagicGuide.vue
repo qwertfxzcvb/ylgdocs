@@ -16,7 +16,7 @@ const guides = [
 
 const systems = [
   { id: 'pipeline', title: '管道系统', icon: 'block/black_stained_glass', detail: '第一条线路、阀门方向、分流与分拣、机器自动进出料、末影传输与填充机仓库。' },
-  { id: 'multiblock', title: '多方块机器', icon: 'block/piston_top', detail: '3D 结构图的查看方式；原石粉碎机、7 台原版矿机、工业矿机组的搭建；四十多台机器一览。' },
+  { id: 'multiblock', title: '多方块机器', icon: 'block/piston_top', detail: '3D 结构图的查看方式；原石粉碎机、矿物种子、工业矿机组的用法；四十多台机器一览。' },
   { id: 'enchanting', title: '附魔体系', icon: 'item/enchanted_book', detail: '30 级高阶附魔概率、6 系注魔器摆放、铁砧合并规则、词条刻刀与附魔结晶。' },
   { id: 'events-bosses', title: '夜间事件与首领', icon: 'item/nether_star', detail: '六种特殊夜晚的危险与收获、催化剂召唤、精英怪、召唤祭坛与 18 个首领。' },
   { id: 'web-machines', title: '网页机器', icon: 'item/map', detail: '使用绘制台-WE 将任意图片转换为地图画。' },

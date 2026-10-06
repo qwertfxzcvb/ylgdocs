@@ -22,7 +22,7 @@ next: false
 | --- | --- |
 | 将机器产物自动存入仓库、自动分类 | [管道系统](/linsmagic/atlas/tutorials/systems/pipeline) |
 | 制作第一台机器，或排查机器不运转的问题 | [多方块机器](/linsmagic/atlas/tutorials/systems/multiblock) |
-| 自动产出煤、铁、钻石 | [多方块机器 · 原版矿机](/linsmagic/atlas/tutorials/systems/multiblock#s-ore-miner) |
+| 稳定获得煤、铁、钻石等原版矿石 | [多方块机器 · 矿物种子](/linsmagic/atlas/tutorials/systems/multiblock#s-ore-seed) |
 | 挖掘矿砂获取金币 | [多方块机器 · 工业矿机组](/linsmagic/atlas/tutorials/systems/multiblock#s-rig) |
 | 附魔出高级词条、了解注魔器 | [附魔体系](/linsmagic/atlas/tutorials/systems/enchanting) |
 | 应对血月、召唤首领 | [夜间事件与首领](/linsmagic/atlas/tutorials/systems/events-bosses) |

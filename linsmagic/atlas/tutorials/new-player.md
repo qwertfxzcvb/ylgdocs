@@ -200,7 +200,7 @@ outline: [2, 3]
 | 方向 | 下一个目标 | 参考教程 |
 | --- | --- | --- |
 | **稳定收入** | 工业矿机组：基座需要下界材料，挂机挖掘矿砂出售给行商 | [工业矿机组](/linsmagic/atlas/tutorials/systems/multiblock#s-rig) |
-| **资源充足** | 原版矿机：消耗煤炭自动产出铁、金、钻石 | [原版矿机](/linsmagic/atlas/tutorials/systems/multiblock#s-ore-miner) |
+| **资源充足** | 矿物种子：种在耕地上，长满后结出随机矿石 | [矿物种子](/linsmagic/atlas/tutorials/systems/multiblock#s-ore-seed) |
 | **提升实力** | 30 级附魔获取高阶附魔；搭建注魔器 | [附魔体系](/linsmagic/atlas/tutorials/systems/enchanting) |
 | **挑战首领** | 召唤祭坛，共 18 个首领 | [夜间事件与首领](/linsmagic/atlas/tutorials/systems/events-bosses#s-boss) |
 | **全自动基地** | 管道 + 填充机仓库 + 各类加工机器 | [管道系统](/linsmagic/atlas/tutorials/systems/pipeline) |
