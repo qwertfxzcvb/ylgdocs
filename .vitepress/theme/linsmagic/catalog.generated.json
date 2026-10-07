@@ -28816,6 +28816,120 @@
       "href": "/linsmagic/atlas/ae/items/i-d7ebbf394835"
     },
     {
+      "id": "盖革辐射计",
+      "name": "盖革辐射计",
+      "kind": "material",
+      "category": "应用能源",
+      "group": "items",
+      "icon": "item/clock",
+      "description": "内置盖革-米勒计数管的手持辐射计",
+      "details": [
+        "内置盖革-米勒计数管的手持辐射计",
+        "├ 拿在主手或副手：快捷栏上方显示所在位置的剂量率、",
+        "│  你的累积剂量，并按剂量率发出咔哒声",
+        "└ 辐射看不见也摸不着，进入核爆污染区前务必带上"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/items/i-b42907a56e89"
+    },
+    {
+      "id": "普鲁士蓝胶囊",
+      "name": "普鲁士蓝胶囊",
+      "kind": "material",
+      "category": "应用能源",
+      "group": "items",
+      "icon": "item/blue_dye",
+      "description": "能与放射性铯结合、随身体排出的药剂",
+      "details": [
+        "能与放射性铯结合、随身体排出的药剂",
+        "├ 右键服用：累积剂量立即减少三成",
+        "├ 之后 5 分钟内，剂量消退速度提高到 3 倍",
+        "└ 冷却 60 秒"
+      ],
+      "obtain": "配方合成（应用能源），一次合成 2 个",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/items/i-3a05ce072dc9"
+    },
+    {
+      "id": "防辐射头罩",
+      "name": "防辐射头罩",
+      "kind": "material",
+      "category": "应用能源",
+      "group": "items",
+      "icon": "item/leather_helmet",
+      "description": "带滤毒罐与观察窗的密封头罩",
+      "details": [
+        "带滤毒罐与观察窗的密封头罩",
+        "├ 防辐射服每穿一件，受到的辐射减少 20%；四件穿齐减少 95%",
+        "├ 携带铀燃料、进入核爆污染区时穿戴",
+        "└ 在有辐射的地方每 30 秒磨损 1 点耐久"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/items/i-c75797ebd1a7"
+    },
+    {
+      "id": "防辐射服",
+      "name": "防辐射服",
+      "kind": "material",
+      "category": "应用能源",
+      "group": "items",
+      "icon": "item/leather_chestplate",
+      "description": "铁皮夹层的密封防护上衣",
+      "details": [
+        "铁皮夹层的密封防护上衣",
+        "├ 防辐射服每穿一件，受到的辐射减少 20%；四件穿齐减少 95%",
+        "├ 携带铀燃料、进入核爆污染区时穿戴",
+        "└ 在有辐射的地方每 30 秒磨损 1 点耐久"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/items/i-924d4fd9f1c7"
+    },
+    {
+      "id": "防辐射护腿",
+      "name": "防辐射护腿",
+      "kind": "material",
+      "category": "应用能源",
+      "group": "items",
+      "icon": "item/leather_leggings",
+      "description": "铁皮夹层的密封防护长裤",
+      "details": [
+        "铁皮夹层的密封防护长裤",
+        "├ 防辐射服每穿一件，受到的辐射减少 20%；四件穿齐减少 95%",
+        "├ 携带铀燃料、进入核爆污染区时穿戴",
+        "└ 在有辐射的地方每 30 秒磨损 1 点耐久"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/items/i-21caac57309a"
+    },
+    {
+      "id": "防辐射靴",
+      "name": "防辐射靴",
+      "kind": "material",
+      "category": "应用能源",
+      "group": "items",
+      "icon": "item/leather_boots",
+      "description": "厚底密封防护靴",
+      "details": [
+        "厚底密封防护靴",
+        "├ 防辐射服每穿一件，受到的辐射减少 20%；四件穿齐减少 95%",
+        "├ 携带铀燃料、进入核爆污染区时穿戴",
+        "└ 在有辐射的地方每 30 秒磨损 1 点耐久"
+      ],
+      "obtain": "配方合成（应用能源）",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/ae/items/i-b649e3ffc361"
+    },
+    {
       "id": "双联铀燃料棒",
       "name": "双联铀燃料棒",
       "kind": "material",
@@ -31526,7 +31640,7 @@
         "前进 / 后退 / 左转 / 右转，点一下执行一下，连点最多排 8 条",
         "掉进主世界虚空（y=-100）会进入深渊状态，遥控照旧有效",
         "之后在虚拟的深渊里漫游，面板正中多出「扫描」键",
-        "「回城」与「返回上一位置」各收 16 个末影珍珠做路费",
+        "「回城」与「返回上一位置」各收机器旁箱子里的 16 个末影珍珠做路费",
         "摆放后作为机器方块，右键即可打开遥控面板",
         "手持 自动机遥控器 右键可以把它绑定到遥控器上"
       ],
@@ -31549,7 +31663,7 @@
         "指令执行快 5 倍；一趟最多拿 3 件（手里举 1 件、身前挎 2 件）",
         "深渊里 9×9 回波图实时挂在机器上方的状态牌上",
         "掉进主世界虚空（y=-100）会进入深渊状态，遥控照旧有效",
-        "「回城」与「返回上一位置」各收 16 个末影珍珠做路费",
+        "「回城」与「返回上一位置」各收机器旁箱子里的 16 个末影珍珠做路费",
         "摆放后作为机器方块，右键即可打开遥控面板",
         "手持 自动机遥控器 右键可以把它绑定到遥控器上"
       ],
@@ -31573,7 +31687,7 @@
         "指令执行快 5 倍；一趟最多拿 8 件（手里举 1 件、身前挎 7 件）",
         "深渊里 9×9 回波图实时挂在机器上方的状态牌上",
         "掉进主世界虚空（y=-100）会进入深渊状态，遥控照旧有效",
-        "「回城」与「返回上一位置」各收 16 个末影珍珠做路费",
+        "「回城」与「返回上一位置」各收机器旁箱子里的 16 个末影珍珠做路费",
         "摆放后作为机器方块，右键即可打开面板",
         "手持 自动机遥控器 右键可以把它绑定到遥控器上"
       ],
@@ -31581,6 +31695,236 @@
       "enchantments": [],
       "glint": true,
       "href": "/linsmagic/atlas/machines/machines/i-07719de16cdc"
+    },
+    {
+      "id": "自动机器-LanT-Rail-A1",
+      "name": "自动机器-LanT-Rail-A1",
+      "kind": "machine",
+      "category": "功能性机器方块",
+      "group": "machines",
+      "icon": "item/polished_deepslate",
+      "description": "LanT 系列初代吊轨自动机：卡扣吊在轨道杆上，沿杆前后滑",
+      "details": [
+        "LanT 系列初代吊轨自动机：卡扣吊在轨道杆上，沿杆前后滑",
+        "18 格程序，没有重力与行走：前进 / 后退就是沿杆滑一站（一站一格）",
+        "沿杆行程 16 站，到头这一格记失败",
+        "机器方块要先被 轨道铺设器 连成杆的一端，机器人才会吊出来",
+        "摆放后作为机器方块，右键即可打开程序面板",
+        "手持 自动机遥控器 右键可以把它绑定到遥控器上"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/machines/machines/i-f97cddc4fbfe"
+    },
+    {
+      "id": "自动机器-LanT-Rail-A2",
+      "name": "自动机器-LanT-Rail-A2",
+      "kind": "machine",
+      "category": "功能性机器方块",
+      "group": "machines",
+      "icon": "item/deepslate_tiles",
+      "description": "LanT 系列第二代吊轨自动机",
+      "details": [
+        "LanT 系列第二代吊轨自动机",
+        "升级的指令内存：36 格程序，另有取物 / 放置 / 扔出 / 存物 / IF 那套手上的活儿",
+        "沿杆行程 32 站；吊在杆上走不了「移动到坐标」",
+        "机器方块要先被 轨道铺设器 连成杆的一端，机器人才会吊出来",
+        "摆放后作为机器方块，右键即可打开程序面板",
+        "手持 自动机遥控器 右键可以把它绑定到遥控器上"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/machines/machines/i-805e5400f956"
+    },
+    {
+      "id": "自动机器-LanT-Rail-A3",
+      "name": "自动机器-LanT-Rail-A3",
+      "kind": "machine",
+      "category": "功能性机器方块",
+      "group": "machines",
+      "icon": "item/deepslate_bricks",
+      "description": "LanT 系列第三代吊轨自动机",
+      "details": [
+        "LanT 系列第三代吊轨自动机",
+        "72 格程序，程序面板分两页翻看，手上的活儿照旧",
+        "沿杆行程 64 站；吊在杆上走不了「移动到坐标」",
+        "机器方块要先被 轨道铺设器 连成杆的一端，机器人才会吊出来",
+        "摆放后作为机器方块，右键即可打开程序面板",
+        "手持 自动机遥控器 右键可以把它绑定到遥控器上"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/machines/machines/i-9806c43d4d00"
+    },
+    {
+      "id": "自动机器-LanT-Air-A1",
+      "name": "自动机器-LanT-Air-A1",
+      "kind": "machine",
+      "category": "功能性机器方块",
+      "group": "machines",
+      "icon": "item/smooth_quartz",
+      "description": "LanT 系列初代飞行无人机：顶上一片铜活板门恒速自转提供悬停，不吃重力也不落地",
+      "details": [
+        "LanT 系列初代飞行无人机：顶上一片铜活板门恒速自转提供悬停，不吃重力也不落地",
+        "18 格程序：前进 / 后退按朝向水平飞一格，另有上升 / 下降一格",
+        "限高 ±16 格（相对机器方块）",
+        "上下两格都要空着才飞得进去，撞到方块这一格记失败",
+        "摆放后作为机器方块，右键即可打开程序面板",
+        "手持 自动机遥控器 右键可以把它绑定到遥控器上"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/machines/machines/i-3c11feb37380"
+    },
+    {
+      "id": "自动机器-LanT-Air-A2",
+      "name": "自动机器-LanT-Air-A2",
+      "kind": "machine",
+      "category": "功能性机器方块",
+      "group": "machines",
+      "icon": "item/quartz_bricks",
+      "description": "LanT 系列第二代飞行无人机",
+      "details": [
+        "LanT 系列第二代飞行无人机",
+        "升级的指令内存：36 格程序，另有取物 / 放置 / 扔出 / 存物 / IF 那套手上的活儿",
+        "限高 ±48 格；「移动到坐标」只沿水平网格飞，不迈台阶",
+        "摆放后作为机器方块，右键即可打开程序面板",
+        "手持 自动机遥控器 右键可以把它绑定到遥控器上"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/machines/machines/i-ab0118816015"
+    },
+    {
+      "id": "自动机器-LanT-Air-A3",
+      "name": "自动机器-LanT-Air-A3",
+      "kind": "machine",
+      "category": "功能性机器方块",
+      "group": "machines",
+      "icon": "item/chiseled_quartz_block",
+      "description": "LanT 系列第三代飞行无人机",
+      "details": [
+        "LanT 系列第三代飞行无人机",
+        "72 格程序，程序面板分两页翻看，手上的活儿照旧",
+        "限高 ±128 格，是这一族飞得最高的一档",
+        "摆放后作为机器方块，右键即可打开程序面板",
+        "手持 自动机遥控器 右键可以把它绑定到遥控器上"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/machines/machines/i-c26a5cc6f8bd"
+    },
+    {
+      "id": "自动机器-LanT-Air-FA1",
+      "name": "自动机器-LanT-Air-FA1",
+      "kind": "machine",
+      "category": "功能性机器方块",
+      "group": "machines",
+      "icon": "item/mossy_stone_bricks",
+      "description": "LanT 系列初代战斗无人机：机身是砂轮、顶上一片铜活板门恒速自转悬停，炮是机头那两枚铁砧",
+      "details": [
+        "LanT 系列初代战斗无人机：机身是砂轮、顶上一片铜活板门恒速自转悬停，炮是机头那两枚铁砧",
+        "18 格程序：前进 / 后退按朝向水平飞一格，另有上升 / 下降一格",
+        "限高 ±16 格（相对机器方块）",
+        "lock 把 24 格内最近的敌对生物或玩家记进 buffer，fire 先把机身转向它再开一炮",
+        "转向只在水平面上对，一个节拍转 90°；单发 10 颗心只打那一只，隔方块或超出 24 格就落空",
+        "摆放后作为机器方块，右键即可打开程序面板",
+        "手持 自动机遥控器 右键可以把它绑定到遥控器上"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/machines/machines/i-a90b44e91b40"
+    },
+    {
+      "id": "自动机器-LanT-Air-FA2",
+      "name": "自动机器-LanT-Air-FA2",
+      "kind": "machine",
+      "category": "功能性机器方块",
+      "group": "machines",
+      "icon": "item/polished_basalt",
+      "description": "LanT 系列第二代战斗无人机：铁砧火炮之外多了避雷针机枪与熔炉重炮",
+      "details": [
+        "LanT 系列第二代战斗无人机：铁砧火炮之外多了避雷针机枪与熔炉重炮",
+        "升级的指令内存：36 格程序，另有取物 / 放置 / 扔出 / 存物 / IF 那套手上的活儿",
+        "限高 ±48 格；lock 半径 32 格",
+        "fire 先把机身转向锁定的那一只再齐射 3 发、每发 4 颗心，全打在它身上（转向上一个节拍 90°）",
+        "摆放后作为机器方块，右键即可打开程序面板",
+        "手持 自动机遥控器 右键可以把它绑定到遥控器上"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/machines/machines/i-8726b86f95fd"
+    },
+    {
+      "id": "自动机器-LanT-Air-FA3",
+      "name": "自动机器-LanT-Air-FA3",
+      "kind": "machine",
+      "category": "功能性机器方块",
+      "group": "machines",
+      "icon": "item/sculk",
+      "description": "LanT 系列第三代战斗无人机：机身挂着一枚幽匿尖啸体，打出去是一道音波",
+      "details": [
+        "LanT 系列第三代战斗无人机：机身挂着一枚幽匿尖啸体，打出去是一道音波",
+        "72 格程序，程序面板分两页翻看，手上的活儿照旧",
+        "限高 ±128 格；lock 半径 48 格",
+        "fire 先把机身转向它再开炮（一个节拍转 90°）：直击 8 颗心，命中点 4 格内一并挨 4 颗心，并附上 5 秒黑暗与 8 秒疲劳",
+        "摆放后作为机器方块，右键即可打开程序面板",
+        "手持 自动机遥控器 右键可以把它绑定到遥控器上"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/machines/machines/i-7df98848b83f"
+    },
+    {
+      "id": "轨道铺设器",
+      "name": "轨道铺设器",
+      "kind": "tool",
+      "category": "功能性工具",
+      "group": "tools",
+      "icon": "item/rail",
+      "description": "给 LanT-Rail 系列吊轨自动机铺轨道杆的工具",
+      "details": [
+        "给 LanT-Rail 系列吊轨自动机铺轨道杆的工具",
+        "右键一个方块记下起点，再右键另一端方块就连成一根杆（斜的也连）",
+        "一根杆最长 64 格；两端各让出半格，沿杆按整格分站",
+        "铺杆按杆长扣料：每 4 格 1 个铜块、每 8 格 1 个润滑剂，不足一档按一档算",
+        "背包凑不齐就铺不成；拆杆不退料",
+        "蹲着右键任一端方块：拆掉接在这一格上的杆，吊着的机器人一并收走",
+        "对空右键：丢掉记着的起点",
+        "机器方块正好是杆的一端时，吊轨机器人才出现在它那一端的第 0 站"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/items/tools/i-80bc4cff2d18"
+    },
+    {
+      "id": "润滑剂",
+      "name": "润滑剂",
+      "kind": "material",
+      "category": "基础材料",
+      "group": "basic",
+      "icon": "item/gray_dye",
+      "description": "铺轨道杆时涂在杆上的油",
+      "details": [
+        "铺轨道杆时涂在杆上的油",
+        "手持 轨道铺设器 铺杆按杆长扣：每 8 格 1 个，不足 8 格按 8 格算",
+        "同一根杆还要每 4 格 1 个铜块",
+        "合成一份出 4 个：64 格的满长杆要 8 个润滑剂 + 16 个铜块"
+      ],
+      "obtain": "配方合成",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/basic/i-01e86d289f98"
     },
     {
       "id": "加速元件",
@@ -32667,6 +33011,20 @@
       "enchantments": [],
       "glint": false,
       "href": "/linsmagic/atlas/materials/advanced/i-e15a481acd84"
+    },
+    {
+      "id": "暴君之首",
+      "name": "暴君之首",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-94f8e4560804"
     },
     {
       "id": "黢黑羽毛",
@@ -34268,6 +34626,48 @@
       "enchantments": [],
       "glint": false,
       "href": "/linsmagic/atlas/weapons/weapons/i-7545b853800d"
+    },
+    {
+      "id": "归魄泥",
+      "name": "归魄泥",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/clay_ball",
+      "description": "八枚物魄研成的匀浆，认不出原本是哪八种",
+      "details": [
+        "八枚物魄研成的匀浆，认不出原本是哪八种",
+        "在魔镜里做：中心放魂石，周围八格塞任意物魄，可重复",
+        "└ 用途：",
+        "├ 合成魄羽披风的基底料",
+        "└ 后续归魄产物的通用料"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-b8cc01ca9040"
+    },
+    {
+      "id": "魄羽披风",
+      "name": "魄羽披风",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/elytra",
+      "description": "归魄泥裹着薄翼，羽面还在往外渗魄屑",
+      "details": [
+        "归魄泥裹着薄翼，羽面还在往外渗魄屑",
+        "└ 手持右键：",
+        "├ 吃掉背包里任意 1 枚物魄",
+        "├ 获得缓降 3 秒，期间摔落不受伤",
+        "└ 冷却 8 秒",
+        "└ 置于第9格时：",
+        "└ 每 10 秒可完全免掉一次摔落伤害"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/items/accessories/i-893f27fb8fd9"
     },
     {
       "id": "minecraft:bookshelf",
@@ -37026,6 +37426,19 @@
       "href": "/linsmagic/atlas/vanilla/oak_fence"
     },
     {
+      "id": "minecraft:blue_dye",
+      "name": "蓝色染料",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/blue_dye",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/blue_dye"
+    },
+    {
       "id": "minecraft:stone_bricks",
       "name": "石砖",
       "kind": "vanilla",
@@ -37037,6 +37450,58 @@
       "obtain": "",
       "glint": false,
       "href": "/linsmagic/atlas/vanilla/stone_bricks"
+    },
+    {
+      "id": "minecraft:polished_deepslate",
+      "name": "磨制深板岩",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/polished_deepslate",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/polished_deepslate"
+    },
+    {
+      "id": "minecraft:quartz_block",
+      "name": "石英块",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/quartz_block",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/quartz_block"
+    },
+    {
+      "id": "minecraft:sculk_shrieker",
+      "name": "幽匿尖啸体",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/sculk_shrieker",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/sculk_shrieker"
+    },
+    {
+      "id": "minecraft:rail",
+      "name": "铁轨",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/rail",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/rail"
     },
     {
       "id": "minecraft:end_rod",
@@ -37128,19 +37593,6 @@
       "obtain": "",
       "glint": false,
       "href": "/linsmagic/atlas/vanilla/diamond_boots"
-    },
-    {
-      "id": "minecraft:blue_dye",
-      "name": "蓝色染料",
-      "kind": "vanilla",
-      "category": "原版材料",
-      "group": "vanilla",
-      "icon": "item/blue_dye",
-      "description": "Minecraft 原版材料。",
-      "details": [],
-      "obtain": "",
-      "glint": false,
-      "href": "/linsmagic/atlas/vanilla/blue_dye"
     },
     {
       "id": "minecraft:melon_seeds",
@@ -87088,6 +87540,282 @@
       "guiOnly": false
     },
     {
+      "id": "ae_geiger_meter",
+      "name": "盖革辐射计合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "盖革辐射计",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "石英玻璃",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "运算处理器",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        }
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_geiger_meter",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_prussian_blue",
+      "name": "普鲁士蓝胶囊合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "普鲁士蓝胶囊",
+          "count": 2
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:blue_dye",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_nugget",
+          "count": 1
+        },
+        {
+          "id": "minecraft:blue_dye",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_prussian_blue",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_hazmat_helmet",
+      "name": "防辐射头罩合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "防辐射头罩",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        {
+          "id": "石英玻璃",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        null,
+        null,
+        null
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_hazmat_helmet",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_hazmat_chest",
+      "name": "防辐射服合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "防辐射服",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        }
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_hazmat_chest",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_hazmat_legs",
+      "name": "防辐射护腿合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "防辐射护腿",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        null,
+        {
+          "id": "铁皮",
+          "count": 1
+        }
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_hazmat_legs",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ae_hazmat_boots",
+      "name": "防辐射靴合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "防辐射靴",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        null,
+        {
+          "id": "铁皮",
+          "count": 1
+        },
+        null,
+        null,
+        null
+      ],
+      "group": "ae",
+      "href": "/linsmagic/atlas/recipes/ae/ae_hazmat_boots",
+      "note": "",
+      "guiOnly": false
+    },
+    {
       "id": "ae_energy_cell",
       "name": "能源元件合成",
       "station": "工作台",
@@ -89382,6 +90110,570 @@
       ],
       "group": "machines",
       "href": "/linsmagic/atlas/recipes/machines/lant_flow_sa3",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "lant_rail_a1",
+      "name": "自动机器-LanT-Rail-A1合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "自动机器-LanT-Rail-A1",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:polished_deepslate",
+          "count": 1
+        },
+        {
+          "id": "自动机器-LanT-Flow-A1",
+          "count": 1
+        },
+        {
+          "id": "minecraft:polished_deepslate",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        }
+      ],
+      "group": "machines",
+      "href": "/linsmagic/atlas/recipes/machines/lant_rail_a1",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "lant_rail_a2",
+      "name": "自动机器-LanT-Rail-A2合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "自动机器-LanT-Rail-A2",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "自动机器-LanT-Rail-A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        }
+      ],
+      "group": "machines",
+      "href": "/linsmagic/atlas/recipes/machines/lant_rail_a2",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "lant_rail_a3",
+      "name": "自动机器-LanT-Rail-A3合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "自动机器-LanT-Rail-A3",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "自动机器-LanT-Rail-A2",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        }
+      ],
+      "group": "machines",
+      "href": "/linsmagic/atlas/recipes/machines/lant_rail_a3",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "lant_air_a1",
+      "name": "自动机器-LanT-Air-A1合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "自动机器-LanT-Air-A1",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glass",
+          "count": 1
+        },
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:quartz_block",
+          "count": 1
+        },
+        {
+          "id": "自动机器-LanT-Flow-A1",
+          "count": 1
+        },
+        {
+          "id": "minecraft:quartz_block",
+          "count": 1
+        },
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glass",
+          "count": 1
+        },
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        }
+      ],
+      "group": "machines",
+      "href": "/linsmagic/atlas/recipes/machines/lant_air_a1",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "lant_air_a2",
+      "name": "自动机器-LanT-Air-A2合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "自动机器-LanT-Air-A2",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "自动机器-LanT-Air-A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        }
+      ],
+      "group": "machines",
+      "href": "/linsmagic/atlas/recipes/machines/lant_air_a2",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "lant_air_a3",
+      "name": "自动机器-LanT-Air-A3合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "自动机器-LanT-Air-A3",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "自动机器-LanT-Air-A2",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        }
+      ],
+      "group": "machines",
+      "href": "/linsmagic/atlas/recipes/machines/lant_air_a3",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "lant_air_fa1",
+      "name": "自动机器-LanT-Air-FA1合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "自动机器-LanT-Air-FA1",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:anvil",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gunpowder",
+          "count": 1
+        },
+        {
+          "id": "minecraft:anvil",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gunpowder",
+          "count": 1
+        },
+        {
+          "id": "自动机器-LanT-Air-A1",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gunpowder",
+          "count": 1
+        },
+        {
+          "id": "minecraft:anvil",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gunpowder",
+          "count": 1
+        },
+        {
+          "id": "minecraft:anvil",
+          "count": 1
+        }
+      ],
+      "group": "machines",
+      "href": "/linsmagic/atlas/recipes/machines/lant_air_fa1",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "lant_air_fa2",
+      "name": "自动机器-LanT-Air-FA2合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "自动机器-LanT-Air-FA2",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:lightning_rod",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "minecraft:lightning_rod",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "自动机器-LanT-Air-FA1",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "minecraft:lightning_rod",
+          "count": 1
+        },
+        {
+          "id": "可编程式指令内存A1",
+          "count": 1
+        },
+        {
+          "id": "minecraft:lightning_rod",
+          "count": 1
+        }
+      ],
+      "group": "machines",
+      "href": "/linsmagic/atlas/recipes/machines/lant_air_fa2",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "lant_air_fa3",
+      "name": "自动机器-LanT-Air-FA3合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "自动机器-LanT-Air-FA3",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sculk_shrieker",
+          "count": 1
+        },
+        {
+          "id": "自动机器-LanT-Air-FA2",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sculk_shrieker",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        },
+        {
+          "id": "LanT处理器",
+          "count": 1
+        }
+      ],
+      "group": "machines",
+      "href": "/linsmagic/atlas/recipes/machines/lant_air_fa3",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "lant_rail_tool",
+      "name": "轨道铺设器合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "轨道铺设器",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:rail",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/lant_rail_tool",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "lant_lubricant",
+      "name": "润滑剂合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "润滑剂",
+          "count": 4
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:slime_ball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:magma_cream",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:slime_ball",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/lant_lubricant",
       "note": "",
       "guiOnly": false
     },
@@ -94911,6 +96203,54 @@
       ],
       "group": "weapons",
       "href": "/linsmagic/atlas/recipes/weapons/bone_devourer_nirvana_blade",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "soul_feather_cloak",
+      "name": "魄羽披风合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "魄羽披风",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        null,
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "魔力布匹",
+          "count": 1
+        },
+        {
+          "id": "薄翼残片",
+          "count": 1
+        },
+        {
+          "id": "魔力布匹",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        null,
+        {
+          "id": "归魄泥",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/soul_feather_cloak",
       "note": "",
       "guiOnly": false
     },
@@ -103193,9 +104533,9 @@
     ]
   },
   "stats": {
-    "items": 2009,
-    "vanilla": 317,
-    "recipes": 1175,
+    "items": 2029,
+    "vanilla": 321,
+    "recipes": 1193,
     "structures": 44,
     "enchants": 267,
     "events": 11,
