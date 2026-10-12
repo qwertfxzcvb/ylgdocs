@@ -8935,7 +8935,7 @@
         "吸收了虚空能量的扭曲果实",
         "└ 食用后: 随机传送 + 抗性III + 生命恢复III"
       ],
-      "obtain": "配方合成",
+      "obtain": "配方合成：幽影灵符×8 + 爆开的紫颂果",
       "enchantments": [],
       "glint": true,
       "href": "/linsmagic/atlas/items/food/i-a0fc44a2da96"
@@ -19006,12 +19006,13 @@
       "category": "基础材料",
       "group": "basic",
       "icon": "item/string",
-      "description": "从生皮上切割下来的细长皮条",
+      "description": "主手右键：缠住 10 格内准星那只，3 秒挪不动",
       "details": [
-        "从生皮上切割下来的细长皮条",
-        "柔韧结实，是捆绑与固定的好材料"
+        "主手右键：缠住 10 格内准星那只，3 秒挪不动",
+        "从生皮上切割下来的细长皮条，柔韧结实",
+        "一根缠一次，缠完就断，玩家缠不住"
       ],
-      "obtain": "",
+      "obtain": "由 4 张皮革 合成获得",
       "enchantments": [],
       "glint": true,
       "href": "/linsmagic/atlas/materials/basic/i-5204a60ee5bb"
@@ -19230,12 +19231,31 @@
       "description": "将兽骨碾磨成粉后用纸包好的小袋",
       "details": [
         "将兽骨碾磨成粉后用纸包好的小袋",
-        "方便携带，开袋即可用作田间施肥"
+        "对着一格作物右键：中心 3×3 内的作物各长 1 阶段",
+        "一袋撒一片，没催动就不撒"
       ],
-      "obtain": "",
+      "obtain": "配方合成：骨头 + 纸",
       "enchantments": [],
       "glint": true,
       "href": "/linsmagic/atlas/materials/basic/i-ffe0ecde8f6e"
+    },
+    {
+      "id": "自生菌毯营养补剂",
+      "name": "自生菌毯营养补剂",
+      "kind": "material",
+      "category": "顶级材料",
+      "group": "ultimate",
+      "icon": "item/lime_dye",
+      "description": "自生菌类营养补剂渗进骨粉袋，摊开能盖住一整片地",
+      "details": [
+        "自生菌类营养补剂渗进骨粉袋，摊开能盖住一整片地",
+        "对着一格作物右键：中心 5×5 内的每格各施一次骨粉",
+        "撒完补剂不废，可以一直用；两撒之间隔 1.5 秒"
+      ],
+      "obtain": "配方合成：骨粉袋 + 自生菌类营养补剂",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/ultimate/i-f36c69af6a5f"
     },
     {
       "id": "皮手套",
@@ -19264,9 +19284,10 @@
       "description": "用粗麻线编织而成的结实袋子",
       "details": [
         "用粗麻线编织而成的结实袋子",
-        "容量很大，适合用来装运各种杂物"
+        "右键：把身边 3 格内的掉落物一次收进背包",
+        "塞不下的留在原地，收着东西才算用掉一袋"
       ],
-      "obtain": "",
+      "obtain": "配方合成：纸×5",
       "enchantments": [],
       "glint": true,
       "href": "/linsmagic/atlas/materials/basic/i-f23ab297fd83"
@@ -19383,9 +19404,11 @@
       "description": "表面粗糙的扁长石块，用于打磨刀刃与工具",
       "details": [
         "表面粗糙的扁长石块，用于打磨刀刃与工具",
+        "拿在手里，另一只手放武器或工具，右键磨一磨：耐久 +6",
+        "一块磨 12 次就碎；护甲不吃这一磨",
         "用久了表面会磨出一道凹槽"
       ],
-      "obtain": "",
+      "obtain": "配方合成：圆石×2 + 木棍",
       "enchantments": [],
       "glint": true,
       "href": "/linsmagic/atlas/materials/basic/i-9de29e312bdb"
@@ -19720,12 +19743,13 @@
       "category": "基础材料",
       "group": "basic",
       "icon": "item/bone",
-      "description": "在骨哨碎片上刻入简单保护符文的护身符",
+      "description": "置于第9格：每 30 秒自动挡下一次 3 点以内的小伤",
       "details": [
+        "置于第9格：每 30 秒自动挡下一次 3 点以内的小伤",
         "在骨哨碎片上刻入简单保护符文的护身符",
-        "虽然简陋，但能为佩戴者挡下微小的厄运"
+        "只挡细小的厄运，大伤照吃，攻击与摔落都算在小伤里"
       ],
-      "obtain": "",
+      "obtain": "由 骨哨 + 符石碎片 合成获得",
       "enchantments": [],
       "glint": true,
       "href": "/linsmagic/atlas/materials/basic/i-19620f25973d"
@@ -23086,10 +23110,11 @@
       "category": "基础材料",
       "group": "basic",
       "icon": "item/ink_sac",
-      "description": "混合了荧光粉末的发光墨囊",
+      "description": "主手右键：给 16 格内准星那只描上辉光，亮 10 秒",
       "details": [
-        "混合了荧光粉末的发光墨囊",
-        "书写的内容在黑暗中清晰可见"
+        "主手右键：给 16 格内准星那只描上辉光，亮 10 秒",
+        "混合了荧光粉末的发光墨囊，描过的东西在墙后也看得见轮廓",
+        "一囊描一个，描完就空"
       ],
       "obtain": "由 墨囊 + 荧光粉末 合成获得",
       "enchantments": [],
@@ -23103,10 +23128,11 @@
       "category": "基础材料",
       "group": "basic",
       "icon": "item/flint_and_steel",
-      "description": "永不熄灭的魔法火种",
+      "description": "主手右键：点着 12 格内准星那只，烧 5 秒，隔 6 秒再来",
       "details": [
+        "主手右键：点着 12 格内准星那只，烧 5 秒，隔 6 秒再来",
         "永不熄灭的魔法火种",
-        "即使在水下也能燃起烈焰"
+        "即使在水下也能燃起烈焰，只认活物，不点方块"
       ],
       "obtain": "由 打火石 + 熔火能源核心 合成获得",
       "enchantments": [],
@@ -33027,6 +33053,188 @@
       "href": "/linsmagic/atlas/materials/advanced/i-94f8e4560804"
     },
     {
+      "id": "庞巴迪的燃囊",
+      "name": "庞巴迪的燃囊",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-4d72f41ddc11"
+    },
+    {
+      "id": "刀螂的镰刃",
+      "name": "刀螂的镰刃",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-6a87032386e9"
+    },
+    {
+      "id": "锹甲的巨颚",
+      "name": "锹甲的巨颚",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-1a8518df890c"
+    },
+    {
+      "id": "钩鳐的锚钩",
+      "name": "钩鳐的锚钩",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-35f12cf68e3d"
+    },
+    {
+      "id": "络新妇的丝囊",
+      "name": "络新妇的丝囊",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-a3f4e00ffb1c"
+    },
+    {
+      "id": "钳蝎的甲片",
+      "name": "钳蝎的甲片",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-04d96bda45c3"
+    },
+    {
+      "id": "鮟鱇的灯囊",
+      "name": "鮟鱇的灯囊",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-c6bc9fa71797"
+    },
+    {
+      "id": "皇蛾的心核",
+      "name": "皇蛾的心核",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-12b9e5648c03"
+    },
+    {
+      "id": "聆者的鼓膜",
+      "name": "聆者的鼓膜",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-f3453781239e"
+    },
+    {
+      "id": "行军蚁的酸囊",
+      "name": "行军蚁的酸囊",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-7c73fd942d96"
+    },
+    {
+      "id": "鼠妇的壳环",
+      "name": "鼠妇的壳环",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-e7406e6685e2"
+    },
+    {
+      "id": "蟑螂的油壳",
+      "name": "蟑螂的油壳",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-bc7ecfed6435"
+    },
+    {
+      "id": "蟒蛇的绞鳞",
+      "name": "蟒蛇的绞鳞",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-e2a20078f3ea"
+    },
+    {
       "id": "黢黑羽毛",
       "name": "黢黑羽毛",
       "kind": "material",
@@ -34639,8 +34847,8 @@
         "八枚物魄研成的匀浆，认不出原本是哪八种",
         "在魔镜里做：中心放魂石，周围八格塞任意物魄，可重复",
         "└ 用途：",
-        "├ 合成魄羽披风的基底料",
-        "└ 后续归魄产物的通用料"
+        "├ 合成归魄四件的料",
+        "└ 魄羽披风的基底料"
       ],
       "obtain": "",
       "enchantments": [],
@@ -34668,6 +34876,1442 @@
       "enchantments": [],
       "glint": true,
       "href": "/linsmagic/atlas/items/accessories/i-893f27fb8fd9"
+    },
+    {
+      "id": "凝魄晶",
+      "name": "凝魄晶",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/quartz",
+      "description": "强化魂石把八枚魄压实，结成一枚带棱的晶",
+      "details": [
+        "强化魂石把八枚魄压实，结成一枚带棱的晶",
+        "在魔镜里做：中心放强化魂石，周围八格塞任意物魄，可重复",
+        "└ 用途：",
+        "├ 合成凝魄四件的料",
+        "└ 魄羽披风升档成归魄云裳的料"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/materials/advanced/i-72499fb33a0b"
+    },
+    {
+      "id": "归魄头盔",
+      "name": "归魄头盔",
+      "kind": "weapon",
+      "category": "装备",
+      "group": "armor",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/weapons/armor/i-9ca6f2d64066"
+    },
+    {
+      "id": "归魄胸甲",
+      "name": "归魄胸甲",
+      "kind": "weapon",
+      "category": "装备",
+      "group": "armor",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/weapons/armor/i-a03ceb4756cc"
+    },
+    {
+      "id": "归魄护腿",
+      "name": "归魄护腿",
+      "kind": "weapon",
+      "category": "装备",
+      "group": "armor",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/weapons/armor/i-ed10c1de5f68"
+    },
+    {
+      "id": "归魄战靴",
+      "name": "归魄战靴",
+      "kind": "weapon",
+      "category": "装备",
+      "group": "armor",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/weapons/armor/i-81ea1fc0ec09"
+    },
+    {
+      "id": "凝魄头盔",
+      "name": "凝魄头盔",
+      "kind": "weapon",
+      "category": "装备",
+      "group": "armor",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/weapons/armor/i-f1b6aadfc8c0"
+    },
+    {
+      "id": "凝魄胸甲",
+      "name": "凝魄胸甲",
+      "kind": "weapon",
+      "category": "装备",
+      "group": "armor",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/weapons/armor/i-87f0691ce3f0"
+    },
+    {
+      "id": "凝魄护腿",
+      "name": "凝魄护腿",
+      "kind": "weapon",
+      "category": "装备",
+      "group": "armor",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/weapons/armor/i-f4d82268a528"
+    },
+    {
+      "id": "凝魄战靴",
+      "name": "凝魄战靴",
+      "kind": "weapon",
+      "category": "装备",
+      "group": "armor",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/weapons/armor/i-51dd90d5aca5"
+    },
+    {
+      "id": "归魄云裳",
+      "name": "归魄云裳",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/elytra",
+      "description": "魄羽披风浸进凝魄晶的粉里，羽面收成一片不动的云",
+      "details": [
+        "魄羽披风浸进凝魄晶的粉里，羽面收成一片不动的云",
+        "└ 手持右键：",
+        "├ 吃掉背包里任意 1 枚物魄",
+        "├ 获得缓降与抗性提升I 5 秒，期间摔落不受伤",
+        "└ 冷却 6 秒",
+        "└ 置于第9格时：",
+        "└ 无限次免掉摔落伤害，每次触发后 3 秒充能"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/items/accessories/i-792e71816e99"
+    },
+    {
+      "id": "万魄头盔",
+      "name": "万魄头盔",
+      "kind": "weapon",
+      "category": "装备",
+      "group": "armor",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/weapons/armor/i-c839682f933f"
+    },
+    {
+      "id": "万魄胸甲",
+      "name": "万魄胸甲",
+      "kind": "weapon",
+      "category": "装备",
+      "group": "armor",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/weapons/armor/i-f70a81ddc097"
+    },
+    {
+      "id": "万魄护腿",
+      "name": "万魄护腿",
+      "kind": "weapon",
+      "category": "装备",
+      "group": "armor",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/weapons/armor/i-0badb8cc0e34"
+    },
+    {
+      "id": "万魄战靴",
+      "name": "万魄战靴",
+      "kind": "weapon",
+      "category": "装备",
+      "group": "armor",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/weapons/armor/i-93d9149ab7bc"
+    },
+    {
+      "id": "万魄霞披",
+      "name": "万魄霞披",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/elytra",
+      "description": "归魄云裳泡进聚合体的浆里，羽面烧成一片压不住的霞",
+      "details": [
+        "归魄云裳泡进聚合体的浆里，羽面烧成一片压不住的霞",
+        "└ 手持右键：",
+        "├ 吃掉背包里任意 1 枚物魄",
+        "├ 获得缓降与抗性提升II 8 秒，期间摔落不受伤",
+        "└ 冷却 4 秒",
+        "└ 置于第9格时：",
+        "└ 无限次免掉摔落伤害，每次触发后 1 秒充能"
+      ],
+      "obtain": "",
+      "enchantments": [],
+      "glint": true,
+      "href": "/linsmagic/atlas/items/accessories/i-6022b8f99483"
+    },
+    {
+      "id": "咬星的齿",
+      "name": "咬星的齿",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-cb0c198989b5"
+    },
+    {
+      "id": "没碎的界壳",
+      "name": "没碎的界壳",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-e74901550158"
+    },
+    {
+      "id": "乌德砂囊",
+      "name": "乌德砂囊",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-65857e9972c5"
+    },
+    {
+      "id": "暗金钱袋",
+      "name": "暗金钱袋",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-4669abfd1272"
+    },
+    {
+      "id": "乌德铁扣",
+      "name": "乌德铁扣",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-5a2cb04f071f"
+    },
+    {
+      "id": "灵腺浮坠",
+      "name": "灵腺浮坠",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-ae4214f23145"
+    },
+    {
+      "id": "熔火衬甲",
+      "name": "熔火衬甲",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-bc546dacd90a"
+    },
+    {
+      "id": "霜华衬甲",
+      "name": "霜华衬甲",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-6bdbbb92a6b1"
+    },
+    {
+      "id": "风灵衬甲",
+      "name": "风灵衬甲",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-556522c8d415"
+    },
+    {
+      "id": "九合金坯",
+      "name": "九合金坯",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-dbb54a684fd2"
+    },
+    {
+      "id": "三相衬甲",
+      "name": "三相衬甲",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-606a6b6dad52"
+    },
+    {
+      "id": "合金甲芯",
+      "name": "合金甲芯",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-1450717d4059"
+    },
+    {
+      "id": "乌德铁双扣",
+      "name": "乌德铁双扣",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-29621a1c1e58"
+    },
+    {
+      "id": "咬星的铁扣",
+      "name": "咬星的铁扣",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-e039c32a3262"
+    },
+    {
+      "id": "补好的界壳",
+      "name": "补好的界壳",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-6e3060b52e99"
+    },
+    {
+      "id": "界壳的心",
+      "name": "界壳的心",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-95b891a2710b"
+    },
+    {
+      "id": "石屑坯",
+      "name": "石屑坯",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-235fd08995bc"
+    },
+    {
+      "id": "骨骸坯",
+      "name": "骨骸坯",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-2585355772c1"
+    },
+    {
+      "id": "重核坯",
+      "name": "重核坯",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-de6ba8d6ec50"
+    },
+    {
+      "id": "杂物坯",
+      "name": "杂物坯",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-e479117a445d"
+    },
+    {
+      "id": "磨石坠",
+      "name": "磨石坠",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-9f88e1ff4e11"
+    },
+    {
+      "id": "金刚砂坠",
+      "name": "金刚砂坠",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-33d551dda02f"
+    },
+    {
+      "id": "砂磨铁扣",
+      "name": "砂磨铁扣",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-647d3983a14b"
+    },
+    {
+      "id": "骨串护符",
+      "name": "骨串护符",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-03e05580082a"
+    },
+    {
+      "id": "肋骨串",
+      "name": "肋骨串",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-91b53a88ce7c"
+    },
+    {
+      "id": "接骨符",
+      "name": "接骨符",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-a02d46b698fa"
+    },
+    {
+      "id": "铅粒坠",
+      "name": "铅粒坠",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-c21e131a8f0c"
+    },
+    {
+      "id": "配重坠",
+      "name": "配重坠",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-35c1be579804"
+    },
+    {
+      "id": "逆磁重锚",
+      "name": "逆磁重锚",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-cb9514a431fe"
+    },
+    {
+      "id": "拾荒挂坠",
+      "name": "拾荒挂坠",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-bc1cc421ad84"
+    },
+    {
+      "id": "破烂腰带",
+      "name": "破烂腰带",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-d387bbc62c0f"
+    },
+    {
+      "id": "拾荒者大袋",
+      "name": "拾荒者大袋",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-c051273b789a"
+    },
+    {
+      "id": "熔火金戒",
+      "name": "熔火金戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-4eaf709f3b2a"
+    },
+    {
+      "id": "熔火重戒",
+      "name": "熔火重戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-b379a480401f"
+    },
+    {
+      "id": "燃火戒",
+      "name": "燃火戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-7ae22a9da7e0"
+    },
+    {
+      "id": "燃火重戒",
+      "name": "燃火重戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-07c8ac67df40"
+    },
+    {
+      "id": "霜蓝戒",
+      "name": "霜蓝戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-c73525aea269"
+    },
+    {
+      "id": "霜蓝重戒",
+      "name": "霜蓝重戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-296be756ec7f"
+    },
+    {
+      "id": "海蓝戒",
+      "name": "海蓝戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-19cbde7328f3"
+    },
+    {
+      "id": "海蓝重戒",
+      "name": "海蓝重戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-58df34dc031e"
+    },
+    {
+      "id": "裂空戒",
+      "name": "裂空戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-abaf527b8808"
+    },
+    {
+      "id": "裂空重戒",
+      "name": "裂空重戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-1965e8251710"
+    },
+    {
+      "id": "炎阳戒",
+      "name": "炎阳戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-295d0cd7a8bf"
+    },
+    {
+      "id": "炎阳重戒",
+      "name": "炎阳重戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-77b28a9c1a13"
+    },
+    {
+      "id": "瞬影戒",
+      "name": "瞬影戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-32199c3703a2"
+    },
+    {
+      "id": "瞬影重戒",
+      "name": "瞬影重戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-9802613ff666"
+    },
+    {
+      "id": "风行戒",
+      "name": "风行戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-e6e963d672af"
+    },
+    {
+      "id": "风行重戒",
+      "name": "风行重戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-013f38d54ebf"
+    },
+    {
+      "id": "熔火金极戒",
+      "name": "熔火金极戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-b19f1341a4c8"
+    },
+    {
+      "id": "燃火极戒",
+      "name": "燃火极戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-2b99c9db6612"
+    },
+    {
+      "id": "霜蓝极戒",
+      "name": "霜蓝极戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-ccd33465eb73"
+    },
+    {
+      "id": "海蓝极戒",
+      "name": "海蓝极戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-a6b22947f768"
+    },
+    {
+      "id": "裂空极戒",
+      "name": "裂空极戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-ad2fff3299c2"
+    },
+    {
+      "id": "炎阳极戒",
+      "name": "炎阳极戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-0ae9346a6c9d"
+    },
+    {
+      "id": "瞬影极戒",
+      "name": "瞬影极戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-8096d9f8a5bd"
+    },
+    {
+      "id": "风行极戒",
+      "name": "风行极戒",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-e79243be6ac7"
+    },
+    {
+      "id": "寻矿罗盘",
+      "name": "寻矿罗盘",
+      "kind": "tool",
+      "category": "功能性工具",
+      "group": "tools",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/tools/i-f844ef391ce7"
+    },
+    {
+      "id": "亡灵侦视镜",
+      "name": "亡灵侦视镜",
+      "kind": "tool",
+      "category": "功能性工具",
+      "group": "tools",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/tools/i-46adb34eb11a"
+    },
+    {
+      "id": "足迹追踪者",
+      "name": "足迹追踪者",
+      "kind": "tool",
+      "category": "功能性工具",
+      "group": "tools",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/tools/i-6de1b896031d"
+    },
+    {
+      "id": "军用水壶",
+      "name": "军用水壶",
+      "kind": "tool",
+      "category": "功能性工具",
+      "group": "tools",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/tools/i-25430081d046"
+    },
+    {
+      "id": "防风灯",
+      "name": "防风灯",
+      "kind": "tool",
+      "category": "功能性工具",
+      "group": "tools",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/tools/i-e3d0506205ee"
+    },
+    {
+      "id": "应急绷带",
+      "name": "应急绷带",
+      "kind": "tool",
+      "category": "功能性工具",
+      "group": "tools",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/tools/i-a61fde406f25"
+    },
+    {
+      "id": "商情签",
+      "name": "商情签",
+      "kind": "tool",
+      "category": "功能性工具",
+      "group": "tools",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/tools/i-1f1001d0da4f"
+    },
+    {
+      "id": "灾异历",
+      "name": "灾异历",
+      "kind": "tool",
+      "category": "功能性工具",
+      "group": "tools",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/tools/i-19443ecd81d2"
+    },
+    {
+      "id": "守夜铃",
+      "name": "守夜铃",
+      "kind": "tool",
+      "category": "功能性工具",
+      "group": "tools",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/tools/i-fc27035ac01f"
+    },
+    {
+      "id": "等臂砣",
+      "name": "等臂砣",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-3e6d18ea772f"
+    },
+    {
+      "id": "倒刺钩骨",
+      "name": "倒刺钩骨",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-6bc4e6724d62"
+    },
+    {
+      "id": "影缎",
+      "name": "影缎",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-d2946b631afb"
+    },
+    {
+      "id": "借贷天平",
+      "name": "借贷天平",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-bdf2e33f8875"
+    },
+    {
+      "id": "高利天平",
+      "name": "高利天平",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-bbbb3f97b481"
+    },
+    {
+      "id": "无常天平",
+      "name": "无常天平",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-6e79696bd8d7"
+    },
+    {
+      "id": "贪食钩",
+      "name": "贪食钩",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-157776945bf9"
+    },
+    {
+      "id": "贪食喉",
+      "name": "贪食喉",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-887b4b9a8ebc"
+    },
+    {
+      "id": "贪食胃",
+      "name": "贪食胃",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-914df13089cb"
+    },
+    {
+      "id": "三寸影",
+      "name": "三寸影",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-82f76737dc83"
+    },
+    {
+      "id": "五寸影",
+      "name": "五寸影",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-90ce59eecf1e"
+    },
+    {
+      "id": "一丈影",
+      "name": "一丈影",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-ee074accdeac"
+    },
+    {
+      "id": "四不明鉴",
+      "name": "四不明鉴",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-f5187c05c3a5"
+    },
+    {
+      "id": "开刃铁楔",
+      "name": "开刃铁楔",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-4072f5889e3e"
+    },
+    {
+      "id": "开刃签",
+      "name": "开刃签",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-8b48a6c8438c"
+    },
+    {
+      "id": "见血签",
+      "name": "见血签",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-5a9cf4f287bc"
+    },
+    {
+      "id": "断息签",
+      "name": "断息签",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-0f399179c70e"
+    },
+    {
+      "id": "空四时瓶",
+      "name": "空四时瓶",
+      "kind": "material",
+      "category": "高级材料",
+      "group": "advanced",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/materials/advanced/i-bda2db1b76d3"
+    },
+    {
+      "id": "应时瓶",
+      "name": "应时瓶",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-66759a76d5f6"
+    },
+    {
+      "id": "四时瓶",
+      "name": "四时瓶",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-07b0d0081173"
+    },
+    {
+      "id": "转时瓶",
+      "name": "转时瓶",
+      "kind": "tool",
+      "category": "饰品",
+      "group": "accessories",
+      "icon": "item/knowledge_book",
+      "description": "",
+      "details": [],
+      "obtain": "",
+      "enchantments": [],
+      "glint": false,
+      "href": "/linsmagic/atlas/items/accessories/i-75455dd99838"
     },
     {
       "id": "minecraft:bookshelf",
@@ -37595,6 +39239,136 @@
       "href": "/linsmagic/atlas/vanilla/diamond_boots"
     },
     {
+      "id": "minecraft:leather_chestplate",
+      "name": "皮革外套",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/leather_chestplate",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/leather_chestplate"
+    },
+    {
+      "id": "minecraft:leather_leggings",
+      "name": "皮革裤子",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/leather_leggings",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/leather_leggings"
+    },
+    {
+      "id": "minecraft:gold_nugget",
+      "name": "金粒",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/gold_nugget",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/gold_nugget"
+    },
+    {
+      "id": "minecraft:lapis_block",
+      "name": "青金石块",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/lapis_block",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/lapis_block"
+    },
+    {
+      "id": "minecraft:prismarine_bricks",
+      "name": "海晶石砖",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/prismarine_bricks",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/prismarine_bricks"
+    },
+    {
+      "id": "minecraft:wind_charge",
+      "name": "风弹",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/wind_charge",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/wind_charge"
+    },
+    {
+      "id": "minecraft:spyglass",
+      "name": "望远镜",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/spyglass",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/spyglass"
+    },
+    {
+      "id": "minecraft:bucket",
+      "name": "铁桶",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/bucket",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/bucket"
+    },
+    {
+      "id": "minecraft:lantern",
+      "name": "灯笼",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/lantern",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/lantern"
+    },
+    {
+      "id": "minecraft:black_dye",
+      "name": "黑色染料",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/black_dye",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/black_dye"
+    },
+    {
       "id": "minecraft:melon_seeds",
       "name": "西瓜种子",
       "kind": "vanilla",
@@ -37881,19 +39655,6 @@
       "href": "/linsmagic/atlas/vanilla/chiseled_stone_bricks"
     },
     {
-      "id": "minecraft:bucket",
-      "name": "铁桶",
-      "kind": "vanilla",
-      "category": "原版材料",
-      "group": "vanilla",
-      "icon": "item/bucket",
-      "description": "Minecraft 原版材料。",
-      "details": [],
-      "obtain": "",
-      "glint": false,
-      "href": "/linsmagic/atlas/vanilla/bucket"
-    },
-    {
       "id": "minecraft:water_bucket",
       "name": "水桶",
       "kind": "vanilla",
@@ -37970,19 +39731,6 @@
       "obtain": "",
       "glint": false,
       "href": "/linsmagic/atlas/vanilla/ancient_debris"
-    },
-    {
-      "id": "minecraft:gold_nugget",
-      "name": "金粒",
-      "kind": "vanilla",
-      "category": "原版材料",
-      "group": "vanilla",
-      "icon": "item/gold_nugget",
-      "description": "Minecraft 原版材料。",
-      "details": [],
-      "obtain": "",
-      "glint": false,
-      "href": "/linsmagic/atlas/vanilla/gold_nugget"
     },
     {
       "id": "minecraft:white_concrete_powder",
@@ -38915,19 +40663,6 @@
       "glint": false,
       "href": "/linsmagic/atlas/items/other/i-52115a4515ca",
       "structureId": "diagram_52115a4515ca"
-    },
-    {
-      "id": "minecraft:lapis_block",
-      "name": "青金石块",
-      "kind": "vanilla",
-      "category": "原版材料",
-      "group": "vanilla",
-      "icon": "item/lapis_block",
-      "description": "Minecraft 原版材料。",
-      "details": [],
-      "obtain": "",
-      "glint": false,
-      "href": "/linsmagic/atlas/vanilla/lapis_block"
     },
     {
       "id": "青金石矿机核心",
@@ -96255,6 +97990,4338 @@
       "guiOnly": false
     },
     {
+      "id": "soul_helmet",
+      "name": "归魄头盔合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "归魄头盔",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather_helmet",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        null,
+        null,
+        null
+      ],
+      "group": "weapons",
+      "href": "/linsmagic/atlas/recipes/weapons/soul_helmet",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "soul_chestplate",
+      "name": "归魄胸甲合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "归魄胸甲",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather_chestplate",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        null,
+        null,
+        null
+      ],
+      "group": "weapons",
+      "href": "/linsmagic/atlas/recipes/weapons/soul_chestplate",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "soul_leggings",
+      "name": "归魄护腿合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "归魄护腿",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather_leggings",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        null,
+        null,
+        null
+      ],
+      "group": "weapons",
+      "href": "/linsmagic/atlas/recipes/weapons/soul_leggings",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "soul_boots",
+      "name": "归魄战靴合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "归魄战靴",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        null,
+        null,
+        null
+      ],
+      "group": "weapons",
+      "href": "/linsmagic/atlas/recipes/weapons/soul_boots",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "condensed_helmet",
+      "name": "凝魄头盔合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "凝魄头盔",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "归魄头盔",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        }
+      ],
+      "group": "weapons",
+      "href": "/linsmagic/atlas/recipes/weapons/condensed_helmet",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "condensed_chestplate",
+      "name": "凝魄胸甲合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "凝魄胸甲",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "归魄胸甲",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        }
+      ],
+      "group": "weapons",
+      "href": "/linsmagic/atlas/recipes/weapons/condensed_chestplate",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "condensed_leggings",
+      "name": "凝魄护腿合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "凝魄护腿",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "归魄护腿",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        }
+      ],
+      "group": "weapons",
+      "href": "/linsmagic/atlas/recipes/weapons/condensed_leggings",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "condensed_boots",
+      "name": "凝魄战靴合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "凝魄战靴",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "归魄战靴",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        }
+      ],
+      "group": "weapons",
+      "href": "/linsmagic/atlas/recipes/weapons/condensed_boots",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "soul_cloud_cloak",
+      "name": "归魄云裳合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "归魄云裳",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        null,
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "薄翼残片",
+          "count": 1
+        },
+        {
+          "id": "魄羽披风",
+          "count": 1
+        },
+        {
+          "id": "薄翼残片",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        null,
+        {
+          "id": "凝魄晶",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/soul_cloud_cloak",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "myriad_helmet",
+      "name": "万魄头盔合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "万魄头盔",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "魂石聚合体",
+          "count": 1
+        },
+        {
+          "id": "凝魄头盔",
+          "count": 1
+        },
+        {
+          "id": "魂石聚合体",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        }
+      ],
+      "group": "weapons",
+      "href": "/linsmagic/atlas/recipes/weapons/myriad_helmet",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "myriad_chestplate",
+      "name": "万魄胸甲合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "万魄胸甲",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "魂石聚合体",
+          "count": 1
+        },
+        {
+          "id": "凝魄胸甲",
+          "count": 1
+        },
+        {
+          "id": "魂石聚合体",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        }
+      ],
+      "group": "weapons",
+      "href": "/linsmagic/atlas/recipes/weapons/myriad_chestplate",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "myriad_leggings",
+      "name": "万魄护腿合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "万魄护腿",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "魂石聚合体",
+          "count": 1
+        },
+        {
+          "id": "凝魄护腿",
+          "count": 1
+        },
+        {
+          "id": "魂石聚合体",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        }
+      ],
+      "group": "weapons",
+      "href": "/linsmagic/atlas/recipes/weapons/myriad_leggings",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "myriad_boots",
+      "name": "万魄战靴合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "万魄战靴",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "魂石聚合体",
+          "count": 1
+        },
+        {
+          "id": "凝魄战靴",
+          "count": 1
+        },
+        {
+          "id": "魂石聚合体",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        },
+        {
+          "id": "归魄泥",
+          "count": 1
+        },
+        {
+          "id": "凝魄晶",
+          "count": 1
+        }
+      ],
+      "group": "weapons",
+      "href": "/linsmagic/atlas/recipes/weapons/myriad_boots",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "myriad_cloak",
+      "name": "万魄霞披合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "万魄霞披",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "魂石聚合体",
+          "count": 1
+        },
+        null,
+        {
+          "id": "魂石聚合体",
+          "count": 1
+        },
+        {
+          "id": "薄翼残片",
+          "count": 1
+        },
+        {
+          "id": "归魄云裳",
+          "count": 1
+        },
+        {
+          "id": "薄翼残片",
+          "count": 1
+        },
+        {
+          "id": "魂石聚合体",
+          "count": 1
+        },
+        null,
+        {
+          "id": "魂石聚合体",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/myriad_cloak",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ore_star_tooth",
+      "name": "咬星的齿合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "咬星的齿",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "星核矿",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "星核矿",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "星核矿",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "星核矿",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/ore_star_tooth",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ore_uncracked_shell",
+      "name": "没碎的界壳合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "没碎的界壳",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "界壳",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "界壳",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "界壳",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "界壳",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/ore_uncracked_shell",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ore_ude_sandpouch",
+      "name": "乌德砂囊合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "乌德砂囊",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "乌德砂",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "乌德砂",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "乌德砂",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "乌德砂",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/ore_ude_sandpouch",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ore_dark_gold_purse",
+      "name": "暗金钱袋合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "暗金钱袋",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "暗金",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "暗金",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "暗金",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "暗金",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/ore_dark_gold_purse",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ore_ude_ironbuckle",
+      "name": "乌德铁扣合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "乌德铁扣",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "乌德铁",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "乌德铁",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "乌德铁",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "乌德铁",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/ore_ude_ironbuckle",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ore_gland_bobble",
+      "name": "灵腺浮坠合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "灵腺浮坠",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "虚空灵腺",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "虚空灵腺",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "虚空灵腺",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "虚空灵腺",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/ore_gland_bobble",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "alloy_flare_lining",
+      "name": "熔火衬甲合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "熔火衬甲",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "炎烬残渣",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "九合金坯",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        null,
+        {
+          "id": "炎烬残渣",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/alloy_flare_lining",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "alloy_frost_lining",
+      "name": "霜华衬甲合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "霜华衬甲",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "霜华花瓣",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "九合金坯",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        null,
+        {
+          "id": "霜华花瓣",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/alloy_frost_lining",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "alloy_gale_lining",
+      "name": "风灵衬甲合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "风灵衬甲",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "风魂遗簇",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "九合金坯",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        null,
+        {
+          "id": "风魂遗簇",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/alloy_gale_lining",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "alloy_triple_lining",
+      "name": "三相衬甲合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "三相衬甲",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "熔火衬甲",
+          "count": 1
+        },
+        null,
+        {
+          "id": "霜华衬甲",
+          "count": 1
+        },
+        {
+          "id": "九合金坯",
+          "count": 1
+        },
+        {
+          "id": "风灵衬甲",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/alloy_triple_lining",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "alloy_core",
+      "name": "合金甲芯合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "合金甲芯",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "三相衬甲",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/alloy_core",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ore_ude_double_buckle",
+      "name": "乌德铁双扣合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "乌德铁双扣",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "乌德铁",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "乌德铁扣",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        null,
+        {
+          "id": "乌德铁",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/ore_ude_double_buckle",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ore_star_ironbuckle",
+      "name": "咬星的铁扣合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "咬星的铁扣",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "星核矿",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "星核矿",
+          "count": 1
+        },
+        {
+          "id": "咬星的齿",
+          "count": 1
+        },
+        {
+          "id": "乌德铁双扣",
+          "count": 1
+        },
+        {
+          "id": "乌德铁",
+          "count": 1
+        },
+        {
+          "id": "星核矿",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "星核矿",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/ore_star_ironbuckle",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ore_mended_shell",
+      "name": "补好的界壳合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "补好的界壳",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "界壳",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "没碎的界壳",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        null,
+        {
+          "id": "界壳",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/ore_mended_shell",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "ore_shell_heart",
+      "name": "界壳的心合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "界壳的心",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "界壳",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "界壳",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "补好的界壳",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "界壳",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "界壳",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/ore_shell_heart",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "grinder_pendant",
+      "name": "磨石坠合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "磨石坠",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "石屑坯",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/grinder_pendant",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "emery_pendant",
+      "name": "金刚砂坠合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "金刚砂坠",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "石屑坯",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "磨石坠",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        null,
+        {
+          "id": "石屑坯",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/emery_pendant",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "abrasive_buckle",
+      "name": "砂磨铁扣合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "砂磨铁扣",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "石屑坯",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "石屑坯",
+          "count": 1
+        },
+        {
+          "id": "乌德铁双扣",
+          "count": 1
+        },
+        {
+          "id": "金刚砂坠",
+          "count": 1
+        },
+        {
+          "id": "乌德铁",
+          "count": 1
+        },
+        {
+          "id": "石屑坯",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "石屑坯",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/abrasive_buckle",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "bone_charm",
+      "name": "骨串护符合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "骨串护符",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "骨骸坯",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/bone_charm",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "rib_strand",
+      "name": "肋骨串合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "肋骨串",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "骨骸坯",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "骨串护符",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        null,
+        {
+          "id": "骨骸坯",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/rib_strand",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "set_bone_charm",
+      "name": "接骨符合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "接骨符",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "骨骸坯",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "骨骸坯",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "肋骨串",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "骨骸坯",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "骨骸坯",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/set_bone_charm",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "lead_shot",
+      "name": "铅粒坠合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "铅粒坠",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "重核坯",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/lead_shot",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "counterweight",
+      "name": "配重坠合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "配重坠",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "重核坯",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "铅粒坠",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        null,
+        {
+          "id": "重核坯",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/counterweight",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "reverse_anchor",
+      "name": "逆磁重锚合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "逆磁重锚",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "重核坯",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "重核坯",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "配重坠",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "重核坯",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "重核坯",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/reverse_anchor",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "scavenger_charm",
+      "name": "拾荒挂坠合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "拾荒挂坠",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        {
+          "id": "杂物坯",
+          "count": 1
+        },
+        {
+          "id": "虚空丝",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/scavenger_charm",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "rag_belt",
+      "name": "破烂腰带合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "破烂腰带",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "杂物坯",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "拾荒挂坠",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        null,
+        {
+          "id": "杂物坯",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/rag_belt",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "scavenger_pouch",
+      "name": "拾荒者大袋合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "拾荒者大袋",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "杂物坯",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "杂物坯",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "破烂腰带",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "杂物坯",
+          "count": 1
+        },
+        {
+          "id": "虚空精华",
+          "count": 1
+        },
+        {
+          "id": "杂物坯",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/scavenger_pouch",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "fungal_carpet_supplement",
+      "name": "自生菌毯营养补剂合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "自生菌毯营养补剂",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "骨粉袋",
+          "count": 1
+        },
+        null,
+        null,
+        {
+          "id": "自生菌类营养补剂",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/fungal_carpet_supplement",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "gem_ring_flame",
+      "name": "熔火金戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "熔火金戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:gold_nugget",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:gold_nugget",
+          "count": 1
+        },
+        null,
+        {
+          "id": "熔火金锭",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:gold_nugget",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:gold_nugget",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/gem_ring_flame",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "gem_ring_ember",
+      "name": "燃火戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "燃火戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:blaze_powder",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:blaze_powder",
+          "count": 1
+        },
+        null,
+        {
+          "id": "熔岩红宝石",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:blaze_powder",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:blaze_powder",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/gem_ring_ember",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "gem_ring_frost",
+      "name": "霜蓝戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "霜蓝戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:lapis_lazuli",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:lapis_lazuli",
+          "count": 1
+        },
+        null,
+        {
+          "id": "霜蓝宝石",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:lapis_lazuli",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:lapis_lazuli",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/gem_ring_frost",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "gem_ring_tide",
+      "name": "海蓝戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "海蓝戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:prismarine_shard",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:prismarine_shard",
+          "count": 1
+        },
+        null,
+        {
+          "id": "海蓝宝石",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:prismarine_shard",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:prismarine_shard",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/gem_ring_tide",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "gem_ring_rift",
+      "name": "裂空戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "裂空戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:iron_nugget",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:iron_nugget",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空紫晶",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:iron_nugget",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:iron_nugget",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/gem_ring_rift",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "gem_ring_sun",
+      "name": "炎阳戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "炎阳戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        null,
+        {
+          "id": "炎阳之玉",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/gem_ring_sun",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "gem_ring_blink",
+      "name": "瞬影戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "瞬影戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:amethyst_shard",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:amethyst_shard",
+          "count": 1
+        },
+        null,
+        {
+          "id": "末影珍珠精粹",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:amethyst_shard",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:amethyst_shard",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/gem_ring_blink",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "gem_ring_gale",
+      "name": "风行戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "风行戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        },
+        null,
+        {
+          "id": "风之翠晶",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/gem_ring_gale",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "grand_ring_flame",
+      "name": "熔火重戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "熔火重戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "熔火金锭",
+          "count": 1
+        },
+        null,
+        {
+          "id": "熔火金锭",
+          "count": 1
+        },
+        null,
+        {
+          "id": "熔火金戒",
+          "count": 1
+        },
+        null,
+        {
+          "id": "熔火金锭",
+          "count": 1
+        },
+        null,
+        {
+          "id": "熔火金锭",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/grand_ring_flame",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "grand_ring_ember",
+      "name": "燃火重戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "燃火重戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "熔岩红宝石",
+          "count": 1
+        },
+        null,
+        {
+          "id": "熔岩红宝石",
+          "count": 1
+        },
+        null,
+        {
+          "id": "燃火戒",
+          "count": 1
+        },
+        null,
+        {
+          "id": "熔岩红宝石",
+          "count": 1
+        },
+        null,
+        {
+          "id": "熔岩红宝石",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/grand_ring_ember",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "grand_ring_frost",
+      "name": "霜蓝重戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "霜蓝重戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "霜蓝宝石",
+          "count": 1
+        },
+        null,
+        {
+          "id": "霜蓝宝石",
+          "count": 1
+        },
+        null,
+        {
+          "id": "霜蓝戒",
+          "count": 1
+        },
+        null,
+        {
+          "id": "霜蓝宝石",
+          "count": 1
+        },
+        null,
+        {
+          "id": "霜蓝宝石",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/grand_ring_frost",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "grand_ring_tide",
+      "name": "海蓝重戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "海蓝重戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "海蓝宝石",
+          "count": 1
+        },
+        null,
+        {
+          "id": "海蓝宝石",
+          "count": 1
+        },
+        null,
+        {
+          "id": "海蓝戒",
+          "count": 1
+        },
+        null,
+        {
+          "id": "海蓝宝石",
+          "count": 1
+        },
+        null,
+        {
+          "id": "海蓝宝石",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/grand_ring_tide",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "grand_ring_rift",
+      "name": "裂空重戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "裂空重戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "虚空紫晶",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空紫晶",
+          "count": 1
+        },
+        null,
+        {
+          "id": "裂空戒",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空紫晶",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空紫晶",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/grand_ring_rift",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "grand_ring_sun",
+      "name": "炎阳重戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "炎阳重戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "炎阳之玉",
+          "count": 1
+        },
+        null,
+        {
+          "id": "炎阳之玉",
+          "count": 1
+        },
+        null,
+        {
+          "id": "炎阳戒",
+          "count": 1
+        },
+        null,
+        {
+          "id": "炎阳之玉",
+          "count": 1
+        },
+        null,
+        {
+          "id": "炎阳之玉",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/grand_ring_sun",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "grand_ring_blink",
+      "name": "瞬影重戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "瞬影重戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "末影珍珠精粹",
+          "count": 1
+        },
+        null,
+        {
+          "id": "末影珍珠精粹",
+          "count": 1
+        },
+        null,
+        {
+          "id": "瞬影戒",
+          "count": 1
+        },
+        null,
+        {
+          "id": "末影珍珠精粹",
+          "count": 1
+        },
+        null,
+        {
+          "id": "末影珍珠精粹",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/grand_ring_blink",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "grand_ring_gale",
+      "name": "风行重戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "风行重戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "风之翠晶",
+          "count": 1
+        },
+        null,
+        {
+          "id": "风之翠晶",
+          "count": 1
+        },
+        null,
+        {
+          "id": "风行戒",
+          "count": 1
+        },
+        null,
+        {
+          "id": "风之翠晶",
+          "count": 1
+        },
+        null,
+        {
+          "id": "风之翠晶",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/grand_ring_gale",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "apex_ring_flame",
+      "name": "熔火金极戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "熔火金极戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "熔火金锭",
+          "count": 1
+        },
+        null,
+        {
+          "id": "熔火金锭",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_block",
+          "count": 1
+        },
+        {
+          "id": "熔火重戒",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_block",
+          "count": 1
+        },
+        {
+          "id": "熔火金锭",
+          "count": 1
+        },
+        null,
+        {
+          "id": "熔火金锭",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/apex_ring_flame",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "apex_ring_ember",
+      "name": "燃火极戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "燃火极戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "熔岩红宝石",
+          "count": 1
+        },
+        null,
+        {
+          "id": "熔岩红宝石",
+          "count": 1
+        },
+        {
+          "id": "minecraft:magma_block",
+          "count": 1
+        },
+        {
+          "id": "燃火重戒",
+          "count": 1
+        },
+        {
+          "id": "minecraft:magma_block",
+          "count": 1
+        },
+        {
+          "id": "熔岩红宝石",
+          "count": 1
+        },
+        null,
+        {
+          "id": "熔岩红宝石",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/apex_ring_ember",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "apex_ring_frost",
+      "name": "霜蓝极戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "霜蓝极戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "霜蓝宝石",
+          "count": 1
+        },
+        null,
+        {
+          "id": "霜蓝宝石",
+          "count": 1
+        },
+        {
+          "id": "minecraft:lapis_block",
+          "count": 1
+        },
+        {
+          "id": "霜蓝重戒",
+          "count": 1
+        },
+        {
+          "id": "minecraft:lapis_block",
+          "count": 1
+        },
+        {
+          "id": "霜蓝宝石",
+          "count": 1
+        },
+        null,
+        {
+          "id": "霜蓝宝石",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/apex_ring_frost",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "apex_ring_tide",
+      "name": "海蓝极戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "海蓝极戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "海蓝宝石",
+          "count": 1
+        },
+        null,
+        {
+          "id": "海蓝宝石",
+          "count": 1
+        },
+        {
+          "id": "minecraft:prismarine_bricks",
+          "count": 1
+        },
+        {
+          "id": "海蓝重戒",
+          "count": 1
+        },
+        {
+          "id": "minecraft:prismarine_bricks",
+          "count": 1
+        },
+        {
+          "id": "海蓝宝石",
+          "count": 1
+        },
+        null,
+        {
+          "id": "海蓝宝石",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/apex_ring_tide",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "apex_ring_rift",
+      "name": "裂空极戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "裂空极戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "虚空紫晶",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空紫晶",
+          "count": 1
+        },
+        {
+          "id": "minecraft:obsidian",
+          "count": 1
+        },
+        {
+          "id": "裂空重戒",
+          "count": 1
+        },
+        {
+          "id": "minecraft:obsidian",
+          "count": 1
+        },
+        {
+          "id": "虚空紫晶",
+          "count": 1
+        },
+        null,
+        {
+          "id": "虚空紫晶",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/apex_ring_rift",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "apex_ring_sun",
+      "name": "炎阳极戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "炎阳极戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "炎阳之玉",
+          "count": 1
+        },
+        null,
+        {
+          "id": "炎阳之玉",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glowstone",
+          "count": 1
+        },
+        {
+          "id": "炎阳重戒",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glowstone",
+          "count": 1
+        },
+        {
+          "id": "炎阳之玉",
+          "count": 1
+        },
+        null,
+        {
+          "id": "炎阳之玉",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/apex_ring_sun",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "apex_ring_blink",
+      "name": "瞬影极戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "瞬影极戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "末影珍珠精粹",
+          "count": 1
+        },
+        null,
+        {
+          "id": "末影珍珠精粹",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "count": 1
+        },
+        {
+          "id": "瞬影重戒",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "count": 1
+        },
+        {
+          "id": "末影珍珠精粹",
+          "count": 1
+        },
+        null,
+        {
+          "id": "末影珍珠精粹",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/apex_ring_blink",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "apex_ring_gale",
+      "name": "风行极戒合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "风行极戒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "风之翠晶",
+          "count": 1
+        },
+        null,
+        {
+          "id": "风之翠晶",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wind_charge",
+          "count": 1
+        },
+        {
+          "id": "风行重戒",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wind_charge",
+          "count": 1
+        },
+        {
+          "id": "风之翠晶",
+          "count": 1
+        },
+        null,
+        {
+          "id": "风之翠晶",
+          "count": 1
+        }
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/apex_ring_gale",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "field_ore_compass",
+      "name": "寻矿罗盘合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "寻矿罗盘",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:compass",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/field_ore_compass",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "field_undead_scope",
+      "name": "亡灵侦视镜合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "亡灵侦视镜",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "minecraft:bone",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:bone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:spyglass",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bone",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:bone",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/field_undead_scope",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "field_foot_tracker",
+      "name": "足迹追踪者合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "足迹追踪者",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "count": 1
+        },
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/field_foot_tracker",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "field_canteen",
+      "name": "军用水壶合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "军用水壶",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "minecraft:iron_nugget",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:iron_nugget",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bucket",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_nugget",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:iron_nugget",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/field_canteen",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "field_windproof_lamp",
+      "name": "防风灯合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "防风灯",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        {
+          "id": "minecraft:lantern",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/field_windproof_lamp",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "field_bandage",
+      "name": "应急绷带合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "应急绷带",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/field_bandage",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "intel_price_tag",
+      "name": "商情签合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "商情签",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_nugget",
+          "count": 1
+        },
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/intel_price_tag",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "intel_calamity_almanac",
+      "name": "灾异历合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "灾异历",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        {
+          "id": "minecraft:book",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/intel_calamity_almanac",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "intel_night_bell",
+      "name": "守夜铃合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "守夜铃",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bell",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/intel_night_bell",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "vice_balance_weight",
+      "name": "等臂砣合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "等臂砣",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "minecraft:iron_nugget",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:iron_nugget",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_nugget",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:iron_nugget",
+          "count": 1
+        },
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/vice_balance_weight",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "vice_barbed_hook_bone",
+      "name": "倒刺钩骨合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "倒刺钩骨",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "minecraft:gold_nugget",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:gold_nugget",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_nugget",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:gold_nugget",
+          "count": 1
+        },
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/vice_barbed_hook_bone",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "vice_shadow_satin",
+      "name": "影缎合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "影缎",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        {
+          "id": "minecraft:black_dye",
+          "count": 1
+        },
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/vice_shadow_satin",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "vice_loan_scale",
+      "name": "借贷天平合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "借贷天平",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "等臂砣",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/vice_loan_scale",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "vice_usury_scale",
+      "name": "高利天平合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "高利天平",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "等臂砣",
+          "count": 1
+        },
+        null,
+        {
+          "id": "等臂砣",
+          "count": 1
+        },
+        {
+          "id": "借贷天平",
+          "count": 1
+        },
+        {
+          "id": "等臂砣",
+          "count": 1
+        },
+        null,
+        {
+          "id": "等臂砣",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/vice_usury_scale",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "vice_doom_scale",
+      "name": "无常天平合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "无常天平",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "等臂砣",
+          "count": 1
+        },
+        null,
+        {
+          "id": "等臂砣",
+          "count": 1
+        },
+        {
+          "id": "高利天平",
+          "count": 1
+        },
+        {
+          "id": "等臂砣",
+          "count": 1
+        },
+        null,
+        {
+          "id": "等臂砣",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/vice_doom_scale",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "vice_gluttony_hook",
+      "name": "贪食钩合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "贪食钩",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "minecraft:bone",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:bone",
+          "count": 1
+        },
+        {
+          "id": "倒刺钩骨",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bone",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:bone",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/vice_gluttony_hook",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "vice_gluttony_throat",
+      "name": "贪食喉合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "贪食喉",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "倒刺钩骨",
+          "count": 1
+        },
+        null,
+        {
+          "id": "倒刺钩骨",
+          "count": 1
+        },
+        {
+          "id": "贪食钩",
+          "count": 1
+        },
+        {
+          "id": "倒刺钩骨",
+          "count": 1
+        },
+        null,
+        {
+          "id": "倒刺钩骨",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/vice_gluttony_throat",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "vice_gluttony_maw",
+      "name": "贪食胃合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "贪食胃",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "倒刺钩骨",
+          "count": 1
+        },
+        null,
+        {
+          "id": "倒刺钩骨",
+          "count": 1
+        },
+        {
+          "id": "贪食喉",
+          "count": 1
+        },
+        {
+          "id": "倒刺钩骨",
+          "count": 1
+        },
+        null,
+        {
+          "id": "倒刺钩骨",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/vice_gluttony_maw",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "vice_shadow_three",
+      "name": "三寸影合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "三寸影",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        {
+          "id": "影缎",
+          "count": 1
+        },
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/vice_shadow_three",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "vice_shadow_five",
+      "name": "五寸影合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "五寸影",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "影缎",
+          "count": 1
+        },
+        null,
+        {
+          "id": "影缎",
+          "count": 1
+        },
+        {
+          "id": "三寸影",
+          "count": 1
+        },
+        {
+          "id": "影缎",
+          "count": 1
+        },
+        null,
+        {
+          "id": "影缎",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/vice_shadow_five",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "vice_shadow_zhang",
+      "name": "一丈影合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "一丈影",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "影缎",
+          "count": 1
+        },
+        null,
+        {
+          "id": "影缎",
+          "count": 1
+        },
+        {
+          "id": "五寸影",
+          "count": 1
+        },
+        {
+          "id": "影缎",
+          "count": 1
+        },
+        null,
+        {
+          "id": "影缎",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/vice_shadow_zhang",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "vice_four_vice_mirror",
+      "name": "四不明鉴合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "四不明鉴",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "无常天平",
+          "count": 1
+        },
+        null,
+        {
+          "id": "贪食胃",
+          "count": 1
+        },
+        null,
+        {
+          "id": "一丈影",
+          "count": 1
+        },
+        null,
+        {
+          "id": "逆磁重锚",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/vice_four_vice_mirror",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "edge_wedge",
+      "name": "开刃铁楔合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "开刃铁楔",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "minecraft:iron_nugget",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:iron_nugget",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_nugget",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:iron_nugget",
+          "count": 1
+        },
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/edge_wedge",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "edge_tag",
+      "name": "开刃签合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "开刃签",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "minecraft:flint",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:flint",
+          "count": 1
+        },
+        {
+          "id": "开刃铁楔",
+          "count": 1
+        },
+        {
+          "id": "minecraft:flint",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:flint",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/edge_tag",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "blood_tag",
+      "name": "见血签合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "见血签",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "开刃铁楔",
+          "count": 1
+        },
+        null,
+        {
+          "id": "开刃铁楔",
+          "count": 1
+        },
+        {
+          "id": "开刃签",
+          "count": 1
+        },
+        {
+          "id": "开刃铁楔",
+          "count": 1
+        },
+        null,
+        {
+          "id": "开刃铁楔",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/blood_tag",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "last_tag",
+      "name": "断息签合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "断息签",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "开刃铁楔",
+          "count": 1
+        },
+        null,
+        {
+          "id": "开刃铁楔",
+          "count": 1
+        },
+        {
+          "id": "见血签",
+          "count": 1
+        },
+        {
+          "id": "开刃铁楔",
+          "count": 1
+        },
+        null,
+        {
+          "id": "开刃铁楔",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/last_tag",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "season_empty_bottle",
+      "name": "空四时瓶合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "空四时瓶",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "minecraft:snowball",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:snowball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glass_bottle",
+          "count": 1
+        },
+        {
+          "id": "minecraft:snowball",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:snowball",
+          "count": 1
+        },
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/season_empty_bottle",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "season_one_bottle",
+      "name": "应时瓶合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "应时瓶",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "空四时瓶",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/season_one_bottle",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "season_four_bottle",
+      "name": "四时瓶合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "四时瓶",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "空四时瓶",
+          "count": 1
+        },
+        null,
+        {
+          "id": "空四时瓶",
+          "count": 1
+        },
+        {
+          "id": "应时瓶",
+          "count": 1
+        },
+        {
+          "id": "空四时瓶",
+          "count": 1
+        },
+        null,
+        {
+          "id": "空四时瓶",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/season_four_bottle",
+      "note": "",
+      "guiOnly": false
+    },
+    {
+      "id": "season_turning_bottle",
+      "name": "转时瓶合成",
+      "station": "工作台",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "转时瓶",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        {
+          "id": "空四时瓶",
+          "count": 1
+        },
+        null,
+        {
+          "id": "空四时瓶",
+          "count": 1
+        },
+        {
+          "id": "四时瓶",
+          "count": 1
+        },
+        {
+          "id": "空四时瓶",
+          "count": 1
+        },
+        null,
+        {
+          "id": "空四时瓶",
+          "count": 1
+        },
+        null
+      ],
+      "group": "items",
+      "href": "/linsmagic/atlas/recipes/items/season_turning_bottle",
+      "note": "",
+      "guiOnly": false
+    },
+    {
       "id": "magic_infuser_sea",
       "name": "附魔注魔器-海合成",
       "station": "工作台",
@@ -104533,9 +110600,9 @@
     ]
   },
   "stats": {
-    "items": 2029,
-    "vanilla": 321,
-    "recipes": 1193,
+    "items": 2144,
+    "vanilla": 328,
+    "recipes": 1289,
     "structures": 44,
     "enchants": 267,
     "events": 11,
