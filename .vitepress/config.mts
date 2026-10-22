@@ -67,6 +67,39 @@ function getCommitActivity(repoDir: string): Record<string, number> {
   return activity
 }
 
+function plainText(md: string): string {
+  return md
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
+    .replace(/<[^>]+>/g, '')
+    .replace(/[*_`~>#]/g, '')
+    .replace(/\p{Extended_Pictographic}️?/gu, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+function pageDescription(file: string, title: string): string {
+  let src: string
+  try {
+    src = fs.readFileSync(file, 'utf-8')
+  } catch {
+    return ''
+  }
+  const body = src.replace(/^---[\s\S]*?\r?\n---\s*\r?\n/, '').replace(/:::[\s\S]*?:::/g, '').replace(/```[\s\S]*?```/g, '')
+  const lead = body.split(/^##\s/m)[0]
+  const blocks = lead.split(/\r?\n\s*\r?\n/).map((b) => b.trim()).filter(Boolean)
+  const intro = blocks.find((b) => !/^(#|\||-|\*|\d+\.|<|!\[)/.test(b))
+  const headings = [...body.matchAll(/^##\s+(.+)$/gm)].map((m) => plainText(m[1])).filter(Boolean)
+  let desc = intro ? plainText(intro) : ''
+  if (headings.length && desc.length < 80) {
+    desc = `${desc}${desc ? ' ' : ''}本页内容：${headings.slice(0, 6).join('、')}。`
+  }
+  if (!desc) {
+    desc = `YLG 烟翎阁 Minecraft 原版生存服务器文档：${title}`
+  }
+  return desc.length > 150 ? desc.slice(0, 149) + '…' : desc
+}
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const docsDir = path.resolve(__dirname, '..')
 const wordCounts = getWordCounts(docsDir)
@@ -79,6 +112,18 @@ export default defineConfig({
   srcExclude: ['drafts/**', '.atlas-maintenance/**', 'README.md', '**/AGENTS.md', 'linsmagic/tutorials/**'],
   title: "YLG 文档",
   description: "YLG 烟翎阁 Minecraft 原版生存服务器官方文档：入服教程、服务器规则、玩法与经济系统、账号与皮肤站、常见问题",
+  transformPageData(pageData) {
+    if (pageData.relativePath.startsWith('linsmagic/')) return
+    if (pageData.relativePath === 'index.md') {
+      pageData.title = 'YLG 烟翎阁 Minecraft 原版生存服务器官方文档'
+      pageData.titleTemplate = false
+      return
+    }
+    pageData.titleTemplate = ':title | YLG 烟翎阁 Minecraft 服务器文档'
+    if (!pageData.frontmatter.description) {
+      pageData.description = pageDescription(path.join(docsDir, pageData.relativePath), pageData.title)
+    }
+  },
   sitemap: {
     hostname: 'https://docs.ylg.net.cn',
     transformItems: (items) => items.filter((item) => !item.url.startsWith('linsmagic/'))
