@@ -78,9 +78,24 @@ export default defineConfig({
   lastUpdated: true,
   srcExclude: ['drafts/**', '.atlas-maintenance/**', 'README.md', '**/AGENTS.md', 'linsmagic/tutorials/**'],
   title: "YLG 文档",
-  description: "YLG服务器教程",
+  description: "YLG 烟翎阁 Minecraft 原版生存服务器官方文档：入服教程、服务器规则、玩法与经济系统、账号与皮肤站、常见问题",
+  sitemap: {
+    hostname: 'https://docs.ylg.net.cn',
+    transformItems: (items) => items.filter((item) => !item.url.startsWith('linsmagic/'))
+  },
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['script', { type: 'application/ld+json' }, JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      '@id': 'https://docs.ylg.net.cn/#website',
+      url: 'https://docs.ylg.net.cn/',
+      name: 'YLG 烟翎阁文档',
+      description: 'YLG 烟翎阁 Minecraft 原版生存服务器官方文档',
+      inLanguage: 'zh-CN',
+      publisher: { '@id': 'https://www.ylg.net.cn/#org' },
+      isPartOf: { '@id': 'https://www.ylg.net.cn/#website' }
+    })],
     ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css' }]
   ],
   themeConfig: {
@@ -221,7 +236,8 @@ export default defineConfig({
       { text: '主页', link: '/' },
       { text: '教程', link: '/homepage' },
       { text: '更新日志', link: '/changelog' },
-      { text: '常见问题', link: '/guide/faq' }
+      { text: '常见问题', link: '/guide/faq' },
+      { text: '官网', link: 'https://www.ylg.net.cn/' }
     ],
 
     sidebar: [
