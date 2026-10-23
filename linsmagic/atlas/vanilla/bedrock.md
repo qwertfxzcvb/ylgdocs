@@ -1,10 +1,10 @@
 ---
-title: "minecraft:bedrock - LinsMagic 魔法百科"
+title: "基岩 - LinsMagic 魔法百科"
 editLink: false
 prev: false
 next: false
 ---
 
-# minecraft:bedrock
+# 基岩
 
 <LinsMagicEntry id="minecraft:bedrock" />

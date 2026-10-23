@@ -39,6 +39,8 @@
 .lm-icon{position:relative;display:inline-grid;place-items:center;overflow:hidden;flex:none;border:1px solid var(--vp-c-divider);border-radius:9px;background:var(--vp-c-bg-soft);vertical-align:middle}
 .lm-icon img{position:absolute;left:50%;top:50%;display:block;width:78%;height:78%;max-width:none;max-height:none;margin:0;object-fit:contain;transform:translate(-50%,-50%);filter:drop-shadow(0 3px 3px rgba(0,0,0,.16))}
 .lm-icon img.lm-icon-animated{object-fit:cover;object-position:left top}
+.lm-icon-leather-tint{position:absolute;left:50%;top:50%;width:78%;height:78%;transform:translate(-50%,-50%);background:#a06540;mix-blend-mode:multiply;-webkit-mask:var(--lm-leather-mask) center/contain no-repeat;mask:var(--lm-leather-mask) center/contain no-repeat;pointer-events:none}
+.lm-icon .lm-icon-leather-overlay{filter:none}
 .lm-icon-glass img{filter:brightness(.72) contrast(1.2) drop-shadow(0 1px 2px rgba(0,0,0,.22))}
 .lm-icon-glint:after{content:'';position:absolute;inset:-90%;background:linear-gradient(115deg,transparent 42%,rgba(145,83,230,.04) 45%,rgba(186,142,255,.42) 50%,rgba(145,83,230,.04) 55%,transparent 58%);transform:translateX(-60%) rotate(14deg);animation:lm-glint 3.5s linear infinite;pointer-events:none}
 @keyframes lm-glint{to{transform:translateX(60%) rotate(14deg)}}
