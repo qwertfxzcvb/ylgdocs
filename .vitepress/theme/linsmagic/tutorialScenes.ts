@@ -86,47 +86,47 @@ export const tutorialScenes: Record<string, TutorialScene> = {
     view: { rx: 62, rz: -35 },
     blocks: [
       { x: -1, y: 0, z: 0, id: 'minecraft:water', label: '水', texture: 'block/water_still', tag: '1', note: '贴着水才烧得动，水不消耗' },
-      { x: 0, y: 0, z: 0, id: 'ME蒸汽机', facing: 'north', tag: '1', note: '烧煤，输出 12 动力；游梁和飞轮向北伸出' },
+      { x: 0, y: 0, z: 0, id: '蒸汽机', facing: 'north', tag: '1', note: '烧煤，输出 12 动力；游梁和飞轮向北伸出' },
       { x: 1, y: 0, z: 0, id: '机械传动器', facing: 'east', tag: '2', note: '轴沿东西方向' },
       { x: 2, y: 0, z: 0, id: '机械传动器', facing: 'east' },
-      { x: 3, y: 0, z: 0, id: 'ME切削发电机', facing: 'east', tag: '3', note: '把动力变成 AE 电' },
+      { x: 3, y: 0, z: 0, id: '切削发电机', facing: 'east', tag: '3', note: '把动力变成 AE 电' },
       { x: 3, y: -1, z: 0, id: 'minecraft:redstone_block', label: '红石块（被磨的料）', tag: '4' },
-      { x: 4, y: 0, z: 0, id: 'ME线缆' },
-      { x: 5, y: 0, z: 0, id: 'ME能源接收器', tag: '5', note: '网络的储能' },
+      { x: 4, y: 0, z: 0, id: '线缆' },
+      { x: 5, y: 0, z: 0, id: '能源接收器', tag: '5', note: '网络的储能' },
       { x: 5, y: 0, z: 1, id: '压印器' },
-      { x: 5, y: 1, z: 0, id: 'ME驱动器' }
+      { x: 5, y: 1, z: 0, id: '驱动器' }
     ],
     flows: [{ path: [[3, 0, 0], [5, 0, 0], [5, 0, 1]], item: 'item/glowstone_dust', speed: 2.5, count: 3 }],
     notes: [
-      { tag: '1', text: '<b>ME蒸汽机</b>：燃料格放煤炭 / 木炭 / 煤炭块，贴着水就能持续输出 12 动力。没有机器在用动力时自动停火。' },
+      { tag: '1', text: '<b>蒸汽机</b>：燃料格放煤炭 / 木炭 / 煤炭块，贴着水就能持续输出 12 动力。没有机器在用动力时自动停火。' },
       { tag: '2', text: '<b>机械传动器</b>：只传机械动力，不导通 AE。放下时轴沿你的视线方向；相邻两根只要有一根的轴对着它们之间的连线就会相连。' },
-      { tag: '3', text: '<b>ME切削发电机</b>：从除下方以外的五个面接收动力（传动器的轴要对准它），同时它本身是 AE 方块，贴着网络即可把电送进去。' },
+      { tag: '3', text: '<b>切削发电机</b>：从除下方以外的五个面接收动力（传动器的轴要对准它），同时它本身是 AE 方块，贴着网络即可把电送进去。' },
       { tag: '4', text: '<b>红石块</b>：放在切削发电机正下方，会被收进去慢慢磨平，一块共发 20,000 AE。磨完后需要再放一块。' },
       { tag: '5', text: '<b>储能</b>：网络里要有能源接收器或能源元件存电，否则切削发电机无处送电。网络满电时切削发电机暂停，不消耗红石块。' }
     ]
   },
 
   'power-grid': {
-    title: '独立电网：远处的发电站用能源导线送电，同时供两个 ME 网络',
+    title: '独立电网：远处的发电站用能源导线送电，同时供两个 AE 网络',
     height: 400,
     view: { rx: 60, rz: -30 },
     blocks: [
       { x: -1, y: 0, z: 0, id: 'minecraft:water', label: '水', texture: 'block/water_still' },
-      { x: 0, y: 0, z: 0, id: 'ME蒸汽机', facing: 'north' },
+      { x: 0, y: 0, z: 0, id: '蒸汽机', facing: 'north' },
       { x: 1, y: 0, z: 0, id: '机械传动器', facing: 'east' },
       { x: 2, y: 0, z: 0, id: '机械传动器', facing: 'east' },
-      { x: 3, y: 0, z: 0, id: 'ME切削发电机', facing: 'east', tag: '1', note: '贴着导线，发的电送进电网' },
+      { x: 3, y: 0, z: 0, id: '切削发电机', facing: 'east', tag: '1', note: '贴着导线，发的电送进电网' },
       { x: 3, y: -1, z: 0, id: 'minecraft:redstone_block', label: '红石块' },
       { x: 4, y: 0, z: 0, id: '能源导线' },
       { x: 5, y: 0, z: 0, id: '能源导线', tag: '2', note: '只传电，不导通 AE' },
       ...run('能源导线', [6, 0, 0], [8, 0, 0]),
       { x: 6, y: 0, z: 1, id: '能源元件', tag: '3', note: '电网的电池' },
-      { x: 9, y: 0, z: 0, id: 'ME能源接收器', tag: '4', note: '把电网接到网络 A' },
-      { x: 10, y: 0, z: 0, id: 'ME驱动器' },
-      { x: 10, y: 1, z: 0, id: 'ME终端' },
+      { x: 9, y: 0, z: 0, id: '能源接收器', tag: '4', note: '把电网接到网络 A' },
+      { x: 10, y: 0, z: 0, id: '驱动器' },
+      { x: 10, y: 1, z: 0, id: '终端' },
       ...run('能源导线', [8, 0, 1], [8, 0, 2]),
-      { x: 8, y: 0, z: 3, id: 'ME能源接收器', note: '把电网接到网络 B' },
-      { x: 9, y: 0, z: 3, id: 'ME驱动器' }
+      { x: 8, y: 0, z: 3, id: '能源接收器', note: '把电网接到网络 B' },
+      { x: 9, y: 0, z: 3, id: '驱动器' }
     ],
     flows: [
       { path: [[3, 0, 0], [8, 0, 0], [9, 0, 0]], item: 'item/glowstone_dust', speed: 2.5, count: 3 },
@@ -136,7 +136,7 @@ export const tutorialScenes: Record<string, TutorialScene> = {
       { tag: '1', text: '<b>发电方块</b>贴着能源导线就接入电网。它不必再和仓库网络连在一起，发电站可以建在远处。' },
       { tag: '2', text: '<b>能源导线</b>：只传电，不导通 AE，所以两端的网络不会合并。电网里没有传输损耗。' },
       { tag: '3', text: '<b>能源元件</b>贴着导线就成为电网的电池，发电站多出来的电先存在这里。' },
-      { tag: '4', text: '<b>能源接收器</b>一面贴导线、一面贴 ME 网络，把电网的电送进这个网络。接几个接收器，就能同时给几个网络供电。' }
+      { tag: '4', text: '<b>能源接收器</b>一面贴导线、一面贴 AE 网络，把电网的电送进这个网络。接几个接收器，就能同时给几个网络供电。' }
     ]
   },
 
@@ -152,10 +152,10 @@ export const tutorialScenes: Record<string, TutorialScene> = {
       { x: 0, y: 0, z: -4, id: '太阳能聚光镜' },
       { x: 1, y: 0, z: 0, id: '机械传动器', facing: 'east', tag: '3' },
       { x: 2, y: 0, z: 0, id: '机械传动器', facing: 'east' },
-      { x: 3, y: 0, z: 0, id: 'ME切削发电机' },
+      { x: 3, y: 0, z: 0, id: '切削发电机' },
       { x: 3, y: -1, z: 0, id: 'minecraft:redstone_block', label: '红石块' },
-      { x: 4, y: 0, z: 0, id: 'ME线缆' },
-      { x: 5, y: 0, z: 0, id: 'ME能源接收器' }
+      { x: 4, y: 0, z: 0, id: '线缆' },
+      { x: 5, y: 0, z: 0, id: '能源接收器' }
     ],
     flows: [
       { path: [[-3, 1.25, -3], [0, 0.5, 0]], item: 'item/glowstone_dust', speed: 3, count: 2 },
@@ -181,11 +181,11 @@ export const tutorialScenes: Record<string, TutorialScene> = {
       ...run('minecraft:grass_block', [-3, 0, 0], [-1, 0, 0], { decor: true, texture: 'block/grass_block_top' }),
       ...run('minecraft:grass_block', [1, 0, 0], [3, 0, 0], { decor: true, texture: 'block/grass_block_top' }),
       { x: 0, y: 0, z: 0, id: 'minecraft:redstone_block', label: '红石块' },
-      { x: 0, y: 1, z: 0, id: 'ME切削发电机', tag: '3', note: '从上方接收塔身传下来的动力' },
+      { x: 0, y: 1, z: 0, id: '切削发电机', tag: '3', note: '从上方接收塔身传下来的动力' },
       ...run('机械传动器', [0, 2, 0], [0, 11, 0], { facing: 'up' }),
-      { x: 0, y: 12, z: 0, id: 'ME风车', tag: '1', note: '扇叶朝南（面对放置者的一侧）' },
-      { x: 1, y: 1, z: 0, id: 'ME线缆' },
-      { x: 2, y: 1, z: 0, id: 'ME能源接收器' }
+      { x: 0, y: 12, z: 0, id: '风车', tag: '1', note: '扇叶朝南（面对放置者的一侧）' },
+      { x: 1, y: 1, z: 0, id: '线缆' },
+      { x: 2, y: 1, z: 0, id: '能源接收器' }
     ],
     notes: [
       { tag: '1', text: '<b>离地高度</b>按风车周围 5 格一圈的地面平均高度计算，塔身不算地面。离地 8 格起有动力（4），32 格以上 16。' },
@@ -194,28 +194,6 @@ export const tutorialScenes: Record<string, TutorialScene> = {
     ]
   },
 
-  'power-reactor': {
-    title: '核反应堆：主机 + 仓室，拉杆控制启停，线缆接入网络',
-    height: 380,
-    blocks: [
-      { x: 0, y: 0, z: 0, id: 'ME核反应堆', tag: '1', note: '右键打开元件格' },
-      { x: 1, y: 0, z: 0, id: '反应堆仓室', tag: '2', note: '每个多解锁 1 列' },
-      { x: -1, y: 0, z: 0, id: '反应堆仓室' },
-      { x: 0, y: 0, z: -1, id: '反应堆仓室' },
-      { x: 0, y: 1, z: 0, id: '反应堆仓室' },
-      { x: 0, y: 0, z: 1, id: 'ME线缆', tag: '3' },
-      ...run('ME线缆', [0, 0, 2], [0, 0, 4]),
-      { x: 0, y: 0, z: 5, id: 'ME驱动器' },
-      { x: 1, y: 0, z: 5, id: '致密能源元件' },
-      { x: 2, y: 0, z: 0, id: 'minecraft:lever', label: '拉杆', texture: 'block/lever', facing: 'east', tag: '4', note: '拉下 = 运行，拉起 = 停机' }
-    ],
-    notes: [
-      { tag: '1', text: '<b>ME核反应堆</b>：基础 3 列 × 6 行元件格，界面标题实时显示运行状态、堆温和发电量。' },
-      { tag: '2', text: '<b>反应堆仓室</b>：贴在反应堆的任意一面（包括上下），每个多 1 列，最多 6 个（9 × 6）。图中 4 个仓室 = 7 列。' },
-      { tag: '3', text: '反应堆和仓室都是 AE 方块，<b>任意一个贴着线缆或其他 AE 方块</b>就能接入网络，发出的电直接进网络。' },
-      { tag: '4', text: '<b>红石开关</b>：给反应堆或任意一个仓室红石信号才会运行。<b>一定要留一个随手能关的开关</b>，堆温上涨时立刻断开。' }
-    ]
-  },
   'pipe-basic': {
     title: '最小链路：箱子 → 传出阀 → 管道 → 传入阀 → 箱子',
     blocks: [
@@ -408,43 +386,43 @@ export const tutorialScenes: Record<string, TutorialScene> = {
 
   // ---------------- 应用能源 ----------------
   'ae-first-network': {
-    title: '第一个 ME 网络：能源接收器 + 线缆 + 驱动器 + 终端，旁边接一台压印器',
+    title: '第一个 AE 网络：能源接收器 + 线缆 + 驱动器 + 终端，旁边接一台压印器',
     height: 360,
     blocks: [
-      { x: 0, y: 0, z: 0, id: 'ME能源接收器', tag: '1', note: '右键放入燃料，为整个网络供电' },
+      { x: 0, y: 0, z: 0, id: '能源接收器', tag: '1', note: '右键放入燃料，为整个网络供电' },
       { x: 0, y: 0, z: -1, id: '压印器', tag: '5', note: '与能源接收器相邻即接入网络' },
-      { x: 1, y: 0, z: 0, id: 'ME线缆', tag: '2', note: '相邻的 AE 方块自动连成一个网络' },
-      ...run('ME线缆', [2, 0, 0], [3, 0, 0]),
-      { x: 4, y: 0, z: 0, id: 'ME驱动器', tag: '3', note: '放入 ME存储元件-1k' },
-      { x: 4, y: 1, z: 0, id: 'ME终端', tag: '4', note: '右键打开，存取网络中的物品' }
+      { x: 1, y: 0, z: 0, id: '线缆', tag: '2', note: '相邻的 AE 方块自动连成一个网络' },
+      ...run('线缆', [2, 0, 0], [3, 0, 0]),
+      { x: 4, y: 0, z: 0, id: '驱动器', tag: '3', note: '放入 存储元件-1k' },
+      { x: 4, y: 1, z: 0, id: '终端', tag: '4', note: '右键打开，存取网络中的物品' }
     ],
     notes: [
-      { tag: '1', text: '<b>ME能源接收器</b>：右键放入燃料（红石、煤炭、积聚的魔素等），燃料转化为 AE 能量供整个网络使用。' },
-      { tag: '2', text: '<b>ME线缆</b>：成本最低的导体。所有 AE 方块<b>六面相邻即相连</b>，线缆仅用于拉开距离。' },
-      { tag: '3', text: '<b>ME驱动器</b>：可放入 10 个存储元件，网络中的物品存放在元件中。' },
-      { tag: '4', text: '<b>ME终端</b>：右键打开，查看并存取网络中的全部物品。放在驱动器上方同样属于相邻，即已接入网络。' },
+      { tag: '1', text: '<b>能源接收器</b>：右键放入燃料（红石、煤炭、积聚的魔素等），燃料转化为 AE 能量供整个网络使用。' },
+      { tag: '2', text: '<b>线缆</b>：成本最低的导体。所有 AE 方块<b>六面相邻即相连</b>，线缆仅用于拉开距离。' },
+      { tag: '3', text: '<b>驱动器</b>：可放入 10 个存储元件，网络中的物品存放在元件中。' },
+      { tag: '4', text: '<b>终端</b>：右键打开，查看并存取网络中的全部物品。放在驱动器上方同样属于相邻，即已接入网络。' },
       { tag: '5', text: '<b>压印器</b>：需要有电的网络才能工作，与能源接收器相邻即可。开荒阶段仅放置能源接收器与压印器，也可压制电路板。' }
     ]
   },
 
   'ae-pipe-bridge': {
-    title: 'ME接口与管道对接：管道中的物品直接存入 ME 网络',
+    title: '接口与管道对接：管道中的物品直接存入 AE 网络',
     height: 320,
     blocks: [
       { x: 0, y: 0, z: 0, id: CHEST, label: '农场出货箱' },
       { x: 1, y: 0, z: 0, id: OUT, axis: 'x', facing: 'west', tag: '1', note: '对着出货箱右键放置' },
       ...run(PIPE, [2, 0, 0], [3, 0, 0]),
-      { x: 4, y: 0, z: 0, id: IN, axis: 'x', facing: 'east', tag: '2', note: '对着 ME接口右键放置' },
-      { x: 5, y: 0, z: 0, id: 'ME接口', tag: '3', note: '网络与管道之间的桥梁' },
-      { x: 6, y: 0, z: 0, id: 'ME线缆' },
-      { x: 7, y: 0, z: 0, id: 'ME驱动器' },
-      { x: 7, y: 0, z: 1, id: 'ME能源接收器' }
+      { x: 4, y: 0, z: 0, id: IN, axis: 'x', facing: 'east', tag: '2', note: '对着 接口右键放置' },
+      { x: 5, y: 0, z: 0, id: '接口', tag: '3', note: '网络与管道之间的桥梁' },
+      { x: 6, y: 0, z: 0, id: '线缆' },
+      { x: 7, y: 0, z: 0, id: '驱动器' },
+      { x: 7, y: 0, z: 1, id: '能源接收器' }
     ],
     flows: [{ path: [[1, 0, 0], [5, 0, 0]], item: 'item/wheat', items: ['item/wheat', 'item/carrot', 'item/potato'], speed: 2, count: 3 }],
     notes: [
       { tag: '1', text: '<b>传出阀</b>：按管道教程的方法，对着出货箱右键放置。' },
-      { tag: '2', text: '<b>传入阀</b>：<b>对着 ME接口右键放置</b>，管道中的物品会直接存入网络，无需经过箱子。' },
-      { tag: '3', text: '<b>ME接口</b>：反之，传出阀或单向运输器对准接口时，可取出接口中「备好的货」（右键接口设置备货）。' }
+      { tag: '2', text: '<b>传入阀</b>：<b>对着 接口右键放置</b>，管道中的物品会直接存入网络，无需经过箱子。' },
+      { tag: '3', text: '<b>接口</b>：反之，传出阀或单向运输器对准接口时，可取出接口中「备好的货」（右键接口设置备货）。' }
     ]
   },
 
@@ -452,12 +430,12 @@ export const tutorialScenes: Record<string, TutorialScene> = {
     title: '自动合成：样板供应器 + 分子装配室 + 合成 CPU（形状不限）',
     height: 380,
     blocks: [
-      { x: 0, y: 0, z: 0, id: 'ME控制器', tag: '1', note: '每个控制器方块 +32 台设备名额' },
-      { x: 0, y: 0, z: 1, id: 'ME能源接收器' },
-      ...run('ME线缆', [1, 0, 0], [5, 0, 0]),
-      { x: 1, y: 1, z: 0, id: 'ME样板编码终端', tag: '2', note: '将配方写入空白样板' },
-      { x: 2, y: 1, z: 0, id: 'ME终端', note: '对可合成物品 Shift+右键下单' },
-      { x: 3, y: 0, z: -1, id: 'ME样板供应器', tag: '3', note: '放入已编码样板' },
+      { x: 0, y: 0, z: 0, id: '控制器', tag: '1', note: '每个控制器方块 +32 台设备名额' },
+      { x: 0, y: 0, z: 1, id: '能源接收器' },
+      ...run('线缆', [1, 0, 0], [5, 0, 0]),
+      { x: 1, y: 1, z: 0, id: '样板编码终端', tag: '2', note: '将配方写入空白样板' },
+      { x: 2, y: 1, z: 0, id: '终端', note: '对可合成物品 Shift+右键下单' },
+      { x: 3, y: 0, z: -1, id: '样板供应器', tag: '3', note: '放入已编码样板' },
       { x: 3, y: 0, z: -2, id: 'minecraft:furnace', tag: '4', note: '处理样板的目标机器，需贴着供应器' },
       { x: 5, y: 0, z: 1, id: '分子装配室', tag: '5', note: '接入网络即可，不必贴着供应器' },
       { x: 6, y: 0, z: 0, id: '合成单元', tag: '6', note: '合成 CPU 的基础构件' },
@@ -466,9 +444,9 @@ export const tutorialScenes: Record<string, TutorialScene> = {
       { x: 7, y: 1, z: 0, id: '合成单元', note: 'CPU 形状不限' }
     ],
     notes: [
-      { tag: '1', text: '<b>ME控制器</b>：没有控制器时网络最多接入 8 台设备；设备较多的自动合成网络建议放置控制器。' },
-      { tag: '2', text: '<b>ME样板编码终端</b>：在界面中写入合成样板（3×3 工作台配方）或处理样板（任意输入 → 输出）。' },
-      { tag: '3', text: '<b>ME样板供应器</b>：放入已编码样板后，网络即可自动合成样板中的产物。' },
+      { tag: '1', text: '<b>控制器</b>：没有控制器时网络最多接入 8 台设备；设备较多的自动合成网络建议放置控制器。' },
+      { tag: '2', text: '<b>样板编码终端</b>：在界面中写入合成样板（3×3 工作台配方）或处理样板（任意输入 → 输出）。' },
+      { tag: '3', text: '<b>样板供应器</b>：放入已编码样板后，网络即可自动合成样板中的产物。' },
       { tag: '4', text: '<b>处理样板的目标机器</b>：供应器会将原料推入<b>贴着它</b>的容器或机器。熔炉、高炉、烟熏炉烧好的产物会被供应器自动收回。' },
       { tag: '5', text: '<b>分子装配室</b>：执行合成样板，接入网络即可，<b>不必贴着供应器</b>；放置多台可并行合成。' },
       { tag: '6', text: '<b>合成 CPU</b>：相连的合成单元、合成存储器与并行处理单元组成一台 CPU，<b>形状不限</b>，但至少需要一个合成存储器。' }

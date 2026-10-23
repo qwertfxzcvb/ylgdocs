@@ -204,7 +204,7 @@ outline: [2, 3]
 | **提升实力** | 30 级附魔获取高阶附魔；搭建注魔器 | [附魔体系](/linsmagic/atlas/tutorials/systems/enchanting) |
 | **挑战首领** | 召唤祭坛，共 18 个首领 | [夜间事件与首领](/linsmagic/atlas/tutorials/systems/events-bosses#s-boss) |
 | **全自动基地** | 管道 + 填充机仓库 + 各类加工机器 | [管道系统](/linsmagic/atlas/tutorials/systems/pipeline) |
-| **仓储与自动合成** | 应用能源：前往失落废墟都市寻找陨石，组建 ME 网络统一存取物品、自动合成 | [应用能源](/linsmagic/atlas/tutorials/systems/applied-energistics) |
+| **仓储与自动合成** | 应用能源：前往失落废墟都市寻找陨石，组建 AE 网络统一存取物品、自动合成 | [应用能源](/linsmagic/atlas/tutorials/systems/applied-energistics) |
 | **探索** | 通过次元枢纽前往「亚元中古世界」，收集三大维度中难以获得的物品 | [次元枢纽](/linsmagic/atlas/guide/hub) |
 | **多人合作** | 创建或加入公会 | [公会](/linsmagic/atlas/guide/guild) |
 

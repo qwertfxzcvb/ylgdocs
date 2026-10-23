@@ -148,7 +148,7 @@ function faceStyle(block: SceneBlock, face: string) {
   const style: Record<string, string> = { backgroundImage: `url(${faceTexture(block, face)})` }
   const m = material(block).match(/^(.*)_stained_glass$/)
   if (m && glassTint[m[1]]) style.backgroundColor = glassTint[m[1]]
-  // 栏杆类（ME线缆）贴图大部分透明，不垫底色会露出方块的白底
+  // 栏杆类（线缆）贴图大部分透明，不垫底色会露出方块的白底
   else if (/_bars$/.test(material(block))) style.backgroundColor = 'transparent'
   // 草方块顶面贴图是灰度的，游戏里按生物群系染绿，这里用平原的草色
   // 水的贴图是灰度的，游戏里按生物群系染蓝
@@ -164,7 +164,7 @@ function faceStyle(block: SceneBlock, face: string) {
   return style
 }
 function isChest(block: SceneBlock) { return /^minecraft:(chest|trapped_chest)$/.test(block.id) }
-/** 栏杆类（ME线缆是铜栏杆）：按相邻方块连成竖直的栏杆片，而不是六面贴图的方块 */
+/** 栏杆类（线缆是铜栏杆）：按相邻方块连成竖直的栏杆片，而不是六面贴图的方块 */
 function isBars(block: SceneBlock) { return /_bars$/.test(material(block)) }
 /** 拉杆：墙上的圆石底座 + 斜着的木柄 */
 function isLever(block: SceneBlock) { return material(block) === 'lever' }
@@ -201,14 +201,14 @@ const PART_UNIT = 60 // 零件按方块的实际画法（60px 一格）缩放
 /** 插件坐标（x 东、y 上、z 南）→ 场景 CSS（X、Y = z、Z = 高度），再把 100px 的立方体缩成单位立方体 */
 const TO_CSS = [PART_UNIT, 0, 0, 0, 0, 0, PART_UNIT, 0, 0, PART_UNIT, 0, 0, 0, 0, 0, 1]
 const FROM_BOX = [0.01, 0, 0, 0, 0, 0.01, 0, 0, 0, 0, 0.01, 0, 0, 0, 0, 1]
-const KINETIC_POWER: Record<string, number> = { 'ME蒸汽机': 12, '太阳能透平机': 16 }
+const KINETIC_POWER: Record<string, number> = { '蒸汽机': 12, '太阳能透平机': 16 }
 function isPartBlock(block: SceneBlock) {
-  return ['机械传动器', 'ME切削发电机', '太阳能聚光镜', '太阳能透平机', 'ME蒸汽机'].includes(block.id)
+  return ['机械传动器', '切削发电机', '太阳能聚光镜', '太阳能透平机', '蒸汽机'].includes(block.id)
 }
 /** 切削发电机正下方的红石块由零件画（会被磨矮），方块本身不画 */
 function hiddenCube(block: SceneBlock) {
   if (block.id !== 'minecraft:redstone_block') return false
-  return (scene.value?.blocks ?? []).some(b => b.id === 'ME切削发电机' && b.x === block.x && b.y === block.y + 1 && b.z === block.z)
+  return (scene.value?.blocks ?? []).some(b => b.id === '切削发电机' && b.x === block.x && b.y === block.y + 1 && b.z === block.z)
 }
 const parts = computed<Array<Part & { transform: string }>>(() => {
   const blocks = scene.value?.blocks ?? []
@@ -218,7 +218,7 @@ const parts = computed<Array<Part & { transform: string }>>(() => {
   let total = 0
   for (const b of blocks) total += b.power ?? KINETIC_POWER[b.id] ?? 0
   for (const r of rotors) total += r.power ?? 16
-  const cutters = blocks.filter(b => b.id === 'ME切削发电机').length
+  const cutters = blocks.filter(b => b.id === '切削发电机').length
   const share = cutters ? total / cutters : 0
   const turbines = blocks.filter(b => b.id === '太阳能透平机')
   const out: Array<Part & { transform: string }> = []
@@ -232,9 +232,9 @@ const parts = computed<Array<Part & { transform: string }>>(() => {
     const id = `${b.x},${b.y},${b.z}`
     const f = b.facing as Face | undefined
     if (b.id === '机械传动器') push(id, [...grindstoneModel(b.x, b.y, b.z, f), ...shaft(b.x, b.y, b.z, f, total, t)])
-    else if (b.id === 'ME切削发电机') push(id, cutter(b.x, b.y, b.z, f, share, t))
+    else if (b.id === '切削发电机') push(id, cutter(b.x, b.y, b.z, f, share, t))
     else if (b.id === '太阳能透平机') push(id, turbine(b.x, b.y, b.z, f, b.power ?? 16, t))
-    else if (b.id === 'ME蒸汽机') push(id, steamEngine(b.x, b.y, b.z, f, b.power ?? 12, t))
+    else if (b.id === '蒸汽机') push(id, steamEngine(b.x, b.y, b.z, f, b.power ?? 12, t))
     else if (b.id === '太阳能聚光镜') {
       // 镜面对准最近的透平机
       const from: [number, number, number] = [b.x, b.y + 1.25, b.z]

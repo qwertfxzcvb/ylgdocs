@@ -4,6 +4,14 @@
 
 <ContributionHeatmap />
 
+## 2026-10-23
+
+### 📝 文档更新
+- 赛特斯石英系列改为陨晶系、福鲁伊克斯系列改为三相导体系列，材料链改为[陨晶母体槽培育与高空吸能](/linsmagic/atlas/tutorials/systems/applied-energistics#s-chain)，新增石磨研磨、熵增说明，移除晶体催化器
+- 发电系统教程更新[核反应堆](/linsmagic/atlas/tutorials/systems/power#s-reactor)现状（玩法重做中、暂不发电，元件与仓室已下线）、魔素反应堆燃烧时长与随身铀的辐射
+- 多方块机器教程更新恢弘残骸发生仪的产物，新增[水压聚合仪](/linsmagic/atlas/tutorials/systems/multiblock#s-water-press)
+- 异界行商补充金耀之月收购价浮动说明，新增装饰物兑换券与盔甲纹饰清除剂；芸集知识之书新增建筑美学
+
 ## 2026-10-11
 
 ### 📝 文档更新

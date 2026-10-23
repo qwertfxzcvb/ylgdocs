@@ -30,6 +30,6 @@ next: false
 | 让机器人自动搬运、巡逻、往返送货 | [自动机器（LanT-Flow）](/linsmagic/atlas/tutorials/systems/automatons) |
 | 统一存取全部物品、搜索与分类存储 | [应用能源（入门）](/linsmagic/atlas/tutorials/systems/applied-energistics) |
 | 自动合成、缺货自动补充 | [应用能源（自动合成）](/linsmagic/atlas/tutorials/systems/ae-autocrafting) |
-| 给 ME 网络供电、建风场、设计核反应堆 | [发电系统](/linsmagic/atlas/tutorials/systems/power) |
+| 给 AE 网络供电、建风场、了解核辐射 | [发电系统](/linsmagic/atlas/tutorials/systems/power) |
 
 初次游玩的玩家请先阅读[新手路线](/linsmagic/atlas/tutorials/new-player)。如需查询某件物品的配方与获取方式，请使用[魔法百科首页](/linsmagic/atlas)的搜索功能；大典、行商、公会等功能的说明请查看[玩法指南](/linsmagic/atlas/guide/)。
