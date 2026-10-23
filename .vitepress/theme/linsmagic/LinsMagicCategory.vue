@@ -48,8 +48,11 @@ const homeResults = computed(() => {
       : row.key.startsWith('recipe:') ? 2 : 3
     return match * 10 + kind
   }
-  return [...groups, ...pages, ...recipePages]
+  const matched = [...groups, ...pages, ...recipePages]
     .filter(row => `${row.name} ${row.detail}`.toLocaleLowerCase('zh-CN').includes(query))
+  const matchedItems = new Set(matched.filter(row => row.key.startsWith('entry:')).map(row => row.itemId))
+  return matched
+    .filter(row => !row.key.startsWith('recipe:') || !matchedItems.has(row.itemId))
     .sort((a, b) => rank(a) - rank(b))
     .slice(0, 30)
 })
