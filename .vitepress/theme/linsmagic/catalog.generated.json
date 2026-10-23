@@ -39925,17 +39925,108 @@
       "href": "/linsmagic/atlas/vanilla/iron_hoe"
     },
     {
-      "id": "minecraft:chiseled_stone_bricks",
-      "name": "雕纹石砖",
+      "id": "minecraft:brick",
+      "name": "红砖",
       "kind": "vanilla",
       "category": "原版材料",
       "group": "vanilla",
-      "icon": "item/chiseled_stone_bricks",
+      "icon": "item/brick",
       "description": "Minecraft 原版材料。",
       "details": [],
       "obtain": "",
       "glint": false,
-      "href": "/linsmagic/atlas/vanilla/chiseled_stone_bricks"
+      "href": "/linsmagic/atlas/vanilla/brick"
+    },
+    {
+      "id": "minecraft:nether_brick",
+      "name": "下界砖",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/nether_brick",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/nether_brick"
+    },
+    {
+      "id": "minecraft:sugar",
+      "name": "糖",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/sugar",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/sugar"
+    },
+    {
+      "id": "minecraft:egg",
+      "name": "鸡蛋",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/egg",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/egg"
+    },
+    {
+      "id": "minecraft:totem_of_undying",
+      "name": "不死图腾",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/totem_of_undying",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/totem_of_undying"
+    },
+    {
+      "id": "minecraft:ender_chest",
+      "name": "末影箱",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/ender_chest",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/ender_chest"
+    },
+    {
+      "id": "minecraft:sugar_cane",
+      "name": "甘蔗",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/sugar_cane",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/sugar_cane"
+    },
+    {
+      "id": "minecraft:sculk",
+      "name": "幽匿块",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/sculk",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/sculk"
     },
     {
       "id": "minecraft:sand",
@@ -39949,6 +40040,175 @@
       "obtain": "",
       "glint": false,
       "href": "/linsmagic/atlas/vanilla/sand"
+    },
+    {
+      "id": "minecraft:mangrove_propagule",
+      "name": "红树胎生苗",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/mangrove_propagule",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/mangrove_propagule"
+    },
+    {
+      "id": "minecraft:pink_dye",
+      "name": "粉红色染料",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/pink_dye",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/pink_dye"
+    },
+    {
+      "id": "minecraft:spore_blossom",
+      "name": "孢子花",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/spore_blossom",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/spore_blossom"
+    },
+    {
+      "id": "minecraft:wheat_seeds",
+      "name": "小麦种子",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/wheat_seeds",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/wheat_seeds"
+    },
+    {
+      "id": "minecraft:cyan_dye",
+      "name": "青色染料",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/cyan_dye",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/cyan_dye"
+    },
+    {
+      "id": "minecraft:dripstone_block",
+      "name": "滴水石块",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/dripstone_block",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/dripstone_block"
+    },
+    {
+      "id": "minecraft:shroomlight",
+      "name": "菌光体",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/shroomlight",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/shroomlight"
+    },
+    {
+      "id": "minecraft:mushroom_stem",
+      "name": "蘑菇柄",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/mushroom_stem",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/mushroom_stem"
+    },
+    {
+      "id": "minecraft:red_dye",
+      "name": "红色染料",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/red_dye",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/red_dye"
+    },
+    {
+      "id": "minecraft:respawn_anchor",
+      "name": "重生锚",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/respawn_anchor",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/respawn_anchor"
+    },
+    {
+      "id": "minecraft:enchanted_golden_apple",
+      "name": "附魔金苹果",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/enchanted_golden_apple",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/enchanted_golden_apple"
+    },
+    {
+      "id": "minecraft:dragon_egg",
+      "name": "龙蛋",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/dragon_egg",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/dragon_egg"
+    },
+    {
+      "id": "minecraft:chiseled_stone_bricks",
+      "name": "雕纹石砖",
+      "kind": "vanilla",
+      "category": "原版材料",
+      "group": "vanilla",
+      "icon": "item/chiseled_stone_bricks",
+      "description": "Minecraft 原版材料。",
+      "details": [],
+      "obtain": "",
+      "glint": false,
+      "href": "/linsmagic/atlas/vanilla/chiseled_stone_bricks"
     },
     {
       "id": "肥力腐殖",
@@ -39975,19 +40235,6 @@
       "obtain": "",
       "glint": false,
       "href": "/linsmagic/atlas/vanilla/moss_carpet"
-    },
-    {
-      "id": "minecraft:enchanted_golden_apple",
-      "name": "附魔金苹果",
-      "kind": "vanilla",
-      "category": "原版材料",
-      "group": "vanilla",
-      "icon": "item/enchanted_golden_apple",
-      "description": "Minecraft 原版材料。",
-      "details": [],
-      "obtain": "",
-      "glint": false,
-      "href": "/linsmagic/atlas/vanilla/enchanted_golden_apple"
     },
     {
       "id": "minecraft:apple",
@@ -40393,19 +40640,6 @@
       "href": "/linsmagic/atlas/vanilla/black_concrete_powder"
     },
     {
-      "id": "minecraft:wheat_seeds",
-      "name": "小麦种子",
-      "kind": "vanilla",
-      "category": "原版材料",
-      "group": "vanilla",
-      "icon": "item/wheat_seeds",
-      "description": "Minecraft 原版材料。",
-      "details": [],
-      "obtain": "",
-      "glint": false,
-      "href": "/linsmagic/atlas/vanilla/wheat_seeds"
-    },
-    {
       "id": "minecraft:beetroot",
       "name": "甜菜根",
       "kind": "vanilla",
@@ -40755,19 +40989,6 @@
       "obtain": "",
       "glint": false,
       "href": "/linsmagic/atlas/vanilla/flowering_azalea_leaves"
-    },
-    {
-      "id": "minecraft:dripstone_block",
-      "name": "滴水石块",
-      "kind": "vanilla",
-      "category": "原版材料",
-      "group": "vanilla",
-      "icon": "item/dripstone_block",
-      "description": "Minecraft 原版材料。",
-      "details": [],
-      "obtain": "",
-      "glint": false,
-      "href": "/linsmagic/atlas/vanilla/dripstone_block"
     },
     {
       "id": "mining-rig",
@@ -104919,6 +105140,5676 @@
       "guiOnly": true
     },
     {
+      "id": "mirror_i-49930315e646",
+      "name": "矿藏晶簇之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "矿藏晶簇之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-49930315e646",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-37d35fdd57b6",
+      "name": "钢骨之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "钢骨之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-37d35fdd57b6",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-f9fab8a45461",
+      "name": "黄金之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "黄金之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:gold_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-f9fab8a45461",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-a6f9d9c68afa",
+      "name": "地狱之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "地狱之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:netherite_scrap",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherite_scrap",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherite_scrap",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherite_scrap",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherite_scrap",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherite_scrap",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherite_scrap",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherite_scrap",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherite_scrap",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-a6f9d9c68afa",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-f81d8403382c",
+      "name": "脉冲之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "脉冲之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-f81d8403382c",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-5627efc60ffd",
+      "name": "智慧之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "智慧之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:lapis_lazuli",
+          "count": 1
+        },
+        {
+          "id": "minecraft:lapis_lazuli",
+          "count": 1
+        },
+        {
+          "id": "minecraft:lapis_lazuli",
+          "count": 1
+        },
+        {
+          "id": "minecraft:lapis_lazuli",
+          "count": 1
+        },
+        {
+          "id": "minecraft:lapis_lazuli",
+          "count": 1
+        },
+        {
+          "id": "minecraft:lapis_lazuli",
+          "count": 1
+        },
+        {
+          "id": "minecraft:lapis_lazuli",
+          "count": 1
+        },
+        {
+          "id": "minecraft:lapis_lazuli",
+          "count": 1
+        },
+        {
+          "id": "minecraft:lapis_lazuli",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-5627efc60ffd",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-7d90a398c526",
+      "name": "贸易之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "贸易之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:emerald",
+          "count": 1
+        },
+        {
+          "id": "minecraft:emerald",
+          "count": 1
+        },
+        {
+          "id": "minecraft:emerald",
+          "count": 1
+        },
+        {
+          "id": "minecraft:emerald",
+          "count": 1
+        },
+        {
+          "id": "minecraft:emerald",
+          "count": 1
+        },
+        {
+          "id": "minecraft:emerald",
+          "count": 1
+        },
+        {
+          "id": "minecraft:emerald",
+          "count": 1
+        },
+        {
+          "id": "minecraft:emerald",
+          "count": 1
+        },
+        {
+          "id": "minecraft:emerald",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-7d90a398c526",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-da319b5b084c",
+      "name": "传导之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "传导之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:copper_ingot",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-da319b5b084c",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-a459450bd1fe",
+      "name": "燃烧之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "燃烧之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:coal",
+          "count": 1
+        },
+        {
+          "id": "minecraft:coal",
+          "count": 1
+        },
+        {
+          "id": "minecraft:coal",
+          "count": 1
+        },
+        {
+          "id": "minecraft:coal",
+          "count": 1
+        },
+        {
+          "id": "minecraft:coal",
+          "count": 1
+        },
+        {
+          "id": "minecraft:coal",
+          "count": 1
+        },
+        {
+          "id": "minecraft:coal",
+          "count": 1
+        },
+        {
+          "id": "minecraft:coal",
+          "count": 1
+        },
+        {
+          "id": "minecraft:coal",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-a459450bd1fe",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-e445a82f6c70",
+      "name": "不朽之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "不朽之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:netherite_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherite_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherite_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherite_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherite_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherite_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherite_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherite_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherite_ingot",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-e445a82f6c70",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-90593720321f",
+      "name": "纯净之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "纯净之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:quartz",
+          "count": 1
+        },
+        {
+          "id": "minecraft:quartz",
+          "count": 1
+        },
+        {
+          "id": "minecraft:quartz",
+          "count": 1
+        },
+        {
+          "id": "minecraft:quartz",
+          "count": 1
+        },
+        {
+          "id": "minecraft:quartz",
+          "count": 1
+        },
+        {
+          "id": "minecraft:quartz",
+          "count": 1
+        },
+        {
+          "id": "minecraft:quartz",
+          "count": 1
+        },
+        {
+          "id": "minecraft:quartz",
+          "count": 1
+        },
+        {
+          "id": "minecraft:quartz",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-90593720321f",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-fb1cc55f4b2e",
+      "name": "生命之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "生命之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:oak_log",
+          "count": 1
+        },
+        {
+          "id": "minecraft:oak_log",
+          "count": 1
+        },
+        {
+          "id": "minecraft:oak_log",
+          "count": 1
+        },
+        {
+          "id": "minecraft:oak_log",
+          "count": 1
+        },
+        {
+          "id": "minecraft:oak_log",
+          "count": 1
+        },
+        {
+          "id": "minecraft:oak_log",
+          "count": 1
+        },
+        {
+          "id": "minecraft:oak_log",
+          "count": 1
+        },
+        {
+          "id": "minecraft:oak_log",
+          "count": 1
+        },
+        {
+          "id": "minecraft:oak_log",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-fb1cc55f4b2e",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-cbfe4a3a7af4",
+      "name": "大地之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "大地之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:cobblestone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-cbfe4a3a7af4",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-ffd2df331914",
+      "name": "幽冥之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "幽冥之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:deepslate",
+          "count": 1
+        },
+        {
+          "id": "minecraft:deepslate",
+          "count": 1
+        },
+        {
+          "id": "minecraft:deepslate",
+          "count": 1
+        },
+        {
+          "id": "minecraft:deepslate",
+          "count": 1
+        },
+        {
+          "id": "minecraft:deepslate",
+          "count": 1
+        },
+        {
+          "id": "minecraft:deepslate",
+          "count": 1
+        },
+        {
+          "id": "minecraft:deepslate",
+          "count": 1
+        },
+        {
+          "id": "minecraft:deepslate",
+          "count": 1
+        },
+        {
+          "id": "minecraft:deepslate",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-ffd2df331914",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-071afc684a6e",
+      "name": "丰收之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "丰收之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:wheat",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wheat",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wheat",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wheat",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wheat",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wheat",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wheat",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wheat",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wheat",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-071afc684a6e",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-f499289ea6ee",
+      "name": "亡灵之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "亡灵之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:bone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bone",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-f499289ea6ee",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-c3cecfb7a69b",
+      "name": "爆裂之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "爆裂之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:gunpowder",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gunpowder",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gunpowder",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gunpowder",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gunpowder",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gunpowder",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gunpowder",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gunpowder",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gunpowder",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-c3cecfb7a69b",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-4f1cff102805",
+      "name": "延展之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "延展之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:slime_ball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:slime_ball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:slime_ball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:slime_ball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:slime_ball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:slime_ball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:slime_ball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:slime_ball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:slime_ball",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-4f1cff102805",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-08434fa5d5ae",
+      "name": "海晶之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "海晶之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:prismarine_shard",
+          "count": 1
+        },
+        {
+          "id": "minecraft:prismarine_shard",
+          "count": 1
+        },
+        {
+          "id": "minecraft:prismarine_shard",
+          "count": 1
+        },
+        {
+          "id": "minecraft:prismarine_shard",
+          "count": 1
+        },
+        {
+          "id": "minecraft:prismarine_shard",
+          "count": 1
+        },
+        {
+          "id": "minecraft:prismarine_shard",
+          "count": 1
+        },
+        {
+          "id": "minecraft:prismarine_shard",
+          "count": 1
+        },
+        {
+          "id": "minecraft:prismarine_shard",
+          "count": 1
+        },
+        {
+          "id": "minecraft:prismarine_shard",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-08434fa5d5ae",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-461653f17d31",
+      "name": "纠缠之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "纠缠之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        {
+          "id": "minecraft:string",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-461653f17d31",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-4c3506e0af2d",
+      "name": "鞣制之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "鞣制之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:leather",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-4c3506e0af2d",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-6b8d4b1cd696",
+      "name": "轻羽飘絮合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "轻羽飘絮",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        },
+        {
+          "id": "minecraft:feather",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-6b8d4b1cd696",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-938113faec33",
+      "name": "白纸之灵合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "白纸之灵",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-938113faec33",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-c2c6fdfc2df3",
+      "name": "凛冬之核合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "凛冬之核",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:snowball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:snowball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:snowball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:snowball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:snowball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:snowball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:snowball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:snowball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:snowball",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-c2c6fdfc2df3",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-b77a6a5a1ce7",
+      "name": "陶土原胚合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "陶土原胚",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:clay_ball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:clay_ball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:clay_ball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:clay_ball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:clay_ball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:clay_ball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:clay_ball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:clay_ball",
+          "count": 1
+        },
+        {
+          "id": "minecraft:clay_ball",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-b77a6a5a1ce7",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-f4c6ae1723ac",
+      "name": "烧砖之魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "烧砖之魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:brick",
+          "count": 1
+        },
+        {
+          "id": "minecraft:brick",
+          "count": 1
+        },
+        {
+          "id": "minecraft:brick",
+          "count": 1
+        },
+        {
+          "id": "minecraft:brick",
+          "count": 1
+        },
+        {
+          "id": "minecraft:brick",
+          "count": 1
+        },
+        {
+          "id": "minecraft:brick",
+          "count": 1
+        },
+        {
+          "id": "minecraft:brick",
+          "count": 1
+        },
+        {
+          "id": "minecraft:brick",
+          "count": 1
+        },
+        {
+          "id": "minecraft:brick",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-f4c6ae1723ac",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-3babf3d94586",
+      "name": "地狱砖魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "地狱砖魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:nether_brick",
+          "count": 1
+        },
+        {
+          "id": "minecraft:nether_brick",
+          "count": 1
+        },
+        {
+          "id": "minecraft:nether_brick",
+          "count": 1
+        },
+        {
+          "id": "minecraft:nether_brick",
+          "count": 1
+        },
+        {
+          "id": "minecraft:nether_brick",
+          "count": 1
+        },
+        {
+          "id": "minecraft:nether_brick",
+          "count": 1
+        },
+        {
+          "id": "minecraft:nether_brick",
+          "count": 1
+        },
+        {
+          "id": "minecraft:nether_brick",
+          "count": 1
+        },
+        {
+          "id": "minecraft:nether_brick",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-3babf3d94586",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-4054398769d8",
+      "name": "甘甜精粹合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "甘甜精粹",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:sugar",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sugar",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sugar",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sugar",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sugar",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sugar",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sugar",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sugar",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sugar",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-4054398769d8",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-43b0c9269dcc",
+      "name": "黑曜之壁合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "黑曜之壁",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:obsidian",
+          "count": 1
+        },
+        {
+          "id": "minecraft:obsidian",
+          "count": 1
+        },
+        {
+          "id": "minecraft:obsidian",
+          "count": 1
+        },
+        {
+          "id": "minecraft:obsidian",
+          "count": 1
+        },
+        {
+          "id": "minecraft:obsidian",
+          "count": 1
+        },
+        {
+          "id": "minecraft:obsidian",
+          "count": 1
+        },
+        {
+          "id": "minecraft:obsidian",
+          "count": 1
+        },
+        {
+          "id": "minecraft:obsidian",
+          "count": 1
+        },
+        {
+          "id": "minecraft:obsidian",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-43b0c9269dcc",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-cf4c7ccd84df",
+      "name": "光耀核心合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "光耀核心",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-cf4c7ccd84df",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-1e6d2f1f1d0e",
+      "name": "海光晶核合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "海光晶核",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:sea_lantern",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sea_lantern",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sea_lantern",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sea_lantern",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sea_lantern",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sea_lantern",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sea_lantern",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sea_lantern",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sea_lantern",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-1e6d2f1f1d0e",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-539c01abf395",
+      "name": "蜂巢精蜜合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "蜂巢精蜜",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:honeycomb",
+          "count": 1
+        },
+        {
+          "id": "minecraft:honeycomb",
+          "count": 1
+        },
+        {
+          "id": "minecraft:honeycomb",
+          "count": 1
+        },
+        {
+          "id": "minecraft:honeycomb",
+          "count": 1
+        },
+        {
+          "id": "minecraft:honeycomb",
+          "count": 1
+        },
+        {
+          "id": "minecraft:honeycomb",
+          "count": 1
+        },
+        {
+          "id": "minecraft:honeycomb",
+          "count": 1
+        },
+        {
+          "id": "minecraft:honeycomb",
+          "count": 1
+        },
+        {
+          "id": "minecraft:honeycomb",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-539c01abf395",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-525e4e6e05dc",
+      "name": "紫颂精华合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "紫颂精华",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:chorus_fruit",
+          "count": 1
+        },
+        {
+          "id": "minecraft:chorus_fruit",
+          "count": 1
+        },
+        {
+          "id": "minecraft:chorus_fruit",
+          "count": 1
+        },
+        {
+          "id": "minecraft:chorus_fruit",
+          "count": 1
+        },
+        {
+          "id": "minecraft:chorus_fruit",
+          "count": 1
+        },
+        {
+          "id": "minecraft:chorus_fruit",
+          "count": 1
+        },
+        {
+          "id": "minecraft:chorus_fruit",
+          "count": 1
+        },
+        {
+          "id": "minecraft:chorus_fruit",
+          "count": 1
+        },
+        {
+          "id": "minecraft:chorus_fruit",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-525e4e6e05dc",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-18d6a4786b98",
+      "name": "空间跃动核合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "空间跃动核",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:popped_chorus_fruit",
+          "count": 1
+        },
+        {
+          "id": "minecraft:popped_chorus_fruit",
+          "count": 1
+        },
+        {
+          "id": "minecraft:popped_chorus_fruit",
+          "count": 1
+        },
+        {
+          "id": "minecraft:popped_chorus_fruit",
+          "count": 1
+        },
+        {
+          "id": "minecraft:popped_chorus_fruit",
+          "count": 1
+        },
+        {
+          "id": "minecraft:popped_chorus_fruit",
+          "count": 1
+        },
+        {
+          "id": "minecraft:popped_chorus_fruit",
+          "count": 1
+        },
+        {
+          "id": "minecraft:popped_chorus_fruit",
+          "count": 1
+        },
+        {
+          "id": "minecraft:popped_chorus_fruit",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-18d6a4786b98",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-8eeadf147955",
+      "name": "终末之基合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "终末之基",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:end_stone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:end_stone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:end_stone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:end_stone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:end_stone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:end_stone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:end_stone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:end_stone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:end_stone",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-8eeadf147955",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-918bf7f89188",
+      "name": "悲泣结晶合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "悲泣结晶",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:crying_obsidian",
+          "count": 1
+        },
+        {
+          "id": "minecraft:crying_obsidian",
+          "count": 1
+        },
+        {
+          "id": "minecraft:crying_obsidian",
+          "count": 1
+        },
+        {
+          "id": "minecraft:crying_obsidian",
+          "count": 1
+        },
+        {
+          "id": "minecraft:crying_obsidian",
+          "count": 1
+        },
+        {
+          "id": "minecraft:crying_obsidian",
+          "count": 1
+        },
+        {
+          "id": "minecraft:crying_obsidian",
+          "count": 1
+        },
+        {
+          "id": "minecraft:crying_obsidian",
+          "count": 1
+        },
+        {
+          "id": "minecraft:crying_obsidian",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-918bf7f89188",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-b170bfc2e086",
+      "name": "甜蜜慰藉合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "甜蜜慰藉",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:honey_bottle",
+          "count": 1
+        },
+        {
+          "id": "minecraft:honey_bottle",
+          "count": 1
+        },
+        {
+          "id": "minecraft:honey_bottle",
+          "count": 1
+        },
+        {
+          "id": "minecraft:honey_bottle",
+          "count": 1
+        },
+        {
+          "id": "minecraft:honey_bottle",
+          "count": 1
+        },
+        {
+          "id": "minecraft:honey_bottle",
+          "count": 1
+        },
+        {
+          "id": "minecraft:honey_bottle",
+          "count": 1
+        },
+        {
+          "id": "minecraft:honey_bottle",
+          "count": 1
+        },
+        {
+          "id": "minecraft:honey_bottle",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-b170bfc2e086",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-090f7dae5d63",
+      "name": "漆黑墨色合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "漆黑墨色",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:ink_sac",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ink_sac",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ink_sac",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ink_sac",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ink_sac",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ink_sac",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ink_sac",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ink_sac",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ink_sac",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-090f7dae5d63",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-e5fc5fac318a",
+      "name": "荧光色质合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "荧光色质",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:glow_ink_sac",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glow_ink_sac",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glow_ink_sac",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glow_ink_sac",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glow_ink_sac",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glow_ink_sac",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glow_ink_sac",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glow_ink_sac",
+          "count": 1
+        },
+        {
+          "id": "minecraft:glow_ink_sac",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-e5fc5fac318a",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-7963e1db59bb",
+      "name": "白骨精粉合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "白骨精粉",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:bone_meal",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bone_meal",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bone_meal",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bone_meal",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bone_meal",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bone_meal",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bone_meal",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bone_meal",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bone_meal",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-7963e1db59bb",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-047f208b4cfe",
+      "name": "新生之源合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "新生之源",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:egg",
+          "count": 1
+        },
+        {
+          "id": "minecraft:egg",
+          "count": 1
+        },
+        {
+          "id": "minecraft:egg",
+          "count": 1
+        },
+        {
+          "id": "minecraft:egg",
+          "count": 1
+        },
+        {
+          "id": "minecraft:egg",
+          "count": 1
+        },
+        {
+          "id": "minecraft:egg",
+          "count": 1
+        },
+        {
+          "id": "minecraft:egg",
+          "count": 1
+        },
+        {
+          "id": "minecraft:egg",
+          "count": 1
+        },
+        {
+          "id": "minecraft:egg",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-047f208b4cfe",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-3d92b328b653",
+      "name": "锋锐之志合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "锋锐之志",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:arrow",
+          "count": 1
+        },
+        {
+          "id": "minecraft:arrow",
+          "count": 1
+        },
+        {
+          "id": "minecraft:arrow",
+          "count": 1
+        },
+        {
+          "id": "minecraft:arrow",
+          "count": 1
+        },
+        {
+          "id": "minecraft:arrow",
+          "count": 1
+        },
+        {
+          "id": "minecraft:arrow",
+          "count": 1
+        },
+        {
+          "id": "minecraft:arrow",
+          "count": 1
+        },
+        {
+          "id": "minecraft:arrow",
+          "count": 1
+        },
+        {
+          "id": "minecraft:arrow",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-3d92b328b653",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-ad1ea3c9bee6",
+      "name": "远射之魂合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "远射之魂",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:bow",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bow",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bow",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bow",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bow",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bow",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bow",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bow",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bow",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-ad1ea3c9bee6",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-f80994d22fb7",
+      "name": "守护之志合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "守护之志",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:shield",
+          "count": 1
+        },
+        {
+          "id": "minecraft:shield",
+          "count": 1
+        },
+        {
+          "id": "minecraft:shield",
+          "count": 1
+        },
+        {
+          "id": "minecraft:shield",
+          "count": 1
+        },
+        {
+          "id": "minecraft:shield",
+          "count": 1
+        },
+        {
+          "id": "minecraft:shield",
+          "count": 1
+        },
+        {
+          "id": "minecraft:shield",
+          "count": 1
+        },
+        {
+          "id": "minecraft:shield",
+          "count": 1
+        },
+        {
+          "id": "minecraft:shield",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-f80994d22fb7",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-bbca2e0c2a2a",
+      "name": "不死执念合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "不死执念",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:totem_of_undying",
+          "count": 1
+        },
+        {
+          "id": "minecraft:totem_of_undying",
+          "count": 1
+        },
+        {
+          "id": "minecraft:totem_of_undying",
+          "count": 1
+        },
+        {
+          "id": "minecraft:totem_of_undying",
+          "count": 1
+        },
+        {
+          "id": "minecraft:totem_of_undying",
+          "count": 1
+        },
+        {
+          "id": "minecraft:totem_of_undying",
+          "count": 1
+        },
+        {
+          "id": "minecraft:totem_of_undying",
+          "count": 1
+        },
+        {
+          "id": "minecraft:totem_of_undying",
+          "count": 1
+        },
+        {
+          "id": "minecraft:totem_of_undying",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-bbca2e0c2a2a",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-9ebc08e11961",
+      "name": "金辉祝福合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "金辉祝福",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:golden_apple",
+          "count": 1
+        },
+        {
+          "id": "minecraft:golden_apple",
+          "count": 1
+        },
+        {
+          "id": "minecraft:golden_apple",
+          "count": 1
+        },
+        {
+          "id": "minecraft:golden_apple",
+          "count": 1
+        },
+        {
+          "id": "minecraft:golden_apple",
+          "count": 1
+        },
+        {
+          "id": "minecraft:golden_apple",
+          "count": 1
+        },
+        {
+          "id": "minecraft:golden_apple",
+          "count": 1
+        },
+        {
+          "id": "minecraft:golden_apple",
+          "count": 1
+        },
+        {
+          "id": "minecraft:golden_apple",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-9ebc08e11961",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-9e459428920a",
+      "name": "凋零诅咒合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "凋零诅咒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:wither_rose",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wither_rose",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wither_rose",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wither_rose",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wither_rose",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wither_rose",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wither_rose",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wither_rose",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wither_rose",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-9e459428920a",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-602d34741182",
+      "name": "幸运遗骸合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "幸运遗骸",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:rabbit_foot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:rabbit_foot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:rabbit_foot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:rabbit_foot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:rabbit_foot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:rabbit_foot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:rabbit_foot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:rabbit_foot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:rabbit_foot",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-602d34741182",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-f20cd20a75fa",
+      "name": "腐化毒念合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "腐化毒念",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:fermented_spider_eye",
+          "count": 1
+        },
+        {
+          "id": "minecraft:fermented_spider_eye",
+          "count": 1
+        },
+        {
+          "id": "minecraft:fermented_spider_eye",
+          "count": 1
+        },
+        {
+          "id": "minecraft:fermented_spider_eye",
+          "count": 1
+        },
+        {
+          "id": "minecraft:fermented_spider_eye",
+          "count": 1
+        },
+        {
+          "id": "minecraft:fermented_spider_eye",
+          "count": 1
+        },
+        {
+          "id": "minecraft:fermented_spider_eye",
+          "count": 1
+        },
+        {
+          "id": "minecraft:fermented_spider_eye",
+          "count": 1
+        },
+        {
+          "id": "minecraft:fermented_spider_eye",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-f20cd20a75fa",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-a7914d0272a2",
+      "name": "空间锚点合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "空间锚点",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:ender_chest",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ender_chest",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ender_chest",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ender_chest",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ender_chest",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ender_chest",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ender_chest",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ender_chest",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ender_chest",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-a7914d0272a2",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-1c097175ba5b",
+      "name": "海神之怒合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "海神之怒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:trident",
+          "count": 1
+        },
+        {
+          "id": "minecraft:trident",
+          "count": 1
+        },
+        {
+          "id": "minecraft:trident",
+          "count": 1
+        },
+        {
+          "id": "minecraft:trident",
+          "count": 1
+        },
+        {
+          "id": "minecraft:trident",
+          "count": 1
+        },
+        {
+          "id": "minecraft:trident",
+          "count": 1
+        },
+        {
+          "id": "minecraft:trident",
+          "count": 1
+        },
+        {
+          "id": "minecraft:trident",
+          "count": 1
+        },
+        {
+          "id": "minecraft:trident",
+          "count": 1
+        }
+      ],
+      "group": "weapons",
+      "href": "/linsmagic/atlas/recipes/weapons/mirror_i-1c097175ba5b",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-71bbe0b33efa",
+      "name": "地狱焦土合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "地狱焦土",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:netherrack",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherrack",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherrack",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherrack",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherrack",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherrack",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherrack",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherrack",
+          "count": 1
+        },
+        {
+          "id": "minecraft:netherrack",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-71bbe0b33efa",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-7ec00847b1da",
+      "name": "翠竹节魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "翠竹节魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:bamboo",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bamboo",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bamboo",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bamboo",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bamboo",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bamboo",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bamboo",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bamboo",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bamboo",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-7ec00847b1da",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-8cdc609d0c9d",
+      "name": "甜蔗精粹合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "甜蔗精粹",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:sugar_cane",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sugar_cane",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sugar_cane",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sugar_cane",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sugar_cane",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sugar_cane",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sugar_cane",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sugar_cane",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sugar_cane",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-8cdc609d0c9d",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-6c210dbdb544",
+      "name": "知识典籍合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "知识典籍",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:book",
+          "count": 1
+        },
+        {
+          "id": "minecraft:book",
+          "count": 1
+        },
+        {
+          "id": "minecraft:book",
+          "count": 1
+        },
+        {
+          "id": "minecraft:book",
+          "count": 1
+        },
+        {
+          "id": "minecraft:book",
+          "count": 1
+        },
+        {
+          "id": "minecraft:book",
+          "count": 1
+        },
+        {
+          "id": "minecraft:book",
+          "count": 1
+        },
+        {
+          "id": "minecraft:book",
+          "count": 1
+        },
+        {
+          "id": "minecraft:book",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-6c210dbdb544",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-e32c7963980e",
+      "name": "智慧书卷合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "智慧书卷",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:bookshelf",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bookshelf",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bookshelf",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bookshelf",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bookshelf",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bookshelf",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bookshelf",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bookshelf",
+          "count": 1
+        },
+        {
+          "id": "minecraft:bookshelf",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-e32c7963980e",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-8baf3dec5004",
+      "name": "永冻冰核合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "永冻冰核",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:blue_ice",
+          "count": 1
+        },
+        {
+          "id": "minecraft:blue_ice",
+          "count": 1
+        },
+        {
+          "id": "minecraft:blue_ice",
+          "count": 1
+        },
+        {
+          "id": "minecraft:blue_ice",
+          "count": 1
+        },
+        {
+          "id": "minecraft:blue_ice",
+          "count": 1
+        },
+        {
+          "id": "minecraft:blue_ice",
+          "count": 1
+        },
+        {
+          "id": "minecraft:blue_ice",
+          "count": 1
+        },
+        {
+          "id": "minecraft:blue_ice",
+          "count": 1
+        },
+        {
+          "id": "minecraft:blue_ice",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-8baf3dec5004",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-8df054d6a688",
+      "name": "亡灵腐质合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "亡灵腐质",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:rotten_flesh",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-8df054d6a688",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-7a6e0e731ecb",
+      "name": "毒液精粹合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "毒液精粹",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:spider_eye",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-7a6e0e731ecb",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-5ef6bf73af94",
+      "name": "悲恸结晶合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "悲恸结晶",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:ghast_tear",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-5ef6bf73af94",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-cb37af90f7bf",
+      "name": "空间扭曲碎片合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "空间扭曲碎片",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:ender_pearl",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-cb37af90f7bf",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-d2dd42976818",
+      "name": "炽焰精核合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "炽焰精核",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:blaze_rod",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-d2dd42976818",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-c0a6b16d4833",
+      "name": "熔岩之髓合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "熔岩之髓",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:magma_cream",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-c0a6b16d4833",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-93c3257b5c7e",
+      "name": "夜翼膜素合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "夜翼膜素",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:phantom_membrane",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-93c3257b5c7e",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-8a99396d3c8a",
+      "name": "深洋回响合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "深洋回响",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:nautilus_shell",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-8a99396d3c8a",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-07700dea04c5",
+      "name": "幽匿共鸣核合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "幽匿共鸣核",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:sculk",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-07700dea04c5",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-e2858c515551",
+      "name": "经验凝萃合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "经验凝萃",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:experience_bottle",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-e2858c515551",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-343eb3728847",
+      "name": "风灵精粹合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "风灵精粹",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:bone_meal",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-343eb3728847",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-c60a049d4fb9",
+      "name": "深海凝华晶合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "深海凝华晶",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:prismarine_crystals",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-c60a049d4fb9",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-a9c4647b7404",
+      "name": "虚空滤质合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "虚空滤质",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:purple_dye",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-a9c4647b7404",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-ed2abb28b677",
+      "name": "霜华结晶合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "霜华结晶",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:ice",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-ed2abb28b677",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-852fa9d5dc44",
+      "name": "深海遗鳞合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "深海遗鳞",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:prismarine_shard",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-852fa9d5dc44",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-5ed52c5a13bc",
+      "name": "炎烬余灰合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "炎烬余灰",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:blaze_powder",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-5ed52c5a13bc",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-07aadffa8b57",
+      "name": "末影凝晶合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "末影凝晶",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:amethyst_shard",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-07aadffa8b57",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-52e2a72c1e19",
+      "name": "地脉结晶合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "地脉结晶",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:deepslate",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-52e2a72c1e19",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-067d58c29f49",
+      "name": "浮空微尘合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "浮空微尘",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:sugar",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-067d58c29f49",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-1d436b0a230b",
+      "name": "风蚀晶砂合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "风蚀晶砂",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:sand",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-1d436b0a230b",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-7c77ee34fa25",
+      "name": "熔岩晶髓合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "熔岩晶髓",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:magma_block",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-7c77ee34fa25",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-8c1fd359f0d0",
+      "name": "极地冰核合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "极地冰核",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:blue_ice",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-8c1fd359f0d0",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-cd8c61333c30",
+      "name": "虚空沉淀质合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "虚空沉淀质",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:end_stone",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-cd8c61333c30",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-e8f0c50b60dd",
+      "name": "硫磺晶华合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "硫磺晶华",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:glowstone_dust",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-e8f0c50b60dd",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-5d6d66a01d15",
+      "name": "珊瑚化石髓合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "珊瑚化石髓",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:bone_block",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-5d6d66a01d15",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-30fb94e717be",
+      "name": "晨露精华合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "晨露精华",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:potion",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-30fb94e717be",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-2e41ae3747ee",
+      "name": "松针凝晶合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "松针凝晶",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:green_dye",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-2e41ae3747ee",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-f248104fe6e3",
+      "name": "桦汁精华合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "桦汁精华",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:honey_bottle",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-f248104fe6e3",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-f722424daf60",
+      "name": "藤蔓原液合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "藤蔓原液",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:slime_ball",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-f722424daf60",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-18322b25c2e0",
+      "name": "便携末影箱合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "便携末影箱",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:ender_chest",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "machines",
+      "href": "/linsmagic/atlas/recipes/machines/mirror_i-18322b25c2e0",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-86defa1a9321",
+      "name": "合欢针萃合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "合欢针萃",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:stick",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-86defa1a9321",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-0de28d2be03d",
+      "name": "深苔萃取合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "深苔萃取",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:moss_block",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-0de28d2be03d",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-d942010b8798",
+      "name": "红树胚素合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "红树胚素",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:mangrove_propagule",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-d942010b8798",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-f204fb6763c4",
+      "name": "落樱香精合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "落樱香精",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:pink_dye",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-f204fb6763c4",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-ad3d6b756d29",
+      "name": "杜鹃花灵合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "杜鹃花灵",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:spore_blossom",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-ad3d6b756d29",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-5ae0d760a2d5",
+      "name": "高山草精合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "高山草精",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:wheat_seeds",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-5ae0d760a2d5",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-a093a59e9914",
+      "name": "灯草纤维合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "灯草纤维",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:dried_kelp",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-a093a59e9914",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-12b8c0a314de",
+      "name": "诡异菌素合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "诡异菌素",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:cyan_dye",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-12b8c0a314de",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-ec486a68c3fb",
+      "name": "紫颂残魄合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "紫颂残魄",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:chorus_flower",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-ec486a68c3fb",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-7ffa1c2bef66",
+      "name": "炽热晶华合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "炽热晶华",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:quartz_block",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-7ffa1c2bef66",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-a44d80b1edcb",
+      "name": "紫珀晶屑合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "紫珀晶屑",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:purpur_block",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-a44d80b1edcb",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-b648d7eedb43",
+      "name": "滴石髓精合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "滴石髓精",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:dripstone_block",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-b648d7eedb43",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-3f6a5488ca9a",
+      "name": "菌光孢子粉合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "菌光孢子粉",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:shroomlight",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-3f6a5488ca9a",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-781db438cf98",
+      "name": "黑曜晶髓合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "黑曜晶髓",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:crying_obsidian",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-781db438cf98",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-be4dcd8979d5",
+      "name": "海晶灯髓合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "海晶灯髓",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:sea_lantern",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-be4dcd8979d5",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-8a323df75d23",
+      "name": "菌柄髓素合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "菌柄髓素",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:mushroom_stem",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-8a323df75d23",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-6fb02dd22cd5",
+      "name": "末影晶尘核合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "末影晶尘核",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:ender_eye",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-6fb02dd22cd5",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-0c66f0fec07b",
+      "name": "血腥味素合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "血腥味素",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:red_dye",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-0c66f0fec07b",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-7a6b61675eb0",
+      "name": "地核熔渣合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "地核熔渣",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "熔核碎片",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-7a6b61675eb0",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-e9a94eaae278",
+      "name": "荧光孢素合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "荧光孢素",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "地底荧光苔",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-e9a94eaae278",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-afa5ad382eed",
+      "name": "浮空晶核合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "浮空晶核",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "末地浮游晶",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-afa5ad382eed",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-ad324b81d2e5",
+      "name": "幽匿孢囊合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "幽匿孢囊",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "幽匿孢子",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-ad324b81d2e5",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-8f9cec87faa2",
+      "name": "渊海晶粒合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "渊海晶粒",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "渊海砾晶",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-8f9cec87faa2",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-4ef91c8df384",
+      "name": "百花精露合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "百花精露",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "野花精华",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-4ef91c8df384",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-8f0eeb56a76f",
+      "name": "苍苔菌素合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "苍苔菌素",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "苍翠苔衣",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-8f0eeb56a76f",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-6b290044168c",
+      "name": "绯红菌素合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "绯红菌素",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "绯红菌丝",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-6b290044168c",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-0c7d6b908172",
+      "name": "恶念与悲剧信息素合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "恶念与悲剧信息素",
+          "count": 1
+        }
+      ],
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "粘稠呕吐物",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-0c7d6b908172",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-c3b17770aaa9",
+      "name": "魂石聚合体合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "魂石聚合体",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "魂石",
+          "count": 1
+        },
+        {
+          "id": "魂石",
+          "count": 1
+        },
+        {
+          "id": "魂石",
+          "count": 1
+        },
+        {
+          "id": "魂石",
+          "count": 1
+        },
+        {
+          "id": "魂石",
+          "count": 1
+        },
+        {
+          "id": "魂石",
+          "count": 1
+        },
+        {
+          "id": "魂石",
+          "count": 1
+        },
+        {
+          "id": "魂石",
+          "count": 1
+        },
+        {
+          "id": "魂石",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-c3b17770aaa9",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-b7983c8957b6",
+      "name": "纯粹之水元素合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "纯粹之水元素",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:water_bucket",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:water_bucket",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:ice",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:water_bucket",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:water_bucket",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-b7983c8957b6",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-bf8a9d82f961",
+      "name": "永恒熔火之种合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "永恒熔火之种",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:lava_bucket",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:lava_bucket",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:blaze_rod",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:lava_bucket",
+          "count": 1
+        },
+        null,
+        {
+          "id": "minecraft:lava_bucket",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-bf8a9d82f961",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-fa391dd8fc7d",
+      "name": "断钢之刃魂合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "断钢之刃魂",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond_sword",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-fa391dd8fc7d",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-72020852b725",
+      "name": "挖掘之魂合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "挖掘之魂",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:cobblestone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond_pickaxe",
+          "count": 1
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "count": 1
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-72020852b725",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-368c97d84704",
+      "name": "跨维传送核心合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "跨维传送核心",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:ender_pearl",
+          "count": 1
+        },
+        {
+          "id": "minecraft:fire_charge",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "count": 1
+        },
+        {
+          "id": "minecraft:fire_charge",
+          "count": 1
+        },
+        {
+          "id": "minecraft:respawn_anchor",
+          "count": 1
+        },
+        {
+          "id": "minecraft:fire_charge",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "count": 1
+        },
+        {
+          "id": "minecraft:fire_charge",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-368c97d84704",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-e8094b2e8fbf",
+      "name": "凋零源核镜像合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "凋零源核镜像",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:soul_sand",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wither_skeleton_skull",
+          "count": 1
+        },
+        {
+          "id": "minecraft:soul_sand",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wither_skeleton_skull",
+          "count": 1
+        },
+        {
+          "id": "minecraft:nether_star",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wither_skeleton_skull",
+          "count": 1
+        },
+        {
+          "id": "minecraft:soul_sand",
+          "count": 1
+        },
+        {
+          "id": "minecraft:wither_skeleton_skull",
+          "count": 1
+        },
+        {
+          "id": "minecraft:soul_sand",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-e8094b2e8fbf",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-874dcc55d19e",
+      "name": "远古潮汐核心合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "远古潮汐核心",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:sea_lantern",
+          "count": 1
+        },
+        {
+          "id": "minecraft:prismarine",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sea_lantern",
+          "count": 1
+        },
+        {
+          "id": "minecraft:prismarine",
+          "count": 1
+        },
+        {
+          "id": "minecraft:heart_of_the_sea",
+          "count": 1
+        },
+        {
+          "id": "minecraft:prismarine",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sea_lantern",
+          "count": 1
+        },
+        {
+          "id": "minecraft:prismarine",
+          "count": 1
+        },
+        {
+          "id": "minecraft:sea_lantern",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-874dcc55d19e",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-8f010bae708d",
+      "name": "风霜精华合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "风霜精华",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "风魂遗簇",
+          "count": 1
+        },
+        {
+          "id": "霜华花瓣",
+          "count": 1
+        },
+        {
+          "id": "风魂遗簇",
+          "count": 1
+        },
+        {
+          "id": "霜华花瓣",
+          "count": 1
+        },
+        null,
+        {
+          "id": "霜华花瓣",
+          "count": 1
+        },
+        {
+          "id": "风魂遗簇",
+          "count": 1
+        },
+        {
+          "id": "霜华花瓣",
+          "count": 1
+        },
+        {
+          "id": "风魂遗簇",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-8f010bae708d",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-ed8608fb5d55",
+      "name": "熔火精粹合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "熔火精粹",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "熔核碎片",
+          "count": 1
+        },
+        {
+          "id": "炎烬残渣",
+          "count": 1
+        },
+        {
+          "id": "熔核碎片",
+          "count": 1
+        },
+        {
+          "id": "炎烬残渣",
+          "count": 1
+        },
+        null,
+        {
+          "id": "炎烬残渣",
+          "count": 1
+        },
+        {
+          "id": "熔核碎片",
+          "count": 1
+        },
+        {
+          "id": "炎烬残渣",
+          "count": 1
+        },
+        {
+          "id": "熔核碎片",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-ed8608fb5d55",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-6b4bf4254e1b",
+      "name": "虚空精华合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "虚空精华",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "虚空尘埃",
+          "count": 1
+        },
+        {
+          "id": "末影结晶",
+          "count": 1
+        },
+        {
+          "id": "虚空尘埃",
+          "count": 1
+        },
+        {
+          "id": "末影结晶",
+          "count": 1
+        },
+        null,
+        {
+          "id": "末影结晶",
+          "count": 1
+        },
+        {
+          "id": "虚空尘埃",
+          "count": 1
+        },
+        {
+          "id": "末影结晶",
+          "count": 1
+        },
+        {
+          "id": "虚空尘埃",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-6b4bf4254e1b",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-a87cb5447923",
+      "name": "渊海精华合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "渊海精华",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "寒渊晶簇",
+          "count": 1
+        },
+        {
+          "id": "幽邃鳞片",
+          "count": 1
+        },
+        {
+          "id": "寒渊晶簇",
+          "count": 1
+        },
+        {
+          "id": "幽邃鳞片",
+          "count": 1
+        },
+        null,
+        {
+          "id": "幽邃鳞片",
+          "count": 1
+        },
+        {
+          "id": "寒渊晶簇",
+          "count": 1
+        },
+        {
+          "id": "幽邃鳞片",
+          "count": 1
+        },
+        {
+          "id": "寒渊晶簇",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-a87cb5447923",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-bb2d5ddd6966",
+      "name": "创世晶核合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "创世晶核",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:diamond_block",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_block",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond_block",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_block",
+          "count": 1
+        },
+        {
+          "id": "minecraft:nether_star",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_block",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond_block",
+          "count": 1
+        },
+        {
+          "id": "minecraft:gold_block",
+          "count": 1
+        },
+        {
+          "id": "minecraft:diamond_block",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-bb2d5ddd6966",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-2d6600db395f",
+      "name": "不朽圣盾合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "不朽圣盾",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:enchanted_golden_apple",
+          "count": 1
+        },
+        {
+          "id": "minecraft:enchanted_golden_apple",
+          "count": 1
+        },
+        {
+          "id": "minecraft:enchanted_golden_apple",
+          "count": 1
+        },
+        {
+          "id": "minecraft:enchanted_golden_apple",
+          "count": 1
+        },
+        {
+          "id": "minecraft:totem_of_undying",
+          "count": 1
+        },
+        {
+          "id": "minecraft:enchanted_golden_apple",
+          "count": 1
+        },
+        {
+          "id": "minecraft:enchanted_golden_apple",
+          "count": 1
+        },
+        {
+          "id": "minecraft:enchanted_golden_apple",
+          "count": 1
+        },
+        {
+          "id": "minecraft:enchanted_golden_apple",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-2d6600db395f",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_i-98911621b00b",
+      "name": "终焉龙魂合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "终焉龙魂",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "minecraft:dragon_breath",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "count": 1
+        },
+        {
+          "id": "minecraft:dragon_breath",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "count": 1
+        },
+        {
+          "id": "minecraft:dragon_egg",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "count": 1
+        },
+        {
+          "id": "minecraft:dragon_breath",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "count": 1
+        },
+        {
+          "id": "minecraft:dragon_breath",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_i-98911621b00b",
+      "note": "在魔镜的合成界面里摆放（右键魔镜打开），工作台无法合成。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_ground_soul_paste",
+      "name": "归魄泥合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "归魄泥",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "矿藏晶簇之魄",
+          "count": 1
+        },
+        {
+          "id": "矿藏晶簇之魄",
+          "count": 1
+        },
+        {
+          "id": "矿藏晶簇之魄",
+          "count": 1
+        },
+        {
+          "id": "矿藏晶簇之魄",
+          "count": 1
+        },
+        {
+          "id": "魂石",
+          "count": 1
+        },
+        {
+          "id": "矿藏晶簇之魄",
+          "count": 1
+        },
+        {
+          "id": "矿藏晶簇之魄",
+          "count": 1
+        },
+        {
+          "id": "矿藏晶簇之魄",
+          "count": 1
+        },
+        {
+          "id": "矿藏晶簇之魄",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_ground_soul_paste",
+      "note": "在魔镜的合成界面里摆放：外圈八格可以放任意物魄（魔镜单料浓缩得到的那批材料），种类可以重复、随意组合，图中只是示意。",
+      "guiOnly": true
+    },
+    {
+      "id": "mirror_condensed_soul_crystal",
+      "name": "凝魄晶合成",
+      "station": "魔镜",
+      "type": "crafting",
+      "result": [
+        {
+          "id": "凝魄晶",
+          "count": 1
+        }
+      ],
+      "slots": [
+        {
+          "id": "矿藏晶簇之魄",
+          "count": 1
+        },
+        {
+          "id": "矿藏晶簇之魄",
+          "count": 1
+        },
+        {
+          "id": "矿藏晶簇之魄",
+          "count": 1
+        },
+        {
+          "id": "矿藏晶簇之魄",
+          "count": 1
+        },
+        {
+          "id": "强化魂石",
+          "count": 1
+        },
+        {
+          "id": "矿藏晶簇之魄",
+          "count": 1
+        },
+        {
+          "id": "矿藏晶簇之魄",
+          "count": 1
+        },
+        {
+          "id": "矿藏晶簇之魄",
+          "count": 1
+        },
+        {
+          "id": "矿藏晶簇之魄",
+          "count": 1
+        }
+      ],
+      "group": "materials",
+      "href": "/linsmagic/atlas/recipes/materials/mirror_condensed_soul_crystal",
+      "note": "在魔镜的合成界面里摆放：外圈八格可以放任意物魄（魔镜单料浓缩得到的那批材料），种类可以重复、随意组合，图中只是示意。",
+      "guiOnly": true
+    },
+    {
       "id": "legacy-590f3349fdb0",
       "name": "召唤祭坛合成",
       "station": "工作台",
@@ -111436,8 +117327,8 @@
   },
   "stats": {
     "items": 2161,
-    "vanilla": 331,
-    "recipes": 1299,
+    "vanilla": 348,
+    "recipes": 1430,
     "structures": 44,
     "enchants": 267,
     "events": 11,
