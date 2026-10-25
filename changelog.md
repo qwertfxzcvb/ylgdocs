@@ -4,6 +4,11 @@
 
 <ContributionHeatmap />
 
+## 2026-10-25
+
+### 📝 文档更新
+- 推荐 MOD 新增 [Simple Voice Chat](/guide/suggestedmods/simplevoicechat)
+
 ## 2026-10-23
 
 ### 📝 文档更新

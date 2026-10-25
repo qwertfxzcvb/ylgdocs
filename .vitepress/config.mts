@@ -306,6 +306,7 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: 'Replay Mod', link: '/guide/suggestedmods/replaymod' },
+              { text: 'Simple Voice Chat', link: '/guide/suggestedmods/simplevoicechat' },
             ]
           },
         ]
