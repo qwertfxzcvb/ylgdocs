@@ -242,7 +242,8 @@ export default defineConfig({
     },
     // https://vitepress.dev/reference/default-theme-config
     footer: {
-      copyright: 'Copyright © 2026 ylg.net.cn All Rights Reserved.'
+      copyright: 'Copyright © 2026 ylg.net.cn All Rights Reserved.',
+      message: '<a href="https://www.ylg.net.cn/terms" target="_blank" rel="noopener">用户协议</a> · <a href="https://www.ylg.net.cn/privacy" target="_blank" rel="noopener">隐私政策</a>',
     },
     // 时间取自 git 提交记录
     lastUpdated: {
