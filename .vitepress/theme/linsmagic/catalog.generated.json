@@ -24794,7 +24794,7 @@
         "血月坚守者体内凝结的终极死亡核心",
         "心脏中传出已死万千生灵的哀嚎"
       ],
-      "obtain": "血月 Lv4 专属坚守者 5% 概率掉落",
+      "obtain": "血月 Lv4 专属坚守者被玩家击杀时 0.5% 概率掉落",
       "enchantments": [],
       "glint": true,
       "href": "/linsmagic/atlas/materials/ultimate/i-5d668900ed84"
@@ -32263,20 +32263,6 @@
       "href": "/linsmagic/atlas/materials/basic/i-cd1f565b66dd"
     },
     {
-      "id": "落不到底的羽毛",
-      "name": "落不到底的羽毛",
-      "kind": "material",
-      "category": "基础材料",
-      "group": "basic",
-      "icon": "item/knowledge_book",
-      "description": "",
-      "details": [],
-      "obtain": "",
-      "enchantments": [],
-      "glint": false,
-      "href": "/linsmagic/atlas/materials/basic/i-93e3206db835"
-    },
-    {
       "id": "透明的水母",
       "name": "透明的水母",
       "kind": "material",
@@ -32469,18 +32455,20 @@
       "href": "/linsmagic/atlas/materials/basic/i-6656ef57c4d8"
     },
     {
-      "id": "一直在低语的口",
-      "name": "一直在低语的口",
+      "id": "一张一直在低语的嘴巴",
+      "name": "一张一直在低语的嘴巴",
       "kind": "material",
       "category": "基础材料",
       "group": "basic",
-      "icon": "item/knowledge_book",
-      "description": "",
-      "details": [],
+      "icon": "item/goat_horn",
+      "description": "凑近才听得见",
+      "details": [
+        "凑近才听得见"
+      ],
       "obtain": "",
       "enchantments": [],
       "glint": false,
-      "href": "/linsmagic/atlas/materials/basic/i-5a719378479d"
+      "href": "/linsmagic/atlas/materials/basic/i-9620514f1d64"
     },
     {
       "id": "一鼓一鼓的珠子",
@@ -32547,18 +32535,20 @@
       "href": "/linsmagic/atlas/materials/basic/i-2269d31958d1"
     },
     {
-      "id": "掉下来的云",
-      "name": "掉下来的云",
+      "id": "未知云朵",
+      "name": "未知云朵",
       "kind": "material",
       "category": "基础材料",
       "group": "basic",
-      "icon": "item/knowledge_book",
-      "description": "",
-      "details": [],
+      "icon": "item/white_wool",
+      "description": "和天上的一样，真稀奇",
+      "details": [
+        "和天上的一样，真稀奇"
+      ],
       "obtain": "",
       "enchantments": [],
       "glint": false,
-      "href": "/linsmagic/atlas/materials/basic/i-bb341f9069f2"
+      "href": "/linsmagic/atlas/materials/basic/i-1c3d5b90bd61"
     },
     {
       "id": "装着雾的瓶子",
@@ -32833,32 +32823,36 @@
       "href": "/linsmagic/atlas/materials/basic/i-4ec9136fd182"
     },
     {
-      "id": "封住的蜂巢",
-      "name": "封住的蜂巢",
+      "id": "被密封住的蜂巢",
+      "name": "被密封住的蜂巢",
       "kind": "material",
       "category": "基础材料",
       "group": "basic",
-      "icon": "item/knowledge_book",
-      "description": "",
-      "details": [],
+      "icon": "item/honeycomb",
+      "description": "里面是满的，没有一点动静",
+      "details": [
+        "里面是满的，没有一点动静"
+      ],
       "obtain": "",
       "enchantments": [],
       "glint": false,
-      "href": "/linsmagic/atlas/materials/basic/i-5108e3e3a80d"
+      "href": "/linsmagic/atlas/materials/basic/i-19966e98a8c0"
     },
     {
-      "id": "收好的翅膀",
-      "name": "收好的翅膀",
+      "id": "残翼翅膀",
+      "name": "残翼翅膀",
       "kind": "material",
       "category": "基础材料",
       "group": "basic",
-      "icon": "item/knowledge_book",
-      "description": "",
-      "details": [],
+      "icon": "item/elytra",
+      "description": "展开过，又仔细叠了回去",
+      "details": [
+        "展开过，又仔细叠了回去"
+      ],
       "obtain": "",
       "enchantments": [],
       "glint": false,
-      "href": "/linsmagic/atlas/materials/basic/i-3c998dbfe3f8"
+      "href": "/linsmagic/atlas/materials/basic/i-f800cb6eb814"
     },
     {
       "id": "有划痕的盾",
@@ -37509,8 +37503,12 @@
       "category": "饰品",
       "group": "accessories",
       "icon": "item/flint",
-      "description": "",
-      "details": [],
+      "description": "置于快捷栏第 9 格：命中非玩家生物后，剩余生命不高于 8% 时触发处决。",
+      "details": [
+        "置于快捷栏第 9 格：命中非玩家生物后，剩余生命不高于 8% 时触发处决。",
+        "处决额外造成 1 点真伤 + 目标已损失生命值的 1.25%，不保证直接击杀。",
+        "冷却 25 秒。"
+      ],
       "obtain": "配方合成：开刃铁楔 + 燧石×4",
       "enchantments": [],
       "glint": true,
@@ -37523,9 +37521,13 @@
       "category": "饰品",
       "group": "accessories",
       "icon": "item/flint",
-      "description": "",
-      "details": [],
-      "obtain": "配方合成：开刃签 + 开刃铁楔×4",
+      "description": "置于快捷栏第 9 格：命中非玩家生物后，剩余生命不高于 12% 时触发处决。",
+      "details": [
+        "置于快捷栏第 9 格：命中非玩家生物后，剩余生命不高于 12% 时触发处决。",
+        "处决额外造成 1 点真伤 + 目标已损失生命值的 1.25%，不保证直接击杀。",
+        "冷却 20 秒。"
+      ],
+      "obtain": "配方合成：开刃签 + 开刃铁楔×2 + 时空编织针×2",
       "enchantments": [],
       "glint": true,
       "href": "/linsmagic/atlas/items/accessories/i-5a9cf4f287bc"
@@ -37537,9 +37539,14 @@
       "category": "饰品",
       "group": "accessories",
       "icon": "item/flint",
-      "description": "",
-      "details": [],
-      "obtain": "配方合成：见血签 + 开刃铁楔×4",
+      "description": "置于快捷栏第 9 格：命中非玩家生物后，剩余生命不高于 15% 时触发处决。",
+      "details": [
+        "置于快捷栏第 9 格：命中非玩家生物后，剩余生命不高于 15% 时触发处决。",
+        "处决额外造成 1 点真伤 + 目标已损失生命值的 1.25%，不保证直接击杀。",
+        "冷却 15 秒。",
+        "处决击杀目标后获得速度 I，持续 3 秒。"
+      ],
+      "obtain": "配方合成：见血签 + 开刃铁楔×2 + 终末巨兽的脊椎骨片×2",
       "enchantments": [],
       "glint": true,
       "href": "/linsmagic/atlas/items/accessories/i-0f399179c70e"
@@ -103176,7 +103183,7 @@
       "slots": [
         null,
         {
-          "id": "开刃铁楔",
+          "id": "时空编织针",
           "count": 1
         },
         null,
@@ -103194,7 +103201,7 @@
         },
         null,
         {
-          "id": "开刃铁楔",
+          "id": "时空编织针",
           "count": 1
         },
         null
@@ -103218,7 +103225,7 @@
       "slots": [
         null,
         {
-          "id": "开刃铁楔",
+          "id": "终末巨兽的脊椎骨片",
           "count": 1
         },
         null,
@@ -103236,7 +103243,7 @@
         },
         null,
         {
-          "id": "开刃铁楔",
+          "id": "终末巨兽的脊椎骨片",
           "count": 1
         },
         null
@@ -117893,7 +117900,7 @@
     ]
   },
   "stats": {
-    "items": 2152,
+    "items": 2151,
     "vanilla": 344,
     "recipes": 1435,
     "structures": 37,
