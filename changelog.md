@@ -4,6 +4,11 @@
 
 <ContributionHeatmap />
 
+## 2026-11-06
+
+### 📝 文档更新
+- 新手教程补充[限时收购](/linsmagic/atlas/tutorials/new-player)每件最多收购 128 个
+
 ## 2026-11-02
 
 ### 📝 文档更新
