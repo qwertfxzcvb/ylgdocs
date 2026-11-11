@@ -342,6 +342,7 @@ export default defineConfig({
           { text: '公会', link: '/socialfeatures/guild' },
           { text: '坐姿动作', link: '/socialfeatures/gsit' },
           { text: '展示物品', link: '/socialfeatures/showcase' },
+          { text: '音乐播放器', link: '/socialfeatures/music' },
         ]
       },
       {
