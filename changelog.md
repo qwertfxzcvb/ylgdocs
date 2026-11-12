@@ -4,6 +4,16 @@
 
 <ContributionHeatmap />
 
+## 2026-11-12
+
+### 📝 文档更新
+- [重置密码](/account/resetpassword)改为在官网自助重置游戏密码。
+- [入服教程](/guide/join)改为在官网申请白名单，补充附加账号说明。
+- [死亡惩罚](/servermechanics/deathpenalty)补充保留金额、新玩家保护与击杀奖励。
+- 新增[官网使用](/guide/website)、[传送](/gameplay/teleport)、[视距调节](/gameplay/chunk)、[掉落物清理与垃圾桶](/servermechanics/cleaner)、[交易所](/economy/exchange)教程。
+- [常见问题](/guide/faq)补充投影打印机可申请反作弊白名单。
+- [技能系统](/gameplay/ylgmmo)按实际效果重写，补充杂技技能、解锁等级、触发概率与主动技能的激活方式。
+
 ## 2026-11-11
 
 ### 📝 文档更新

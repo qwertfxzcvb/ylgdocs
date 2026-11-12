@@ -298,6 +298,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: '入服教程', link: '/guide/join' },
+          { text: '官网使用', link: '/guide/website' },
           { text: '服务器菜单', link: '/guide/menu' },
           { text: '服务器规则', link: '/guide/rules' },
           { text: '客户端推荐', link: '/guide/client' },
@@ -330,9 +331,11 @@ export default defineConfig({
           { text: '创建领地', link: '/gameplay/claim' },
           { text: '个人仓库', link: '/gameplay/inventory' },
           { text: '每日签到', link: '/gameplay/signin' },
+          { text: '传送', link: '/gameplay/teleport' },
           { text: '地标传送', link: '/gameplay/landmark' },
           { text: '公益性领地', link: '/gameplay/residence' },
           { text: '技能系统', link: '/gameplay/ylgmmo' },
+          { text: '视距调节', link: '/gameplay/chunk' },
         ]
       },
       {
@@ -353,6 +356,7 @@ export default defineConfig({
           { text: '背包回档', link: '/servermechanics/inventoryrollback' },
           { text: '红石与刷怪', link: '/servermechanics/redstone' },
           { text: '死亡惩罚', link: '/servermechanics/deathpenalty' },
+          { text: '掉落物清理与垃圾桶', link: '/servermechanics/cleaner' },
         ]
       },
       {
@@ -364,6 +368,7 @@ export default defineConfig({
           // { text: '系统商店', link: '/economy/shop' },
           { text: '箱子商店', link: '/economy/chestshop' },
           { text: '市场交易', link: '/economy/market' },
+          { text: '交易所', link: '/economy/exchange' },
           { text: '捐赠教程', link: '/economy/donation' },
         ]
       },
